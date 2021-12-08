@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1330/trunk/librame/include/virlib
+END
+irsvirusinfotable.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/rego/!svn/ver/14/trunk/librame/include/virlib/irsvirusinfotable.h
+END
+virusinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/rego/!svn/ver/1330/trunk/librame/include/virlib/virusinfo.h
+END
+irstable.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rego/!svn/ver/301/trunk/librame/include/virlib/irstable.h
+END
+ilibloader.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rego/!svn/ver/14/trunk/librame/include/virlib/ilibloader.h
+END

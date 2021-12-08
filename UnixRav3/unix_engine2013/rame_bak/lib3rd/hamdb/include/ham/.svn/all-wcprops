@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/292/trunk/lib3rd/hamdb/include/ham
+END
+hamsterdb.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/rego/!svn/ver/292/trunk/lib3rd/hamdb/include/ham/hamsterdb.h
+END
+hamsterdb.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rego/!svn/ver/292/trunk/lib3rd/hamdb/include/ham/hamsterdb.hpp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/rego/!svn/ver/292/trunk/lib3rd/hamdb/include/ham/Makefile.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/rego/!svn/ver/292/trunk/lib3rd/hamdb/include/ham/Makefile.am
+END
+hamsterdb_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/rego/!svn/ver/292/trunk/lib3rd/hamdb/include/ham/hamsterdb_int.h
+END
+hamsterdb_srv.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/rego/!svn/ver/292/trunk/lib3rd/hamdb/include/ham/hamsterdb_srv.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/292/trunk/lib3rd/hamdb/include/ham/types.h
+END
+hamsterdb_stats.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rego/!svn/ver/292/trunk/lib3rd/hamdb/include/ham/hamsterdb_stats.h
+END

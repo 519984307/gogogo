@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="rising">resource/rising.png</file>
+        <file alias="authration">resource/auth_tips_icon.png</file>
+        <file alias="button">resource/button.png</file>
+        <file alias="firewall">resource/firewall_icon.png</file>
+        <file alias="sysclose_btn">resource/sysclose_btn.png</file>
+        <file alias="syspath">resource/sys_patch_50.png</file>
+        <file alias="tbutton">resource/transpant_btn.png</file>
+        <file alias="usbkey">resource/Ukey.png</file>
+    </qresource>
+</RCC>

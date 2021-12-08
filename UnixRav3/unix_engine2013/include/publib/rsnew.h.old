@@ -1,0 +1,779 @@
+#ifndef _RSNEW_H_
+#define _RSNEW_H_
+
+
+#ifdef PLATFORM_TYPE_NATIVE
+inline __declspec(naked)
+DWORD WINAPI GetCurrentThreadId()
+{
+	__asm
+	{
+		MOV EAX,DWORD PTR FS:[0x18]
+		MOV EAX,DWORD PTR DS:[EAX+0x24]
+		RET
+	}
+}
+
+inline 
+LPVOID WINAPI VirtualAlloc(
+    IN LPVOID lpAddress,
+    IN SIZE_T dwSize,
+    IN DWORD flAllocationType,
+    IN DWORD flProtect
+    )
+{
+	if NT_SUCCESS(ZwAllocateVirtualMemory((HANDLE)-1, &lpAddress, 0, &dwSize, flAllocationType, flProtect))
+	{
+		return lpAddress;
+	}
+	return 0;
+}
+
+inline
+BOOL WINAPI VirtualFree(
+    IN LPVOID lpAddress,
+    IN SIZE_T dwSize,
+    IN DWORD dwFreeType
+    )
+{
+	BOOL RtlFlushSecureMemoryCache(IN LPVOID lpAddress, IN SIZE_T dwSize);
+	DWORD ret;
+
+	if (dwFreeType & MEM_RELEASE)
+		if (0==dwSize) return FALSE;
+
+	if NT_SUCCESS(ret=ZwFreeVirtualMemory((HANDLE)-1, &lpAddress, &dwSize, dwFreeType))
+		return TRUE;
+
+//	if (STATUS_INVALID_PAGE_PROTECTION != ret)
+//		return FALSE;
+
+//	if (RtlFlushSecureMemoryCache(lpAddress, dwSize))
+//		return NT_SUCCESS(ZwFreeVirtualMemory((HANDLE)-1, &lpAddress, &dwSize, dwFreeType));
+
+	return FALSE;
+}
+#endif
+
+
+#ifndef LOG_MEMORY_LEAK
+
+
+#define RSNEW	new
+
+#ifdef PLATFORM_TYPE_NATIVE
+#define RSMALLOC(size)		bs_malloc(size)
+#define RSREALLOC(p, size)	bs_realloc(p, size)
+#define RSCALLOC(num, size)	bs_calloc(num, size)
+#define RSFREE(p)			bs_free(p)
+#else
+#define RSMALLOC(size)		malloc(size)
+#define RSREALLOC(p, size)	realloc(p, size)
+#define RSCALLOC(num, size)	calloc(num, size)
+#define RSFREE(p)			free(p)
+#endif
+
+#define RSVIRTUALALLOC(lpAddress, dwSize, flAllocationType, flProtect) \
+		::VirtualAlloc(lpAddress, dwSize, flAllocationType, flProtect)
+#define RSVIRTUALFREE(lpAddress, dwSize, dwFreeType) \
+		::VirtualFree(lpAddress, dwSize, dwFreeType)
+
+	#if defined(PLATFORM_TYPE_WINDOWS) && !defined(PLATFORM_TYPE_NATIVE) // not throw exception
+		inline
+		void* __cdecl operator new (size_t size)
+		{
+			return RSMALLOC(size);
+		}
+
+		inline
+		void __cdecl operator delete (void *p)
+		{
+			RSFREE(p);
+		}
+
+		inline
+		void* __cdecl operator new [] (size_t size)
+		{
+			return operator new (size);
+		}
+
+		inline
+		void __cdecl operator delete [] (void *p)
+		{
+			operator delete (p);
+		}
+	#endif
+
+
+#else // #ifndef LOG_MEMORY_LEAK
+
+
+
+#if(_MSC_VER < 1300)
+	#pragma warning(disable : 4786)
+#endif
+#if(_MSC_VER == 1400)
+	#pragma warning(disable : 4996)
+#endif
+
+#include <map>
+#include <string>
+#include <stdlib.h>
+
+#include "rsallocator.h"
+#include "utility.h"
+extern const GUID  PID_DBG_LastFile;
+
+
+#ifdef RSNEW_CATCH_LEAK_AND_FLOW
+// ... ================================================================
+static char REMEMORY_MAGIC[] = "_REMEMORY_MAGIC";//注意！ 必须是内存对齐。 这里取16字节。 要不然某些api会失败。比如CreateMutex的SECURITY_DESCRIPTOR就好象有这个要求!
+void __flow_handle(void *p);
+#endif 
+
+namespace rsnew { ;
+
+
+// ... --------
+template<class SyncObj>
+struct TLock
+{
+	SyncObj& m_so;
+	TLock(SyncObj& so) : m_so(so) { m_so.Lock(); }
+	~TLock() { m_so.Unlock(); }
+private:
+	TLock<SyncObj> & operator = (TLock<SyncObj> &);
+};
+
+struct CCriticalSection
+{
+	CRITICAL_SECTION m_cs;
+	CCriticalSection() { ::InitializeCriticalSection(&m_cs); }
+//	~CCriticalSection() { ::DeleteCriticalSection(&m_cs); }
+	void Lock() { EnterCriticalSection(&m_cs); }
+	void Unlock() { LeaveCriticalSection(&m_cs); }
+};
+
+typedef TLock<CCriticalSection> CCSLock;
+
+typedef	std::basic_string<char, std::char_traits<char>, rsallocator::alloc<char> >	CString;
+
+// ... --------
+class CLog
+{
+
+public:
+	CLog(const char *file = "", size_t line = 0) : _file(file), _line(line){}
+	template<class T> T* operator = (T *p) { LogNew(p, _file, _line); return p; }
+public:
+	const char*& FileName() { return _file; }
+	size_t& LineNumber() { return _line; }
+public:
+	const char *_file;
+	size_t _line;
+
+};
+
+struct MapData
+{
+	CLog log;
+	size_t _size;
+	CString ScanFile;
+
+#ifdef RSNEW_CATCH_LEAK_AND_FLOW
+	enum E_REASON
+	{
+		REASON_UNKNOW = -1,
+		REASON_OVERFLOW = 0,
+		REASON_UNDERFLOW = 1,
+	};
+	E_REASON reason;
+	char bytes[sizeof(REMEMORY_MAGIC)];
+#endif 
+
+};
+
+
+class CMemTrace
+{
+public:
+	typedef	std::map<void*, MapData, std::less<void*>,
+				#if (_MSC_VER >= 1300 && !defined(PLATFORM_TYPE_NATIVE))
+					rsallocator::alloc<std::pair<const void*, MapData> > >
+				#else
+					rsallocator::alloc<MapData> >
+				#endif
+			CMap;
+	typedef	CMap::iterator
+			CMapIter;
+
+
+public:
+	static CMemTrace& Instance() { static CMemTrace mt; return mt; }
+	static CMap& TraceMap() { return Instance().m_map; }
+	static IREProperty* DebugInfo() { return Instance().m_pfnREGetDbgInfo ? Instance().m_pfnREGetDbgInfo() : 0; }
+	static CCriticalSection& CriticalSection() { static CCriticalSection cs; return cs; }
+	static void SetLogFileName(const char *filename)
+	{
+		Instance().m_filename = filename; 
+		Instance().m_filename_flow=__filename_append(filename, ".flow", ".txt");
+	}
+	static bool is_valid() { return __access_flag(); }
+private:
+	CMemTrace() : m_hDbgInfo(0), m_pfnREGetDbgInfo(0)
+	{
+		HMODULE h;
+		__asm
+		{
+			call __next
+		__next:
+			pop eax
+			and eax, 0xffff0000
+		__loop:
+			cmp word ptr[eax], 'ZM'
+			jz __done
+			sub eax, 0x10000
+			jmp __loop
+		__done:
+			mov h, eax
+		}
+		char filename[MAX_PATH*4];
+		DWORD len = ::GetModuleFileNameA(h, filename, sizeof(filename));
+		while(len-- && '\\' != filename[len]);
+		strcpy(&filename[++len], "redbginfo.dll");
+		RASSERTPV(h = ::LoadLibraryA(filename));
+		RASSERTPV((m_pfnREGetDbgInfo = (PFNREGetDbgInfo)::GetProcAddress(h, "REGetDbgInfo")));
+		m_hDbgInfo = h;
+	}
+public:
+	~CMemTrace()
+	{
+		CCSLock cs(CriticalSection());
+		__access_flag(false);
+		if(m_filename.empty()) { return; }
+
+		// log memory leak
+		if(FILE *fp = fopen(m_filename.c_str(), "w"))
+		{
+			size_t size = 0;
+			for(CMapIter it = m_map.begin(); it != m_map.end(); ++it)
+			{
+
+#ifdef RSNEW_CATCH_LEAK_AND_FLOW
+				if (MapData::REASON_UNKNOW != it->second.reason) continue;
+#endif 
+
+				if (it->second.ScanFile.length()>0)
+				{
+					fprintf(fp, "%s\n", it->second.ScanFile.c_str());
+				}
+				fprintf(fp, "file: %s\tline: %d\taddr: %p\tsize: %d\n",
+						it->second.log.FileName(), (int)it->second.log.LineNumber(), it->first, (int)it->second._size);
+				size += it->second._size;
+			}
+			if(size)
+			{
+				fprintf(fp, "total size: %d\n", (int)size);
+			}
+			fclose(fp);
+		}
+
+#ifdef RSNEW_CATCH_LEAK_AND_FLOW
+		// log memory flow
+		bool isWrite = false;
+		FILE *fp = NULL;
+		for(CMapIter it = m_map.begin(); it != m_map.end(); ++it)
+		{
+			if (it->second.reason == rsnew::MapData::REASON_UNKNOW)
+			{
+				char *c = (char *)it->first;
+				if ( 0 != memcmp(c-sizeof(REMEMORY_MAGIC), REMEMORY_MAGIC, sizeof(REMEMORY_MAGIC)) )
+				{
+					it->second.reason = rsnew::MapData::REASON_UNDERFLOW;
+					memcpy(it->second.bytes, c-sizeof(REMEMORY_MAGIC), sizeof(REMEMORY_MAGIC));
+				}
+				else if ( 0 != memcmp( c+  *(size_t *)(c-sizeof(REMEMORY_MAGIC)-sizeof(size_t)) //c+size
+						,REMEMORY_MAGIC, sizeof(REMEMORY_MAGIC)) )
+				{
+					it->second.reason = rsnew::MapData::REASON_OVERFLOW;
+					memcpy(it->second.bytes, c-sizeof(REMEMORY_MAGIC), sizeof(REMEMORY_MAGIC));
+				}
+			}
+			if (it->second.reason == rsnew::MapData::REASON_UNKNOW) continue; // just leak
+
+			// log it
+			if (!isWrite)
+			{
+				isWrite = true;
+				if (NULL == (fp = fopen(m_filename_flow.c_str(), "w"))) break;
+			}
+			if (it->second.ScanFile.length()>0)
+			{
+				fprintf(fp, "%s\n", it->second.ScanFile.c_str());
+			}
+			fprintf(fp, "file: %s\tline: %d\taddr: %p\tsize: %d\n",
+					it->second.log.FileName(), (int)it->second.log.LineNumber(), it->first, (int)it->second._size);
+			fprintf(fp, "reason:%s\n", it->second.reason==MapData::REASON_OVERFLOW ? "OverFlow" : "UnderFlow" );
+			char buf[sizeof(REMEMORY_MAGIC)*3+1];
+			for(size_t i=0; i<sizeof(REMEMORY_MAGIC); ++i)
+			{
+				sprintf(buf+i*3, "%02X ", (unsigned char)it->second.bytes[i]);
+			}
+			fprintf(fp, "bytes: %s\n", buf);
+		}	// map iterator 
+		if (fp) fclose(fp);
+
+		if (!isWrite) //从来没写过 为了和以前兼容. 如果没有log. 当有这个文件存在的时候, 则清空这个文件,fopen("w") && fclose()
+		{
+			if (fp=fopen(m_filename_flow.c_str(), "r"))
+			{
+				fclose(fp);
+				if (fp = fopen(m_filename_flow.c_str(), "w")) 
+				{
+					fclose(fp);
+				}
+			}
+		}
+#else
+		if (FILE *fp=fopen(m_filename_flow.c_str(), "r"))
+		{
+			fclose(fp);
+			if (fp = fopen(m_filename_flow.c_str(), "w")) 
+			{
+				fclose(fp);
+			}
+		}
+#endif
+
+		if(m_hDbgInfo) { FreeLibrary(m_hDbgInfo); }
+	}
+private:
+	static bool __access_flag(bool bGet = true, bool flag = false)
+	{
+		static bool bValid = true;
+		if(!bGet) { bValid = flag; }
+		return bValid;
+	}
+
+	static CString __filename_append(const char *filename, const char *append, const char *ext)
+	{
+		size_t lens = strlen(filename);
+		bool bHaveExt = false;
+		for (const char *p = filename+lens-1; p>=filename; --p)
+		{
+			if (*p == '\\') break;;
+			if (*p == '.') 
+			{
+				bHaveExt = true;
+				break;
+			}
+		}
+
+		CString ret;
+		if (bHaveExt)
+			ret.assign(filename, p-filename);
+		else
+			ret = filename;
+		return (ret+=append)+=ext;
+	}
+
+private:
+	CMap m_map;
+	CString m_filename;
+	CString m_filename_flow;
+	HMODULE m_hDbgInfo;
+	PFNREGetDbgInfo m_pfnREGetDbgInfo;
+};
+
+struct CLogMemoryLeak
+{
+	CLogMemoryLeak(const char *filename)
+	{
+		CCSLock cs(CMemTrace::CriticalSection());
+		if(CMemTrace::is_valid()) { CMemTrace::SetLogFileName(filename); }
+	}
+};
+
+//
+inline
+void PointerCheckForNew(void *p)
+{
+	// 如果p已经被log了， 现在没有被释放， 堆居然又产生了同样的p， 则要记录下， 可能是通过其他渠道释放的。 或堆已经乱了。
+	CMemTrace::CMap &map = CMemTrace::TraceMap();
+	CMemTrace::CMapIter it = map.find(p);
+	if (it != map.end())
+		__asm int 3 //ASSERT0;
+}
+
+inline
+void PointerCheckForFree(void *p)
+{
+	// 如果p没有被log了， 那么delete p的时候， 需要记录下， 为什么会被delete这个？
+	CMemTrace::CMap &map = CMemTrace::TraceMap();
+	CMemTrace::CMapIter it = map.find(p);
+	if (it == map.end())
+		__asm int 3 //ASSERT0;
+
+	{ memset(p, 0xee, it->second._size); }
+}
+
+
+inline
+int LogNew(void *p, size_t size)
+{
+	if(p)
+	{
+		CCSLock cs(CMemTrace::CriticalSection());
+		memset(p, 0xcc, size);
+		if(CMemTrace::is_valid()) { 
+			PointerCheckForNew(p);
+			MapData &mapdata = CMemTrace::TraceMap()[p];
+			mapdata._size = size; 
+
+#ifdef RSNEW_CATCH_LEAK_AND_FLOW
+			memset(&mapdata.reason, 0xcc, sizeof(mapdata.reason));//由于map的allocator是自己的，所以需要cc一下。 用来区别..
+			memset(mapdata.bytes, 0xcc, sizeof(mapdata.bytes));
+			mapdata.reason = MapData::REASON_UNKNOW;
+#endif
+
+		}
+	}
+	return 0;
+}
+
+
+inline
+int LogNew(void *p, const char *pszFile, size_t nLine)
+{
+	if(p)
+	{
+		CCSLock cs(CMemTrace::CriticalSection());
+		if(CMemTrace::is_valid())
+		{
+			MapData& mapdata = CMemTrace::TraceMap()[p];
+			// last file
+ 			const PROPVARIANT *pvar;
+ 			IREProperty* pprop = CMemTrace::DebugInfo();
+ 			if(pprop && SUCCEEDED(pprop->GetProperty(PID_DBG_LastFile, &pvar)))
+ 				mapdata.ScanFile = pvar->pszVal ? pvar->pszVal : "";
+			//
+			mapdata.log.FileName() = pszFile ? pszFile : "";
+			mapdata.log.LineNumber() = nLine;
+		}
+	}
+	return 0;
+}
+
+
+#ifdef RSNEW_CATCH_LEAK_AND_FLOW
+inline 
+int LogNew(void *p, MapData::E_REASON reason, const char * bytes)
+{
+	if(p)
+	{
+		CCSLock cs(CMemTrace::CriticalSection());
+		if(CMemTrace::is_valid())
+		{
+			MapData& mapdata = CMemTrace::TraceMap()[p];
+			mapdata.reason = reason;
+			memcpy(mapdata.bytes, bytes, sizeof(REMEMORY_MAGIC));
+		}
+	}
+	return 0;
+}
+#endif
+
+
+inline 
+int LogDelete(void *p)
+{
+	if(p)
+	{
+		CCSLock cs(CMemTrace::CriticalSection());
+		
+		if(CMemTrace::is_valid()) { 
+			PointerCheckForFree(p);
+			CMemTrace::TraceMap().erase(p); 
+		}
+	}
+	return 0;
+}
+
+
+
+
+} // namespace rsnew;
+
+
+
+
+
+
+
+
+
+
+// ... ================================================================
+//////////////////////////////////////////////////////////////////////////
+#if defined(RSNEW_CATCH_LEAK) // case: catch memory leak
+
+	inline 
+	void* __cdecl __malloc(size_t size)
+	{
+		if (0 == size || size > 0x40000000)
+		{
+#			if defined(_DEBUG) && defined(PLATFORM_TYPE_WIN32)
+				char buf[1024];
+				sprintf(buf, "Malloc Size is %X, maybe a bug??\n", size);
+				OutputDebugString(buf);
+#			endif
+			if (0 != size) return 0;
+		}
+
+		void *p = rs_malloc(size);
+		if (!p) return 0;
+		
+		rsnew::LogNew(p, size);
+		return p;
+	}
+
+	inline
+	void __cdecl __free(void *p)
+	{
+		if (!p) return;
+		rsnew::LogDelete(p);
+		rs_free(p);
+	}
+
+//////////////////////////////////////////////////////////////////////////
+#elif defined(RSNEW_CATCH_LEAK_AND_FLOW)	// case: catch memory leak & flow
+
+//the memorys order is (app size), (magic), appsize, (magic)
+	inline
+	void* __cdecl __malloc(size_t size)
+	{
+		if (0 == size || size > 0x40000000)
+		{
+#			if defined(_DEBUG) && defined(PLATFORM_TYPE_WIN32)
+				char buf[1024];
+				sprintf(buf, "Malloc Size is %X, maybe a bug??\n", size);
+				OutputDebugString(buf);
+#			endif
+			if (0 != size) return 0;
+		}
+
+
+		void *p = rs_malloc(size+sizeof(size_t)+2*sizeof(REMEMORY_MAGIC));
+		if(!p) { return 0; }
+
+		*(size_t *)p = size;
+		memcpy((char *)p+sizeof(size_t), REMEMORY_MAGIC, sizeof(REMEMORY_MAGIC));
+		memcpy((char *)p+sizeof(size_t)+size+sizeof(REMEMORY_MAGIC), REMEMORY_MAGIC, sizeof(REMEMORY_MAGIC));
+
+		p = (char *)p+sizeof(size_t)+sizeof(REMEMORY_MAGIC);
+		rsnew::LogNew(p, size);
+		return p;
+	}
+
+
+	inline
+	void __cdecl __free(void *p)
+	{
+		if (!p) return;
+		__flow_handle(p);
+	}
+	
+	inline
+	void __flow_handle(void *p)
+	{
+		rsnew::PointerCheckForFree(p);
+		char *c = (char *)p;
+		if ( 0 != memcmp(c-sizeof(REMEMORY_MAGIC), REMEMORY_MAGIC, sizeof(REMEMORY_MAGIC)) )
+		{
+			rsnew::LogNew(p, rsnew::MapData::REASON_UNDERFLOW, c-sizeof(REMEMORY_MAGIC));
+		}
+		else
+		{
+			size_t size = *(size_t *)(c-sizeof(REMEMORY_MAGIC)-sizeof(size_t));
+			if ( 0 != memcmp(c+size,REMEMORY_MAGIC, sizeof(REMEMORY_MAGIC)) )
+			{
+				rsnew::LogNew(p, rsnew::MapData::REASON_OVERFLOW, c+size);
+			}
+			else
+			{
+				rsnew::LogDelete(p);
+				rs_free((char *)p-sizeof(REMEMORY_MAGIC)-sizeof(size_t));
+			}
+		}
+	}
+
+//////////////////////////////////////////////////////////////////////////
+#elif defined(RSNEW_CATCH_LEAK_AND_UNDERFLOW) // case: catch memory leak & underflow
+
+	inline 
+	void* __cdecl __malloc(size_t size)
+	{
+		if (0 == size || size > 0x40000000)
+		{
+#			if defined(_DEBUG) && defined(PLATFORM_TYPE_WIN32)
+				char buf[1024];
+				sprintf(buf, "Malloc Size is %X, maybe a bug??\n", size);
+				OutputDebugString(buf);
+#			endif
+			if (0 != size) return 0;
+		}
+
+
+		char *p = (char*)VirtualAlloc(0, size+0x2000, MEM_COMMIT, PAGE_READWRITE);
+		if(!p) { return 0; }
+		p += 0x1000;
+		VirtualFree(p-0x1000, 1, MEM_DECOMMIT);
+		VirtualFree(p+size+0xFFF, 1, MEM_DECOMMIT);
+
+		rsnew::LogNew(p, size);
+		return p;
+	}
+
+	inline
+	void __cdecl __free(void *p)
+	{
+		if (!p) return;
+		rsnew::LogDelete(p);
+		VirtualFree((char*)p-0x1000, 0, MEM_RELEASE);
+	}
+
+
+//////////////////////////////////////////////////////////////////////////
+#else // default: catch memory leak & overflow
+
+	inline 
+	void* __cdecl __malloc(size_t size)
+	{
+		if (0 == size || size > 0x40000000)
+		{
+#			if defined(_DEBUG) && defined(PLATFORM_TYPE_WIN32)
+				char buf[1024];
+				sprintf(buf, "Malloc Size is %X, maybe a bug??\n", size);
+				OutputDebugString(buf);
+#			endif
+			if (0 != size) return 0;
+		}
+
+
+		char *p = (char*)VirtualAlloc(0, size+0x2000, MEM_COMMIT, PAGE_READWRITE);
+		if(!p) { return 0; }
+		p += 0x1000 +0x1000 -((size-1)&0xFFF) -1;
+		VirtualFree(p-0x1000, 1, MEM_DECOMMIT);
+		VirtualFree(p+size, 1, MEM_DECOMMIT);
+
+		rsnew::LogNew(p, size);
+		return p;
+	}
+
+	inline
+	void __cdecl __free(void *p)
+	{
+		if (!p) return;
+		rsnew::LogDelete(p);
+		VirtualFree((void*)(((size_t)p&~0xFFF)-0x1000), 0, MEM_RELEASE);
+	}
+
+#endif // end case catch memory
+
+inline
+void* __cdecl __realloc(void *p_old, size_t size_new)
+{
+	if(!size_new) { __free(p_old); return 0; }
+	if(!p_old) { return __malloc(size_new); }
+	size_t size_old;
+	{
+		rsnew::CCSLock cs(rsnew::CMemTrace::CriticalSection());
+		if(!rsnew::CMemTrace::is_valid()) { return 0; }
+		rsnew::CMemTrace::CMapIter it = rsnew::CMemTrace::TraceMap().find(p_old);
+		if(rsnew::CMemTrace::TraceMap().end() == it) { return 0; }
+		size_old = it->second._size;
+	}
+	void *p_new = __malloc(size_new);
+	if(!p_new) { return 0; }
+	memcpy(p_new, p_old, min(size_old, size_new));
+	__free(p_old);
+	return p_new;
+}
+
+inline
+void* __cdecl __calloc(size_t num, size_t size)
+{
+	void *p = __malloc(size*=num);
+	if(p) { memset(p, 0, size); }
+	return p;
+}
+
+// ... ================================================================
+
+inline
+void* __cdecl operator new (size_t size)
+{
+	void *p = __malloc(size);
+	return p;
+}
+
+inline
+void __cdecl operator delete (void *p)
+{
+	__free(p);
+}
+
+inline
+void* __cdecl operator new [] (size_t size)
+{
+	return operator new (size);
+}
+
+inline
+void __cdecl operator delete [] (void *p)
+{
+	operator delete (p);
+}
+
+
+// ... ================================================================
+inline
+void* __stdcall __VirtualAlloc(LPVOID lpAddress, SIZE_T dwSize, DWORD flAllocationType, DWORD flProtect)
+{
+	void *p = VirtualAlloc(lpAddress, dwSize, flAllocationType, flProtect);
+	rsnew::LogNew(p, dwSize);
+	return p;
+}
+
+inline
+BOOL __stdcall __VirtualFree(LPVOID lpAddress, SIZE_T dwSize, DWORD dwFreeType)
+{
+	if (!lpAddress) return FALSE;
+	rsnew::LogDelete(lpAddress);
+	if(!VirtualFree(lpAddress, dwSize, dwFreeType)) { return FALSE; }
+	return TRUE;
+}
+
+
+// ... ================================================================
+#define RSNEW	rsnew::CLog(__FILE__, __LINE__) = new
+
+
+
+
+#define RSMALLOC(size)		(rsnew::CLog(__FILE__, __LINE__) = __malloc(size))
+#define RSREALLOC(p, size)	(rsnew::CLog(__FILE__, __LINE__) = __realloc(p, size))
+#define RSCALLOC(num, size)	(rsnew::CLog(__FILE__, __LINE__) = __calloc(num, size))
+#define RSFREE(p)			__free(p)
+
+#define RSVIRTUALALLOC(lpAddress, dwSize, flAllocationType, flProtect) \
+		(rsnew::CLog(__FILE__, __LINE__) = __VirtualAlloc(lpAddress, dwSize, flAllocationType, flProtect))
+#define RSVIRTUALFREE(lpAddress, dwSize, dwFreeType) \
+		__VirtualFree(lpAddress, dwSize, dwFreeType)
+
+
+#endif  // #ifndef LOG_MEMORY_LEAK
+
+
+#endif // #ifndef _RSNEW_H_
+

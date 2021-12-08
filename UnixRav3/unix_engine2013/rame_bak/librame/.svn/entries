@@ -1,0 +1,94 @@
+8
+
+dir
+2077
+http://193.168.10.222/svn/rego/trunk/librame
+http://193.168.10.222/svn/rego
+
+
+
+2017-04-13T01:40:45.468750Z
+2076
+leizhen
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+007796cf-66c7-f64a-b734-82358b19e84a
+
+lib64
+dir
+
+include
+dir
+
+conscan
+dir
+
+lib
+dir
+
+rsmde.workspace
+file
+
+
+
+
+2017-04-14T10:18:03.000000Z
+5e1891924533f7fa6e683c211d8f9b12
+2013-10-17T14:40:47.421875Z
+339
+yechao
+
+modules
+dir
+
+cloudscan
+dir
+
+makefile
+file
+
+
+
+
+2017-04-14T10:18:03.000000Z
+f92720658eee7db916293cb45370034f
+2017-03-11T03:36:27.109375Z
+1941
+leizhen
+
+module.list.txt
+file
+
+
+
+
+2017-04-14T10:18:03.000000Z
+1938f52466168920857680efcd74c145
+2013-08-09T04:22:00.500000Z
+43
+yechao
+
+tools.txt
+file
+
+
+
+
+2017-04-14T10:18:03.000000Z
+3d466859ef73a09ca5bccd2431188b07
+2013-07-30T10:01:52.843750Z
+23
+yechao
+

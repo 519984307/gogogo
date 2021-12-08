@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/rego/!svn/ver/1623/trunk/lib3rd/lzma2
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/stdafx.h
+END
+lzma2.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/506/trunk/lib3rd/lzma2/lzma2.vcxproj
+END
+LzmaEnc.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/LzmaEnc.h
+END
+LzHash.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/LzHash.h
+END
+Alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/Alloc.h
+END
+7zFile.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/7zFile.c
+END
+Lzma2Dec.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/Lzma2Dec.c
+END
+mkobjs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/506/trunk/lib3rd/lzma2/mkobjs
+END
+7zFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/7zFile.h
+END
+lzma2.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/lzma2.vcproj
+END
+Lzma2Dec.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/Lzma2Dec.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/targetver.h
+END
+Types.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/Types.h
+END
+7zAlloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/7zAlloc.c
+END
+7zVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/7zVersion.h
+END
+Lzma2Enc.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/506/trunk/lib3rd/lzma2/Lzma2Enc.c
+END
+7zStream.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/7zStream.c
+END
+LzmaDec.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1623/trunk/lib3rd/lzma2/LzmaDec.c
+END
+7zAlloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/7zAlloc.h
+END
+Lzma2Enc.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/Lzma2Enc.h
+END
+LzmaDec.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/LzmaDec.h
+END
+CpuArch.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/506/trunk/lib3rd/lzma2/CpuArch.c
+END
+LzFind.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/LzFind.c
+END
+LzmaEnc.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/506/trunk/lib3rd/lzma2/LzmaEnc.c
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/stdafx.cpp
+END
+CpuArch.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/CpuArch.h
+END
+Alloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/Alloc.c
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/ReadMe.txt
+END
+LzFind.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/450/trunk/lib3rd/lzma2/LzFind.h
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1308/trunk/lib3rd/lzma2/makefile
+END

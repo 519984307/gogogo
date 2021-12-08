@@ -1,0 +1,29 @@
+{
+
+  "description": "RISING FireFox blocker",
+  "manifest_version": 2,
+  "name": "rav-firefox-block",
+    "version": "1.1",
+    "icons": {
+    "48": "pen.svg"
+  },
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "applications": {
+    "gecko": {
+      "strict_min_version": "57.0a1"
+    }
+  },
+  "web_accessible_resources": [
+    "deny.html",
+    "deny.js"
+  ]
+
+}

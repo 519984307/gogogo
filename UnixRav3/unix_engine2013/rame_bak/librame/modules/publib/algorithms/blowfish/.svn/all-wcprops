@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/blowfish
+END
+blowfish.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/blowfish/blowfish.h
+END
+blowfish.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/blowfish/blowfish.c
+END

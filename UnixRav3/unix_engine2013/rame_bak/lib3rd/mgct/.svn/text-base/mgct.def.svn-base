@@ -1,0 +1,8 @@
+EXPORTS
+	Generate_RAS_Keys
+	RSA_Public_Encrypt_String
+	RSA_Private_Encrypt_String
+	RSA_Public_Decrypt_String
+	RSA_Private_Decrypt_String
+	Create_Machine_GUID
+

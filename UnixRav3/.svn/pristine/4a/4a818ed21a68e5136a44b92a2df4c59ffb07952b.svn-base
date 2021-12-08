@@ -1,0 +1,2565 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+7Z_OBJS	Util/7z/makefile	/^7Z_OBJS = \\$/;"	m
+7Z_OBJS	Util/SfxSetup/makefile	/^7Z_OBJS = \\$/;"	m
+ADD_SIZE_CHECK	XzIn.c	52;"	d	file:
+ADJUST_ALLOC_SIZE	Alloc.c	268;"	d	file:
+AES_BLOCK_SIZE	Aes.h	11;"	d
+AES_CODE_FUNC	Aes.h	/^typedef void (MY_FAST_CALL *AES_CODE_FUNC)(UInt32 *ivAes, Byte *data, size_t numBlocks);$/;"	t
+AES_DEC	AesOpt.c	50;"	d	file:
+AES_DEC_LAST	AesOpt.c	51;"	d	file:
+AES_ENC	AesOpt.c	52;"	d	file:
+AES_ENC_LAST	AesOpt.c	53;"	d	file:
+AES_NUM_IVMRK_WORDS	Aes.h	19;"	d
+AES_OP_W	AesOpt.c	43;"	d	file:
+AES_SET_KEY_FUNC	Aes.h	/^typedef void (MY_FAST_CALL *AES_SET_KEY_FUNC)(UInt32 *aes, const Byte *key, unsigned keySize);$/;"	t
+ALLOC_ALIGN_SIZE	Alloc.c	320;"	d	file:
+ARMT_Convert	Bra.c	/^SizeT ARMT_Convert(Byte *data, SizeT size, UInt32 ip, int encoding)$/;"	f
+ARM_Convert	Bra.c	/^SizeT ARM_Convert(Byte *data, SizeT size, UInt32 ip, int encoding)$/;"	f
+AesCbc_Decode	Aes.c	/^void MY_FAST_CALL AesCbc_Decode(UInt32 *p, Byte *data, size_t numBlocks)$/;"	f
+AesCbc_Decode_Intel	AesOpt.c	/^void MY_FAST_CALL AesCbc_Decode_Intel(UInt32 *p, Byte *data, size_t numBlocks)$/;"	f
+AesCbc_Decode_Intel	AesOpt.c	/^void MY_FAST_CALL AesCbc_Decode_Intel(__m128i *p, __m128i *data, size_t numBlocks)$/;"	f
+AesCbc_Encode	Aes.c	/^void MY_FAST_CALL AesCbc_Encode(UInt32 *p, Byte *data, size_t numBlocks)$/;"	f
+AesCbc_Encode_Intel	AesOpt.c	/^void MY_FAST_CALL AesCbc_Encode_Intel(UInt32 *p, Byte *data, size_t numBlocks)$/;"	f
+AesCbc_Encode_Intel	AesOpt.c	/^void MY_FAST_CALL AesCbc_Encode_Intel(__m128i *p, __m128i *data, size_t numBlocks)$/;"	f
+AesCbc_Init	Aes.c	/^void AesCbc_Init(UInt32 *p, const Byte *iv)$/;"	f
+AesCtr_Code	Aes.c	/^void MY_FAST_CALL AesCtr_Code(UInt32 *p, Byte *data, size_t numBlocks)$/;"	f
+AesCtr_Code_Intel	AesOpt.c	/^void MY_FAST_CALL AesCtr_Code_Intel(UInt32 *p, Byte *data, size_t numBlocks)$/;"	f
+AesCtr_Code_Intel	AesOpt.c	/^void MY_FAST_CALL AesCtr_Code_Intel(__m128i *p, __m128i *data, size_t numBlocks)$/;"	f
+AesGenTables	Aes.c	/^void AesGenTables(void)$/;"	f
+Aes_Decode	Aes.c	/^static void Aes_Decode(const UInt32 *w, UInt32 *dest, const UInt32 *src)$/;"	f	file:
+Aes_Encode	Aes.c	/^static void Aes_Encode(const UInt32 *w, UInt32 *dest, const UInt32 *src)$/;"	f	file:
+Aes_SetKey_Dec	Aes.c	/^void MY_FAST_CALL Aes_SetKey_Dec(UInt32 *w, const Byte *key, unsigned keySize)$/;"	f
+Aes_SetKey_Enc	Aes.c	/^void MY_FAST_CALL Aes_SetKey_Enc(UInt32 *w, const Byte *key, unsigned keySize)$/;"	f
+Align	LzmaDec.c	138;"	d	file:
+AlignOffset	Ppmd7.h	/^  UInt32 AlignOffset;$/;"	m	struct:__anon24
+AlignOffsetAlloc_Alloc	Alloc.c	/^static void *AlignOffsetAlloc_Alloc(ISzAllocPtr pp, size_t size)$/;"	f	file:
+AlignOffsetAlloc_CreateVTable	Alloc.c	/^void AlignOffsetAlloc_CreateVTable(CAlignOffsetAlloc *p)$/;"	f
+AlignOffsetAlloc_Free	Alloc.c	/^static void AlignOffsetAlloc_Free(ISzAllocPtr pp, void *address)$/;"	f	file:
+Alloc	7zTypes.h	/^  void *(*Alloc)(ISzAllocPtr p, size_t size);$/;"	m	struct:ISzAlloc
+AllocRefs	LzFind.c	/^static CLzRef* AllocRefs(size_t num, ISzAllocPtr alloc)$/;"	f	file:
+AllocUnits	Ppmd7.c	/^static void *AllocUnits(CPpmd7 *p, unsigned indx)$/;"	f	file:
+AllocUnitsRare	Ppmd7.c	/^static void *AllocUnitsRare(CPpmd7 *p, unsigned indx)$/;"	f	file:
+ArEvent_OptCreate_And_Reset	MtCoder.c	/^static WRes ArEvent_OptCreate_And_Reset(CEvent *p)$/;"	f	file:
+ArEvent_OptCreate_And_Reset	MtDec.c	/^static WRes ArEvent_OptCreate_And_Reset(CEvent *p)$/;"	f	file:
+Attribs	7z.h	/^  CSzBitUi32s Attribs;$/;"	m	struct:__anon86
+AutoResetEvent_Create	Threads.c	/^WRes AutoResetEvent_Create(CAutoResetEvent *p, int signaled) { return Event_Create(p, FALSE, signaled); }$/;"	f
+AutoResetEvent_CreateNotSignaled	Threads.c	/^WRes AutoResetEvent_CreateNotSignaled(CAutoResetEvent *p) { return AutoResetEvent_Create(p, 0); }$/;"	f
+BCJ2_DEC_STATE_OK	Bcj2.h	/^  BCJ2_DEC_STATE_OK$/;"	e	enum:__anon49
+BCJ2_DEC_STATE_ORIG	Bcj2.h	/^  BCJ2_DEC_STATE_ORIG,$/;"	e	enum:__anon49
+BCJ2_DEC_STATE_ORIG_0	Bcj2.h	/^  BCJ2_DEC_STATE_ORIG_0 = BCJ2_NUM_STREAMS,$/;"	e	enum:__anon49
+BCJ2_DEC_STATE_ORIG_1	Bcj2.h	/^  BCJ2_DEC_STATE_ORIG_1,$/;"	e	enum:__anon49
+BCJ2_DEC_STATE_ORIG_2	Bcj2.h	/^  BCJ2_DEC_STATE_ORIG_2,$/;"	e	enum:__anon49
+BCJ2_DEC_STATE_ORIG_3	Bcj2.h	/^  BCJ2_DEC_STATE_ORIG_3,$/;"	e	enum:__anon49
+BCJ2_ENC_FINISH_MODE_CONTINUE	Bcj2.h	/^  BCJ2_ENC_FINISH_MODE_CONTINUE,$/;"	e	enum:__anon52
+BCJ2_ENC_FINISH_MODE_END_BLOCK	Bcj2.h	/^  BCJ2_ENC_FINISH_MODE_END_BLOCK,$/;"	e	enum:__anon52
+BCJ2_ENC_FINISH_MODE_END_STREAM	Bcj2.h	/^  BCJ2_ENC_FINISH_MODE_END_STREAM$/;"	e	enum:__anon52
+BCJ2_ENC_STATE_OK	Bcj2.h	/^  BCJ2_ENC_STATE_OK$/;"	e	enum:__anon50
+BCJ2_ENC_STATE_ORIG	Bcj2.h	/^  BCJ2_ENC_STATE_ORIG = BCJ2_NUM_STREAMS,$/;"	e	enum:__anon50
+BCJ2_FileSize_MAX	Bcj2.h	142;"	d
+BCJ2_IS_32BIT_STREAM	Bcj2.h	39;"	d
+BCJ2_NUM_STREAMS	Bcj2.h	11;"	d
+BCJ2_RELAT_LIMIT	Bcj2.h	139;"	d
+BCJ2_RELAT_LIMIT_NUM_BITS	Bcj2.h	138;"	d
+BCJ2_STREAM_CALL	Bcj2.h	/^  BCJ2_STREAM_CALL,$/;"	e	enum:__anon48
+BCJ2_STREAM_JUMP	Bcj2.h	/^  BCJ2_STREAM_JUMP,$/;"	e	enum:__anon48
+BCJ2_STREAM_MAIN	Bcj2.h	/^  BCJ2_STREAM_MAIN,$/;"	e	enum:__anon48
+BCJ2_STREAM_RC	Bcj2.h	/^  BCJ2_STREAM_RC$/;"	e	enum:__anon48
+BOOLToWRes	Threads.c	/^static WRes BOOLToWRes(BOOL v) { return v ? 0 : GetError(); }$/;"	f	file:
+BRA_BUF_SIZE	XzDec.c	72;"	d	file:
+BSR2_RET	LzmaEnc.c	103;"	d	file:
+BSR2_RET	LzmaEnc.c	151;"	d	file:
+Backward	LzmaEnc.c	/^static unsigned Backward(CLzmaEnc *p, unsigned cur)$/;"	f	file:
+Base	Ppmd7.h	/^  Byte *Base, *LoUnit, *HiUnit, *Text, *UnitsStart;$/;"	m	struct:__anon24
+Bcj2Dec_Decode	Bcj2.c	/^SRes Bcj2Dec_Decode(CBcj2Dec *p)$/;"	f
+Bcj2Dec_Init	Bcj2.c	/^void Bcj2Dec_Init(CBcj2Dec *p)$/;"	f
+Bcj2Dec_IsFinished	Bcj2.h	83;"	d
+Bcj2Enc_Encode	Bcj2Enc.c	/^void Bcj2Enc_Encode(CBcj2Enc *p)$/;"	f
+Bcj2Enc_Encode_2	Bcj2Enc.c	/^static void Bcj2Enc_Encode_2(CBcj2Enc *p)$/;"	f	file:
+Bcj2Enc_Get_InputData_Size	Bcj2.h	134;"	d
+Bcj2Enc_Init	Bcj2Enc.c	/^void Bcj2Enc_Init(CBcj2Enc *p)$/;"	f
+Bcj2Enc_IsFinished	Bcj2.h	135;"	d
+BigAlloc	Alloc.c	/^void *BigAlloc(size_t size)$/;"	f
+BigAlloc	Alloc.h	27;"	d
+BigFree	Alloc.c	/^void BigFree(void *address)$/;"	f
+BigFree	Alloc.h	28;"	d
+BinSumm	Ppmd7.h	/^  UInt16 BinSumm[128][64];$/;"	m	struct:__anon24
+Bonds	7z.h	/^  CSzBond Bonds[SZ_NUM_BONDS_IN_FOLDER_MAX];$/;"	m	struct:__anon81
+Bool	7zTypes.h	/^typedef int Bool;$/;"	t
+BraState_Code2	XzDec.c	/^static SRes BraState_Code2(void *pp,$/;"	f	file:
+BraState_Filter	XzDec.c	/^static SizeT BraState_Filter(void *pp, Byte *data, SizeT size)$/;"	f	file:
+BraState_Free	XzDec.c	/^static void BraState_Free(void *pp, ISzAllocPtr alloc)$/;"	f	file:
+BraState_Init	XzDec.c	/^static void BraState_Init(void *pp)$/;"	f	file:
+BraState_SetFromMethod	XzDec.c	/^SRes BraState_SetFromMethod(IStateCoder *p, UInt64 id, int encodeMode, ISzAllocPtr alloc)$/;"	f
+BraState_SetProps	XzDec.c	/^static SRes BraState_SetProps(void *pp, const Byte *props, size_t propSize, ISzAllocPtr alloc)$/;"	f	file:
+Bt2_MatchFinder_GetMatches	LzFind.c	/^static UInt32 Bt2_MatchFinder_GetMatches(CMatchFinder *p, UInt32 *distances)$/;"	f	file:
+Bt2_MatchFinder_Skip	LzFind.c	/^static void Bt2_MatchFinder_Skip(CMatchFinder *p, UInt32 num)$/;"	f	file:
+Bt3Zip_MatchFinder_GetMatches	LzFind.c	/^UInt32 Bt3Zip_MatchFinder_GetMatches(CMatchFinder *p, UInt32 *distances)$/;"	f
+Bt3Zip_MatchFinder_Skip	LzFind.c	/^void Bt3Zip_MatchFinder_Skip(CMatchFinder *p, UInt32 num)$/;"	f
+Bt3_MatchFinder_GetMatches	LzFind.c	/^static UInt32 Bt3_MatchFinder_GetMatches(CMatchFinder *p, UInt32 *distances)$/;"	f	file:
+Bt3_MatchFinder_Skip	LzFind.c	/^static void Bt3_MatchFinder_Skip(CMatchFinder *p, UInt32 num)$/;"	f	file:
+Bt4_MatchFinder_GetMatches	LzFind.c	/^static UInt32 Bt4_MatchFinder_GetMatches(CMatchFinder *p, UInt32 *distances)$/;"	f	file:
+Bt4_MatchFinder_Skip	LzFind.c	/^static void Bt4_MatchFinder_Skip(CMatchFinder *p, UInt32 num)$/;"	f	file:
+BtFillBlock	LzFindMt.c	/^static void BtFillBlock(CMatchFinderMt *p, UInt32 globalBlockIndex)$/;"	f	file:
+BtGetMatches	LzFindMt.c	/^static void BtGetMatches(CMatchFinderMt *p, UInt32 *distances)$/;"	f	file:
+BtThreadFunc	LzFindMt.c	/^void BtThreadFunc(CMatchFinderMt *mt)$/;"	f
+BtThreadFunc2	LzFindMt.c	/^static THREAD_FUNC_RET_TYPE THREAD_FUNC_CALL_TYPE BtThreadFunc2(void *p)$/;"	f	file:
+Buf_Create	7zBuf.c	/^int Buf_Create(CBuf *p, size_t size, ISzAllocPtr alloc)$/;"	f
+Buf_EnsureSize	Util/7z/7zMain.c	/^static int Buf_EnsureSize(CBuf *dest, size_t size)$/;"	f	file:
+Buf_Free	7zBuf.c	/^void Buf_Free(CBuf *p, ISzAllocPtr alloc)$/;"	f
+Buf_Init	7zBuf.c	/^void Buf_Init(CBuf *p)$/;"	f
+Byte	7zTypes.h	/^typedef unsigned char Byte;$/;"	t
+CALC_POS_STATE	LzmaDec.c	161;"	d	file:
+CASE_BRA_CONV	7zDec.c	368;"	d	file:
+CASE_BRA_CONV	XzDec.c	147;"	d	file:
+CAlignOffsetAlloc	Alloc.h	/^} CAlignOffsetAlloc;$/;"	t	typeref:struct:__anon63
+CAutoResetEvent	Threads.h	/^typedef CEvent CAutoResetEvent;$/;"	t
+CBcj2Dec	Bcj2.h	/^} CBcj2Dec;$/;"	t	typeref:struct:__anon51
+CBcj2Enc	Bcj2.h	/^} CBcj2Enc;$/;"	t	typeref:struct:__anon53
+CBraState	XzDec.c	/^} CBraState;$/;"	t	typeref:struct:__anon37	file:
+CBuf	7zBuf.h	/^} CBuf;$/;"	t	typeref:struct:__anon70
+CByteInToLook	7zDec.c	/^} CByteInToLook;$/;"	t	typeref:struct:__anon77	file:
+CCompressProgress_XzEncOffset	XzEnc.c	/^} CCompressProgress_XzEncOffset;$/;"	t	typeref:struct:__anon61	file:
+CCriticalSection	Threads.h	/^typedef CRITICAL_SECTION CCriticalSection;$/;"	t
+CDynBuf	7zBuf.h	/^} CDynBuf;$/;"	t	typeref:struct:__anon71
+CEvent	Threads.h	/^typedef HANDLE CEvent;$/;"	t
+CExtra	LzmaEnc.c	/^typedef UInt16 CExtra;$/;"	t	file:
+CFLAGS	Util/7z/makefile	/^CFLAGS = $(CFLAGS) -D_7ZIP_PPMD_SUPPPORT$/;"	m
+CFLAGS	Util/Lzma/makefile	/^CFLAGS = $(CFLAGS) \\$/;"	m
+CFLAGS	Util/LzmaLib/makefile	/^CFLAGS = $(CFLAGS) \\$/;"	m
+CFileInStream	7zFile.h	/^} CFileInStream;$/;"	t	typeref:struct:__anon34
+CFileOutStream	7zFile.h	/^} CFileOutStream;$/;"	t	typeref:struct:__anon35
+CFileSeqInStream	7zFile.h	/^} CFileSeqInStream;$/;"	t	typeref:struct:__anon33
+CHAR_PATH_SEPARATOR	7zTypes.h	358;"	d
+CHAR_PATH_SEPARATOR	7zTypes.h	365;"	d
+CHECK_CPUID_IS_SUPPORTED	CpuArch.c	53;"	d	file:
+CHECK_CPUID_IS_SUPPORTED	CpuArch.c	55;"	d	file:
+CHECK_SYS_SSE_SUPPORT	CpuArch.c	186;"	d	file:
+CHECK_SYS_SSE_SUPPORT	CpuArch.c	188;"	d	file:
+CLenEnc	LzmaEnc.c	/^} CLenEnc;$/;"	t	typeref:struct:__anon42	file:
+CLenPriceEnc	LzmaEnc.c	/^} CLenPriceEnc;$/;"	t	typeref:struct:__anon43	file:
+CLimitedSeqInStream	Lzma2Enc.c	/^} CLimitedSeqInStream;$/;"	t	typeref:struct:__anon72	file:
+CLookToRead2	7zTypes.h	/^} CLookToRead2;$/;"	t	typeref:struct:__anon2
+CLzRef	LzFind.h	/^typedef UInt32 CLzRef;$/;"	t
+CLzma2Dec	Lzma2Dec.h	/^} CLzma2Dec;$/;"	t	typeref:struct:__anon75
+CLzma2DecMt	Lzma2DecMt.c	/^} CLzma2DecMt;$/;"	t	typeref:struct:__anon66	file:
+CLzma2DecMtHandle	Lzma2DecMt.h	/^typedef void * CLzma2DecMtHandle;$/;"	t
+CLzma2DecMtProps	Lzma2DecMt.h	/^} CLzma2DecMtProps;$/;"	t	typeref:struct:__anon64
+CLzma2DecMtThread	Lzma2DecMt.c	/^} CLzma2DecMtThread;$/;"	t	typeref:struct:__anon65	file:
+CLzma2Dec_Spec	XzDec.c	/^} CLzma2Dec_Spec;$/;"	t	typeref:struct:__anon38	file:
+CLzma2Enc	Lzma2Enc.c	/^} CLzma2Enc;$/;"	t	typeref:struct:__anon74	file:
+CLzma2EncHandle	Lzma2Enc.h	/^typedef void * CLzma2EncHandle;$/;"	t
+CLzma2EncInt	Lzma2Enc.c	/^} CLzma2EncInt;$/;"	t	typeref:struct:__anon73	file:
+CLzma2EncProps	Lzma2Enc.h	/^} CLzma2EncProps;$/;"	t	typeref:struct:__anon7
+CLzma2WithFilters	XzEnc.c	/^} CLzma2WithFilters;$/;"	t	typeref:struct:__anon59	file:
+CLzmaDec	LzmaDec.h	/^} CLzmaDec;$/;"	t	typeref:struct:__anon92
+CLzmaEnc	LzmaEnc.c	/^} CLzmaEnc;$/;"	t	typeref:struct:__anon46	file:
+CLzmaEncHandle	LzmaEnc.h	/^typedef void * CLzmaEncHandle;$/;"	t
+CLzmaEncProps	LzmaEnc.h	/^} CLzmaEncProps;$/;"	t	typeref:struct:_CLzmaEncProps
+CLzmaEnc_SeqOutStreamBuf	LzmaEnc.c	/^} CLzmaEnc_SeqOutStreamBuf;$/;"	t	typeref:struct:__anon47	file:
+CLzmaProb	LzmaDec.h	/^  CLzmaProb;$/;"	t
+CLzmaProb	LzmaEnc.c	/^  CLzmaProb;$/;"	t	file:
+CLzmaProps	LzmaDec.h	/^} CLzmaProps;$/;"	t	typeref:struct:_CLzmaProps
+CManualResetEvent	Threads.h	/^typedef CEvent CManualResetEvent;$/;"	t
+CMatchFinder	LzFind.h	/^} CMatchFinder;$/;"	t	typeref:struct:_CMatchFinder
+CMatchFinderMt	LzFindMt.h	/^} CMatchFinderMt;$/;"	t	typeref:struct:_CMatchFinderMt
+CMixCoder	Xz.h	/^} CMixCoder;$/;"	t	typeref:struct:__anon16
+CMtCoder	MtCoder.h	/^} CMtCoder;$/;"	t	typeref:struct:_CMtCoder
+CMtCoderBlock	MtCoder.h	/^} CMtCoderBlock;$/;"	t	typeref:struct:__anon30
+CMtCoderThread	MtCoder.h	/^} CMtCoderThread;$/;"	t	typeref:struct:__anon28
+CMtDec	MtDec.h	/^} CMtDec;$/;"	t	typeref:struct:_CMtDec
+CMtDecBufLink	MtDec.c	/^} CMtDecBufLink;$/;"	t	typeref:struct:__anon21	file:
+CMtDecCallbackInfo	MtDec.h	/^} CMtDecCallbackInfo;$/;"	t	typeref:struct:__anon90
+CMtDecThread	MtDec.h	/^} CMtDecThread;$/;"	t	typeref:struct:__anon88
+CMtProgress	MtDec.h	/^} CMtProgress;$/;"	t	typeref:struct:__anon87
+CMtProgressThunk	MtCoder.h	/^} CMtProgressThunk;$/;"	t	typeref:struct:__anon27
+CMtSync	LzFindMt.h	/^} CMtSync;$/;"	t	typeref:struct:_CMtSync
+CNtfsFileTime	7z.h	/^} CNtfsFileTime;$/;"	t	typeref:struct:__anon82
+CODER_BUF_SIZE	XzDec.c	52;"	d	file:
+CODER_FINISH_ANY	Xz.h	/^  CODER_FINISH_ANY,   \/* finish at any point *\/$/;"	e	enum:__anon15
+CODER_FINISH_END	Xz.h	/^  CODER_FINISH_END    \/* block must be finished at the end *\/$/;"	e	enum:__anon15
+CODER_STATUS_FINISHED_WITH_MARK	Xz.h	/^  CODER_STATUS_FINISHED_WITH_MARK,          \/* stream was finished with end mark. *\/$/;"	e	enum:__anon14
+CODER_STATUS_NEEDS_MORE_INPUT	Xz.h	/^  CODER_STATUS_NEEDS_MORE_INPUT             \/* you must provide more input bytes *\/$/;"	e	enum:__anon14
+CODER_STATUS_NOT_FINISHED	Xz.h	/^  CODER_STATUS_NOT_FINISHED,                \/* stream was not finished *\/$/;"	e	enum:__anon14
+CODER_STATUS_NOT_SPECIFIED	Xz.h	/^  CODER_STATUS_NOT_SPECIFIED,               \/* use main error code instead *\/$/;"	e	enum:__anon14
+COMBINED_PS_STATE	LzmaDec.c	162;"	d	file:
+CONTAINER_FROM_VTBL	7zTypes.h	347;"	d
+CONTAINER_FROM_VTBL_CLS	7zTypes.h	349;"	d
+CONTAINER_FROM_VTBL_SIMPLE	7zTypes.h	342;"	d
+CONVERT_INT_TO_STR	Alloc.c	26;"	d	file:
+COPY_ARR	LzmaEnc.c	380;"	d	file:
+COptimal	LzmaEnc.c	/^} COptimal;$/;"	t	typeref:struct:__anon41	file:
+CPU_FIRM_AMD	CpuArch.h	/^  CPU_FIRM_AMD,$/;"	e	enum:__anon23
+CPU_FIRM_INTEL	CpuArch.h	/^  CPU_FIRM_INTEL,$/;"	e	enum:__anon23
+CPU_FIRM_VIA	CpuArch.h	/^  CPU_FIRM_VIA$/;"	e	enum:__anon23
+CPU_Is_Aes_Supported	CpuArch.c	/^Bool CPU_Is_Aes_Supported()$/;"	f
+CPU_Is_InOrder	CpuArch.c	/^Bool CPU_Is_InOrder()$/;"	f
+CPU_Sys_Is_SSE_Supported	CpuArch.c	/^static Bool CPU_Sys_Is_SSE_Supported()$/;"	f	file:
+CPpmd7	Ppmd7.h	/^} CPpmd7;$/;"	t	typeref:struct:__anon24
+CPpmd7_Context	Ppmd7.h	/^} CPpmd7_Context;$/;"	t	typeref:struct:CPpmd7_Context_
+CPpmd7_Context_	Ppmd7.h	/^typedef struct CPpmd7_Context_$/;"	s
+CPpmd7_Context_Ref	Ppmd7.h	/^  CPpmd7_Context_Ref;$/;"	t	typeref:struct:CPpmd7_Context_
+CPpmd7_Node	Ppmd7.c	/^} CPpmd7_Node;$/;"	t	typeref:struct:CPpmd7_Node_	file:
+CPpmd7_Node_	Ppmd7.c	/^typedef struct CPpmd7_Node_$/;"	s	file:
+CPpmd7_Node_Ref	Ppmd7.c	/^  CPpmd7_Node_Ref;$/;"	t	typeref:struct:CPpmd7_Node_	file:
+CPpmd7z_RangeDec	Ppmd7.h	/^} CPpmd7z_RangeDec;$/;"	t	typeref:struct:__anon25
+CPpmd7z_RangeEnc	Ppmd7.h	/^} CPpmd7z_RangeEnc;$/;"	t	typeref:struct:__anon26
+CPpmd_Byte_Ref	Ppmd.h	/^  CPpmd_Byte_Ref;$/;"	t
+CPpmd_See	Ppmd.h	/^} CPpmd_See;$/;"	t	typeref:struct:__anon5
+CPpmd_State	Ppmd.h	/^} CPpmd_State;$/;"	t	typeref:struct:__anon6
+CPpmd_State_Ref	Ppmd.h	/^  CPpmd_State_Ref;$/;"	t
+CPpmd_Void_Ref	Ppmd.h	/^  CPpmd_Void_Ref;$/;"	t
+CProb	Bcj2.c	9;"	d	file:
+CProb	Bcj2Enc.c	20;"	d	file:
+CProbPrice	LzmaEnc.c	/^typedef UInt32 CProbPrice;$/;"	t	file:
+CRC64_FUNC	XzCrc64.c	/^typedef UInt64 (MY_FAST_CALL *CRC64_FUNC)(UInt64 v, const void *data, size_t size, const UInt64 *table);$/;"	t	file:
+CRC64_GET_DIGEST	XzCrc64.h	18;"	d
+CRC64_INIT_VAL	XzCrc64.h	17;"	d
+CRC64_NUM_TABLES	XzCrc64.c	12;"	d	file:
+CRC64_NUM_TABLES	XzCrc64.c	14;"	d	file:
+CRC64_UPDATE_BYTE	XzCrc64.h	19;"	d
+CRC64_UPDATE_BYTE_2	XzCrc64Opt.c	10;"	d	file:
+CRC64_UPDATE_BYTE_2_BE	XzCrc64Opt.c	46;"	d	file:
+CRC_FUNC	7zCrc.c	/^typedef UInt32 (MY_FAST_CALL *CRC_FUNC)(UInt32 v, const void *data, size_t size, const UInt32 *table);$/;"	t	file:
+CRC_GET_DIGEST	7zCrc.h	17;"	d
+CRC_INIT_VAL	7zCrc.h	16;"	d
+CRC_NUM_TABLES	7zCrc.c	12;"	d	file:
+CRC_NUM_TABLES	7zCrc.c	14;"	d	file:
+CRC_UINT32_SWAP	7zCrc.c	16;"	d	file:
+CRC_UINT32_SWAP	7zCrcOpt.c	62;"	d	file:
+CRC_UINT64_SWAP	XzCrc64.c	15;"	d	file:
+CRC_UINT64_SWAP	XzCrc64Opt.c	36;"	d	file:
+CRC_UPDATE_BYTE	7zCrc.h	18;"	d
+CRC_UPDATE_BYTE_2	7zCrc.c	45;"	d	file:
+CRC_UPDATE_BYTE_2	7zCrcOpt.c	10;"	d	file:
+CRC_UPDATE_BYTE_2_BE	7zCrcOpt.c	64;"	d	file:
+CRCs	7z.h	/^  CSzBitUi32s CRCs;$/;"	m	struct:__anon86
+CRangeEnc	LzmaEnc.c	/^} CRangeEnc;$/;"	t	typeref:struct:__anon44	file:
+CSaveState	LzmaEnc.c	/^} CSaveState;$/;"	t	typeref:struct:__anon45	file:
+CSbEncInStream	XzEnc.c	/^} CSbEncInStream;$/;"	t	typeref:struct:__anon58	file:
+CSecToLook	7zTypes.h	/^} CSecToLook;$/;"	t	typeref:struct:__anon3
+CSecToRead	7zTypes.h	/^} CSecToRead;$/;"	t	typeref:struct:__anon4
+CSemaphore	Threads.h	/^typedef HANDLE CSemaphore;$/;"	t
+CSeqCheckInStream	XzEnc.c	/^} CSeqCheckInStream;$/;"	t	typeref:struct:__anon55	file:
+CSeqInFilter	XzEnc.c	/^} CSeqInFilter;$/;"	t	typeref:struct:__anon57	file:
+CSeqSizeOutStream	XzEnc.c	/^} CSeqSizeOutStream;$/;"	t	typeref:struct:__anon56	file:
+CSha256	Sha256.h	/^} CSha256;$/;"	t	typeref:struct:__anon95
+CState	LzmaEnc.c	/^typedef UInt16 CState;$/;"	t	file:
+CSubStreamInfo	7zArcIn.c	/^} CSubStreamInfo;$/;"	t	typeref:struct:__anon67	file:
+CSzAr	7z.h	/^} CSzAr;$/;"	t	typeref:struct:__anon85
+CSzArEx	7z.h	/^} CSzArEx;$/;"	t	typeref:struct:__anon86
+CSzBitUi32s	7z.h	/^} CSzBitUi32s;$/;"	t	typeref:struct:__anon83
+CSzBitUi64s	7z.h	/^} CSzBitUi64s;$/;"	t	typeref:struct:__anon84
+CSzBond	7z.h	/^} CSzBond;$/;"	t	typeref:struct:__anon80
+CSzCoderInfo	7z.h	/^} CSzCoderInfo;$/;"	t	typeref:struct:__anon79
+CSzData	7z.h	/^} CSzData;$/;"	t	typeref:struct:__anon78
+CSzFile	7zFile.h	/^} CSzFile;$/;"	t	typeref:struct:__anon32
+CSzFolder	7z.h	/^} CSzFolder;$/;"	t	typeref:struct:__anon81
+CTX	Ppmd7.c	29;"	d	file:
+CTX_PTR	Ppmd7.c	/^typedef CPpmd7_Context * CTX_PTR;$/;"	t	file:
+CThread	Threads.h	/^typedef HANDLE CThread;$/;"	t
+CTime	7z.h	/^  CSzBitUi64s CTime;$/;"	m	struct:__anon86
+CXzBlock	Xz.h	/^} CXzBlock;$/;"	t	typeref:struct:__anon9
+CXzBlockSizes	Xz.h	/^} CXzBlockSizes;$/;"	t	typeref:struct:__anon11
+CXzCheck	Xz.h	/^} CXzCheck;$/;"	t	typeref:struct:__anon10
+CXzDecMt	XzDec.c	/^} CXzDecMt;$/;"	t	typeref:struct:__anon40	file:
+CXzDecMtHandle	Xz.h	/^typedef void * CXzDecMtHandle;$/;"	t
+CXzDecMtProps	Xz.h	/^} CXzDecMtProps;$/;"	t	typeref:struct:__anon19
+CXzDecMtThread	XzDec.c	/^} CXzDecMtThread;$/;"	t	typeref:struct:__anon39	file:
+CXzEnc	XzEnc.c	/^} CXzEnc;$/;"	t	typeref:struct:__anon62	file:
+CXzEncBlockInfo	XzEnc.c	/^} CXzEncBlockInfo;$/;"	t	typeref:struct:__anon60	file:
+CXzEncHandle	XzEnc.h	/^typedef void * CXzEncHandle;$/;"	t
+CXzEncIndex	XzEnc.c	/^} CXzEncIndex;$/;"	t	typeref:struct:__anon54	file:
+CXzFilter	Xz.h	/^} CXzFilter;$/;"	t	typeref:struct:__anon8
+CXzFilterProps	XzEnc.h	/^} CXzFilterProps;$/;"	t	typeref:struct:__anon68
+CXzProps	XzEnc.h	/^} CXzProps;$/;"	t	typeref:struct:__anon69
+CXzStatInfo	Xz.h	/^} CXzStatInfo;$/;"	t	typeref:struct:__anon20
+CXzStream	Xz.h	/^} CXzStream;$/;"	t	typeref:struct:__anon12
+CXzStreamFlags	Xz.h	/^typedef UInt16 CXzStreamFlags;$/;"	t
+CXzUnpacker	Xz.h	/^} CXzUnpacker;$/;"	t	typeref:struct:__anon18
+CXzs	Xz.h	/^} CXzs;$/;"	t	typeref:struct:__anon13
+C_OBJS	Util/7z/makefile	/^C_OBJS = \\$/;"	m
+C_OBJS	Util/Lzma/makefile	/^C_OBJS = \\$/;"	m
+C_OBJS	Util/LzmaLib/makefile	/^C_OBJS = \\$/;"	m
+C_OBJS	Util/SfxSetup/makefile	/^C_OBJS = \\$/;"	m
+Cache	Ppmd7.h	/^  Byte Cache;$/;"	m	struct:__anon26
+CacheSize	Ppmd7.h	/^  UInt64 CacheSize;$/;"	m	struct:__anon26
+Ch	Sha256.c	42;"	d	file:
+ChangePair	LzmaEnc.c	1714;"	d	file:
+CheckErrors	LzmaEnc.c	/^static SRes CheckErrors(CLzmaEnc *p)$/;"	f	file:
+CheckFlag	CpuArch.c	/^static UInt32 CheckFlag(UInt32 flag)$/;"	f	file:
+CheckSupportedFolder	7zDec.c	/^static SRes CheckSupportedFolder(const CSzFolder *f)$/;"	f	file:
+Code	MtCoder.h	/^  SRes (*Code)(void *p, unsigned coderIndex, unsigned outBufIndex,$/;"	m	struct:__anon29
+Code	MtDec.h	/^  SRes (*Code)(void *p, unsigned coderIndex,$/;"	m	struct:__anon91
+Code	Ppmd7.h	/^  UInt32 Code;$/;"	m	struct:__anon25
+Code2	Xz.h	/^  SRes (*Code2)(void *p, Byte *dest, SizeT *destLen, const Byte *src, SizeT *srcLen,$/;"	m	struct:_IStateCoder
+CoderUnpackSizes	7z.h	/^  UInt64 *CoderUnpackSizes;       \/\/ for all coders in all folders$/;"	m	struct:__anon85
+Coders	7z.h	/^  CSzCoderInfo Coders[SZ_NUM_CODERS_IN_FOLDER_MAX];$/;"	m	struct:__anon81
+CodersData	7z.h	/^  Byte *CodersData;$/;"	m	struct:__anon85
+CombinedRes	Xz.h	/^  SRes CombinedRes;$/;"	m	struct:__anon20
+CombinedRes_Type	Xz.h	/^  SRes CombinedRes_Type;$/;"	m	struct:__anon20
+CompressProgress_XzEncOffset_Progress	XzEnc.c	/^static SRes CompressProgress_XzEncOffset_Progress(const ICompressProgress *pp, UInt64 inSize, UInt64 outSize)$/;"	f	file:
+ConvertFileTimeToString	Util/7z/7zMain.c	/^static void ConvertFileTimeToString(const CNtfsFileTime *nt, char *s)$/;"	f	file:
+ConvertUInt64ToHex	Alloc.c	/^static void ConvertUInt64ToHex(UInt64 val, char *s)$/;"	f	file:
+ConvertUInt64ToString	Alloc.c	/^static void ConvertUInt64ToString(UInt64 val, char *s)$/;"	f	file:
+Count	Ppmd.h	/^  Byte Count;  \/* Count to next change of Shift *\/$/;"	m	struct:__anon5
+CountDefinedBits	7zArcIn.c	/^static UInt32 CountDefinedBits(const Byte *bits, UInt32 numItems)$/;"	f	file:
+Crc64Calc	XzCrc64.c	/^UInt64 MY_FAST_CALL Crc64Calc(const void *data, size_t size)$/;"	f
+Crc64GenerateTable	XzCrc64.c	/^void MY_FAST_CALL Crc64GenerateTable()$/;"	f
+Crc64Update	XzCrc64.c	/^UInt64 MY_FAST_CALL Crc64Update(UInt64 v, const void *data, size_t size)$/;"	f
+CrcCalc	7zCrc.c	/^UInt32 MY_FAST_CALL CrcCalc(const void *data, size_t size)$/;"	f
+CrcGenerateTable	7zCrc.c	/^void MY_FAST_CALL CrcGenerateTable()$/;"	f
+CrcUpdate	7zCrc.c	/^UInt32 MY_FAST_CALL CrcUpdate(UInt32 v, const void *data, size_t size)$/;"	f
+CrcUpdateT1	7zCrc.c	/^UInt32 MY_FAST_CALL CrcUpdateT1(UInt32 v, const void *data, size_t size, const UInt32 *table)$/;"	f
+CrcUpdateT1_BeT4	7zCrcOpt.c	/^UInt32 MY_FAST_CALL CrcUpdateT1_BeT4(UInt32 v, const void *data, size_t size, const UInt32 *table)$/;"	f
+CrcUpdateT1_BeT8	7zCrcOpt.c	/^UInt32 MY_FAST_CALL CrcUpdateT1_BeT8(UInt32 v, const void *data, size_t size, const UInt32 *table)$/;"	f
+CrcUpdateT4	7zCrcOpt.c	/^UInt32 MY_FAST_CALL CrcUpdateT4(UInt32 v, const void *data, size_t size, const UInt32 *table)$/;"	f
+CrcUpdateT8	7zCrcOpt.c	/^UInt32 MY_FAST_CALL CrcUpdateT8(UInt32 v, const void *data, size_t size, const UInt32 *table)$/;"	f
+CreateSuccessors	Ppmd7.c	/^static CTX_PTR CreateSuccessors(CPpmd7 *p, Bool skip)$/;"	f	file:
+CriticalSection_Delete	Threads.h	62;"	d
+CriticalSection_Enter	Threads.h	63;"	d
+CriticalSection_Init	Threads.c	/^WRes CriticalSection_Init(CCriticalSection *p)$/;"	f
+CriticalSection_Leave	Threads.h	64;"	d
+Cx86cpuid	CpuArch.h	/^} Cx86cpuid;$/;"	t	typeref:struct:__anon22
+D	Aes.c	/^static UInt32 D[256 * 4];$/;"	v	file:
+DD	Aes.c	57;"	d	file:
+DEBUG_OUT_STREAM	Alloc.c	60;"	d	file:
+DEF_FILE	Util/LzmaLib/makefile	/^DEF_FILE = LzmaLib.def$/;"	m
+DEF_GetHeads	LzFindMt.c	144;"	d	file:
+DEF_GetHeads2	LzFindMt.c	138;"	d	file:
+DELTA_STATE_SIZE	Delta.h	11;"	d
+DUMMY_ERROR	LzmaDec.c	/^  DUMMY_ERROR, \/* unexpected end of input stream *\/$/;"	e	enum:__anon31	file:
+DUMMY_LIT	LzmaDec.c	/^  DUMMY_LIT,$/;"	e	enum:__anon31	file:
+DUMMY_MATCH	LzmaDec.c	/^  DUMMY_MATCH,$/;"	e	enum:__anon31	file:
+DUMMY_REP	LzmaDec.c	/^  DUMMY_REP$/;"	e	enum:__anon31	file:
+Data	7z.h	/^  const Byte *Data;$/;"	m	struct:__anon78
+DataAfterEnd	Xz.h	/^  Byte DataAfterEnd;$/;"	m	struct:__anon20
+Decode	Ppmd7.h	/^  void (*Decode)(const IPpmd7_RangeDec *p, UInt32 start, UInt32 size);$/;"	m	struct:IPpmd7_RangeDec
+Decode	Util/Lzma/LzmaUtil.c	/^static SRes Decode(ISeqOutStream *outStream, ISeqInStream *inStream)$/;"	f	file:
+Decode2	Util/Lzma/LzmaUtil.c	/^static SRes Decode2(CLzmaDec *state, ISeqOutStream *outStream, ISeqInStream *inStream,$/;"	f	file:
+DecodeBit	Ppmd7.h	/^  UInt32 (*DecodeBit)(const IPpmd7_RangeDec *p, UInt32 size0);$/;"	m	struct:IPpmd7_RangeDec
+DecodeRes	Xz.h	/^  SRes DecodeRes;$/;"	m	struct:__anon20
+DecodingTruncated	Xz.h	/^  Byte DecodingTruncated; \/\/ Decoding was Truncated, we need only partial output data$/;"	m	struct:__anon20
+Defs	7z.h	/^  Byte *Defs; \/* MSB 0 bit numbering *\/$/;"	m	struct:__anon83
+Defs	7z.h	/^  Byte *Defs; \/* MSB 0 bit numbering *\/$/;"	m	struct:__anon84
+Delta_Decode	Delta.c	/^void Delta_Decode(Byte *state, unsigned delta, Byte *data, SizeT size)$/;"	f
+Delta_Encode	Delta.c	/^void Delta_Encode(Byte *state, unsigned delta, Byte *data, SizeT size)$/;"	f
+Delta_Init	Delta.c	/^void Delta_Init(Byte *state)$/;"	f
+DllMain	Util/LzmaLib/LzmaLibExports.c	/^BOOL WINAPI DllMain(HINSTANCE hInstance, DWORD dwReason, LPVOID lpReserved)$/;"	f
+DoesFileOrDirExist	Util/SfxSetup/SfxSetup.c	/^static Bool DoesFileOrDirExist(const WCHAR *path)$/;"	f	file:
+DummySee	Ppmd7.h	/^  CPpmd_See DummySee, See[25][16];$/;"	m	struct:__anon24
+DynBuf_Construct	7zBuf2.c	/^void DynBuf_Construct(CDynBuf *p)$/;"	f
+DynBuf_Free	7zBuf2.c	/^void DynBuf_Free(CDynBuf *p, ISzAllocPtr alloc)$/;"	f
+DynBuf_SeekToBeg	7zBuf2.c	/^void DynBuf_SeekToBeg(CDynBuf *p)$/;"	f
+DynBuf_Write	7zBuf2.c	/^int DynBuf_Write(CDynBuf *p, const Byte *buf, size_t size, ISzAllocPtr alloc)$/;"	f
+EBcj2Enc_FinishMode	Bcj2.h	/^} EBcj2Enc_FinishMode;$/;"	t	typeref:enum:__anon52
+ECoderFinishMode	Xz.h	/^} ECoderFinishMode;$/;"	t	typeref:enum:__anon15
+ECoderStatus	Xz.h	/^} ECoderStatus;$/;"	t	typeref:enum:__anon14
+EIdEnum	7zArcIn.c	/^enum EIdEnum$/;"	g	file:
+ELzma2ParseStatus	Lzma2Dec.h	/^} ELzma2ParseStatus;$/;"	t	typeref:enum:__anon76
+ELzma2State	Lzma2Dec.c	/^} ELzma2State;$/;"	t	typeref:enum:__anon36	file:
+ELzmaDummy	LzmaDec.c	/^} ELzmaDummy;$/;"	t	typeref:enum:__anon31	file:
+ELzmaFinishMode	LzmaDec.h	/^} ELzmaFinishMode;$/;"	t	typeref:enum:__anon93
+ELzmaStatus	LzmaDec.h	/^} ELzmaStatus;$/;"	t	typeref:enum:__anon94
+EMtDecParseState	MtDec.h	/^} EMtDecParseState;$/;"	t	typeref:enum:__anon89
+ESzFilterMode	Lzma86.h	/^enum ESzFilterMode$/;"	g
+ESzSeek	7zTypes.h	/^} ESzSeek;$/;"	t	typeref:enum:__anon1
+EXTERN_C_BEGIN	7zTypes.h	15;"	d
+EXTERN_C_BEGIN	7zTypes.h	18;"	d
+EXTERN_C_END	7zTypes.h	16;"	d
+EXTERN_C_END	7zTypes.h	19;"	d
+EXzState	Xz.h	/^} EXzState;$/;"	t	typeref:enum:__anon17
+EncBlocks	XzEnc.c	/^  CXzEncBlockInfo EncBlocks[MTCODER__BLOCKS_MAX];$/;"	m	struct:__anon62	file:
+Encode	Util/Lzma/LzmaUtil.c	/^static SRes Encode(ISeqOutStream *outStream, ISeqInStream *inStream, UInt64 fileSize, char *rs)$/;"	f	file:
+Event_Close	Threads.h	42;"	d
+Event_Construct	Threads.h	40;"	d
+Event_Create	Threads.c	/^static WRes Event_Create(CEvent *p, BOOL manualReset, int signaled)$/;"	f	file:
+Event_IsCreated	Threads.h	41;"	d
+Event_Reset	Threads.c	/^WRes Event_Reset(CEvent *p) { return BOOLToWRes(ResetEvent(*p)); }$/;"	f
+Event_Set	Threads.c	/^WRes Event_Set(CEvent *p) { return BOOLToWRes(SetEvent(*p)); }$/;"	f
+Event_Wait	Threads.h	43;"	d
+FD	Aes.c	140;"	d	file:
+FD4	Aes.c	141;"	d	file:
+FILTER_BUF_SIZE	XzEnc.c	312;"	d	file:
+FT	Aes.c	122;"	d	file:
+FT4	Aes.c	123;"	d	file:
+False	7zTypes.h	108;"	d
+FileInStream_CreateVTable	7zFile.c	/^void FileInStream_CreateVTable(CFileInStream *p)$/;"	f
+FileInStream_Read	7zFile.c	/^static SRes FileInStream_Read(const ISeekInStream *pp, void *buf, size_t *size)$/;"	f	file:
+FileInStream_Seek	7zFile.c	/^static SRes FileInStream_Seek(const ISeekInStream *pp, Int64 *pos, ESzSeek origin)$/;"	f	file:
+FileNameOffsets	7z.h	/^  size_t *FileNameOffsets; \/* in 2-byte steps *\/$/;"	m	struct:__anon86
+FileNames	7z.h	/^  Byte *FileNames;  \/* UTF-16-LE *\/$/;"	m	struct:__anon86
+FileOutStream_CreateVTable	7zFile.c	/^void FileOutStream_CreateVTable(CFileOutStream *p)$/;"	f
+FileOutStream_Write	7zFile.c	/^static size_t FileOutStream_Write(const ISeqOutStream *pp, const void *data, size_t size)$/;"	f	file:
+FileSeqInStream_CreateVTable	7zFile.c	/^void FileSeqInStream_CreateVTable(CFileSeqInStream *p)$/;"	f
+FileSeqInStream_Read	7zFile.c	/^static SRes FileSeqInStream_Read(const ISeqInStream *pp, void *buf, size_t *size)$/;"	f	file:
+FileToFolder	7z.h	/^  UInt32 *FileToFolder;   \/\/ NumFiles$/;"	m	struct:__anon86
+File_Close	7zFile.c	/^WRes File_Close(CSzFile *p)$/;"	f
+File_Construct	7zFile.c	/^void File_Construct(CSzFile *p)$/;"	f
+File_GetLength	7zFile.c	/^WRes File_GetLength(CSzFile *p, UInt64 *length)$/;"	f
+File_Open	7zFile.c	/^static WRes File_Open(CSzFile *p, const char *name, int writeMode)$/;"	f	file:
+File_OpenW	7zFile.c	/^static WRes File_OpenW(CSzFile *p, const WCHAR *name, int writeMode)$/;"	f	file:
+File_Read	7zFile.c	/^WRes File_Read(CSzFile *p, void *data, size_t *size)$/;"	f
+File_Seek	7zFile.c	/^WRes File_Seek(CSzFile *p, Int64 *pos, ESzSeek origin)$/;"	f
+File_Write	7zFile.c	/^WRes File_Write(CSzFile *p, const void *data, size_t *size)$/;"	f
+FillAlignPrices	LzmaEnc.c	/^static void FillAlignPrices(CLzmaEnc *p)$/;"	f	file:
+FillDistancesPrices	LzmaEnc.c	/^static void FillDistancesPrices(CLzmaEnc *p)$/;"	f	file:
+Filter	Xz.h	/^  SizeT (*Filter)(void *p, Byte *data, SizeT size);$/;"	m	struct:_IStateCoder
+FindExt	Util/SfxSetup/SfxSetup.c	/^static unsigned FindExt(const wchar_t *s, unsigned *extLen)$/;"	f	file:
+FindItem	Util/SfxSetup/SfxSetup.c	/^static unsigned FindItem(const char * const *items, unsigned num, const wchar_t *s, unsigned len)$/;"	f	file:
+FindSignature	Util/SfxSetup/SfxSetup.c	/^static Bool FindSignature(CSzFile *stream, UInt64 *resPos)$/;"	f	file:
+Flush	LzmaEnc.c	/^MY_NO_INLINE static SRes Flush(CLzmaEnc *p, UInt32 nowPos)$/;"	f	file:
+FoCodersOffsets	7z.h	/^  size_t *FoCodersOffsets;        \/\/ NumFolders + 1$/;"	m	struct:__anon85
+FoStartPackStreamIndex	7z.h	/^  UInt32 *FoStartPackStreamIndex; \/\/ NumFolders + 1$/;"	m	struct:__anon85
+FoToCoderUnpackSizes	7z.h	/^  UInt32 *FoToCoderUnpackSizes;   \/\/ NumFolders + 1$/;"	m	struct:__anon85
+FoToMainUnpackSizeIndex	7z.h	/^  Byte *FoToMainUnpackSizeIndex;  \/\/ NumFolders$/;"	m	struct:__anon85
+FolderCRCs	7z.h	/^  CSzBitUi32s FolderCRCs;         \/\/ NumFolders$/;"	m	struct:__anon85
+FolderToFile	7z.h	/^  UInt32 *FolderToFile;   \/\/ NumFolders + 1$/;"	m	struct:__anon86
+FoundState	Ppmd7.h	/^  CPpmd_State *FoundState;$/;"	m	struct:__anon24
+Free	7zTypes.h	/^  void (*Free)(ISzAllocPtr p, void *address); \/* address can be 0 *\/$/;"	m	struct:ISzAlloc
+Free	Xz.h	/^  void (*Free)(void *p, ISzAllocPtr alloc);$/;"	m	struct:_IStateCoder
+FreeList	Ppmd7.h	/^  CPpmd_Void_Ref FreeList[PPMD_NUM_INDEXES];$/;"	m	struct:__anon24
+Freq	Ppmd.h	/^  Byte Freq;$/;"	m	struct:__anon6
+FullRead	MtCoder.c	/^static SRes FullRead(ISeqInStream *stream, Byte *data, size_t *processedSize)$/;"	f	file:
+FullRead	MtDec.c	/^static SRes FullRead(ISeqInStream *stream, Byte *data, size_t *processedSize)$/;"	f	file:
+Func_SetDefaultDllDirectories	DllSecur.c	/^typedef BOOL (WINAPI *Func_SetDefaultDllDirectories)(DWORD DirectoryFlags);$/;"	t	file:
+GET_BIT2	LzmaDec.c	25;"	d	file:
+GET_BIT2_CHECK	LzmaDec.c	72;"	d	file:
+GET_BIT_CHECK	LzmaDec.c	75;"	d	file:
+GET_HEX_CHAR	Alloc.c	38;"	d	file:
+GET_LEN_STATE	LzmaDec.c	163;"	d	file:
+GET_LookToRead2	7zStream.c	75;"	d	file:
+GET_MATCHES_FOOTER	LzFind.c	537;"	d	file:
+GET_MATCHES_HEADER	LzFind.c	532;"	d	file:
+GET_MATCHES_HEADER2	LzFind.c	527;"	d	file:
+GET_NEXT_BLOCK_IF_REQUIRED	LzFindMt.c	565;"	d	file:
+GET_PRICE	LzmaEnc.c	742;"	d	file:
+GET_PRICE_0	LzmaEnc.c	748;"	d	file:
+GET_PRICE_1	LzmaEnc.c	749;"	d	file:
+GET_PRICEa	LzmaEnc.c	745;"	d	file:
+GET_PRICEa_0	LzmaEnc.c	751;"	d	file:
+GET_PRICEa_1	LzmaEnc.c	752;"	d	file:
+GET_PROBS	LzmaDec.c	124;"	d	file:
+GET_Ppmd7z_RangeDec	Ppmd7Dec.c	23;"	d	file:
+GetAttribString	Util/7z/7zMain.c	/^static void GetAttribString(UInt32 wa, Bool isDir, char *s)$/;"	f	file:
+GetBe16	CpuArch.h	292;"	d
+GetBe32	CpuArch.h	256;"	d
+GetBe64	CpuArch.h	257;"	d
+GetError	Threads.c	/^static WRes GetError()$/;"	f	file:
+GetHeadsFunc	LzFindMt.h	/^  Mf_GetHeads GetHeadsFunc;$/;"	m	struct:_CMatchFinderMt
+GetLargePageMinimumP	Alloc.c	/^typedef SIZE_T (WINAPI *GetLargePageMinimumP)();$/;"	t	file:
+GetLenToPosState	LzmaEnc.c	513;"	d	file:
+GetLenToPosState2	LzmaEnc.c	512;"	d	file:
+GetMatches	LzFind.h	/^  Mf_GetMatches_Func GetMatches;$/;"	m	struct:_IMatchFinder
+GetMatchesSpec1	LzFind.c	/^UInt32 * GetMatchesSpec1(UInt32 lenLimit, UInt32 curMatch, UInt32 pos, const Byte *cur, CLzRef *son,$/;"	f
+GetMatchesSpecN	LzFindMt.c	/^static Int32 NO_INLINE GetMatchesSpecN(UInt32 lenLimit, UInt32 pos, const Byte *cur, CLzRef *son,$/;"	f	file:
+GetNumAvailableBytes	LzFind.h	/^  Mf_GetNumAvailableBytes_Func GetNumAvailableBytes;$/;"	m	struct:_IMatchFinder
+GetOptimum	LzmaEnc.c	/^static unsigned GetOptimum(CLzmaEnc *p, UInt32 position)$/;"	f	file:
+GetOptimumFast	LzmaEnc.c	/^static unsigned GetOptimumFast(CLzmaEnc *p)$/;"	f	file:
+GetPointerToCurrentPos	LzFind.h	/^  Mf_GetPointerToCurrentPos_Func GetPointerToCurrentPos;$/;"	m	struct:_IMatchFinder
+GetPosSlot	LzmaEnc.c	112;"	d	file:
+GetPosSlot	LzmaEnc.c	162;"	d	file:
+GetPosSlot1	LzmaEnc.c	/^static unsigned GetPosSlot1(UInt32 pos)$/;"	f	file:
+GetPosSlot1	LzmaEnc.c	160;"	d	file:
+GetPosSlot2	LzmaEnc.c	111;"	d	file:
+GetPosSlot2	LzmaEnc.c	161;"	d	file:
+GetPrice_PureRep	LzmaEnc.c	/^static UInt32 GetPrice_PureRep(const CLzmaEnc *p, unsigned repIndex, size_t state, size_t posState)$/;"	f	file:
+GetPrice_Rep_0	LzmaEnc.c	974;"	d	file:
+GetPrice_ShortRep	LzmaEnc.c	971;"	d	file:
+GetThreshold	Ppmd7.h	/^  UInt32 (*GetThreshold)(const IPpmd7_RangeDec *p, UInt32 total);$/;"	m	struct:IPpmd7_RangeDec
+GetUi16	CpuArch.h	201;"	d
+GetUi32	CpuArch.h	202;"	d
+GetUi64	CpuArch.h	203;"	d
+GlueCount	Ppmd7.h	/^  UInt32 GlueCount;$/;"	m	struct:__anon24
+GlueFreeBlocks	Ppmd7.c	/^static void GlueFreeBlocks(CPpmd7 *p)$/;"	f	file:
+HASH2_CALC	LzHash.h	15;"	d
+HASH3_CALC	LzHash.h	17;"	d
+HASH4_CALC	LzHash.h	22;"	d
+HASH5_CALC	LzHash.h	29;"	d
+HASH_ZIP_CALC	LzHash.h	39;"	d
+HB2Flag	Ppmd7.h	/^  Byte NS2Indx[256], NS2BSIndx[256], HB2Flag[256];$/;"	m	struct:__anon24
+HD	Aes.c	126;"	d	file:
+HD16	Aes.c	134;"	d	file:
+HD4	Aes.c	128;"	d	file:
+HT	Aes.c	108;"	d	file:
+HT16	Aes.c	116;"	d	file:
+HT4	Aes.c	110;"	d	file:
+HandlePtr_Close	Threads.c	/^WRes HandlePtr_Close(HANDLE *p)$/;"	f
+HandleToWRes	Threads.c	/^static WRes HandleToWRes(HANDLE h) { return (h != NULL) ? 0 : GetError(); }$/;"	f	file:
+Handle_WaitObject	Threads.c	/^WRes Handle_WaitObject(HANDLE h) { return (WRes)WaitForSingleObject(h, INFINITE); }$/;"	f
+HandlerRoutine	Util/SfxSetup/SfxSetup.c	/^static BOOL WINAPI HandlerRoutine(DWORD ctrlType)$/;"	f	file:
+HashThreadFunc	LzFindMt.c	/^static void HashThreadFunc(CMatchFinderMt *mt)$/;"	f	file:
+HashThreadFunc2	LzFindMt.c	/^static THREAD_FUNC_RET_TYPE THREAD_FUNC_CALL_TYPE HashThreadFunc2(void *p) { HashThreadFunc((CMatchFinderMt *)p);  return 0; }$/;"	f	file:
+Hc3Zip_MatchFinder_GetMatches	LzFind.c	/^UInt32 Hc3Zip_MatchFinder_GetMatches(CMatchFinder *p, UInt32 *distances)$/;"	f
+Hc3Zip_MatchFinder_Skip	LzFind.c	/^void Hc3Zip_MatchFinder_Skip(CMatchFinder *p, UInt32 num)$/;"	f
+Hc4_MatchFinder_GetMatches	LzFind.c	/^static UInt32 Hc4_MatchFinder_GetMatches(CMatchFinder *p, UInt32 *distances)$/;"	f	file:
+Hc4_MatchFinder_Skip	LzFind.c	/^static void Hc4_MatchFinder_Skip(CMatchFinder *p, UInt32 num)$/;"	f	file:
+Hc_GetMatchesSpec	LzFind.c	/^static UInt32 * Hc_GetMatchesSpec(UInt32 lenLimit, UInt32 curMatch, UInt32 pos, const Byte *cur, CLzRef *son,$/;"	f	file:
+HeapSort	Sort.c	/^void HeapSort(UInt32 *p, size_t size)$/;"	f
+HeapSort64	Sort.c	/^void HeapSort64(UInt64 *p, size_t size)$/;"	f
+HeapSortDown	Sort.c	8;"	d	file:
+HiBitsFlag	Ppmd7.h	/^  unsigned OrderFall, InitEsc, PrevSuccess, MaxOrder, HiBitsFlag;$/;"	m	struct:__anon24
+HiUnit	Ppmd7.h	/^  Byte *Base, *LoUnit, *HiUnit, *Text, *UnitsStart;$/;"	m	struct:__anon24
+High	7z.h	/^  UInt32 High;$/;"	m	struct:__anon82
+I2U	Ppmd7.c	19;"	d	file:
+IA64_Convert	BraIA64.c	/^SizeT IA64_Convert(Byte *data, SizeT size, UInt32 ip, int encoding)$/;"	f
+IAlloc_Alloc	7zTypes.h	302;"	d
+IAlloc_Free	7zTypes.h	303;"	d
+IByteIn	7zTypes.h	/^struct IByteIn$/;"	s
+IByteIn	7zTypes.h	/^typedef struct IByteIn IByteIn;$/;"	t	typeref:struct:IByteIn
+IByteIn_Read	7zTypes.h	157;"	d
+IByteOut	7zTypes.h	/^struct IByteOut$/;"	s
+IByteOut	7zTypes.h	/^typedef struct IByteOut IByteOut;$/;"	t	typeref:struct:IByteOut
+IByteOut_Write	7zTypes.h	165;"	d
+ICompressProgress	7zTypes.h	/^struct ICompressProgress$/;"	s
+ICompressProgress	7zTypes.h	/^typedef struct ICompressProgress ICompressProgress;$/;"	t	typeref:struct:ICompressProgress
+ICompressProgress_Progress	7zTypes.h	285;"	d
+IF_BIT_0	LzmaDec.c	22;"	d	file:
+IF_BIT_0_CHECK	LzmaDec.c	69;"	d	file:
+ILookInStream	7zTypes.h	/^struct ILookInStream$/;"	s
+ILookInStream	7zTypes.h	/^typedef struct ILookInStream ILookInStream;$/;"	t	typeref:struct:ILookInStream
+ILookInStream_Look	7zTypes.h	225;"	d
+ILookInStream_Read	7zTypes.h	227;"	d
+ILookInStream_Seek	7zTypes.h	228;"	d
+ILookInStream_Skip	7zTypes.h	226;"	d
+IMatchFinder	LzFind.h	/^} IMatchFinder;$/;"	t	typeref:struct:_IMatchFinder
+IMtCoderCallback2	MtCoder.h	/^} IMtCoderCallback2;$/;"	t	typeref:struct:__anon29
+IMtDecCallback	MtDec.h	/^} IMtDecCallback;$/;"	t	typeref:struct:__anon91
+INCREASE_LZ_POS	LzFindMt.c	684;"	d	file:
+IN_BUF_SIZE	Util/Lzma/LzmaUtil.c	52;"	d	file:
+IPpmd7_RangeDec	Ppmd7.h	/^struct IPpmd7_RangeDec$/;"	s
+IPpmd7_RangeDec	Ppmd7.h	/^typedef struct IPpmd7_RangeDec IPpmd7_RangeDec;$/;"	t	typeref:struct:IPpmd7_RangeDec
+IS_BCJ2	7zDec.c	297;"	d	file:
+IS_MAIN_METHOD	7zDec.c	/^static Bool IS_MAIN_METHOD(UInt32 m)$/;"	f	file:
+IS_SUPPORTED_CODER	7zDec.c	/^static Bool IS_SUPPORTED_CODER(const CSzCoderInfo *c)$/;"	f	file:
+ISeekInStream	7zTypes.h	/^struct ISeekInStream$/;"	s
+ISeekInStream	7zTypes.h	/^typedef struct ISeekInStream ISeekInStream;$/;"	t	typeref:struct:ISeekInStream
+ISeekInStream_Read	7zTypes.h	206;"	d
+ISeekInStream_Seek	7zTypes.h	207;"	d
+ISeqInStream	7zTypes.h	/^struct ISeqInStream$/;"	s
+ISeqInStream	7zTypes.h	/^typedef struct ISeqInStream ISeqInStream;$/;"	t	typeref:struct:ISeqInStream
+ISeqInStream_Read	7zTypes.h	175;"	d
+ISeqOutStream	7zTypes.h	/^struct ISeqOutStream$/;"	s
+ISeqOutStream	7zTypes.h	/^typedef struct ISeqOutStream ISeqOutStream;$/;"	t	typeref:struct:ISeqOutStream
+ISeqOutStream_Write	7zTypes.h	190;"	d
+IStateCoder	Xz.h	/^} IStateCoder;$/;"	t	typeref:struct:_IStateCoder
+ISzAlloc	7zTypes.h	/^struct ISzAlloc$/;"	s
+ISzAlloc	7zTypes.h	/^typedef struct ISzAlloc ISzAlloc;$/;"	t	typeref:struct:ISzAlloc
+ISzAllocPtr	7zTypes.h	/^typedef const ISzAlloc * ISzAllocPtr;$/;"	t
+ISzAlloc_Alloc	7zTypes.h	298;"	d
+ISzAlloc_Free	7zTypes.h	299;"	d
+InFile_Open	7zFile.c	/^WRes InFile_Open(CSzFile *p, const char *name) { return File_Open(p, name, 0); }$/;"	f
+InFile_OpenW	7zFile.c	/^WRes InFile_OpenW(CSzFile *p, const WCHAR *name) { return File_OpenW(p, name, 0); }$/;"	f
+InIndex	7z.h	/^  UInt32 InIndex;$/;"	m	struct:__anon80
+InSize	Xz.h	/^  UInt64 InSize;  \/\/ pack size processed$/;"	m	struct:__anon20
+Indx2Units	Ppmd7.h	/^  Byte Indx2Units[PPMD_NUM_INDEXES];$/;"	m	struct:__anon24
+Init	LzFind.h	/^  Mf_Init_Func Init;$/;"	m	struct:_IMatchFinder
+Init	Xz.h	/^  void (*Init)(void *p);$/;"	m	struct:_IStateCoder
+InitEsc	Ppmd7.h	/^  unsigned OrderFall, InitEsc, PrevSuccess, MaxOrder, HiBitsFlag;$/;"	m	struct:__anon24
+InitRL	Ppmd7.h	/^  Int32 RunLength, InitRL; \/* must be 32-bit at least *\/$/;"	m	struct:__anon24
+Inline_MatchFinder_GetNumAvailableBytes	LzFind.h	56;"	d
+Inline_MatchFinder_GetPointerToCurrentPos	LzFind.h	54;"	d
+Inline_MatchFinder_IsFinishedOK	LzFind.h	58;"	d
+InsertNode	Ppmd7.c	/^static void InsertNode(CPpmd7 *p, void *node, unsigned indx)$/;"	f	file:
+Int16	7zTypes.h	/^typedef short Int16;$/;"	t
+Int32	7zTypes.h	/^typedef int Int32;$/;"	t
+Int32	7zTypes.h	/^typedef long Int32;$/;"	t
+Int64	7zTypes.h	/^typedef __int64 Int64;$/;"	t
+Int64	7zTypes.h	/^typedef long Int64;$/;"	t
+Int64	7zTypes.h	/^typedef long long int Int64;$/;"	t
+InvS	Aes.c	/^static Byte InvS[256];$/;"	v	file:
+IsDirs	7z.h	/^  Byte *IsDirs;$/;"	m	struct:__anon86
+IsLitState	LzmaEnc.c	511;"	d	file:
+IsMatch	LzmaDec.c	137;"	d	file:
+IsRep	LzmaDec.c	139;"	d	file:
+IsRep0Long	LzmaDec.c	134;"	d	file:
+IsRepG0	LzmaDec.c	140;"	d	file:
+IsRepG1	LzmaDec.c	141;"	d	file:
+IsRepG2	LzmaDec.c	142;"	d	file:
+IsShortRep	LzmaEnc.c	968;"	d	file:
+K	Sha256.c	/^static const UInt32 K[64] = {$/;"	v	file:
+LIB_OBJS	Util/Lzma/makefile	/^LIB_OBJS = \\$/;"	m
+LIB_OBJS	Util/LzmaLib/makefile	/^LIB_OBJS = \\$/;"	m
+LIT_PROBS	LzmaEnc.c	1054;"	d	file:
+LZMA2DECMT_OUT_BLOCK_MAX_DEFAULT	Lzma2DecMt.c	34;"	d	file:
+LZMA2DECMT_STREAM_WRITE_STEP	Lzma2DecMt.c	526;"	d	file:
+LZMA2_CHUNK_SIZE_COMPRESSED_MAX	Lzma2Enc.c	32;"	d	file:
+LZMA2_CONTROL_COPY_NO_RESET	Lzma2Enc.c	19;"	d	file:
+LZMA2_CONTROL_COPY_RESET_DIC	Lzma2Dec.c	30;"	d	file:
+LZMA2_CONTROL_COPY_RESET_DIC	Lzma2Enc.c	20;"	d	file:
+LZMA2_CONTROL_EOF	Lzma2Enc.c	21;"	d	file:
+LZMA2_CONTROL_LZMA	Lzma2Enc.c	18;"	d	file:
+LZMA2_COPY_CHUNK_SIZE	Lzma2Enc.c	28;"	d	file:
+LZMA2_DIC_SIZE_FROM_PROP	Lzma2Dec.c	35;"	d	file:
+LZMA2_DIC_SIZE_FROM_PROP	Lzma2Enc.c	25;"	d	file:
+LZMA2_ENC_PROPS__BLOCK_SIZE__AUTO	Lzma2Enc.h	11;"	d
+LZMA2_ENC_PROPS__BLOCK_SIZE__SOLID	Lzma2Enc.h	12;"	d
+LZMA2_IS_UNCOMPRESSED_STATE	Lzma2Dec.c	32;"	d	file:
+LZMA2_KEEP_WINDOW_SIZE	Lzma2Enc.c	30;"	d	file:
+LZMA2_LCLP_MAX	Lzma2Dec.c	34;"	d	file:
+LZMA2_LCLP_MAX	Lzma2Enc.c	23;"	d	file:
+LZMA2_PACK_SIZE_MAX	Lzma2Enc.c	27;"	d	file:
+LZMA2_PARSE_STATUS_NEW_BLOCK	Lzma2Dec.h	/^  LZMA2_PARSE_STATUS_NEW_BLOCK = LZMA_STATUS_MAYBE_FINISHED_WITHOUT_MARK + 1,$/;"	e	enum:__anon76
+LZMA2_PARSE_STATUS_NEW_CHUNK	Lzma2Dec.h	/^  LZMA2_PARSE_STATUS_NEW_CHUNK$/;"	e	enum:__anon76
+LZMA2_STATE_CONTROL	Lzma2Dec.c	/^  LZMA2_STATE_CONTROL,$/;"	e	enum:__anon36	file:
+LZMA2_STATE_DATA	Lzma2Dec.c	/^  LZMA2_STATE_DATA,$/;"	e	enum:__anon36	file:
+LZMA2_STATE_DATA_CONT	Lzma2Dec.c	/^  LZMA2_STATE_DATA_CONT,$/;"	e	enum:__anon36	file:
+LZMA2_STATE_ERROR	Lzma2Dec.c	/^  LZMA2_STATE_ERROR$/;"	e	enum:__anon36	file:
+LZMA2_STATE_FINISHED	Lzma2Dec.c	/^  LZMA2_STATE_FINISHED,$/;"	e	enum:__anon36	file:
+LZMA2_STATE_PACK0	Lzma2Dec.c	/^  LZMA2_STATE_PACK0,$/;"	e	enum:__anon36	file:
+LZMA2_STATE_PACK1	Lzma2Dec.c	/^  LZMA2_STATE_PACK1,$/;"	e	enum:__anon36	file:
+LZMA2_STATE_PROP	Lzma2Dec.c	/^  LZMA2_STATE_PROP,$/;"	e	enum:__anon36	file:
+LZMA2_STATE_UNPACK0	Lzma2Dec.c	/^  LZMA2_STATE_UNPACK0,$/;"	e	enum:__anon36	file:
+LZMA2_STATE_UNPACK1	Lzma2Dec.c	/^  LZMA2_STATE_UNPACK1,$/;"	e	enum:__anon36	file:
+LZMA2_UNPACK_SIZE_MAX	Lzma2Enc.c	29;"	d	file:
+LZMA86_HEADER_SIZE	Lzma86.h	12;"	d
+LZMA86_SIZE_OFFSET	Lzma86.h	11;"	d
+LZMA_DECODE_REAL	LzmaDec.c	/^int MY_FAST_CALL LZMA_DECODE_REAL(CLzmaDec *p, SizeT limit, const Byte *bufLimit)$/;"	f	file:
+LZMA_DECODE_REAL	LzmaDec.c	181;"	d	file:
+LZMA_DIC_MIN	LzmaDec.c	165;"	d	file:
+LZMA_FINISH_ANY	LzmaDec.h	/^  LZMA_FINISH_ANY,   \/* finish at any point *\/$/;"	e	enum:__anon93
+LZMA_FINISH_END	LzmaDec.h	/^  LZMA_FINISH_END    \/* block must be finished at the end *\/$/;"	e	enum:__anon93
+LZMA_LC_MAX	LzmaEnc.c	212;"	d	file:
+LZMA_LIT_SIZE	LzmaDec.c	156;"	d	file:
+LZMA_LP_MAX	LzmaEnc.c	213;"	d	file:
+LZMA_MATCH_LEN_MAX	LzmaEnc.c	224;"	d	file:
+LZMA_MATCH_LEN_MIN	LzmaEnc.c	223;"	d	file:
+LZMA_NUM_PB_STATES_MAX	LzmaEnc.c	215;"	d	file:
+LZMA_NUM_REPS	LzmaEnc.c	167;"	d	file:
+LZMA_PB_MAX	LzmaEnc.c	211;"	d	file:
+LZMA_PROPS_SIZE	LzmaDec.h	26;"	d
+LZMA_PROPS_SIZE	LzmaEnc.h	11;"	d
+LZMA_PROPS_SIZE	LzmaLib.h	13;"	d
+LZMA_REQUIRED_INPUT_MAX	LzmaDec.h	51;"	d
+LZMA_STATUS_FINISHED_WITH_MARK	LzmaDec.h	/^  LZMA_STATUS_FINISHED_WITH_MARK,          \/* stream was finished with end mark. *\/$/;"	e	enum:__anon94
+LZMA_STATUS_MAYBE_FINISHED_WITHOUT_MARK	LzmaDec.h	/^  LZMA_STATUS_MAYBE_FINISHED_WITHOUT_MARK  \/* there is probability that stream was finished without end mark *\/$/;"	e	enum:__anon94
+LZMA_STATUS_NEEDS_MORE_INPUT	LzmaDec.h	/^  LZMA_STATUS_NEEDS_MORE_INPUT,            \/* you must provide more input bytes *\/$/;"	e	enum:__anon94
+LZMA_STATUS_NOT_FINISHED	LzmaDec.h	/^  LZMA_STATUS_NOT_FINISHED,                \/* stream was not finished *\/$/;"	e	enum:__anon94
+LZMA_STATUS_NOT_SPECIFIED	LzmaDec.h	/^  LZMA_STATUS_NOT_SPECIFIED,               \/* use main error code instead *\/$/;"	e	enum:__anon94
+LenChoice	LzmaDec.c	97;"	d	file:
+LenChoice2	LzmaDec.c	98;"	d	file:
+LenCoder	LzmaDec.c	136;"	d	file:
+LenEnc_Encode	LzmaEnc.c	/^static void LenEnc_Encode(CLenEnc *p, CRangeEnc *rc, unsigned symbol, unsigned posState)$/;"	f	file:
+LenEnc_Init	LzmaEnc.c	/^static void LenEnc_Init(CLenEnc *p)$/;"	f	file:
+LenHigh	LzmaDec.c	94;"	d	file:
+LenLow	LzmaDec.c	93;"	d	file:
+LenPriceEnc_UpdateTable	LzmaEnc.c	/^MY_NO_INLINE static void MY_FAST_CALL LenPriceEnc_UpdateTable($/;"	f	file:
+LenPriceEnc_UpdateTables	LzmaEnc.c	/^static void LenPriceEnc_UpdateTables(CLenPriceEnc *p, unsigned numPosStates,$/;"	f	file:
+LimitedSeqInStream_Init	Lzma2Enc.c	/^static void LimitedSeqInStream_Init(CLimitedSeqInStream *p)$/;"	f	file:
+LimitedSeqInStream_Read	Lzma2Enc.c	/^static SRes LimitedSeqInStream_Read(const ISeqInStream *pp, void *data, size_t *size)$/;"	f	file:
+LitEnc_Encode	LzmaEnc.c	/^static void LitEnc_Encode(CRangeEnc *p, CLzmaProb *probs, UInt32 symbol)$/;"	f	file:
+LitEnc_EncodeMatched	LzmaEnc.c	/^static void LitEnc_EncodeMatched(CRangeEnc *p, CLzmaProb *probs, UInt32 symbol, UInt32 matchByte)$/;"	f	file:
+LitEnc_GetPrice	LzmaEnc.c	/^static UInt32 LitEnc_GetPrice(const CLzmaProb *probs, UInt32 symbol, const CProbPrice *ProbPrices)$/;"	f	file:
+LitEnc_Matched_GetPrice	LzmaEnc.c	/^static UInt32 LitEnc_Matched_GetPrice(const CLzmaProb *probs, UInt32 symbol, UInt32 matchByte, const CProbPrice *ProbPrices)$/;"	f	file:
+Literal	LzmaDec.c	144;"	d	file:
+LoUnit	Ppmd7.h	/^  Byte *Base, *LoUnit, *HiUnit, *Text, *UnitsStart;$/;"	m	struct:__anon24
+LoadSecurityDlls	DllSecur.c	/^void LoadSecurityDlls()$/;"	f
+Look	7zTypes.h	/^  SRes (*Look)(const ILookInStream *p, const void **buf, size_t *size);$/;"	m	struct:ILookInStream
+LookInStream_LookRead	7zStream.c	/^SRes LookInStream_LookRead(const ILookInStream *stream, void *buf, size_t *size)$/;"	f
+LookInStream_Read	7zStream.c	/^SRes LookInStream_Read(const ILookInStream *stream, void *buf, size_t size)$/;"	f
+LookInStream_Read2	7zStream.c	/^SRes LookInStream_Read2(const ILookInStream *stream, void *buf, size_t size, SRes errorType)$/;"	f
+LookInStream_SeekRead_ForArc	XzIn.c	/^static SRes LookInStream_SeekRead_ForArc(ILookInStream *stream, UInt64 offset, void *buf, size_t size)$/;"	f	file:
+LookInStream_SeekTo	7zStream.c	/^SRes LookInStream_SeekTo(const ILookInStream *stream, UInt64 offset)$/;"	f
+LookToRead2_CreateVTable	7zStream.c	/^void LookToRead2_CreateVTable(CLookToRead2 *p, int lookahead)$/;"	f
+LookToRead2_Init	7zTypes.h	255;"	d
+LookToRead2_Look_Exact	7zStream.c	/^static SRes LookToRead2_Look_Exact(const ILookInStream *pp, const void **buf, size_t *size)$/;"	f	file:
+LookToRead2_Look_Lookahead	7zStream.c	/^static SRes LookToRead2_Look_Lookahead(const ILookInStream *pp, const void **buf, size_t *size)$/;"	f	file:
+LookToRead2_Read	7zStream.c	/^static SRes LookToRead2_Read(const ILookInStream *pp, void *buf, size_t *size)$/;"	f	file:
+LookToRead2_Seek	7zStream.c	/^static SRes LookToRead2_Seek(const ILookInStream *pp, Int64 *pos, ESzSeek origin)$/;"	f	file:
+LookToRead2_Skip	7zStream.c	/^static SRes LookToRead2_Skip(const ILookInStream *pp, size_t offset)$/;"	f	file:
+Low	7z.h	/^  UInt32 Low;$/;"	m	struct:__anon82
+Low	Ppmd7.h	/^  UInt64 Low;$/;"	m	struct:__anon26
+LzInWindow_Create	LzFind.c	/^static int LzInWindow_Create(CMatchFinder *p, UInt32 keepSizeReserv, ISzAllocPtr alloc)$/;"	f	file:
+LzInWindow_Free	LzFind.c	/^static void LzInWindow_Free(CMatchFinder *p, ISzAllocPtr alloc)$/;"	f	file:
+Lzma2DecMtProps_Init	Lzma2DecMt.c	/^void Lzma2DecMtProps_Init(CLzma2DecMtProps *p)$/;"	f
+Lzma2DecMt_Create	Lzma2DecMt.c	/^CLzma2DecMtHandle Lzma2DecMt_Create(ISzAllocPtr alloc, ISzAllocPtr allocMid)$/;"	f
+Lzma2DecMt_Decode	Lzma2DecMt.c	/^SRes Lzma2DecMt_Decode(CLzma2DecMtHandle pp,$/;"	f
+Lzma2DecMt_Destroy	Lzma2DecMt.c	/^void Lzma2DecMt_Destroy(CLzma2DecMtHandle pp)$/;"	f
+Lzma2DecMt_FreeOutBufs	Lzma2DecMt.c	/^static void Lzma2DecMt_FreeOutBufs(CLzma2DecMt *p)$/;"	f	file:
+Lzma2DecMt_FreeSt	Lzma2DecMt.c	/^static void Lzma2DecMt_FreeSt(CLzma2DecMt *p)$/;"	f	file:
+Lzma2DecMt_Init	Lzma2DecMt.c	/^SRes Lzma2DecMt_Init(CLzma2DecMtHandle pp,$/;"	f
+Lzma2DecMt_MtCallback_Code	Lzma2DecMt.c	/^static SRes Lzma2DecMt_MtCallback_Code(void *pp, unsigned coderIndex,$/;"	f	file:
+Lzma2DecMt_MtCallback_Parse	Lzma2DecMt.c	/^static void Lzma2DecMt_MtCallback_Parse(void *obj, unsigned coderIndex, CMtDecCallbackInfo *cc)$/;"	f	file:
+Lzma2DecMt_MtCallback_PreCode	Lzma2DecMt.c	/^static SRes Lzma2DecMt_MtCallback_PreCode(void *pp, unsigned coderIndex)$/;"	f	file:
+Lzma2DecMt_MtCallback_Write	Lzma2DecMt.c	/^static SRes Lzma2DecMt_MtCallback_Write(void *pp, unsigned coderIndex,$/;"	f	file:
+Lzma2DecMt_Read	Lzma2DecMt.c	/^SRes Lzma2DecMt_Read(CLzma2DecMtHandle pp,$/;"	f
+Lzma2Dec_Allocate	Lzma2Dec.c	/^SRes Lzma2Dec_Allocate(CLzma2Dec *p, Byte prop, ISzAllocPtr alloc)$/;"	f
+Lzma2Dec_AllocateProbs	Lzma2Dec.c	/^SRes Lzma2Dec_AllocateProbs(CLzma2Dec *p, Byte prop, ISzAllocPtr alloc)$/;"	f
+Lzma2Dec_Construct	Lzma2Dec.h	25;"	d
+Lzma2Dec_DecodeToBuf	Lzma2Dec.c	/^SRes Lzma2Dec_DecodeToBuf(CLzma2Dec *p, Byte *dest, SizeT *destLen, const Byte *src, SizeT *srcLen, ELzmaFinishMode finishMode, ELzmaStatus *status)$/;"	f
+Lzma2Dec_DecodeToDic	Lzma2Dec.c	/^SRes Lzma2Dec_DecodeToDic(CLzma2Dec *p, SizeT dicLimit,$/;"	f
+Lzma2Dec_Decode_ST	Lzma2DecMt.c	/^static SRes Lzma2Dec_Decode_ST(CLzma2DecMt *p$/;"	f	file:
+Lzma2Dec_Free	Lzma2Dec.h	27;"	d
+Lzma2Dec_FreeProbs	Lzma2Dec.h	26;"	d
+Lzma2Dec_GetOldProps	Lzma2Dec.c	/^static SRes Lzma2Dec_GetOldProps(Byte prop, Byte *props)$/;"	f	file:
+Lzma2Dec_GetUnpackExtra	Lzma2Dec.h	93;"	d
+Lzma2Dec_Init	Lzma2Dec.c	/^void Lzma2Dec_Init(CLzma2Dec *p)$/;"	f
+Lzma2Dec_Parse	Lzma2Dec.c	/^ELzma2ParseStatus Lzma2Dec_Parse(CLzma2Dec *p,$/;"	f
+Lzma2Dec_Prepare_ST	Lzma2DecMt.c	/^static SRes Lzma2Dec_Prepare_ST(CLzma2DecMt *p)$/;"	f	file:
+Lzma2Dec_UpdateState	Lzma2Dec.c	/^static ELzma2State Lzma2Dec_UpdateState(CLzma2Dec *p, Byte b)$/;"	f	file:
+Lzma2Decode	Lzma2Dec.c	/^SRes Lzma2Decode(Byte *dest, SizeT *destLen, const Byte *src, SizeT *srcLen,$/;"	f
+Lzma2EncInt_EncodeSubblock	Lzma2Enc.c	/^static SRes Lzma2EncInt_EncodeSubblock(CLzma2EncInt *p, Byte *outBuf,$/;"	f	file:
+Lzma2EncInt_InitBlock	Lzma2Enc.c	/^static void Lzma2EncInt_InitBlock(CLzma2EncInt *p)$/;"	f	file:
+Lzma2EncInt_InitStream	Lzma2Enc.c	/^static SRes Lzma2EncInt_InitStream(CLzma2EncInt *p, const CLzma2EncProps *props)$/;"	f	file:
+Lzma2EncProps_Init	Lzma2Enc.c	/^void Lzma2EncProps_Init(CLzma2EncProps *p)$/;"	f
+Lzma2EncProps_Normalize	Lzma2Enc.c	/^void Lzma2EncProps_Normalize(CLzma2EncProps *p)$/;"	f
+Lzma2Enc_Create	Lzma2Enc.c	/^CLzma2EncHandle Lzma2Enc_Create(ISzAllocPtr alloc, ISzAllocPtr allocBig)$/;"	f
+Lzma2Enc_Destroy	Lzma2Enc.c	/^void Lzma2Enc_Destroy(CLzma2EncHandle pp)$/;"	f
+Lzma2Enc_Encode2	Lzma2Enc.c	/^SRes Lzma2Enc_Encode2(CLzma2EncHandle pp,$/;"	f
+Lzma2Enc_EncodeMt1	Lzma2Enc.c	/^static SRes Lzma2Enc_EncodeMt1($/;"	f	file:
+Lzma2Enc_FreeOutBufs	Lzma2Enc.c	/^static void Lzma2Enc_FreeOutBufs(CLzma2Enc *p)$/;"	f	file:
+Lzma2Enc_MtCallback_Code	Lzma2Enc.c	/^static SRes Lzma2Enc_MtCallback_Code(void *pp, unsigned coderIndex, unsigned outBufIndex,$/;"	f	file:
+Lzma2Enc_MtCallback_Write	Lzma2Enc.c	/^static SRes Lzma2Enc_MtCallback_Write(void *pp, unsigned outBufIndex)$/;"	f	file:
+Lzma2Enc_SetDataSize	Lzma2Enc.c	/^void Lzma2Enc_SetDataSize(CLzmaEncHandle pp, UInt64 expectedDataSiize)$/;"	f
+Lzma2Enc_SetProps	Lzma2Enc.c	/^SRes Lzma2Enc_SetProps(CLzma2EncHandle pp, const CLzma2EncProps *props)$/;"	f
+Lzma2Enc_WriteProperties	Lzma2Enc.c	/^Byte Lzma2Enc_WriteProperties(CLzma2EncHandle pp)$/;"	f
+Lzma2State_Code2	XzDec.c	/^static SRes Lzma2State_Code2(void *pp, Byte *dest, SizeT *destLen, const Byte *src, SizeT *srcLen,$/;"	f	file:
+Lzma2State_Free	XzDec.c	/^static void Lzma2State_Free(void *pp, ISzAllocPtr alloc)$/;"	f	file:
+Lzma2State_Init	XzDec.c	/^static void Lzma2State_Init(void *pp)$/;"	f	file:
+Lzma2State_ResetOutBuf	XzDec.c	/^static SRes Lzma2State_ResetOutBuf(IStateCoder *p, Byte *outBuf, size_t outBufSize)$/;"	f	file:
+Lzma2State_SetFromMethod	XzDec.c	/^static SRes Lzma2State_SetFromMethod(IStateCoder *p, Byte *outBuf, size_t outBufSize, ISzAllocPtr alloc)$/;"	f	file:
+Lzma2State_SetProps	XzDec.c	/^static SRes Lzma2State_SetProps(void *pp, const Byte *props, size_t propSize, ISzAllocPtr alloc)$/;"	f	file:
+Lzma2WithFilters_Construct	XzEnc.c	/^static void Lzma2WithFilters_Construct(CLzma2WithFilters *p)$/;"	f	file:
+Lzma2WithFilters_Create	XzEnc.c	/^static SRes Lzma2WithFilters_Create(CLzma2WithFilters *p, ISzAllocPtr alloc, ISzAllocPtr bigAlloc)$/;"	f	file:
+Lzma2WithFilters_Free	XzEnc.c	/^static void Lzma2WithFilters_Free(CLzma2WithFilters *p, ISzAllocPtr alloc)$/;"	f	file:
+Lzma86_Decode	Lzma86Dec.c	/^SRes Lzma86_Decode(Byte *dest, SizeT *destLen, const Byte *src, SizeT *srcLen)$/;"	f
+Lzma86_Encode	Lzma86Enc.c	/^int Lzma86_Encode(Byte *dest, size_t *destLen, const Byte *src, size_t srcLen,$/;"	f
+Lzma86_GetUnpackSize	Lzma86Dec.c	/^SRes Lzma86_GetUnpackSize(const Byte *src, SizeT srcLen, UInt64 *unpackSize)$/;"	f
+LzmaCompress	LzmaLib.c	/^MY_STDAPI LzmaCompress(unsigned char *dest, size_t *destLen, const unsigned char *src, size_t srcLen,$/;"	f
+LzmaDec_Allocate	LzmaDec.c	/^SRes LzmaDec_Allocate(CLzmaDec *p, const Byte *props, unsigned propsSize, ISzAllocPtr alloc)$/;"	f
+LzmaDec_AllocateProbs	LzmaDec.c	/^SRes LzmaDec_AllocateProbs(CLzmaDec *p, const Byte *props, unsigned propsSize, ISzAllocPtr alloc)$/;"	f
+LzmaDec_AllocateProbs2	LzmaDec.c	/^static SRes LzmaDec_AllocateProbs2(CLzmaDec *p, const CLzmaProps *propNew, ISzAllocPtr alloc)$/;"	f	file:
+LzmaDec_Construct	LzmaDec.h	76;"	d
+LzmaDec_DecodeReal2	LzmaDec.c	/^static int MY_FAST_CALL LzmaDec_DecodeReal2(CLzmaDec *p, SizeT limit, const Byte *bufLimit)$/;"	f	file:
+LzmaDec_DecodeToBuf	LzmaDec.c	/^SRes LzmaDec_DecodeToBuf(CLzmaDec *p, Byte *dest, SizeT *destLen, const Byte *src, SizeT *srcLen, ELzmaFinishMode finishMode, ELzmaStatus *status)$/;"	f
+LzmaDec_DecodeToDic	LzmaDec.c	/^SRes LzmaDec_DecodeToDic(CLzmaDec *p, SizeT dicLimit, const Byte *src, SizeT *srcLen,$/;"	f
+LzmaDec_Free	LzmaDec.c	/^void LzmaDec_Free(CLzmaDec *p, ISzAllocPtr alloc)$/;"	f
+LzmaDec_FreeDict	LzmaDec.c	/^static void LzmaDec_FreeDict(CLzmaDec *p, ISzAllocPtr alloc)$/;"	f	file:
+LzmaDec_FreeProbs	LzmaDec.c	/^void LzmaDec_FreeProbs(CLzmaDec *p, ISzAllocPtr alloc)$/;"	f
+LzmaDec_Init	LzmaDec.c	/^void LzmaDec_Init(CLzmaDec *p)$/;"	f
+LzmaDec_InitDicAndState	LzmaDec.c	/^void LzmaDec_InitDicAndState(CLzmaDec *p, Bool initDic, Bool initState)$/;"	f
+LzmaDec_TryDummy	LzmaDec.c	/^static ELzmaDummy LzmaDec_TryDummy(const CLzmaDec *p, const Byte *buf, SizeT inSize)$/;"	f	file:
+LzmaDec_UpdateWithUncompressed	Lzma2Dec.c	/^static void LzmaDec_UpdateWithUncompressed(CLzmaDec *p, const Byte *src, SizeT size)$/;"	f	file:
+LzmaDec_WriteRem	LzmaDec.c	/^static void MY_FAST_CALL LzmaDec_WriteRem(CLzmaDec *p, SizeT limit)$/;"	f	file:
+LzmaDecode	LzmaDec.c	/^SRes LzmaDecode(Byte *dest, SizeT *destLen, const Byte *src, SizeT *srcLen,$/;"	f
+LzmaEncProps_GetDictSize	LzmaEnc.c	/^UInt32 LzmaEncProps_GetDictSize(const CLzmaEncProps *props2)$/;"	f
+LzmaEncProps_Init	LzmaEnc.c	/^void LzmaEncProps_Init(CLzmaEncProps *p)$/;"	f
+LzmaEncProps_Normalize	LzmaEnc.c	/^void LzmaEncProps_Normalize(CLzmaEncProps *p)$/;"	f
+LzmaEnc_Alloc	LzmaEnc.c	/^static SRes LzmaEnc_Alloc(CLzmaEnc *p, UInt32 keepWindowSize, ISzAllocPtr alloc, ISzAllocPtr allocBig)$/;"	f	file:
+LzmaEnc_AllocAndInit	LzmaEnc.c	/^static SRes LzmaEnc_AllocAndInit(CLzmaEnc *p, UInt32 keepWindowSize, ISzAllocPtr alloc, ISzAllocPtr allocBig)$/;"	f	file:
+LzmaEnc_CodeOneBlock	LzmaEnc.c	/^static SRes LzmaEnc_CodeOneBlock(CLzmaEnc *p, UInt32 maxPackSize, UInt32 maxUnpackSize)$/;"	f	file:
+LzmaEnc_CodeOneMemBlock	LzmaEnc.c	/^SRes LzmaEnc_CodeOneMemBlock(CLzmaEncHandle pp, Bool reInit,$/;"	f
+LzmaEnc_Construct	LzmaEnc.c	/^void LzmaEnc_Construct(CLzmaEnc *p)$/;"	f
+LzmaEnc_Create	LzmaEnc.c	/^CLzmaEncHandle LzmaEnc_Create(ISzAllocPtr alloc)$/;"	f
+LzmaEnc_Destroy	LzmaEnc.c	/^void LzmaEnc_Destroy(CLzmaEncHandle p, ISzAllocPtr alloc, ISzAllocPtr allocBig)$/;"	f
+LzmaEnc_Destruct	LzmaEnc.c	/^void LzmaEnc_Destruct(CLzmaEnc *p, ISzAllocPtr alloc, ISzAllocPtr allocBig)$/;"	f
+LzmaEnc_Encode	LzmaEnc.c	/^SRes LzmaEnc_Encode(CLzmaEncHandle pp, ISeqOutStream *outStream, ISeqInStream *inStream, ICompressProgress *progress,$/;"	f
+LzmaEnc_Encode2	LzmaEnc.c	/^static SRes LzmaEnc_Encode2(CLzmaEnc *p, ICompressProgress *progress)$/;"	f	file:
+LzmaEnc_FastPosInit	LzmaEnc.c	/^static void LzmaEnc_FastPosInit(Byte *g_FastPos)$/;"	f	file:
+LzmaEnc_Finish	LzmaEnc.c	/^void LzmaEnc_Finish(CLzmaEncHandle pp)$/;"	f
+LzmaEnc_FreeLits	LzmaEnc.c	/^void LzmaEnc_FreeLits(CLzmaEnc *p, ISzAllocPtr alloc)$/;"	f
+LzmaEnc_GetCurBuf	LzmaEnc.c	/^const Byte *LzmaEnc_GetCurBuf(CLzmaEncHandle pp)$/;"	f
+LzmaEnc_GetNumAvailableBytes	LzmaEnc.c	/^UInt32 LzmaEnc_GetNumAvailableBytes(CLzmaEncHandle pp)$/;"	f
+LzmaEnc_Init	LzmaEnc.c	/^void LzmaEnc_Init(CLzmaEnc *p)$/;"	f
+LzmaEnc_InitPriceTables	LzmaEnc.c	/^static void LzmaEnc_InitPriceTables(CProbPrice *ProbPrices)$/;"	f	file:
+LzmaEnc_InitPrices	LzmaEnc.c	/^void LzmaEnc_InitPrices(CLzmaEnc *p)$/;"	f
+LzmaEnc_IsWriteEndMark	LzmaEnc.c	/^unsigned LzmaEnc_IsWriteEndMark(CLzmaEncHandle pp)$/;"	f
+LzmaEnc_MemEncode	LzmaEnc.c	/^SRes LzmaEnc_MemEncode(CLzmaEncHandle pp, Byte *dest, SizeT *destLen, const Byte *src, SizeT srcLen,$/;"	f
+LzmaEnc_MemPrepare	LzmaEnc.c	/^SRes LzmaEnc_MemPrepare(CLzmaEncHandle pp, const Byte *src, SizeT srcLen,$/;"	f
+LzmaEnc_Prepare	LzmaEnc.c	/^static SRes LzmaEnc_Prepare(CLzmaEncHandle pp, ISeqOutStream *outStream, ISeqInStream *inStream,$/;"	f	file:
+LzmaEnc_PrepareForLzma2	LzmaEnc.c	/^SRes LzmaEnc_PrepareForLzma2(CLzmaEncHandle pp,$/;"	f
+LzmaEnc_RestoreState	LzmaEnc.c	/^void LzmaEnc_RestoreState(CLzmaEncHandle pp)$/;"	f
+LzmaEnc_SaveState	LzmaEnc.c	/^void LzmaEnc_SaveState(CLzmaEncHandle pp)$/;"	f
+LzmaEnc_SetDataSize	LzmaEnc.c	/^void LzmaEnc_SetDataSize(CLzmaEncHandle pp, UInt64 expectedDataSiize)$/;"	f
+LzmaEnc_SetInputBuf	LzmaEnc.c	/^static void LzmaEnc_SetInputBuf(CLzmaEnc *p, const Byte *src, SizeT srcLen)$/;"	f	file:
+LzmaEnc_SetProps	LzmaEnc.c	/^SRes LzmaEnc_SetProps(CLzmaEncHandle pp, const CLzmaEncProps *props2)$/;"	f
+LzmaEnc_WriteProperties	LzmaEnc.c	/^SRes LzmaEnc_WriteProperties(CLzmaEncHandle pp, Byte *props, SizeT *size)$/;"	f
+LzmaEncode	LzmaEnc.c	/^SRes LzmaEncode(Byte *dest, SizeT *destLen, const Byte *src, SizeT srcLen,$/;"	f
+LzmaProps_Decode	LzmaDec.c	/^SRes LzmaProps_Decode(CLzmaProps *p, const Byte *data, unsigned size)$/;"	f
+LzmaProps_GetNumProbs	LzmaDec.c	158;"	d	file:
+LzmaUncompress	LzmaLib.c	/^MY_STDAPI LzmaUncompress(unsigned char *dest, size_t *destLen, const unsigned char *src, size_t *srcLen,$/;"	f
+MAKE_CHAR_UPPER	Util/SfxSetup/SfxSetup.c	67;"	d	file:
+MARK_LIT	LzmaEnc.c	964;"	d	file:
+MASK	Ppmd7Dec.c	81;"	d	file:
+MASK	Ppmd7Enc.c	77;"	d	file:
+MATCHED_LITER_DEC	LzmaDec.c	58;"	d	file:
+MAX_FREQ	Ppmd7.c	14;"	d	file:
+MF_PARAMS	LzFind.c	535;"	d	file:
+MIXCODER_NUM_FILTERS_MAX	Xz.h	178;"	d
+MOVE_POS	LzFind.c	518;"	d	file:
+MOVE_POS	LzmaEnc.c	918;"	d	file:
+MOVE_POS_RET	LzFind.c	523;"	d	file:
+MTCODER__BLOCKS_MAX	MtCoder.h	20;"	d
+MTCODER__BLOCKS_MAX	XzEnc.c	27;"	d	file:
+MTCODER__GET_NUM_BLOCKS_FROM_THREADS	MtCoder.h	18;"	d
+MTCODER__THREADS_MAX	Lzma2Enc.c	15;"	d	file:
+MTCODER__THREADS_MAX	MtCoder.h	19;"	d
+MTCODER__THREADS_MAX	XzEnc.c	26;"	d	file:
+MTDEC_PARSE_CONTINUE	MtDec.h	/^  MTDEC_PARSE_CONTINUE, \/\/ continue this block with more input data$/;"	e	enum:__anon89
+MTDEC_PARSE_END	MtDec.h	/^  MTDEC_PARSE_END       \/\/ end of block threading. But we still can return to threading after Write(&needContinue)$/;"	e	enum:__anon89
+MTDEC_PARSE_NEW	MtDec.h	/^  MTDEC_PARSE_NEW,      \/\/ new block$/;"	e	enum:__anon89
+MTDEC_PARSE_OVERFLOW	MtDec.h	/^  MTDEC_PARSE_OVERFLOW, \/\/ MT buffers overflow, need switch to single-thread$/;"	e	enum:__anon89
+MTDEC_ProgessStep	MtDec.c	261;"	d	file:
+MTDEC__DATA_PTR_FROM_LINK	MtDec.c	99;"	d	file:
+MTDEC__LINK_DATA_OFFSET	MtDec.c	98;"	d	file:
+MTDEC__THREADS_MAX	MtDec.h	18;"	d
+MT_HASH2_CALC	LzHash.h	42;"	d
+MT_HASH3_CALC	LzHash.h	45;"	d
+MT_HASH4_CALC	LzHash.h	50;"	d
+MTime	7z.h	/^  CSzBitUi64s MTime;$/;"	m	struct:__anon86
+MY_ALIGN_PTR_DOWN	Alloc.c	281;"	d	file:
+MY_ALIGN_PTR_DOWN_1	Alloc.c	386;"	d	file:
+MY_ALIGN_PTR_UP_PLUS	Alloc.c	283;"	d	file:
+MY_ALLOC	7zArcIn.c	13;"	d	file:
+MY_ALLOC_AND_CPY	7zArcIn.c	18;"	d	file:
+MY_ALLOC_ZE	7zArcIn.c	16;"	d	file:
+MY_ALLOC_ZE_AND_CPY	7zArcIn.c	21;"	d	file:
+MY_AUTHOR_NAME	7zVersion.h	16;"	d
+MY_CDECL	7zTypes.h	127;"	d
+MY_CDECL	7zTypes.h	134;"	d
+MY_COPYRIGHT	7zVersion.h	14;"	d
+MY_COPYRIGHT	7zVersion.h	21;"	d
+MY_COPYRIGHT	7zVersion.h	23;"	d
+MY_COPYRIGHT_CR	7zVersion.h	18;"	d
+MY_COPYRIGHT_DATE	7zVersion.h	26;"	d
+MY_COPYRIGHT_PD	7zVersion.h	17;"	d
+MY_CPU_32BIT	CpuArch.h	38;"	d
+MY_CPU_32BIT	CpuArch.h	63;"	d
+MY_CPU_64BIT	CpuArch.h	103;"	d
+MY_CPU_64BIT	CpuArch.h	30;"	d
+MY_CPU_64BIT	CpuArch.h	48;"	d
+MY_CPU_64BIT	CpuArch.h	71;"	d
+MY_CPU_64BIT	CpuArch.h	79;"	d
+MY_CPU_64BIT	CpuArch.h	93;"	d
+MY_CPU_AMD64	CpuArch.h	24;"	d
+MY_CPU_ARM	CpuArch.h	61;"	d
+MY_CPU_ARM64	CpuArch.h	46;"	d
+MY_CPU_ARM64_LE	CpuArch.h	122;"	d
+MY_CPU_ARM_LE	CpuArch.h	118;"	d
+MY_CPU_BE	CpuArch.h	160;"	d
+MY_CPU_IA64	CpuArch.h	69;"	d
+MY_CPU_IA64_LE	CpuArch.h	126;"	d
+MY_CPU_LE	CpuArch.h	145;"	d
+MY_CPU_LE_UNALIGN	CpuArch.h	194;"	d
+MY_CPU_NAME	CpuArch.h	102;"	d
+MY_CPU_NAME	CpuArch.h	176;"	d
+MY_CPU_NAME	CpuArch.h	26;"	d
+MY_CPU_NAME	CpuArch.h	37;"	d
+MY_CPU_NAME	CpuArch.h	47;"	d
+MY_CPU_NAME	CpuArch.h	62;"	d
+MY_CPU_NAME	CpuArch.h	70;"	d
+MY_CPU_NAME	CpuArch.h	78;"	d
+MY_CPU_NAME	CpuArch.h	89;"	d
+MY_CPU_X86	CpuArch.h	36;"	d
+MY_CPU_X86_OR_AMD64	CpuArch.h	111;"	d
+MY_DATE	7zVersion.h	13;"	d
+MY_FAST_CALL	7zTypes.h	128;"	d
+MY_FAST_CALL	7zTypes.h	135;"	d
+MY_FILE_CODE_PAGE_PARAM	Util/7z/7zMain.c	196;"	d	file:
+MY_FILE_CODE_PAGE_PARAM	Util/7z/7zMain.c	198;"	d	file:
+MY_FIXED	Util/SfxSetup/makefile	/^MY_FIXED = 1$/;"	m
+MY_FORCE_INLINE	7zTypes.h	125;"	d
+MY_FORCE_INLINE	7zTypes.h	133;"	d
+MY_LOAD_LIBRARY_SEARCH_SYSTEM32	DllSecur.c	17;"	d	file:
+MY_LOAD_LIBRARY_SEARCH_USER_DIRS	DllSecur.c	16;"	d	file:
+MY_NO_INLINE	7zTypes.h	120;"	d
+MY_NO_INLINE	7zTypes.h	122;"	d
+MY_NO_INLINE	7zTypes.h	132;"	d
+MY_SRes_HRESULT_FROM_WRes	7zTypes.h	50;"	d
+MY_SRes_HRESULT_FROM_WRes	7zTypes.h	57;"	d
+MY_STATIC_LINK	Util/LzmaLib/makefile	/^MY_STATIC_LINK=1$/;"	m
+MY_STDAPI	LzmaLib.h	11;"	d
+MY_STD_CALL	7zTypes.h	112;"	d
+MY_STD_CALL	7zTypes.h	114;"	d
+MY_VERSION	7zVersion.h	5;"	d
+MY_VERSION_COPYRIGHT_DATE	7zVersion.h	15;"	d
+MY_VERSION_COPYRIGHT_DATE	7zVersion.h	27;"	d
+MY_VERSION_CPU	7zVersion.h	10;"	d
+MY_VERSION_CPU	7zVersion.h	8;"	d
+MY_VERSION_NUMBERS	7zVersion.h	4;"	d
+MY_VER_BUILD	7zVersion.h	3;"	d
+MY_VER_MAJOR	7zVersion.h	1;"	d
+MY_VER_MINOR	7zVersion.h	2;"	d
+MY__FACILITY_WIN32	7zTypes.h	55;"	d
+MY__FACILITY__WRes	7zTypes.h	56;"	d
+MY__has_builtin	CpuArch.h	240;"	d
+MY_container_of	7zTypes.h	337;"	d
+MY_offsetof	7zTypes.h	311;"	d
+MY_offsetof	7zTypes.h	316;"	d
+Maj	Sha256.c	43;"	d	file:
+MakeAs_Lit	LzmaEnc.c	966;"	d	file:
+MakeAs_ShortRep	LzmaEnc.c	967;"	d	file:
+ManualResetEvent_Create	Threads.c	/^WRes ManualResetEvent_Create(CManualResetEvent *p, int signaled) { return Event_Create(p, TRUE, signaled); }$/;"	f
+ManualResetEvent_CreateNotSignaled	Threads.c	/^WRes ManualResetEvent_CreateNotSignaled(CManualResetEvent *p) { return ManualResetEvent_Create(p, 0); }$/;"	f
+MatchFinder	LzFindMt.h	/^  CMatchFinder *MatchFinder;$/;"	m	struct:_CMatchFinderMt
+MatchFinderMt0_Skip	LzFindMt.c	/^static void MatchFinderMt0_Skip(CMatchFinderMt *p, UInt32 num)$/;"	f	file:
+MatchFinderMt2_GetMatches	LzFindMt.c	/^static UInt32 MatchFinderMt2_GetMatches(CMatchFinderMt *p, UInt32 *distances)$/;"	f	file:
+MatchFinderMt_Construct	LzFindMt.c	/^void MatchFinderMt_Construct(CMatchFinderMt *p)$/;"	f
+MatchFinderMt_Create	LzFindMt.c	/^SRes MatchFinderMt_Create(CMatchFinderMt *p, UInt32 historySize, UInt32 keepAddBufferBefore,$/;"	f
+MatchFinderMt_Destruct	LzFindMt.c	/^void MatchFinderMt_Destruct(CMatchFinderMt *p, ISzAllocPtr alloc)$/;"	f
+MatchFinderMt_FreeMem	LzFindMt.c	/^static void MatchFinderMt_FreeMem(CMatchFinderMt *p, ISzAllocPtr alloc)$/;"	f	file:
+MatchFinderMt_GetMatches	LzFindMt.c	/^static UInt32 MatchFinderMt_GetMatches(CMatchFinderMt *p, UInt32 *distances)$/;"	f	file:
+MatchFinderMt_GetNextBlock_Bt	LzFindMt.c	/^static void MatchFinderMt_GetNextBlock_Bt(CMatchFinderMt *p)$/;"	f	file:
+MatchFinderMt_GetNextBlock_Hash	LzFindMt.c	/^static void MatchFinderMt_GetNextBlock_Hash(CMatchFinderMt *p)$/;"	f	file:
+MatchFinderMt_GetNumAvailableBytes	LzFindMt.c	/^static UInt32 MatchFinderMt_GetNumAvailableBytes(CMatchFinderMt *p)$/;"	f	file:
+MatchFinderMt_GetPointerToCurrentPos	LzFindMt.c	/^static const Byte * MatchFinderMt_GetPointerToCurrentPos(CMatchFinderMt *p)$/;"	f	file:
+MatchFinderMt_Init	LzFindMt.c	/^static void MatchFinderMt_Init(CMatchFinderMt *p)$/;"	f	file:
+MatchFinderMt_Normalize	LzFindMt.c	/^static void MatchFinderMt_Normalize(CMatchFinderMt *p)$/;"	f	file:
+MatchFinderMt_ReleaseStream	LzFindMt.c	/^void MatchFinderMt_ReleaseStream(CMatchFinderMt *p)$/;"	f
+MatchFinder_CheckAndMoveAndRead	LzFind.c	/^static void MatchFinder_CheckAndMoveAndRead(CMatchFinder *p)$/;"	f	file:
+MatchFinder_CheckLimits	LzFind.c	/^static void MatchFinder_CheckLimits(CMatchFinder *p)$/;"	f	file:
+MatchFinder_Construct	LzFind.c	/^void MatchFinder_Construct(CMatchFinder *p)$/;"	f
+MatchFinder_Create	LzFind.c	/^int MatchFinder_Create(CMatchFinder *p, UInt32 historySize,$/;"	f
+MatchFinder_CreateVTable	LzFind.c	/^void MatchFinder_CreateVTable(CMatchFinder *p, IMatchFinder *vTable)$/;"	f
+MatchFinder_Free	LzFind.c	/^void MatchFinder_Free(CMatchFinder *p, ISzAllocPtr alloc)$/;"	f
+MatchFinder_FreeThisClassMemory	LzFind.c	/^static void MatchFinder_FreeThisClassMemory(CMatchFinder *p, ISzAllocPtr alloc)$/;"	f	file:
+MatchFinder_GetNumAvailableBytes	LzFind.c	/^UInt32 MatchFinder_GetNumAvailableBytes(CMatchFinder *p) { return p->streamPos - p->pos; }$/;"	f
+MatchFinder_GetPointerToCurrentPos	LzFind.c	/^Byte *MatchFinder_GetPointerToCurrentPos(CMatchFinder *p) { return p->buffer; }$/;"	f
+MatchFinder_GetSubValue	LzFind.c	/^static UInt32 MatchFinder_GetSubValue(CMatchFinder *p)$/;"	f	file:
+MatchFinder_Init	LzFind.c	/^void MatchFinder_Init(CMatchFinder *p)$/;"	f
+MatchFinder_Init_3	LzFind.c	/^void MatchFinder_Init_3(CMatchFinder *p, int readData)$/;"	f
+MatchFinder_Init_HighHash	LzFind.c	/^void MatchFinder_Init_HighHash(CMatchFinder *p)$/;"	f
+MatchFinder_Init_LowHash	LzFind.c	/^void MatchFinder_Init_LowHash(CMatchFinder *p)$/;"	f
+MatchFinder_MoveBlock	LzFind.c	/^void MatchFinder_MoveBlock(CMatchFinder *p)$/;"	f
+MatchFinder_MovePos	LzFind.c	/^static void MatchFinder_MovePos(CMatchFinder *p) { MOVE_POS; }$/;"	f	file:
+MatchFinder_NeedMove	LzFind.c	/^int MatchFinder_NeedMove(CMatchFinder *p)$/;"	f
+MatchFinder_Normalize	LzFind.c	/^static void MatchFinder_Normalize(CMatchFinder *p)$/;"	f	file:
+MatchFinder_Normalize3	LzFind.c	/^void MatchFinder_Normalize3(UInt32 subValue, CLzRef *items, size_t numItems)$/;"	f
+MatchFinder_ReadBlock	LzFind.c	/^static void MatchFinder_ReadBlock(CMatchFinder *p)$/;"	f	file:
+MatchFinder_ReadIfRequired	LzFind.c	/^void MatchFinder_ReadIfRequired(CMatchFinder *p)$/;"	f
+MatchFinder_ReduceOffsets	LzFind.c	/^void MatchFinder_ReduceOffsets(CMatchFinder *p, UInt32 subValue)$/;"	f
+MatchFinder_SetDefaultSettings	LzFind.c	/^static void MatchFinder_SetDefaultSettings(CMatchFinder *p)$/;"	f	file:
+MatchFinder_SetLimits	LzFind.c	/^static void MatchFinder_SetLimits(CMatchFinder *p)$/;"	f	file:
+MaxContext	Ppmd7.h	/^  CPpmd7_Context *MinContext, *MaxContext;$/;"	m	struct:__anon24
+MaxOrder	Ppmd7.h	/^  unsigned OrderFall, InitEsc, PrevSuccess, MaxOrder, HiBitsFlag;$/;"	m	struct:__anon24
+MethodID	7z.h	/^  UInt32 MethodID;$/;"	m	struct:__anon79
+Mf_GetHeads	LzFindMt.h	/^typedef void (*Mf_GetHeads)(const Byte *buffer, UInt32 pos,$/;"	t
+Mf_GetMatches_Func	LzFind.h	/^typedef UInt32 (*Mf_GetMatches_Func)(void *object, UInt32 *distances);$/;"	t
+Mf_GetNumAvailableBytes_Func	LzFind.h	/^typedef UInt32 (*Mf_GetNumAvailableBytes_Func)(void *object);$/;"	t
+Mf_GetPointerToCurrentPos_Func	LzFind.h	/^typedef const Byte * (*Mf_GetPointerToCurrentPos_Func)(void *object);$/;"	t
+Mf_Init_Func	LzFind.h	/^typedef void (*Mf_Init_Func)(void *object);$/;"	t
+Mf_Mix_Matches	LzFindMt.h	/^typedef UInt32 * (*Mf_Mix_Matches)(void *p, UInt32 matchMinPos, UInt32 *distances);$/;"	t
+Mf_Skip_Func	LzFind.h	/^typedef void (*Mf_Skip_Func)(void *object, UInt32);$/;"	t
+MidAlloc	Alloc.c	/^void *MidAlloc(size_t size)$/;"	f
+MidAlloc	Alloc.h	25;"	d
+MidFree	Alloc.c	/^void MidFree(void *address)$/;"	f
+MidFree	Alloc.h	26;"	d
+MinContext	Ppmd7.h	/^  CPpmd7_Context *MinContext, *MaxContext;$/;"	m	struct:__anon24
+MixCoder_Code	XzDec.c	/^static SRes MixCoder_Code(CMixCoder *p,$/;"	f	file:
+MixCoder_Construct	XzDec.c	/^static void MixCoder_Construct(CMixCoder *p, ISzAllocPtr alloc)$/;"	f	file:
+MixCoder_Free	XzDec.c	/^static void MixCoder_Free(CMixCoder *p)$/;"	f	file:
+MixCoder_Init	XzDec.c	/^static void MixCoder_Init(CMixCoder *p)$/;"	f	file:
+MixCoder_ResetFromMethod	XzDec.c	/^static SRes MixCoder_ResetFromMethod(CMixCoder *p, unsigned coderIndex, UInt64 methodId, Byte *outBuf, size_t outBufSize)$/;"	f	file:
+MixCoder_SetFromMethod	XzDec.c	/^static SRes MixCoder_SetFromMethod(CMixCoder *p, unsigned coderIndex, UInt64 methodId, Byte *outBuf, size_t outBufSize)$/;"	f	file:
+MixMatches2	LzFindMt.c	/^static UInt32 * MixMatches2(CMatchFinderMt *p, UInt32 matchMinPos, UInt32 *distances)$/;"	f	file:
+MixMatches3	LzFindMt.c	/^static UInt32 * MixMatches3(CMatchFinderMt *p, UInt32 matchMinPos, UInt32 *distances)$/;"	f	file:
+MixMatchesFunc	LzFindMt.h	/^  Mf_Mix_Matches MixMatchesFunc;$/;"	m	struct:_CMatchFinderMt
+MtCoderThread_CreateAndStart	MtCoder.c	/^static SRes MtCoderThread_CreateAndStart(CMtCoderThread *t)$/;"	f	file:
+MtCoderThread_Destruct	MtCoder.c	/^static void MtCoderThread_Destruct(CMtCoderThread *t)$/;"	f	file:
+MtCoder_Code	MtCoder.c	/^SRes MtCoder_Code(CMtCoder *p)$/;"	f
+MtCoder_Construct	MtCoder.c	/^void MtCoder_Construct(CMtCoder *p)$/;"	f
+MtCoder_Destruct	MtCoder.c	/^void MtCoder_Destruct(CMtCoder *p)$/;"	f
+MtCoder_Free	MtCoder.c	/^static void MtCoder_Free(CMtCoder *p)$/;"	f	file:
+MtDecThread_CloseThread	MtDec.c	/^static void MtDecThread_CloseThread(CMtDecThread *t)$/;"	f	file:
+MtDecThread_CreateAndStart	MtDec.c	/^static SRes MtDecThread_CreateAndStart(CMtDecThread *t)$/;"	f	file:
+MtDecThread_CreateEvents	MtDec.c	/^static WRes MtDecThread_CreateEvents(CMtDecThread *t)$/;"	f	file:
+MtDecThread_Destruct	MtDec.c	/^static void MtDecThread_Destruct(CMtDecThread *t)$/;"	f	file:
+MtDecThread_FreeInBufs	MtDec.c	/^void MtDecThread_FreeInBufs(CMtDecThread *t)$/;"	f
+MtDec_CloseThreads	MtDec.c	/^static void MtDec_CloseThreads(CMtDec *p)$/;"	f	file:
+MtDec_Code	MtDec.c	/^SRes MtDec_Code(CMtDec *p)$/;"	f
+MtDec_Construct	MtDec.c	/^void MtDec_Construct(CMtDec *p)$/;"	f
+MtDec_Destruct	MtDec.c	/^void MtDec_Destruct(CMtDec *p)$/;"	f
+MtDec_Free	MtDec.c	/^static void MtDec_Free(CMtDec *p)$/;"	f	file:
+MtDec_GetCrossBuff	MtDec.c	/^Byte *MtDec_GetCrossBuff(CMtDec *p)$/;"	f
+MtDec_GetError_Spec	MtDec.c	/^static SRes MtDec_GetError_Spec(CMtDec *p, UInt64 interruptIndex, Bool *wasInterrupted)$/;"	f	file:
+MtDec_Interrupt	MtDec.c	/^static void MtDec_Interrupt(CMtDec *p, UInt64 interruptIndex)$/;"	f	file:
+MtDec_PrepareRead	MtDec.c	/^int MtDec_PrepareRead(CMtDec *p)$/;"	f
+MtDec_Progress_GetError_Spec	MtDec.c	/^static SRes MtDec_Progress_GetError_Spec(CMtDec *p, UInt64 inSize, UInt64 outSize, UInt64 interruptIndex, Bool *wasInterrupted)$/;"	f	file:
+MtDec_Read	MtDec.c	/^const Byte *MtDec_Read(CMtDec *p, size_t *inLim)$/;"	f
+MtProgressThunk_CreateVTable	MtCoder.c	/^void MtProgressThunk_CreateVTable(CMtProgressThunk *p)$/;"	f
+MtProgressThunk_Init	MtCoder.h	40;"	d
+MtProgressThunk_Progress	MtCoder.c	/^SRes MtProgressThunk_Progress(const ICompressProgress *pp, UInt64 inSize, UInt64 outSize)$/;"	f
+MtProgress_GetError	MtDec.c	/^SRes MtProgress_GetError(CMtProgress *p)$/;"	f
+MtProgress_Init	MtDec.c	/^void MtProgress_Init(CMtProgress *p, ICompressProgress *progress)$/;"	f
+MtProgress_ProgressAdd	MtDec.c	/^SRes MtProgress_ProgressAdd(CMtProgress *p, UInt64 inSize, UInt64 outSize)$/;"	f
+MtProgress_Progress_ST	MtDec.c	/^SRes MtProgress_Progress_ST(CMtProgress *p)$/;"	f
+MtProgress_SetError	MtDec.c	/^void MtProgress_SetError(CMtProgress *p, SRes res)$/;"	f
+MtSync_Construct	LzFindMt.c	/^static void MtSync_Construct(CMtSync *p)$/;"	f	file:
+MtSync_Create	LzFindMt.c	/^static SRes MtSync_Create(CMtSync *p, THREAD_FUNC_TYPE startAddress, void *obj, UInt32 numBlocks)$/;"	f	file:
+MtSync_Create2	LzFindMt.c	/^static SRes MtSync_Create2(CMtSync *p, THREAD_FUNC_TYPE startAddress, void *obj, UInt32 numBlocks)$/;"	f	file:
+MtSync_Destruct	LzFindMt.c	/^static void MtSync_Destruct(CMtSync *p)$/;"	f	file:
+MtSync_GetNextBlock	LzFindMt.c	/^static void MtSync_GetNextBlock(CMtSync *p)$/;"	f	file:
+MtSync_Init	LzFindMt.c	/^void MtSync_Init(CMtSync *p) { p->needStart = True; }$/;"	f
+MtSync_StopWriting	LzFindMt.c	/^static void MtSync_StopWriting(CMtSync *p)$/;"	f	file:
+MyAlloc	Alloc.c	/^void *MyAlloc(size_t size)$/;"	f
+MyCPUID	CpuArch.c	/^void MyCPUID(UInt32 function, UInt32 *a, UInt32 *b, UInt32 *c, UInt32 *d)$/;"	f
+MyCreateDir	Util/7z/7zMain.c	/^static WRes MyCreateDir(const UInt16 *name)$/;"	f	file:
+MyCreateDir	Util/SfxSetup/SfxSetup.c	/^static WRes MyCreateDir(const WCHAR *name)$/;"	f	file:
+MyFree	Alloc.c	/^void MyFree(void *address)$/;"	f
+MyMem12Cpy	Ppmd7.c	260;"	d	file:
+MyMemCpy	Delta.c	/^static void MyMemCpy(Byte *dest, const Byte *src, unsigned size)$/;"	f	file:
+NODE	Ppmd7.c	55;"	d	file:
+NODE	Ppmd7.c	57;"	d	file:
+NORMALIZE	LzmaDec.c	20;"	d	file:
+NORMALIZE_CHECK	LzmaDec.c	67;"	d	file:
+NORMAL_LITER_DEC	LzmaDec.c	57;"	d	file:
+NO_INLINE	LzFindMt.c	239;"	d	file:
+NS2BSIndx	Ppmd7.h	/^  Byte NS2Indx[256], NS2BSIndx[256], HB2Flag[256];$/;"	m	struct:__anon24
+NS2Indx	Ppmd7.h	/^  Byte NS2Indx[256], NS2BSIndx[256], HB2Flag[256];$/;"	m	struct:__anon24
+NU	Ppmd7.c	/^  UInt16 NU;$/;"	m	struct:CPpmd7_Node_	file:
+NUM_ADDITIONAL_STREAMS_MAX	7zArcIn.c	1091;"	d	file:
+NUM_BASE_PROBS	LzmaDec.c	145;"	d	file:
+NUM_WAYS	AesOpt.c	41;"	d	file:
+Next	Ppmd7.c	/^  CPpmd7_Node_Ref Next; \/* must be at offset >= 4 *\/$/;"	m	struct:CPpmd7_Node_	file:
+NextContext	Ppmd7.c	/^static void NextContext(CPpmd7 *p)$/;"	f	file:
+NumBlocks	Xz.h	/^  UInt64 NumBlocks;$/;"	m	struct:__anon20
+NumBlocks_Defined	Xz.h	/^  Byte NumBlocks_Defined;$/;"	m	struct:__anon20
+NumBonds	7z.h	/^  UInt32 NumBonds;$/;"	m	struct:__anon81
+NumCoders	7z.h	/^  UInt32 NumCoders;$/;"	m	struct:__anon81
+NumFiles	7z.h	/^  UInt32 NumFiles;$/;"	m	struct:__anon86
+NumFolders	7z.h	/^  UInt32 NumFolders;$/;"	m	struct:__anon85
+NumPackStreams	7z.h	/^  UInt32 NumPackStreams;$/;"	m	struct:__anon81
+NumPackStreams	7z.h	/^  UInt32 NumPackStreams;$/;"	m	struct:__anon85
+NumStats	Ppmd7.h	/^  UInt16 NumStats;$/;"	m	struct:CPpmd7_Context_
+NumStreams	7z.h	/^  Byte NumStreams;$/;"	m	struct:__anon79
+NumStreams	Xz.h	/^  UInt64 NumStreams;$/;"	m	struct:__anon20
+NumStreams_Defined	Xz.h	/^  Byte NumStreams_Defined;$/;"	m	struct:__anon20
+NumSubDigests	7zArcIn.c	/^  UInt32 NumSubDigests;$/;"	m	struct:__anon67	file:
+NumTotalSubStreams	7zArcIn.c	/^  UInt32 NumTotalSubStreams;$/;"	m	struct:__anon67	file:
+OBJS	Util/7z/makefile	/^OBJS = \\$/;"	m
+OBJS	Util/Lzma/makefile	/^OBJS = \\$/;"	m
+OBJS	Util/LzmaLib/makefile	/^OBJS = \\$/;"	m
+OBJS	Util/SfxSetup/makefile	/^OBJS = \\$/;"	m
+ONE_STATE	Ppmd7.c	31;"	d	file:
+OUT_BUF_SIZE	Util/Lzma/LzmaUtil.c	53;"	d	file:
+OrderFall	Ppmd7.h	/^  unsigned OrderFall, InitEsc, PrevSuccess, MaxOrder, HiBitsFlag;$/;"	m	struct:__anon24
+OutFile_Open	7zFile.c	/^WRes OutFile_Open(CSzFile *p, const char *name) { return File_Open(p, name, 1); }$/;"	f
+OutFile_OpenUtf16	Util/7z/7zMain.c	/^static WRes OutFile_OpenUtf16(CSzFile *p, const UInt16 *name)$/;"	f	file:
+OutFile_OpenW	7zFile.c	/^WRes OutFile_OpenW(CSzFile *p, const WCHAR *name) { return File_OpenW(p, name, 1); }$/;"	f
+OutIndex	7z.h	/^  UInt32 OutIndex;$/;"	m	struct:__anon80
+OutSize	Xz.h	/^  UInt64 OutSize;$/;"	m	struct:__anon20
+PERIOD_100	Util/7z/7zMain.c	304;"	d	file:
+PERIOD_4	Util/7z/7zMain.c	303;"	d	file:
+PERIOD_400	Util/7z/7zMain.c	305;"	d	file:
+PPC_Convert	Bra.c	/^SizeT PPC_Convert(Byte *data, SizeT size, UInt32 ip, int encoding)$/;"	f
+PPMD7_MAX_MEM_SIZE	Ppmd7.h	20;"	d
+PPMD7_MAX_ORDER	Ppmd7.h	17;"	d
+PPMD7_MIN_MEM_SIZE	Ppmd7.h	19;"	d
+PPMD7_MIN_ORDER	Ppmd7.h	16;"	d
+PPMD7_kExpEscape	Ppmd7.c	/^const Byte PPMD7_kExpEscape[16] = { 25, 14, 9, 7, 5, 5, 4, 4, 4, 3, 3, 3, 2, 2, 2, 2 };$/;"	v
+PPMD_32BIT	Ppmd.h	13;"	d
+PPMD_BIN_SCALE	Ppmd.h	18;"	d
+PPMD_GET_MEAN	Ppmd.h	21;"	d
+PPMD_GET_MEAN_SPEC	Ppmd.h	20;"	d
+PPMD_INT_BITS	Ppmd.h	16;"	d
+PPMD_N1	Ppmd.h	25;"	d
+PPMD_N2	Ppmd.h	26;"	d
+PPMD_N3	Ppmd.h	27;"	d
+PPMD_N4	Ppmd.h	28;"	d
+PPMD_NUM_INDEXES	Ppmd.h	29;"	d
+PPMD_PERIOD_BITS	Ppmd.h	17;"	d
+PPMD_SetAllBitsIn256Bytes	Ppmd.h	79;"	d
+PPMD_UPDATE_PROB_0	Ppmd.h	22;"	d
+PPMD_UPDATE_PROB_1	Ppmd.h	23;"	d
+PRF	Bcj2Enc.c	10;"	d	file:
+PRF	Bcj2Enc.c	12;"	d	file:
+PRF	Lzma2Dec.c	38;"	d	file:
+PRF	Lzma2Dec.c	40;"	d	file:
+PRF	Lzma2DecMt.c	13;"	d	file:
+PRF	Lzma2DecMt.c	15;"	d	file:
+PRF	Lzma2Enc.c	35;"	d	file:
+PRF	MtDec.c	15;"	d	file:
+PRF	MtDec.c	17;"	d	file:
+PRF	XzDec.c	23;"	d	file:
+PRF	XzDec.c	25;"	d	file:
+PRF_STR	Lzma2DecMt.c	18;"	d	file:
+PRF_STR	XzDec.c	28;"	d	file:
+PRF_STR_INT	Lzma2DecMt.c	19;"	d	file:
+PRF_STR_INT	MtDec.c	20;"	d	file:
+PRF_STR_INT	XzDec.c	29;"	d	file:
+PRF_STR_INT_2	Lzma2DecMt.c	20;"	d	file:
+PRINT_ALLOC	Alloc.c	105;"	d	file:
+PRINT_ALLOC	Alloc.c	120;"	d	file:
+PRINT_FREE	Alloc.c	112;"	d	file:
+PRINT_FREE	Alloc.c	121;"	d	file:
+PROG	Util/7z/makefile	/^PROG = 7zDec.exe$/;"	m
+PROG	Util/Lzma/makefile	/^PROG = LZMAc.exe$/;"	m
+PROG	Util/LzmaLib/makefile	/^PROG = LZMA.dll$/;"	m
+PROG	Util/SfxSetup/makefile	/^PROG = 7zS2.sfx$/;"	m
+PackPositions	7z.h	/^  UInt64 *PackPositions;          \/\/ NumPackStreams + 1$/;"	m	struct:__anon85
+PackStreams	7z.h	/^  UInt32 PackStreams[SZ_NUM_PACK_STREAMS_IN_FOLDER_MAX];$/;"	m	struct:__anon81
+Parse	MtDec.h	/^  void (*Parse)(void *p, unsigned coderIndex, CMtDecCallbackInfo *ci);$/;"	m	struct:__anon91
+PosSlot	LzmaDec.c	143;"	d	file:
+Ppmd7Context_OneState	Ppmd7.h	40;"	d
+Ppmd7_Alloc	Ppmd7.c	/^Bool Ppmd7_Alloc(CPpmd7 *p, UInt32 size, ISzAllocPtr alloc)$/;"	f
+Ppmd7_Construct	Ppmd7.c	/^void Ppmd7_Construct(CPpmd7 *p)$/;"	f
+Ppmd7_DecodeSymbol	Ppmd7Dec.c	/^int Ppmd7_DecodeSymbol(CPpmd7 *p, const IPpmd7_RangeDec *rc)$/;"	f
+Ppmd7_EncodeSymbol	Ppmd7Enc.c	/^void Ppmd7_EncodeSymbol(CPpmd7 *p, CPpmd7z_RangeEnc *rc, int symbol)$/;"	f
+Ppmd7_Free	Ppmd7.c	/^void Ppmd7_Free(CPpmd7 *p, ISzAllocPtr alloc)$/;"	f
+Ppmd7_GetBinSumm	Ppmd7.h	88;"	d
+Ppmd7_GetContext	Ppmd7.h	75;"	d
+Ppmd7_GetContext	Ppmd7.h	79;"	d
+Ppmd7_GetPtr	Ppmd7.h	74;"	d
+Ppmd7_GetPtr	Ppmd7.h	78;"	d
+Ppmd7_GetStats	Ppmd7.h	76;"	d
+Ppmd7_GetStats	Ppmd7.h	80;"	d
+Ppmd7_Init	Ppmd7.c	/^void Ppmd7_Init(CPpmd7 *p, unsigned maxOrder)$/;"	f
+Ppmd7_MakeEscFreq	Ppmd7.c	/^CPpmd_See *Ppmd7_MakeEscFreq(CPpmd7 *p, unsigned numMasked, UInt32 *escFreq)$/;"	f
+Ppmd7_Update1	Ppmd7.c	/^void Ppmd7_Update1(CPpmd7 *p)$/;"	f
+Ppmd7_Update1_0	Ppmd7.c	/^void Ppmd7_Update1_0(CPpmd7 *p)$/;"	f
+Ppmd7_Update2	Ppmd7.c	/^void Ppmd7_Update2(CPpmd7 *p)$/;"	f
+Ppmd7_UpdateBin	Ppmd7.c	/^void Ppmd7_UpdateBin(CPpmd7 *p)$/;"	f
+Ppmd7_WasAllocated	Ppmd7.h	66;"	d
+Ppmd7z_RangeDec_CreateVTable	Ppmd7Dec.c	/^void Ppmd7z_RangeDec_CreateVTable(CPpmd7z_RangeDec *p)$/;"	f
+Ppmd7z_RangeDec_Init	Ppmd7Dec.c	/^Bool Ppmd7z_RangeDec_Init(CPpmd7z_RangeDec *p)$/;"	f
+Ppmd7z_RangeDec_IsFinishedOK	Ppmd7.h	119;"	d
+Ppmd7z_RangeEnc_FlushData	Ppmd7Enc.c	/^void Ppmd7z_RangeEnc_FlushData(CPpmd7z_RangeEnc *p)$/;"	f
+Ppmd7z_RangeEnc_Init	Ppmd7Enc.c	/^void Ppmd7z_RangeEnc_Init(CPpmd7z_RangeEnc *p)$/;"	f
+Ppmd_See_Update	Ppmd.h	42;"	d
+PreCode	MtDec.h	/^  SRes (*PreCode)(void *p, unsigned coderIndex);$/;"	m	struct:__anon91
+Prev	Ppmd7.c	/^  CPpmd7_Node_Ref Prev;$/;"	m	struct:CPpmd7_Node_	file:
+PrevSuccess	Ppmd7.h	/^  unsigned OrderFall, InitEsc, PrevSuccess, MaxOrder, HiBitsFlag;$/;"	m	struct:__anon24
+Print	Alloc.c	/^static void Print(const char *s)$/;"	f	file:
+Print	Alloc.c	122;"	d	file:
+Print	Util/7z/7zMain.c	/^static void Print(const char *s)$/;"	f	file:
+PrintAddr	Alloc.c	/^static void PrintAddr(void *p)$/;"	f	file:
+PrintAddr	Alloc.c	126;"	d	file:
+PrintAligned	Alloc.c	/^static void PrintAligned(const char *s, size_t align)$/;"	f	file:
+PrintDec	Alloc.c	/^static void PrintDec(UInt64 v, size_t align)$/;"	f	file:
+PrintDec	Alloc.c	125;"	d	file:
+PrintError	Util/7z/7zMain.c	/^static void PrintError(char *s)$/;"	f	file:
+PrintError	Util/Lzma/LzmaUtil.c	/^static int PrintError(char *buffer, const char *message)$/;"	f	file:
+PrintErrorMessage	Util/SfxSetup/SfxSetup.c	/^static void PrintErrorMessage(const char *message)$/;"	f	file:
+PrintErrorNumber	Util/Lzma/LzmaUtil.c	/^static int PrintErrorNumber(char *buffer, SRes val)$/;"	f	file:
+PrintHelp	Util/Lzma/LzmaUtil.c	/^static void PrintHelp(char *buffer)$/;"	f	file:
+PrintHex	Alloc.c	/^static void PrintHex(UInt64 v, size_t align)$/;"	f	file:
+PrintHex	Alloc.c	124;"	d	file:
+PrintLF	Util/7z/7zMain.c	/^static void PrintLF()$/;"	f	file:
+PrintLn	Alloc.c	/^static void PrintLn()$/;"	f	file:
+PrintLn	Alloc.c	123;"	d	file:
+PrintString	Util/7z/7zMain.c	/^static SRes PrintString(const UInt16 *s)$/;"	f	file:
+PrintUserError	Util/Lzma/LzmaUtil.c	/^static int PrintUserError(char *buffer)$/;"	f	file:
+ProbPrices	LzmaEnc.c	/^  CProbPrice ProbPrices[kBitModelTotal >> kNumMoveReducingBits];$/;"	m	struct:__anon46	file:
+Progress	7zTypes.h	/^  SRes (*Progress)(const ICompressProgress *p, UInt64 inSize, UInt64 outSize);$/;"	m	struct:ICompressProgress
+Progress	Lzma2Enc.c	/^static SRes Progress(ICompressProgress *p, UInt64 inSize, UInt64 outSize)$/;"	f	file:
+ProgressRes	Xz.h	/^  SRes ProgressRes;$/;"	m	struct:__anon20
+PropsOffset	7z.h	/^  size_t PropsOffset;$/;"	m	struct:__anon79
+PropsSize	7z.h	/^  Byte PropsSize;$/;"	m	struct:__anon79
+R	Sha256.c	47;"	d	file:
+R	Sha256.c	75;"	d	file:
+RC_BIT	LzmaEnc.c	621;"	d	file:
+RC_BIT	LzmaEnc.c	631;"	d	file:
+RC_BIT_0	LzmaEnc.c	659;"	d	file:
+RC_BIT_0_BASE	LzmaEnc.c	653;"	d	file:
+RC_BIT_1	LzmaEnc.c	663;"	d	file:
+RC_BIT_1_BASE	LzmaEnc.c	656;"	d	file:
+RC_BIT_PRE	LzmaEnc.c	613;"	d	file:
+RC_BUF_SIZE	LzmaEnc.c	526;"	d	file:
+RC_INIT_SIZE	LzmaDec.c	18;"	d	file:
+RC_NORM	LzmaEnc.c	611;"	d	file:
+READ_VARINT_AND_CHECK	XzDec.c	773;"	d	file:
+READ_VARINT_AND_CHECK	XzIn.c	27;"	d	file:
+REAL_BLOCK_PTR_VAR	Alloc.c	389;"	d	file:
+REF	Ppmd7.c	22;"	d	file:
+REF	Ppmd7.c	24;"	d	file:
+REV_BIT	LzmaDec.c	31;"	d	file:
+REV_BIT_CHECK	LzmaDec.c	80;"	d	file:
+REV_BIT_CONST	LzmaDec.c	35;"	d	file:
+REV_BIT_LAST	LzmaDec.c	36;"	d	file:
+REV_BIT_VAR	LzmaDec.c	34;"	d	file:
+RINOK	7zTypes.h	63;"	d
+RINOK_THREAD	LzFindMt.c	102;"	d	file:
+RINOK_THREAD	MtCoder.c	36;"	d	file:
+RINOK_THREAD	MtDec.c	80;"	d	file:
+RPC_NO_WINDOWS_H	Compiler.h	10;"	d
+RX_16	Sha256.c	62;"	d	file:
+RX_16	Sha256.c	83;"	d	file:
+RX_16	Sha256.c	87;"	d	file:
+RX_8	Sha256.c	52;"	d	file:
+RX_8	Sha256.c	82;"	d	file:
+Range	Ppmd7.h	/^  UInt32 Range;$/;"	m	struct:__anon25
+Range	Ppmd7.h	/^  UInt32 Range;$/;"	m	struct:__anon26
+RangeEnc_Alloc	LzmaEnc.c	/^static int RangeEnc_Alloc(CRangeEnc *p, ISzAllocPtr alloc)$/;"	f	file:
+RangeEnc_Construct	LzmaEnc.c	/^static void RangeEnc_Construct(CRangeEnc *p)$/;"	f	file:
+RangeEnc_Encode	Ppmd7Enc.c	/^static void RangeEnc_Encode(CPpmd7z_RangeEnc *p, UInt32 start, UInt32 size, UInt32 total)$/;"	f	file:
+RangeEnc_EncodeBit_0	LzmaEnc.c	/^static void RangeEnc_EncodeBit_0(CRangeEnc *p, CLzmaProb *prob)$/;"	f	file:
+RangeEnc_EncodeBit_0	Ppmd7Enc.c	/^static void RangeEnc_EncodeBit_0(CPpmd7z_RangeEnc *p, UInt32 size0)$/;"	f	file:
+RangeEnc_EncodeBit_1	Ppmd7Enc.c	/^static void RangeEnc_EncodeBit_1(CPpmd7z_RangeEnc *p, UInt32 size0)$/;"	f	file:
+RangeEnc_FlushData	LzmaEnc.c	/^static void RangeEnc_FlushData(CRangeEnc *p)$/;"	f	file:
+RangeEnc_FlushStream	LzmaEnc.c	/^MY_NO_INLINE static void RangeEnc_FlushStream(CRangeEnc *p)$/;"	f	file:
+RangeEnc_Free	LzmaEnc.c	/^static void RangeEnc_Free(CRangeEnc *p, ISzAllocPtr alloc)$/;"	f	file:
+RangeEnc_GetProcessed	LzmaEnc.c	523;"	d	file:
+RangeEnc_GetProcessed_sizet	LzmaEnc.c	524;"	d	file:
+RangeEnc_Init	LzmaEnc.c	/^static void RangeEnc_Init(CRangeEnc *p)$/;"	f	file:
+RangeEnc_ShiftLow	Bcj2Enc.c	/^static Bool MY_FAST_CALL RangeEnc_ShiftLow(CBcj2Enc *p)$/;"	f	file:
+RangeEnc_ShiftLow	LzmaEnc.c	/^MY_NO_INLINE static void MY_FAST_CALL RangeEnc_ShiftLow(CRangeEnc *p)$/;"	f	file:
+RangeEnc_ShiftLow	Ppmd7Enc.c	/^static void RangeEnc_ShiftLow(CPpmd7z_RangeEnc *p)$/;"	f	file:
+Range_Decode	Ppmd7Dec.c	/^static void Range_Decode(const IPpmd7_RangeDec *pp, UInt32 start, UInt32 size)$/;"	f	file:
+Range_DecodeBit	Ppmd7Dec.c	/^static UInt32 Range_DecodeBit(const IPpmd7_RangeDec *pp, UInt32 size0)$/;"	f	file:
+Range_GetThreshold	Ppmd7Dec.c	/^static UInt32 Range_GetThreshold(const IPpmd7_RangeDec *pp, UInt32 total)$/;"	f	file:
+Range_Normalize	Ppmd7Dec.c	/^static void Range_Normalize(CPpmd7z_RangeDec *p)$/;"	f	file:
+RcTree_ReverseEncode	LzmaEnc.c	/^static void RcTree_ReverseEncode(CRangeEnc *rc, CLzmaProb *probs, unsigned numBits, UInt32 symbol)$/;"	f	file:
+Rcon	Aes.c	/^static const Byte Rcon[11] = { 0x00, 0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80, 0x1b, 0x36 };$/;"	v	file:
+Read	7zTypes.h	/^  Byte (*Read)(const IByteIn *p); \/* reads one byte, returns 0 in case of EOF or error *\/$/;"	m	struct:IByteIn
+Read	7zTypes.h	/^  SRes (*Read)(const ILookInStream *p, void *buf, size_t *size);$/;"	m	struct:ILookInStream
+Read	7zTypes.h	/^  SRes (*Read)(const ISeekInStream *p, void *buf, size_t *size);  \/* same as ISeqInStream::Read *\/$/;"	m	struct:ISeekInStream
+Read	7zTypes.h	/^  SRes (*Read)(const ISeqInStream *p, void *buf, size_t *size);$/;"	m	struct:ISeqInStream
+ReadBitUi32s	7zArcIn.c	/^static SRes ReadBitUi32s(CSzData *sd, UInt32 numItems, CSzBitUi32s *crcs, ISzAllocPtr alloc)$/;"	f	file:
+ReadBitVector	7zArcIn.c	/^static MY_NO_INLINE SRes ReadBitVector(CSzData *sd, UInt32 numItems, Byte **v, ISzAllocPtr alloc)$/;"	f	file:
+ReadByte	7zDec.c	/^static Byte ReadByte(const IByteIn *pp)$/;"	f	file:
+ReadID	7zArcIn.c	254;"	d	file:
+ReadMatchDistances	LzmaEnc.c	/^static unsigned ReadMatchDistances(CLzmaEnc *p, unsigned *numPairsRes)$/;"	f	file:
+ReadNumber	7zArcIn.c	/^static MY_NO_INLINE SRes ReadNumber(CSzData *sd, UInt64 *value)$/;"	f	file:
+ReadPackInfo	7zArcIn.c	/^static SRes ReadPackInfo(CSzAr *p, CSzData *sd, ISzAllocPtr alloc)$/;"	f	file:
+ReadRes	Xz.h	/^  SRes ReadRes;$/;"	m	struct:__anon20
+ReadSubStreamsInfo	7zArcIn.c	/^static SRes ReadSubStreamsInfo(CSzAr *p, CSzData *sd, CSubStreamInfo *ssi)$/;"	f	file:
+ReadTime	7zArcIn.c	/^static MY_NO_INLINE SRes ReadTime(CSzBitUi64s *p, UInt32 num,$/;"	f	file:
+ReadUi32s	7zArcIn.c	/^static MY_NO_INLINE SRes ReadUi32s(CSzData *sd2, UInt32 numItems, CSzBitUi32s *crcs, ISzAllocPtr alloc)$/;"	f	file:
+ReadUnpackInfo	7zArcIn.c	/^static SRes ReadUnpackInfo(CSzAr *p,$/;"	f	file:
+ReadyBlocks	MtCoder.h	/^    Byte ReadyBlocks[MTCODER__BLOCKS_MAX];$/;"	m	struct:_CMtCoder
+RememberBitVector	7zArcIn.c	/^static SRes RememberBitVector(CSzData *sd, UInt32 numItems, const Byte **v)$/;"	f	file:
+RemoveDirWithSubItems	Util/SfxSetup/SfxSetup.c	/^static WRes RemoveDirWithSubItems(WCHAR *path)$/;"	f	file:
+RemoveNode	Ppmd7.c	/^static void *RemoveNode(CPpmd7 *p, unsigned indx)$/;"	f	file:
+RepLenCoder	LzmaDec.c	135;"	d	file:
+Rescale	Ppmd7.c	/^static void Rescale(CPpmd7 *p)$/;"	f	file:
+RestartModel	Ppmd7.c	/^static void RestartModel(CPpmd7 *p)$/;"	f	file:
+RunLength	Ppmd7.h	/^  Int32 RunLength, InitRL; \/* must be 32-bit at least *\/$/;"	m	struct:__anon24
+S0	Sha256.c	173;"	d	file:
+S0	Sha256.c	34;"	d	file:
+S1	Sha256.c	174;"	d	file:
+S1	Sha256.c	35;"	d	file:
+SHA256_DIGEST_SIZE	Sha256.h	11;"	d
+SKIP_DATA	7zArcIn.c	187;"	d	file:
+SKIP_DATA2	7zArcIn.c	188;"	d	file:
+SKIP_FOOTER	LzFind.c	541;"	d	file:
+SKIP_FOOTER_MT	LzFindMt.c	744;"	d	file:
+SKIP_HEADER	LzFind.c	533;"	d	file:
+SKIP_HEADER2_MT	LzFindMt.c	742;"	d	file:
+SKIP_HEADER_MT	LzFindMt.c	743;"	d	file:
+SLIB	Util/LzmaLib/makefile	/^SLIB = sLZMA.lib$/;"	m
+SLIBPATH	Util/LzmaLib/makefile	/^SLIBPATH = $O\\$(SLIB)$/;"	m
+SPARC_Convert	Bra.c	/^SizeT SPARC_Convert(Byte *data, SizeT size, UInt32 ip, int encoding)$/;"	f
+SRes	7zTypes.h	/^typedef int SRes;$/;"	t
+STATS	Ppmd7.c	30;"	d	file:
+STATS_REF	Ppmd7.c	27;"	d	file:
+STRING_PATH_SEPARATOR	7zTypes.h	360;"	d
+STRING_PATH_SEPARATOR	7zTypes.h	367;"	d
+SUCCESSOR	Ppmd7.c	281;"	d	file:
+SUFFIX	Ppmd7.c	32;"	d	file:
+SZE_OUT_OVERFLOW	Lzma86Enc.c	14;"	d	file:
+SZ_ERROR_ARCHIVE	7zTypes.h	40;"	d
+SZ_ERROR_CRC	7zTypes.h	29;"	d
+SZ_ERROR_DATA	7zTypes.h	27;"	d
+SZ_ERROR_FAIL	7zTypes.h	37;"	d
+SZ_ERROR_INPUT_EOF	7zTypes.h	32;"	d
+SZ_ERROR_MEM	7zTypes.h	28;"	d
+SZ_ERROR_NO_ARCHIVE	7zTypes.h	41;"	d
+SZ_ERROR_OUTPUT_EOF	7zTypes.h	33;"	d
+SZ_ERROR_PARAM	7zTypes.h	31;"	d
+SZ_ERROR_PROGRESS	7zTypes.h	36;"	d
+SZ_ERROR_READ	7zTypes.h	34;"	d
+SZ_ERROR_THREAD	7zTypes.h	38;"	d
+SZ_ERROR_UNSUPPORTED	7zTypes.h	30;"	d
+SZ_ERROR_WRITE	7zTypes.h	35;"	d
+SZ_FILTER_AUTO	Lzma86.h	/^  SZ_FILTER_AUTO$/;"	e	enum:ESzFilterMode
+SZ_FILTER_NO	Lzma86.h	/^  SZ_FILTER_NO,$/;"	e	enum:ESzFilterMode
+SZ_FILTER_YES	Lzma86.h	/^  SZ_FILTER_YES,$/;"	e	enum:ESzFilterMode
+SZ_NUM_BONDS_IN_FOLDER_MAX	7z.h	39;"	d
+SZ_NUM_CODERS_IN_FOLDER_MAX	7z.h	38;"	d
+SZ_NUM_PACK_STREAMS_IN_FOLDER_MAX	7z.h	40;"	d
+SZ_OK	7zTypes.h	25;"	d
+SZ_READ_32	7zArcIn.c	190;"	d	file:
+SZ_READ_BYTE	7zArcIn.c	184;"	d	file:
+SZ_READ_BYTE_2	7zArcIn.c	185;"	d	file:
+SZ_READ_BYTE_SD	7zArcIn.c	183;"	d	file:
+SZ_SEEK_CUR	7zTypes.h	/^  SZ_SEEK_CUR = 1,$/;"	e	enum:__anon1
+SZ_SEEK_END	7zTypes.h	/^  SZ_SEEK_END = 2$/;"	e	enum:__anon1
+SZ_SEEK_SET	7zTypes.h	/^  SZ_SEEK_SET = 0,$/;"	e	enum:__anon1
+SbEncInStream_Construct	XzEnc.c	/^void SbEncInStream_Construct(CSbEncInStream *p, ISzAllocPtr alloc)$/;"	f
+SbEncInStream_Free	XzEnc.c	/^void SbEncInStream_Free(CSbEncInStream *p)$/;"	f
+SbEncInStream_Init	XzEnc.c	/^SRes SbEncInStream_Init(CSbEncInStream *p)$/;"	f
+SbEncInStream_Read	XzEnc.c	/^static SRes SbEncInStream_Read(const ISeqInStream *pp, void *data, size_t *size)$/;"	f	file:
+SbState_Code2	XzDec.c	/^static SRes SbState_Code2(void *pp, Byte *dest, SizeT *destLen, const Byte *src, SizeT *srcLen,$/;"	f	file:
+SbState_Free	XzDec.c	/^static void SbState_Free(void *pp, ISzAllocPtr alloc)$/;"	f	file:
+SbState_Init	XzDec.c	/^static void SbState_Init(void *pp)$/;"	f	file:
+SbState_SetFromMethod	XzDec.c	/^static SRes SbState_SetFromMethod(IStateCoder *p, ISzAllocPtr alloc)$/;"	f	file:
+SbState_SetProps	XzDec.c	/^static SRes SbState_SetProps(void *pp, const Byte *props, size_t propSize, ISzAllocPtr alloc)$/;"	f	file:
+Sbox	Aes.c	/^static const Byte Sbox[256] = {$/;"	v	file:
+SecToLook_CreateVTable	7zStream.c	/^void SecToLook_CreateVTable(CSecToLook *p)$/;"	f
+SecToLook_Read	7zStream.c	/^static SRes SecToLook_Read(const ISeqInStream *pp, void *buf, size_t *size)$/;"	f	file:
+SecToRead_CreateVTable	7zStream.c	/^void SecToRead_CreateVTable(CSecToRead *p)$/;"	f
+SecToRead_Read	7zStream.c	/^static SRes SecToRead_Read(const ISeqInStream *pp, void *buf, size_t *size)$/;"	f	file:
+See	Ppmd7.h	/^  CPpmd_See DummySee, See[25][16];$/;"	m	struct:__anon24
+Seek	7zTypes.h	/^  SRes (*Seek)(const ILookInStream *p, Int64 *pos, ESzSeek origin);$/;"	m	struct:ILookInStream
+Seek	7zTypes.h	/^  SRes (*Seek)(const ISeekInStream *p, Int64 *pos, ESzSeek origin);$/;"	m	struct:ISeekInStream
+Semaphore_Close	Threads.h	54;"	d
+Semaphore_Construct	Threads.h	52;"	d
+Semaphore_Create	Threads.c	/^WRes Semaphore_Create(CSemaphore *p, UInt32 initCount, UInt32 maxCount)$/;"	f
+Semaphore_IsCreated	Threads.h	53;"	d
+Semaphore_Release	Threads.c	/^static WRes Semaphore_Release(CSemaphore *p, LONG releaseCount, LONG *previousCount)$/;"	f	file:
+Semaphore_Release1	Threads.c	/^WRes Semaphore_Release1(CSemaphore *p) { return Semaphore_ReleaseN(p, 1); }$/;"	f
+Semaphore_ReleaseN	Threads.c	/^WRes Semaphore_ReleaseN(CSemaphore *p, UInt32 num)$/;"	f
+Semaphore_Wait	Threads.h	55;"	d
+SeqCheckInStream_GetDigest	XzEnc.c	/^static void SeqCheckInStream_GetDigest(CSeqCheckInStream *p, Byte *digest)$/;"	f	file:
+SeqCheckInStream_Init	XzEnc.c	/^static void SeqCheckInStream_Init(CSeqCheckInStream *p, unsigned checkMode)$/;"	f	file:
+SeqCheckInStream_Read	XzEnc.c	/^static SRes SeqCheckInStream_Read(const ISeqInStream *pp, void *data, size_t *size)$/;"	f	file:
+SeqInFilter_Construct	XzEnc.c	/^static void SeqInFilter_Construct(CSeqInFilter *p)$/;"	f	file:
+SeqInFilter_Free	XzEnc.c	/^static void SeqInFilter_Free(CSeqInFilter *p, ISzAllocPtr alloc)$/;"	f	file:
+SeqInFilter_Init	XzEnc.c	/^static SRes SeqInFilter_Init(CSeqInFilter *p, const CXzFilter *props, ISzAllocPtr alloc)$/;"	f	file:
+SeqInFilter_Read	XzEnc.c	/^static SRes SeqInFilter_Read(const ISeqInStream *pp, void *data, size_t *size)$/;"	f	file:
+SeqInStream_Read	7zStream.c	/^SRes SeqInStream_Read(const ISeqInStream *stream, void *buf, size_t size)$/;"	f
+SeqInStream_Read2	7zStream.c	/^SRes SeqInStream_Read2(const ISeqInStream *stream, void *buf, size_t size, SRes errorType)$/;"	f
+SeqInStream_ReadByte	7zStream.c	/^SRes SeqInStream_ReadByte(const ISeqInStream *stream, Byte *buf)$/;"	f
+SeqOutStreamBuf_Write	LzmaEnc.c	/^static size_t SeqOutStreamBuf_Write(const ISeqOutStream *pp, const void *data, size_t size)$/;"	f	file:
+SeqSizeOutStream_Write	XzEnc.c	/^static size_t SeqSizeOutStream_Write(const ISeqOutStream *pp, const void *data, size_t size)$/;"	f	file:
+SetBe32	CpuArch.h	259;"	d
+SetLargePageSize	Alloc.c	/^void SetLargePageSize()$/;"	f
+SetPrices_3	LzmaEnc.c	/^static void SetPrices_3(const CLzmaProb *probs, UInt32 startPrice, UInt32 *prices, const CProbPrice *ProbPrices)$/;"	f	file:
+SetProps	Xz.h	/^  SRes (*SetProps)(void *p, const Byte *props, size_t propSize, ISzAllocPtr alloc);$/;"	m	struct:_IStateCoder
+SetSuccessor	Ppmd7.c	/^static void SetSuccessor(CPpmd_State *p, CPpmd_Void_Ref v)$/;"	f	file:
+SetUi16	CpuArch.h	205;"	d
+SetUi32	CpuArch.h	206;"	d
+SetUi64	CpuArch.h	207;"	d
+Sha256_Final	Sha256.c	/^void Sha256_Final(CSha256 *p, Byte *digest)$/;"	f
+Sha256_Init	Sha256.c	/^void Sha256_Init(CSha256 *p)$/;"	f
+Sha256_Update	Sha256.c	/^void Sha256_Update(CSha256 *p, const Byte *data, size_t size)$/;"	f
+Sha256_WriteByteBlock	Sha256.c	/^static void Sha256_WriteByteBlock(CSha256 *p)$/;"	f	file:
+Shift	Ppmd.h	/^  Byte Shift;  \/* Speed of Freq change; low Shift is for fast change *\/$/;"	m	struct:__anon5
+ShrinkUnits	Ppmd7.c	/^static void *ShrinkUnits(CPpmd7 *p, void *oldPtr, unsigned oldNU, unsigned newNU)$/;"	f	file:
+Size	7z.h	/^  size_t Size;$/;"	m	struct:__anon78
+Size	Ppmd7.h	/^  UInt32 Size;$/;"	m	struct:__anon24
+SizeT	7zTypes.h	/^typedef UInt32 SizeT;$/;"	t
+SizeT	7zTypes.h	/^typedef size_t SizeT;$/;"	t
+Skip	7zTypes.h	/^  SRes (*Skip)(const ILookInStream *p, size_t offset);$/;"	m	struct:ILookInStream
+Skip	LzFind.h	/^  Mf_Skip_Func Skip;$/;"	m	struct:_IMatchFinder
+SkipBitUi32s	7zArcIn.c	/^static SRes SkipBitUi32s(CSzData *sd, UInt32 numItems)$/;"	f	file:
+SkipData	7zArcIn.c	/^static SRes SkipData(CSzData *sd)$/;"	f	file:
+SkipMatchesSpec	LzFind.c	/^static void SkipMatchesSpec(UInt32 lenLimit, UInt32 curMatch, UInt32 pos, const Byte *cur, CLzRef *son,$/;"	f	file:
+SkipNumbers	7zArcIn.c	/^static MY_NO_INLINE SRes SkipNumbers(CSzData *sd2, UInt32 num)$/;"	f	file:
+SpecPos	LzmaDec.c	133;"	d	file:
+SplitBlock	Ppmd7.c	/^static void SplitBlock(CPpmd7 *p, void *ptr, unsigned oldIndx, unsigned newIndx)$/;"	f	file:
+Stamp	Ppmd7.c	/^  UInt16 Stamp; \/* must be at offset 0 as CPpmd7_Context::NumStats. Stamp=0 means free *\/$/;"	m	struct:CPpmd7_Node_	file:
+StateCoder	XzEnc.c	/^  IStateCoder StateCoder;$/;"	m	struct:__anon57	file:
+Stats	Ppmd7.h	/^  CPpmd_State_Ref Stats;$/;"	m	struct:CPpmd7_Context_
+Stream	Ppmd7.h	/^  IByteIn *Stream;$/;"	m	struct:__anon25
+Stream	Ppmd7.h	/^  IByteOut *Stream;$/;"	m	struct:__anon26
+SuccessorHigh	Ppmd.h	/^  UInt16 SuccessorHigh;$/;"	m	struct:__anon6
+SuccessorLow	Ppmd.h	/^  UInt16 SuccessorLow;$/;"	m	struct:__anon6
+Suffix	Ppmd7.h	/^  CPpmd7_Context_Ref Suffix;$/;"	m	struct:CPpmd7_Context_
+Summ	Ppmd.h	/^  UInt16 Summ; \/* Freq *\/$/;"	m	struct:__anon5
+SummFreq	Ppmd7.h	/^  UInt16 SummFreq;$/;"	m	struct:CPpmd7_Context_
+SwapStates	Ppmd7.c	/^static void SwapStates(CPpmd_State *t1, CPpmd_State *t2)$/;"	f	file:
+Symbol	Ppmd.h	/^  Byte Symbol;$/;"	m	struct:__anon6
+SzAlignedAlloc	Alloc.c	/^static void *SzAlignedAlloc(ISzAllocPtr pp, size_t size)$/;"	f	file:
+SzAlignedFree	Alloc.c	/^static void SzAlignedFree(ISzAllocPtr pp, void *address)$/;"	f	file:
+SzAlloc	7zAlloc.c	/^void *SzAlloc(ISzAllocPtr p, size_t size)$/;"	f
+SzAlloc	Alloc.c	/^static void *SzAlloc(ISzAllocPtr p, size_t size) { UNUSED_VAR(p); return MyAlloc(size); }$/;"	f	file:
+SzAllocTemp	7zAlloc.c	/^void *SzAllocTemp(ISzAllocPtr p, size_t size)$/;"	f
+SzArEx_Extract	7zArcIn.c	/^SRes SzArEx_Extract($/;"	f
+SzArEx_Free	7zArcIn.c	/^void SzArEx_Free(CSzArEx *p, ISzAllocPtr alloc)$/;"	f
+SzArEx_GetFileNameUtf16	7zArcIn.c	/^size_t SzArEx_GetFileNameUtf16(const CSzArEx *p, size_t fileIndex, UInt16 *dest)$/;"	f
+SzArEx_GetFileSize	7z.h	131;"	d
+SzArEx_Init	7zArcIn.c	/^void SzArEx_Init(CSzArEx *p)$/;"	f
+SzArEx_IsDir	7z.h	129;"	d
+SzArEx_Open	7zArcIn.c	/^SRes SzArEx_Open(CSzArEx *p, ILookInStream *inStream,$/;"	f
+SzArEx_Open2	7zArcIn.c	/^static SRes SzArEx_Open2($/;"	f	file:
+SzAr_DecodeFolder	7zDec.c	/^SRes SzAr_DecodeFolder(const CSzAr *p, UInt32 folderIndex,$/;"	f
+SzAr_Free	7zArcIn.c	/^static void SzAr_Free(CSzAr *p, ISzAllocPtr alloc)$/;"	f	file:
+SzAr_GetFolderUnpackSize	7zArcIn.c	/^UInt64 SzAr_GetFolderUnpackSize(const CSzAr *p, UInt32 folderIndex)$/;"	f
+SzAr_Init	7zArcIn.c	/^static void SzAr_Init(CSzAr *p)$/;"	f	file:
+SzBigAlloc	Alloc.c	/^static void *SzBigAlloc(ISzAllocPtr p, size_t size) { UNUSED_VAR(p); return BigAlloc(size); }$/;"	f	file:
+SzBigFree	Alloc.c	/^static void SzBigFree(ISzAllocPtr p, void *address) { UNUSED_VAR(p); BigFree(address); }$/;"	f	file:
+SzBitArray_Check	7z.h	75;"	d
+SzBitUi32s_Alloc	7zArcIn.c	/^static SRes SzBitUi32s_Alloc(CSzBitUi32s *p, size_t num, ISzAllocPtr alloc)$/;"	f	file:
+SzBitUi32s_Free	7zArcIn.c	/^void SzBitUi32s_Free(CSzBitUi32s *p, ISzAllocPtr alloc)$/;"	f
+SzBitUi32s_Init	7zArcIn.c	61;"	d	file:
+SzBitUi64s_Free	7zArcIn.c	/^void SzBitUi64s_Free(CSzBitUi64s *p, ISzAllocPtr alloc)$/;"	f
+SzBitUi64s_Init	7zArcIn.c	84;"	d	file:
+SzBitWithVals_Check	7z.h	77;"	d
+SzData_Clear	7zArcIn.c	181;"	d	file:
+SzDecodeCopy	7zDec.c	/^static SRes SzDecodeCopy(UInt64 inSize, ILookInStream *inStream, Byte *outBuffer)$/;"	f	file:
+SzDecodeLzma	7zDec.c	/^static SRes SzDecodeLzma(const Byte *props, unsigned propsSize, UInt64 inSize, ILookInStream *inStream,$/;"	f	file:
+SzDecodeLzma2	7zDec.c	/^static SRes SzDecodeLzma2(const Byte *props, unsigned propsSize, UInt64 inSize, ILookInStream *inStream,$/;"	f	file:
+SzDecodePpmd	7zDec.c	/^static SRes SzDecodePpmd(const Byte *props, unsigned propsSize, UInt64 inSize, const ILookInStream *inStream,$/;"	f	file:
+SzFolder_Decode2	7zDec.c	/^static SRes SzFolder_Decode2(const CSzFolder *folder,$/;"	f	file:
+SzFree	7zAlloc.c	/^void SzFree(ISzAllocPtr p, void *address)$/;"	f
+SzFree	Alloc.c	/^static void SzFree(ISzAllocPtr p, void *address) { UNUSED_VAR(p); MyFree(address); }$/;"	f	file:
+SzFreeTemp	7zAlloc.c	/^void SzFreeTemp(ISzAllocPtr p, void *address)$/;"	f
+SzGetNextFolderItem	7zArcIn.c	/^SRes SzGetNextFolderItem(CSzFolder *f, CSzData *sd)$/;"	f
+SzMidAlloc	Alloc.c	/^static void *SzMidAlloc(ISzAllocPtr p, size_t size) { UNUSED_VAR(p); return MidAlloc(size); }$/;"	f	file:
+SzMidFree	Alloc.c	/^static void SzMidFree(ISzAllocPtr p, void *address) { UNUSED_VAR(p); MidFree(address); }$/;"	f	file:
+SzReadAndDecodePackedStreams	7zArcIn.c	/^static SRes SzReadAndDecodePackedStreams($/;"	f	file:
+SzReadFileNames	7zArcIn.c	/^static SRes SzReadFileNames(const Byte *data, size_t size, UInt32 numFiles, size_t *offsets)$/;"	f	file:
+SzReadHeader	7zArcIn.c	/^static SRes SzReadHeader($/;"	f	file:
+SzReadHeader2	7zArcIn.c	/^static SRes SzReadHeader2($/;"	f	file:
+SzReadNumber32	7zArcIn.c	/^static MY_NO_INLINE SRes SzReadNumber32(CSzData *sd, UInt32 *value)$/;"	f	file:
+SzReadStreamsInfo	7zArcIn.c	/^static SRes SzReadStreamsInfo(CSzAr *p,$/;"	f	file:
+T	Aes.c	/^static UInt32 T[256 * 4];$/;"	v	file:
+TEMP_BUF_SIZE	XzIn.c	171;"	d	file:
+THREAD_FUNC_CALL_TYPE	Threads.h	32;"	d
+THREAD_FUNC_DECL	Threads.h	33;"	d
+THREAD_FUNC_RET_TYPE	Threads.h	/^  THREAD_FUNC_RET_TYPE;$/;"	t
+THREAD_FUNC_TYPE	Threads.h	/^typedef THREAD_FUNC_RET_TYPE (THREAD_FUNC_CALL_TYPE * THREAD_FUNC_TYPE)(void *);$/;"	t
+TREE_6_DECODE	LzmaDec.c	44;"	d	file:
+TREE_6_DECODE	LzmaDec.c	46;"	d	file:
+TREE_DECODE	LzmaDec.c	38;"	d	file:
+TREE_DECODE_CHECK	LzmaDec.c	76;"	d	file:
+TREE_GET_BIT	LzmaDec.c	29;"	d	file:
+TT	Aes.c	56;"	d	file:
+Test86MSByte	Bra86.c	8;"	d	file:
+TestSignatureCandidate	7zArcIn.c	/^static int TestSignatureCandidate(const Byte *testBytes)$/;"	f	file:
+Text	Ppmd7.h	/^  Byte *Base, *LoUnit, *HiUnit, *Text, *UnitsStart;$/;"	m	struct:__anon24
+ThreadFunc	MtCoder.c	/^static THREAD_FUNC_RET_TYPE THREAD_FUNC_CALL_TYPE ThreadFunc(void *pp)$/;"	f	file:
+ThreadFunc	MtDec.c	/^static MY_NO_INLINE THREAD_FUNC_RET_TYPE THREAD_FUNC_CALL_TYPE ThreadFunc(void *pp)$/;"	f	file:
+ThreadFunc1	MtDec.c	/^static THREAD_FUNC_RET_TYPE THREAD_FUNC_CALL_TYPE ThreadFunc1(void *pp)$/;"	f	file:
+ThreadFunc2	MtCoder.c	/^static SRes ThreadFunc2(CMtCoderThread *t)$/;"	f	file:
+ThreadFunc2	MtDec.c	/^static WRes ThreadFunc2(CMtDecThread *t)$/;"	f	file:
+Thread_Close	Threads.h	21;"	d
+Thread_Construct	Threads.h	19;"	d
+Thread_Create	Threads.c	/^WRes Thread_Create(CThread *p, THREAD_FUNC_TYPE func, LPVOID param)$/;"	f
+Thread_Wait	Threads.h	22;"	d
+Thread_WasCreated	Threads.h	20;"	d
+True	7zTypes.h	107;"	d
+U2B	Ppmd7.c	17;"	d	file:
+U2I	Ppmd7.c	18;"	d	file:
+UINT64_CONST	7zTypes.h	91;"	d
+UINT64_CONST	7zTypes.h	95;"	d
+UInt16	7zTypes.h	/^typedef unsigned short UInt16;$/;"	t
+UInt32	7zTypes.h	/^typedef unsigned int UInt32;$/;"	t
+UInt32	7zTypes.h	/^typedef unsigned long UInt32;$/;"	t
+UInt64	7zTypes.h	/^typedef unsigned __int64 UInt64;$/;"	t
+UInt64	7zTypes.h	/^typedef unsigned long UInt64;$/;"	t
+UInt64	7zTypes.h	/^typedef unsigned long long int UInt64;$/;"	t
+UInt64ToStr	Util/7z/7zMain.c	/^static void UInt64ToStr(UInt64 value, char *s, int numDigits)$/;"	f	file:
+UIntPtr	Alloc.c	/^  typedef UINT_PTR UIntPtr;$/;"	t	file:
+UIntPtr	Alloc.c	/^  typedef ptrdiff_t UIntPtr;$/;"	t	file:
+UIntToStr	Util/7z/7zMain.c	/^static char *UIntToStr(char *s, unsigned value, int numDigits)$/;"	f	file:
+UIntToStr_2	Util/7z/7zMain.c	/^static void UIntToStr_2(char *s, unsigned value)$/;"	f	file:
+UNICODE	Util/SfxSetup/SfxSetup.c	7;"	d	file:
+UNIT_SIZE	Ppmd7.c	15;"	d	file:
+UNUSED_VAR	Compiler.h	30;"	d
+UPDATE_0	LzmaDec.c	23;"	d	file:
+UPDATE_0_CHECK	LzmaDec.c	70;"	d	file:
+UPDATE_1	LzmaDec.c	24;"	d	file:
+UPDATE_1_CHECK	LzmaDec.c	71;"	d	file:
+UPDATE_maxLen	LzFind.c	544;"	d	file:
+USE_ALLOCA	MtDec.c	825;"	d	file:
+USE_ASM	CpuArch.c	11;"	d	file:
+USE_INTEL_AES	AesOpt.c	10;"	d	file:
+USE_WINDOWS_FILE	7zFile.h	8;"	d
+USE_posix_memalign	Alloc.c	287;"	d	file:
+Ui32	Aes.c	47;"	d	file:
+Units2Indx	Ppmd7.h	/^  Byte Units2Indx[128];$/;"	m	struct:__anon24
+UnitsStart	Ppmd7.h	/^  Byte *Base, *LoUnit, *HiUnit, *Text, *UnitsStart;$/;"	m	struct:__anon24
+UnpackPositions	7z.h	/^  UInt64 *UnpackPositions;  \/\/ NumFiles + 1$/;"	m	struct:__anon86
+UnpackSize_Defined	Xz.h	/^  Byte UnpackSize_Defined;$/;"	m	struct:__anon20
+UnpackStream	7z.h	/^  UInt32 UnpackStream;$/;"	m	struct:__anon81
+UpdateModel	Ppmd7.c	/^static void UpdateModel(CPpmd7 *p)$/;"	f	file:
+Utf16_To_Char	Util/7z/7zMain.c	/^static SRes Utf16_To_Char(CBuf *buf, const UInt16 *s$/;"	f	file:
+Utf16_To_Utf8	Util/7z/7zMain.c	/^static Byte *Utf16_To_Utf8(Byte *dest, const UInt16 *src, const UInt16 *srcLim)$/;"	f	file:
+Utf16_To_Utf8Buf	Util/7z/7zMain.c	/^static SRes Utf16_To_Utf8Buf(CBuf *dest, const UInt16 *src, size_t srcLen)$/;"	f	file:
+Utf16_To_Utf8_Calc	Util/7z/7zMain.c	/^static size_t Utf16_To_Utf8_Calc(const UInt16 *src, const UInt16 *srcLim)$/;"	f	file:
+Vals	7z.h	/^  CNtfsFileTime *Vals;$/;"	m	struct:__anon84
+Vals	7z.h	/^  UInt32 *Vals;$/;"	m	struct:__anon83
+WCHAR_PATH_SEPARATOR	7zTypes.h	359;"	d
+WCHAR_PATH_SEPARATOR	7zTypes.h	366;"	d
+WRes	7zTypes.h	/^typedef int WRes;$/;"	t
+WRes	7zTypes.h	/^typedef unsigned WRes;$/;"	t
+WSTRING_PATH_SEPARATOR	7zTypes.h	361;"	d
+WSTRING_PATH_SEPARATOR	7zTypes.h	368;"	d
+WaitId	7zArcIn.c	/^static SRes WaitId(CSzData *sd, UInt32 id)$/;"	f	file:
+Write	7zTypes.h	/^  size_t (*Write)(const ISeqOutStream *p, const void *buf, size_t size);$/;"	m	struct:ISeqOutStream
+Write	7zTypes.h	/^  void (*Write)(const IByteOut *p, Byte b);$/;"	m	struct:IByteOut
+Write	MtCoder.h	/^  SRes (*Write)(void *p, unsigned outBufIndex);$/;"	m	struct:__anon29
+Write	MtDec.h	/^  SRes (*Write)(void *p, unsigned coderIndex,$/;"	m	struct:__anon91
+WriteBytes	XzEnc.c	/^static SRes WriteBytes(ISeqOutStream *s, const void *buf, size_t size)$/;"	f	file:
+WriteBytesUpdateCrc	XzEnc.c	/^static SRes WriteBytesUpdateCrc(ISeqOutStream *s, const void *buf, size_t size, UInt32 *crc)$/;"	f	file:
+WriteEndMarker	LzmaEnc.c	/^static void WriteEndMarker(CLzmaEnc *p, unsigned posState)$/;"	f	file:
+XZDECMT_STREAM_WRITE_STEP	XzDec.c	1968;"	d	file:
+XZ_BF_NUM_FILTERS_MASK	Xz.h	29;"	d
+XZ_BF_PACK_SIZE	Xz.h	30;"	d
+XZ_BF_UNPACK_SIZE	Xz.h	31;"	d
+XZ_BLOCK_HEADER_SIZE_MAX	Xz.h	26;"	d
+XZ_CHECK_CRC32	Xz.h	80;"	d
+XZ_CHECK_CRC64	Xz.h	81;"	d
+XZ_CHECK_MASK	Xz.h	78;"	d
+XZ_CHECK_NO	Xz.h	79;"	d
+XZ_CHECK_SHA256	Xz.h	82;"	d
+XZ_CHECK_SIZE_MAX	XzDec.c	50;"	d	file:
+XZ_FILTER_PROPS_SIZE_MAX	Xz.h	33;"	d
+XZ_FOOTER_SIG_0	Xz.h	69;"	d
+XZ_FOOTER_SIG_1	Xz.h	70;"	d
+XZ_FOOTER_SIG_CHECK	XzIn.c	15;"	d	file:
+XZ_FOOTER_SIG_SIZE	Xz.h	61;"	d
+XZ_GET_ESTIMATED_BLOCK_TOTAL_PACK_SIZE	XzEnc.c	35;"	d	file:
+XZ_GET_MAX_BLOCK_PACK_SIZE	XzEnc.c	33;"	d	file:
+XZ_GET_PAD_SIZE	XzEnc.c	30;"	d	file:
+XZ_ID_ARM	Xz.h	16;"	d
+XZ_ID_ARMT	Xz.h	17;"	d
+XZ_ID_Delta	Xz.h	12;"	d
+XZ_ID_IA64	Xz.h	15;"	d
+XZ_ID_LZMA2	Xz.h	19;"	d
+XZ_ID_PPC	Xz.h	14;"	d
+XZ_ID_SPARC	Xz.h	18;"	d
+XZ_ID_Subblock	Xz.h	11;"	d
+XZ_ID_X86	Xz.h	13;"	d
+XZ_NUM_FILTERS_MAX	Xz.h	28;"	d
+XZ_PROPS__BLOCK_SIZE__AUTO	XzEnc.h	14;"	d
+XZ_PROPS__BLOCK_SIZE__SOLID	XzEnc.h	15;"	d
+XZ_SIG	Xz.c	/^const Byte XZ_SIG[XZ_SIG_SIZE] = { 0xFD, '7', 'z', 'X', 'Z', 0 };$/;"	v
+XZ_SIG_SIZE	Xz.h	60;"	d
+XZ_SIZE_OVERFLOW	Xz.h	123;"	d
+XZ_STATE_BLOCK	Xz.h	/^  XZ_STATE_BLOCK,$/;"	e	enum:__anon17
+XZ_STATE_BLOCK_FOOTER	Xz.h	/^  XZ_STATE_BLOCK_FOOTER$/;"	e	enum:__anon17
+XZ_STATE_BLOCK_HEADER	Xz.h	/^  XZ_STATE_BLOCK_HEADER,$/;"	e	enum:__anon17
+XZ_STATE_STREAM_FOOTER	Xz.h	/^  XZ_STATE_STREAM_FOOTER,$/;"	e	enum:__anon17
+XZ_STATE_STREAM_HEADER	Xz.h	/^  XZ_STATE_STREAM_HEADER,$/;"	e	enum:__anon17
+XZ_STATE_STREAM_INDEX	Xz.h	/^  XZ_STATE_STREAM_INDEX,$/;"	e	enum:__anon17
+XZ_STATE_STREAM_INDEX_CRC	Xz.h	/^  XZ_STATE_STREAM_INDEX_CRC,$/;"	e	enum:__anon17
+XZ_STATE_STREAM_PADDING	Xz.h	/^  XZ_STATE_STREAM_PADDING,$/;"	e	enum:__anon17
+XZ_STREAM_CRC_SIZE	Xz.h	73;"	d
+XZ_STREAM_FLAGS_SIZE	Xz.h	72;"	d
+XZ_STREAM_FOOTER_SIZE	Xz.h	76;"	d
+XZ_STREAM_HEADER_SIZE	Xz.h	75;"	d
+XzBlock_AreSupportedFilters	XzDec.c	/^static Bool XzBlock_AreSupportedFilters(const CXzBlock *p)$/;"	f	file:
+XzBlock_ClearFlags	XzEnc.c	38;"	d	file:
+XzBlock_GetNumFilters	Xz.h	50;"	d
+XzBlock_HasPackSize	Xz.h	51;"	d
+XzBlock_HasUnpackSize	Xz.h	52;"	d
+XzBlock_HasUnsupportedFlags	Xz.h	53;"	d
+XzBlock_Parse	XzDec.c	/^SRes XzBlock_Parse(CXzBlock *p, const Byte *header)$/;"	f
+XzBlock_ReadHeader	XzIn.c	/^SRes XzBlock_ReadHeader(CXzBlock *p, ISeqInStream *inStream, Bool *isIndex, UInt32 *headerSizeRes)$/;"	f
+XzBlock_SetHasPackSize	XzEnc.c	40;"	d	file:
+XzBlock_SetHasUnpackSize	XzEnc.c	41;"	d	file:
+XzBlock_SetNumFilters	XzEnc.c	39;"	d	file:
+XzBlock_WriteHeader	XzEnc.c	/^static SRes XzBlock_WriteHeader(const CXzBlock *p, ISeqOutStream *s)$/;"	f	file:
+XzCheck_Final	Xz.c	/^int XzCheck_Final(CXzCheck *p, Byte *digest)$/;"	f
+XzCheck_Init	Xz.c	/^void XzCheck_Init(CXzCheck *p, unsigned mode)$/;"	f
+XzCheck_Update	Xz.c	/^void XzCheck_Update(CXzCheck *p, const void *data, size_t size)$/;"	f
+XzCrc64UpdateT1_BeT4	XzCrc64Opt.c	/^UInt64 MY_FAST_CALL XzCrc64UpdateT1_BeT4(UInt64 v, const void *data, size_t size, const UInt64 *table)$/;"	f
+XzCrc64UpdateT4	XzCrc64Opt.c	/^UInt64 MY_FAST_CALL XzCrc64UpdateT4(UInt64 v, const void *data, size_t size, const UInt64 *table)$/;"	f
+XzDecMix_Init	XzDec.c	/^static SRes XzDecMix_Init(CMixCoder *p, const CXzBlock *block, Byte *outBuf, size_t outBufSize)$/;"	f	file:
+XzDecMtProps_Init	XzDec.c	/^void XzDecMtProps_Init(CXzDecMtProps *p)$/;"	f
+XzDecMt_Callback_Code	XzDec.c	/^static SRes XzDecMt_Callback_Code(void *pp, unsigned coderIndex,$/;"	f	file:
+XzDecMt_Callback_Parse	XzDec.c	/^static void XzDecMt_Callback_Parse(void *obj, unsigned coderIndex, CMtDecCallbackInfo *cc)$/;"	f	file:
+XzDecMt_Callback_PreCode	XzDec.c	/^static SRes XzDecMt_Callback_PreCode(void *pp, unsigned coderIndex)$/;"	f	file:
+XzDecMt_Callback_Write	XzDec.c	/^static SRes XzDecMt_Callback_Write(void *pp, unsigned coderIndex,$/;"	f	file:
+XzDecMt_Create	XzDec.c	/^CXzDecMtHandle XzDecMt_Create(ISzAllocPtr alloc, ISzAllocPtr allocMid)$/;"	f
+XzDecMt_Decode	XzDec.c	/^SRes XzDecMt_Decode(CXzDecMtHandle pp,$/;"	f
+XzDecMt_Decode_ST	XzDec.c	/^static SRes XzDecMt_Decode_ST(CXzDecMt *p$/;"	f	file:
+XzDecMt_Destroy	XzDec.c	/^void XzDecMt_Destroy(CXzDecMtHandle pp)$/;"	f
+XzDecMt_FreeOutBufs	XzDec.c	/^static void XzDecMt_FreeOutBufs(CXzDecMt *p)$/;"	f	file:
+XzDecMt_FreeSt	XzDec.c	/^static void XzDecMt_FreeSt(CXzDecMt *p)$/;"	f	file:
+XzEncIndex_AddIndexRecord	XzEnc.c	/^static SRes XzEncIndex_AddIndexRecord(CXzEncIndex *p, UInt64 unpackSize, UInt64 totalSize, ISzAllocPtr alloc)$/;"	f	file:
+XzEncIndex_Construct	XzEnc.c	/^static void XzEncIndex_Construct(CXzEncIndex *p)$/;"	f	file:
+XzEncIndex_Free	XzEnc.c	/^static void XzEncIndex_Free(CXzEncIndex *p, ISzAllocPtr alloc)$/;"	f	file:
+XzEncIndex_Init	XzEnc.c	/^static void XzEncIndex_Init(CXzEncIndex *p)$/;"	f	file:
+XzEncIndex_PreAlloc	XzEnc.c	/^static SRes XzEncIndex_PreAlloc(CXzEncIndex *p, UInt64 numBlocks, UInt64 unpackSize, UInt64 totalSize, ISzAllocPtr alloc)$/;"	f	file:
+XzEncIndex_ReAlloc	XzEnc.c	/^static SRes XzEncIndex_ReAlloc(CXzEncIndex *p, size_t newSize, ISzAllocPtr alloc)$/;"	f	file:
+XzEncIndex_WriteFooter	XzEnc.c	/^static SRes XzEncIndex_WriteFooter(const CXzEncIndex *p, CXzStreamFlags flags, ISeqOutStream *s)$/;"	f	file:
+XzEncProps_Normalize_Fixed	XzEnc.c	/^static void XzEncProps_Normalize_Fixed(CXzProps *p)$/;"	f	file:
+XzEnc_Construct	XzEnc.c	/^static void XzEnc_Construct(CXzEnc *p)$/;"	f	file:
+XzEnc_Create	XzEnc.c	/^CXzEncHandle XzEnc_Create(ISzAllocPtr alloc, ISzAllocPtr allocBig)$/;"	f
+XzEnc_Destroy	XzEnc.c	/^void XzEnc_Destroy(CXzEncHandle pp)$/;"	f
+XzEnc_Encode	XzEnc.c	/^SRes XzEnc_Encode(CXzEncHandle pp, ISeqOutStream *outStream, ISeqInStream *inStream, ICompressProgress *progress)$/;"	f
+XzEnc_Free	XzEnc.c	/^static void XzEnc_Free(CXzEnc *p, ISzAllocPtr alloc)$/;"	f	file:
+XzEnc_FreeOutBufs	XzEnc.c	/^static void XzEnc_FreeOutBufs(CXzEnc *p)$/;"	f	file:
+XzEnc_MtCallback_Code	XzEnc.c	/^static SRes XzEnc_MtCallback_Code(void *pp, unsigned coderIndex, unsigned outBufIndex,$/;"	f	file:
+XzEnc_MtCallback_Write	XzEnc.c	/^static SRes XzEnc_MtCallback_Write(void *pp, unsigned outBufIndex)$/;"	f	file:
+XzEnc_SetDataSize	XzEnc.c	/^void XzEnc_SetDataSize(CXzEncHandle pp, UInt64 expectedDataSiize)$/;"	f
+XzEnc_SetProps	XzEnc.c	/^SRes XzEnc_SetProps(CXzEncHandle pp, const CXzProps *props)$/;"	f
+XzFilterProps_Init	XzEnc.c	/^void XzFilterProps_Init(CXzFilterProps *p)$/;"	f
+XzFlags_GetCheckSize	Xz.c	/^unsigned XzFlags_GetCheckSize(CXzStreamFlags f)$/;"	f
+XzFlags_GetCheckType	Xz.h	99;"	d
+XzFlags_HasDataCrc32	Xz.h	100;"	d
+XzFlags_IsSupported	Xz.h	98;"	d
+XzProps_Init	XzEnc.c	/^void XzProps_Init(CXzProps *p)$/;"	f
+XzProps_Normalize	XzEnc.c	/^static void XzProps_Normalize(CXzProps *p)$/;"	f	file:
+XzStatInfo_Clear	XzDec.c	/^void XzStatInfo_Clear(CXzStatInfo *p)$/;"	f
+XzStatInfo_SetStat	XzDec.c	/^static SRes XzStatInfo_SetStat(const CXzUnpacker *dec,$/;"	f	file:
+XzUnpacker_Code	XzDec.c	/^SRes XzUnpacker_Code(CXzUnpacker *p, Byte *dest, SizeT *destLen,$/;"	f
+XzUnpacker_CodeFull	XzDec.c	/^SRes XzUnpacker_CodeFull(CXzUnpacker *p, Byte *dest, SizeT *destLen,$/;"	f
+XzUnpacker_Construct	XzDec.c	/^void XzUnpacker_Construct(CXzUnpacker *p, ISzAllocPtr alloc)$/;"	f
+XzUnpacker_Free	XzDec.c	/^void XzUnpacker_Free(CXzUnpacker *p)$/;"	f
+XzUnpacker_GetExtraSize	XzDec.c	/^UInt64 XzUnpacker_GetExtraSize(const CXzUnpacker *p)$/;"	f
+XzUnpacker_GetPackSizeForIndex	Xz.h	370;"	d
+XzUnpacker_Init	XzDec.c	/^void XzUnpacker_Init(CXzUnpacker *p)$/;"	f
+XzUnpacker_IsBlockFinished	XzDec.c	/^Bool XzUnpacker_IsBlockFinished(const CXzUnpacker *p)$/;"	f
+XzUnpacker_IsStreamWasFinished	XzDec.c	/^Bool XzUnpacker_IsStreamWasFinished(const CXzUnpacker *p)$/;"	f
+XzUnpacker_PrepareToRandomBlockDecoding	XzDec.c	/^void XzUnpacker_PrepareToRandomBlockDecoding(CXzUnpacker *p)$/;"	f
+XzUnpacker_SetOutBuf	XzDec.c	/^void XzUnpacker_SetOutBuf(CXzUnpacker *p, Byte *outBuf, size_t outBufSize)$/;"	f
+XzUnpacker_UpdateIndex	XzDec.c	/^static void XzUnpacker_UpdateIndex(CXzUnpacker *p, UInt64 packSize, UInt64 unpackSize)$/;"	f	file:
+Xz_CheckFooter	XzDec.c	/^static Bool Xz_CheckFooter(CXzStreamFlags flags, UInt64 indexSize, const Byte *buf)$/;"	f	file:
+Xz_CompressBlock	XzEnc.c	/^static SRes Xz_CompressBlock($/;"	f	file:
+Xz_Construct	Xz.c	/^void Xz_Construct(CXzStream *p)$/;"	f
+Xz_Encode	XzEnc.c	/^SRes Xz_Encode(ISeqOutStream *outStream, ISeqInStream *inStream,$/;"	f
+Xz_EncodeEmpty	XzEnc.c	/^SRes Xz_EncodeEmpty(ISeqOutStream *outStream)$/;"	f
+Xz_Free	Xz.c	/^void Xz_Free(CXzStream *p, ISzAllocPtr alloc)$/;"	f
+Xz_GetPackSize	XzIn.c	/^UInt64 Xz_GetPackSize(const CXzStream *p)$/;"	f
+Xz_GetUnpackSize	XzIn.c	/^UInt64 Xz_GetUnpackSize(const CXzStream *p)$/;"	f
+Xz_ParseHeader	XzDec.c	/^SRes Xz_ParseHeader(CXzStreamFlags *p, const Byte *buf)$/;"	f
+Xz_ReadBackward	XzIn.c	/^static SRes Xz_ReadBackward(CXzStream *p, ILookInStream *stream, Int64 *startOffset, ISzAllocPtr alloc)$/;"	f	file:
+Xz_ReadHeader	XzIn.c	/^SRes Xz_ReadHeader(CXzStreamFlags *p, ISeqInStream *inStream)$/;"	f
+Xz_ReadIndex	XzIn.c	/^static SRes Xz_ReadIndex(CXzStream *p, ILookInStream *stream, UInt64 indexSize, ISzAllocPtr alloc)$/;"	f	file:
+Xz_ReadIndex2	XzIn.c	/^static SRes Xz_ReadIndex2(CXzStream *p, const Byte *buf, size_t size, ISzAllocPtr alloc)$/;"	f	file:
+Xz_ReadVarInt	XzDec.c	/^unsigned Xz_ReadVarInt(const Byte *p, size_t maxSize, UInt64 *value)$/;"	f
+Xz_WriteHeader	XzEnc.c	/^static SRes Xz_WriteHeader(CXzStreamFlags f, ISeqOutStream *s)$/;"	f	file:
+Xz_WriteVarInt	Xz.c	/^unsigned Xz_WriteVarInt(Byte *buf, UInt64 v)$/;"	f
+Xzs_Construct	XzIn.c	/^void Xzs_Construct(CXzs *p)$/;"	f
+Xzs_Free	XzIn.c	/^void Xzs_Free(CXzs *p, ISzAllocPtr alloc)$/;"	f
+Xzs_GetNumBlocks	XzIn.c	/^UInt64 Xzs_GetNumBlocks(const CXzs *p)$/;"	f
+Xzs_GetUnpackSize	XzIn.c	/^UInt64 Xzs_GetUnpackSize(const CXzs *p)$/;"	f
+Xzs_ReadBackward	XzIn.c	/^SRes Xzs_ReadBackward(CXzs *p, ILookInStream *stream, Int64 *startOffset, ICompressProgress *progress, ISzAllocPtr alloc)$/;"	f
+_7ZIP_LARGE_PAGES	Alloc.c	176;"	d	file:
+_CLzmaEncProps	LzmaEnc.h	/^typedef struct _CLzmaEncProps$/;"	s
+_CLzmaProps	LzmaDec.h	/^typedef struct _CLzmaProps$/;"	s
+_CMatchFinder	LzFind.h	/^typedef struct _CMatchFinder$/;"	s
+_CMatchFinderMt	LzFindMt.h	/^typedef struct _CMatchFinderMt$/;"	s
+_CMtCoder	MtCoder.h	/^typedef struct _CMtCoder$/;"	s
+_CMtDec	MtDec.h	/^typedef struct _CMtDec$/;"	s
+_CMtSync	LzFindMt.h	/^typedef struct _CMtSync$/;"	s
+_IF_BIT_0	Bcj2.c	16;"	d	file:
+_IMatchFinder	LzFind.h	/^typedef struct _IMatchFinder$/;"	s
+_IStateCoder	Xz.h	/^typedef struct _IStateCoder$/;"	s
+_SHA256_UNROLL	Sha256.c	15;"	d	file:
+_SHA256_UNROLL2	Sha256.c	16;"	d	file:
+_UNICODE	Util/SfxSetup/SfxSetup.c	11;"	d	file:
+_UPDATE_0	Bcj2.c	17;"	d	file:
+_UPDATE_1	Bcj2.c	18;"	d	file:
+_USE_UTF8	Util/7z/7zMain.c	49;"	d	file:
+_UTF8_CHAR	Util/7z/7zMain.c	61;"	d	file:
+_UTF8_HEAD	Util/7z/7zMain.c	60;"	d	file:
+_UTF8_RANGE	Util/7z/7zMain.c	58;"	d	file:
+_UTF8_START	Util/7z/7zMain.c	56;"	d	file:
+__7Z_ALLOC_H	7zAlloc.h	5;"	d
+__7Z_BUF_H	7zBuf.h	5;"	d
+__7Z_COMPILER_H	Compiler.h	5;"	d
+__7Z_CRC_H	7zCrc.h	5;"	d
+__7Z_FILE_H	7zFile.h	5;"	d
+__7Z_H	7z.h	5;"	d
+__7Z_PRECOMP_H	Precomp.h	5;"	d
+__7Z_PRECOMP_H	Util/7z/Precomp.h	5;"	d
+__7Z_PRECOMP_H	Util/SfxSetup/Precomp.h	5;"	d
+__7Z_SORT_H	Sort.h	5;"	d
+__7Z_THREADS_H	Threads.h	5;"	d
+__7Z_TYPES_H	7zTypes.h	5;"	d
+__AES_H	Aes.h	5;"	d
+__BCJ2_H	Bcj2.h	5;"	d
+__BRA_H	Bra.h	5;"	d
+__COMMON_ALLOC_H	Alloc.h	5;"	d
+__CPU_ARCH_H	CpuArch.h	5;"	d
+__CRYPTO_SHA256_H	Sha256.h	5;"	d
+__DELTA_H	Delta.h	5;"	d
+__DLL_SECUR_H	DllSecur.h	5;"	d
+__LZMA2_DEC_H	Lzma2Dec.h	5;"	d
+__LZMA2_DEC_MT_H	Lzma2DecMt.h	5;"	d
+__LZMA2_ENC_H	Lzma2Enc.h	5;"	d
+__LZMA86_H	Lzma86.h	5;"	d
+__LZMA_DEC_H	LzmaDec.h	5;"	d
+__LZMA_ENC_H	LzmaEnc.h	5;"	d
+__LZMA_LIB_H	LzmaLib.h	5;"	d
+__LZ_FIND_H	LzFind.h	5;"	d
+__LZ_FIND_MT_H	LzFindMt.h	5;"	d
+__LZ_HASH_H	LzHash.h	5;"	d
+__MT_CODER_H	MtCoder.h	5;"	d
+__MT_DEC_H	MtDec.h	5;"	d
+__PPMD7_H	Ppmd7.h	10;"	d
+__PPMD_H	Ppmd.h	6;"	d
+__ROTATE_DEFS_H	RotateDefs.h	5;"	d
+__XZ_CRC64_H	XzCrc64.h	5;"	d
+__XZ_ENC_H	XzEnc.h	5;"	d
+__XZ_H	Xz.h	5;"	d
+_pad_	Lzma2Dec.h	/^  Byte _pad_;$/;"	m	struct:__anon75
+_pad_	LzmaDec.h	/^  Byte _pad_;$/;"	m	struct:_CLzmaProps
+a	Sha256.c	66;"	d	file:
+additionalOffset	LzmaEnc.c	/^  unsigned additionalOffset;$/;"	m	struct:__anon46	file:
+algo	LzmaEnc.h	/^  int algo;        \/* 0 - fast, 1 - normal, default = 1 *\/$/;"	m	struct:_CLzmaEncProps
+alignOffsetAlloc	Lzma2DecMt.c	/^  CAlignOffsetAlloc alignOffsetAlloc;$/;"	m	struct:__anon66	file:
+alignOffsetAlloc	XzDec.c	/^  CAlignOffsetAlloc alignOffsetAlloc;$/;"	m	struct:__anon40	file:
+alignPos	Xz.h	/^  unsigned alignPos;$/;"	m	struct:__anon18
+alignPriceCount	LzmaEnc.c	/^  unsigned alignPriceCount;$/;"	m	struct:__anon46	file:
+alignPrices	LzmaEnc.c	/^  UInt32 alignPrices[kAlignTableSize];$/;"	m	struct:__anon46	file:
+alloc	Lzma2DecMt.c	/^  CAlignOffsetAlloc alloc;$/;"	m	struct:__anon65	file:
+alloc	Lzma2Enc.c	/^  ISzAllocPtr alloc;$/;"	m	struct:__anon74	file:
+alloc	MtDec.h	/^  ISzAllocPtr alloc;$/;"	m	struct:_CMtDec
+alloc	Xz.h	/^  ISzAllocPtr alloc;$/;"	m	struct:__anon16
+alloc	XzEnc.c	/^  ISzAllocPtr alloc;$/;"	m	struct:__anon62	file:
+allocBig	Lzma2Enc.c	/^  ISzAllocPtr allocBig;$/;"	m	struct:__anon74	file:
+allocBig	MtCoder.h	/^  ISzAllocPtr allocBig;$/;"	m	struct:_CMtCoder
+allocBig	XzEnc.c	/^  ISzAllocPtr allocBig;$/;"	m	struct:__anon62	file:
+allocMid	Lzma2DecMt.c	/^  ISzAllocPtr allocMid;$/;"	m	struct:__anon66	file:
+allocMid	XzDec.c	/^  ISzAllocPtr allocMid;$/;"	m	struct:__anon40	file:
+allocaPtr	MtDec.h	/^  void  *allocaPtr;$/;"	m	struct:__anon88
+allocated	XzEnc.c	/^  size_t allocated;$/;"	m	struct:__anon54	file:
+allocatedBufsSize	MtCoder.h	/^  size_t allocatedBufsSize;$/;"	m	struct:_CMtCoder
+allocatedBufsSize	MtDec.h	/^  size_t allocatedBufsSize;$/;"	m	struct:_CMtDec
+atBlockHeader	XzDec.c	/^  Bool atBlockHeader;$/;"	m	struct:__anon39	file:
+b	CpuArch.h	/^  UInt32 b;$/;"	m	struct:__anon22
+b	Sha256.c	67;"	d	file:
+backRes	LzmaEnc.c	/^  UInt32 backRes;$/;"	m	struct:__anon46	file:
+baseAlloc	Alloc.h	/^  ISzAllocPtr baseAlloc;$/;"	m	struct:__anon63
+begin	7zDec.c	/^  const Byte *begin;$/;"	m	struct:__anon77	file:
+bigHash	LzFind.h	/^  Byte bigHash;$/;"	m	struct:_CMatchFinder
+blk0	Sha256.c	39;"	d	file:
+blk2	Sha256.c	40;"	d	file:
+block	Xz.h	/^  CXzBlock block;$/;"	m	struct:__anon18
+blockHeaderSize	Xz.h	/^  UInt32 blockHeaderSize;$/;"	m	struct:__anon18
+blockIndex	MtCoder.h	/^  unsigned blockIndex;$/;"	m	struct:_CMtCoder
+blockIndex	MtDec.h	/^  UInt64 blockIndex;$/;"	m	struct:_CMtDec
+blockPackSize_for_Index	XzDec.c	/^  size_t blockPackSize_for_Index;  \/\/ including block header and checksum.$/;"	m	struct:__anon39	file:
+blockPackTotal	XzDec.c	/^  size_t blockPackTotal;  \/\/ including stream header, block header and checksum.$/;"	m	struct:__anon39	file:
+blockSize	LzFind.h	/^  UInt32 blockSize;$/;"	m	struct:_CMatchFinder
+blockSize	Lzma2Enc.h	/^  UInt64 blockSize;$/;"	m	struct:__anon7
+blockSize	MtCoder.h	/^  size_t blockSize;        \/* size of input block *\/$/;"	m	struct:_CMtCoder
+blockSize	XzEnc.h	/^  UInt64 blockSize;$/;"	m	struct:__anon69
+blocks	MtCoder.h	/^  CMtCoderBlock blocks[MTCODER__BLOCKS_MAX];$/;"	m	struct:_CMtCoder
+blocks	Xz.h	/^  CXzBlockSizes *blocks;$/;"	m	struct:__anon12
+blocks	XzEnc.c	/^  Byte *blocks;$/;"	m	struct:__anon54	file:
+blocksSemaphore	MtCoder.h	/^  CSemaphore blocksSemaphore;$/;"	m	struct:_CMtCoder
+btBuf	LzFindMt.h	/^  UInt32 *btBuf;$/;"	m	struct:_CMatchFinderMt
+btBufPos	LzFindMt.h	/^  UInt32 btBufPos;$/;"	m	struct:_CMatchFinderMt
+btBufPosLimit	LzFindMt.h	/^  UInt32 btBufPosLimit;$/;"	m	struct:_CMatchFinderMt
+btDummy	LzFindMt.h	/^  Byte btDummy[kMtCacheLineDummy];$/;"	m	struct:_CMatchFinderMt
+btMode	LzFind.h	/^  Byte btMode;$/;"	m	struct:_CMatchFinder
+btMode	LzmaEnc.h	/^  int btMode;      \/* 0 - hashChain Mode, 1 - binTree mode - normal, default = 1 *\/$/;"	m	struct:_CLzmaEncProps
+btNumAvailBytes	LzFindMt.h	/^  UInt32 btNumAvailBytes;$/;"	m	struct:_CMatchFinderMt
+btSync	LzFindMt.h	/^  CMtSync btSync;$/;"	m	struct:_CMatchFinderMt
+buf	7zTypes.h	/^  Byte *buf;$/;"	m	struct:__anon2
+buf	LzmaDec.h	/^  const Byte *buf;$/;"	m	struct:__anon92
+buf	LzmaEnc.c	/^  Byte *buf;$/;"	m	struct:__anon44	file:
+buf	Xz.h	/^  Byte *buf;$/;"	m	struct:__anon16
+buf	Xz.h	/^  Byte buf[XZ_BLOCK_HEADER_SIZE_MAX];$/;"	m	struct:__anon18
+buf	XzDec.c	/^  Byte buf[BRA_BUF_SIZE];$/;"	m	struct:__anon37	file:
+buf	XzEnc.c	/^  Byte *buf;$/;"	m	struct:__anon57	file:
+bufBase	LzmaEnc.c	/^  Byte *bufBase;$/;"	m	struct:__anon44	file:
+bufConv	XzDec.c	/^  size_t bufConv;$/;"	m	struct:__anon37	file:
+bufIndex	MtCoder.h	/^  unsigned bufIndex;$/;"	m	struct:__anon30
+bufLim	LzmaEnc.c	/^  Byte *bufLim;$/;"	m	struct:__anon44	file:
+bufPos	XzDec.c	/^  size_t bufPos;$/;"	m	struct:__anon37	file:
+bufSize	7zTypes.h	/^  size_t bufSize;$/;"	m	struct:__anon2
+bufTotal	XzDec.c	/^  size_t bufTotal;$/;"	m	struct:__anon37	file:
+buffer	LzFind.h	/^  Byte *buffer;$/;"	m	struct:_CMatchFinder
+buffer	LzFindMt.h	/^  const Byte *buffer;$/;"	m	struct:_CMatchFinderMt
+buffer	Sha256.h	/^  Byte buffer[64];$/;"	m	struct:__anon95
+bufferBase	LzFind.h	/^  Byte *bufferBase;$/;"	m	struct:_CMatchFinder
+bufs	Bcj2.h	/^  Byte *bufs[BCJ2_NUM_STREAMS];$/;"	m	struct:__anon53
+bufs	Bcj2.h	/^  const Byte *bufs[BCJ2_NUM_STREAMS];$/;"	m	struct:__anon51
+c	CpuArch.h	/^  UInt32 c;$/;"	m	struct:__anon22
+c	Sha256.c	68;"	d	file:
+cache	Bcj2.h	/^  Byte cache;$/;"	m	struct:__anon53
+cache	LzmaEnc.c	/^  unsigned cache;$/;"	m	struct:__anon44	file:
+cacheSize	Bcj2.h	/^  UInt64 cacheSize;$/;"	m	struct:__anon53
+cacheSize	LzmaEnc.c	/^  UInt64 cacheSize;$/;"	m	struct:__anon44	file:
+canCreateNewThread	MtDec.h	/^  Bool canCreateNewThread;$/;"	m	struct:__anon90
+canRead	MtDec.h	/^  CAutoResetEvent canRead;$/;"	m	struct:__anon88
+canStart	LzFindMt.h	/^  CAutoResetEvent canStart;$/;"	m	struct:_CMtSync
+canWrite	MtDec.h	/^  CAutoResetEvent canWrite;$/;"	m	struct:__anon88
+check	Xz.h	/^  CXzCheck check;$/;"	m	struct:__anon18
+check	XzEnc.c	/^  CXzCheck check;$/;"	m	struct:__anon55	file:
+checkDicSize	LzmaDec.h	/^  UInt32 checkDicSize;$/;"	m	struct:__anon92
+checkId	XzEnc.h	/^  unsigned checkId;$/;"	m	struct:__anon69
+checkType	XzEnc.c	/^  unsigned checkType;$/;"	m	struct:__anon62	file:
+code	Bcj2.h	/^  UInt32 code;$/;"	m	struct:__anon51
+code	LzmaDec.h	/^  UInt32 code;$/;"	m	struct:__anon92
+codeRes	Lzma2DecMt.c	/^  SRes codeRes;$/;"	m	struct:__anon65	file:
+codeRes	MtDec.h	/^  SRes codeRes;$/;"	m	struct:_CMtDec
+codeRes	XzDec.c	/^  SRes codeRes;$/;"	m	struct:__anon39	file:
+codeRes	XzDec.c	/^  SRes codeRes;$/;"	m	struct:__anon40	file:
+coders	Lzma2DecMt.c	/^  CLzma2DecMtThread coders[MTDEC__THREADS_MAX];$/;"	m	struct:__anon66	file:
+coders	Lzma2Enc.c	/^  CLzma2EncInt coders[MTCODER__THREADS_MAX];$/;"	m	struct:__anon74	file:
+coders	Xz.h	/^  IStateCoder coders[MIXCODER_NUM_FILTERS_MAX];$/;"	m	struct:__anon16
+coders	XzDec.c	/^  CXzDecMtThread coders[MTDEC__THREADS_MAX];$/;"	m	struct:__anon40	file:
+control	Lzma2Dec.h	/^  Byte control;$/;"	m	struct:__anon75
+count	Sha256.h	/^  UInt64 count;$/;"	m	struct:__anon95
+counters	LzmaEnc.c	/^  unsigned counters[LZMA_NUM_PB_STATES_MAX];$/;"	m	struct:__anon43	file:
+crc	LzFind.h	/^  UInt32 crc[256];$/;"	m	struct:_CMatchFinder
+crc	LzFindMt.h	/^  const UInt32 *crc;$/;"	m	struct:_CMatchFinderMt
+crc	Xz.h	/^  UInt32 crc;$/;"	m	struct:__anon10
+crc	Xz.h	/^  UInt32 crc;$/;"	m	struct:__anon18
+crc64	Xz.h	/^  UInt64 crc64;$/;"	m	struct:__anon10
+crossBlock	MtDec.h	/^  Byte *crossBlock;$/;"	m	struct:_CMtDec
+crossEnd	MtDec.h	/^  size_t crossEnd;$/;"	m	struct:_CMtDec
+crossStart	MtDec.h	/^  size_t crossStart;$/;"	m	struct:_CMtDec
+cs	LzFindMt.h	/^  CCriticalSection cs;$/;"	m	struct:_CMtSync
+cs	MtCoder.h	/^  CCriticalSection cs;$/;"	m	struct:_CMtCoder
+cs	MtDec.h	/^  CCriticalSection cs;$/;"	m	struct:__anon87
+csWasEntered	LzFindMt.h	/^  Bool csWasEntered;$/;"	m	struct:_CMtSync
+csWasInitialized	LzFindMt.h	/^  Bool csWasInitialized;$/;"	m	struct:_CMtSync
+cur	7zDec.c	/^  const Byte *cur;$/;"	m	struct:__anon77	file:
+curPos	XzEnc.c	/^  size_t curPos;$/;"	m	struct:__anon57	file:
+cutValue	LzFind.h	/^  UInt32 cutValue;$/;"	m	struct:_CMatchFinder
+cutValue	LzFindMt.h	/^  UInt32 cutValue;$/;"	m	struct:_CMatchFinderMt
+cyclicBufferPos	LzFind.h	/^  UInt32 cyclicBufferPos;$/;"	m	struct:_CMatchFinder
+cyclicBufferPos	LzFindMt.h	/^  UInt32 cyclicBufferPos;$/;"	m	struct:_CMatchFinderMt
+cyclicBufferSize	LzFind.h	/^  UInt32 cyclicBufferSize; \/* it must be = (historySize + 1) *\/$/;"	m	struct:_CMatchFinder
+cyclicBufferSize	LzFindMt.h	/^  UInt32 cyclicBufferSize; \/* it must be historySize + 1 *\/$/;"	m	struct:_CMatchFinderMt
+d	CpuArch.h	/^  UInt32 d;$/;"	m	struct:__anon22
+d	Sha256.c	69;"	d	file:
+data	7zBuf.h	/^  Byte *data;$/;"	m	struct:__anon70
+data	7zBuf.h	/^  Byte *data;$/;"	m	struct:__anon71
+data	LzmaEnc.c	/^  Byte *data;$/;"	m	struct:__anon47	file:
+data	XzEnc.c	/^  const Byte *data;$/;"	m	struct:__anon55	file:
+dataPos	7z.h	/^  UInt64 dataPos;$/;"	m	struct:__anon86
+db	7z.h	/^  CSzAr db;$/;"	m	struct:__anon86
+dec	Lzma2DecMt.c	/^  CLzma2Dec dec;$/;"	m	struct:__anon65	file:
+dec	Lzma2DecMt.c	/^  CLzma2Dec dec;$/;"	m	struct:__anon66	file:
+dec	XzDec.c	/^  CXzUnpacker dec;$/;"	m	struct:__anon39	file:
+dec	XzDec.c	/^  CXzUnpacker dec;$/;"	m	struct:__anon40	file:
+dec_created	Lzma2DecMt.c	/^  Byte dec_created;$/;"	m	struct:__anon65	file:
+dec_created	Lzma2DecMt.c	/^  Byte dec_created;$/;"	m	struct:__anon66	file:
+dec_created	XzDec.c	/^  Bool dec_created;$/;"	m	struct:__anon39	file:
+dec_created	XzDec.c	/^  Bool dec_created;$/;"	m	struct:__anon40	file:
+decodeOnlyOneBlock	Xz.h	/^  unsigned decodeOnlyOneBlock;$/;"	m	struct:__anon18
+decodeToStreamSignature	Xz.h	/^  Bool decodeToStreamSignature;$/;"	m	struct:__anon18
+decoder	Lzma2Dec.h	/^  CLzmaDec decoder;$/;"	m	struct:__anon75
+decoder	Xz.h	/^  CMixCoder decoder;$/;"	m	struct:__anon18
+decoder	XzDec.c	/^  CLzma2Dec decoder;$/;"	m	struct:__anon38	file:
+delta	XzDec.c	/^  UInt32 delta;$/;"	m	struct:__anon37	file:
+delta	XzEnc.h	/^  UInt32 delta;$/;"	m	struct:__anon68
+deltaState	XzDec.c	/^  Byte deltaState[DELTA_STATE_SIZE];$/;"	m	struct:__anon37	file:
+dest	Bcj2.h	/^  Byte *dest;$/;"	m	struct:__anon51
+destLim	Bcj2.h	/^  const Byte *destLim;$/;"	m	struct:__anon51
+dic	LzmaDec.h	/^  Byte *dic;$/;"	m	struct:__anon92
+dicBufSize	LzmaDec.h	/^  SizeT dicBufSize;$/;"	m	struct:__anon92
+dicPos	LzmaDec.h	/^  SizeT dicPos;$/;"	m	struct:__anon92
+dicSize	LzmaDec.h	/^  UInt32 dicSize;$/;"	m	struct:_CLzmaProps
+dictSize	LzmaEnc.c	/^  UInt32 dictSize;$/;"	m	struct:__anon46	file:
+dictSize	LzmaEnc.h	/^  UInt32 dictSize; \/* (1 << 12) <= dictSize <= (1 << 27) for 32-bit version$/;"	m	struct:_CLzmaEncProps
+directInput	LzFind.h	/^  Byte directInput;$/;"	m	struct:_CMatchFinder
+directInputRem	LzFind.h	/^  size_t directInputRem;$/;"	m	struct:_CMatchFinder
+dist	LzmaEnc.c	/^  UInt32 dist;$/;"	m	struct:__anon41	file:
+distTableSize	LzmaEnc.c	/^  unsigned distTableSize;$/;"	m	struct:__anon46	file:
+distancesPrices	LzmaEnc.c	/^  UInt32 distancesPrices[kNumLenToPosStates][kNumFullDistances];$/;"	m	struct:__anon46	file:
+e	Sha256.c	70;"	d	file:
+enc	Lzma2Enc.c	/^  CLzmaEncHandle enc;$/;"	m	struct:__anon73	file:
+enc	XzEnc.c	/^  CSbEnc enc;$/;"	m	struct:__anon58	file:
+encodeMode	XzDec.c	/^  int encodeMode;$/;"	m	struct:__anon37	file:
+end	7zDec.c	/^  const Byte *end;$/;"	m	struct:__anon77	file:
+endPos	XzEnc.c	/^  size_t endPos;$/;"	m	struct:__anon57	file:
+exit	LzFindMt.h	/^  Bool exit;$/;"	m	struct:_CMtSync
+exitThread	MtDec.h	/^  Bool exitThread;$/;"	m	struct:_CMtDec
+exitThreadWRes	MtDec.h	/^  WRes exitThreadWRes;$/;"	m	struct:_CMtDec
+expectedDataSize	LzFind.h	/^  UInt64 expectedDataSize;$/;"	m	struct:_CMatchFinder
+expectedDataSize	Lzma2Enc.c	/^  UInt64 expectedDataSize;$/;"	m	struct:__anon74	file:
+expectedDataSize	MtCoder.h	/^  UInt64 expectedDataSize;$/;"	m	struct:_CMtCoder
+expectedDataSize	XzEnc.c	/^  UInt64 expectedDataSize;$/;"	m	struct:__anon62	file:
+extra	7zDec.c	/^  Bool extra;$/;"	m	struct:__anon77	file:
+extra	LzmaEnc.c	/^  CExtra extra;$/;"	m	struct:__anon41	file:
+f	Sha256.c	71;"	d	file:
+fastMode	LzmaEnc.c	/^  Bool fastMode;$/;"	m	struct:__anon46	file:
+fb	LzmaEnc.h	/^  int fb;          \/* 5 <= fb <= 273, default = 32 *\/$/;"	m	struct:_CLzmaEncProps
+file	7zFile.h	/^  CSzFile file;$/;"	m	struct:__anon33
+file	7zFile.h	/^  CSzFile file;$/;"	m	struct:__anon34
+file	7zFile.h	/^  CSzFile file;$/;"	m	struct:__anon35
+fileIp	Bcj2.h	/^  UInt32 fileIp;$/;"	m	struct:__anon53
+fileSize	Bcj2.h	/^  UInt32 fileSize;    \/* (fileSize <= ((UInt32)1 << 31)), 0 means no_limit *\/$/;"	m	struct:__anon53
+filledSemaphore	LzFindMt.h	/^  CSemaphore filledSemaphore;$/;"	m	struct:_CMtSync
+filledThreadStart	MtDec.h	/^  unsigned filledThreadStart;$/;"	m	struct:_CMtDec
+filter	XzEnc.c	/^  CSeqInFilter filter;$/;"	m	struct:__anon59	file:
+filterProps	XzEnc.h	/^  CXzFilterProps filterProps;$/;"	m	struct:__anon69
+filters	Xz.h	/^  CXzFilter filters[XZ_NUM_FILTERS_MAX];$/;"	m	struct:__anon9
+finishMode	Bcj2.h	/^  EBcj2Enc_FinishMode finishMode;$/;"	m	struct:__anon53
+finishMode	Lzma2DecMt.c	/^  Bool finishMode;$/;"	m	struct:__anon66	file:
+finishMode	XzDec.c	/^  Bool finishMode;$/;"	m	struct:__anon40	file:
+finished	Lzma2Enc.c	/^  int finished;$/;"	m	struct:__anon72	file:
+finished	LzmaEnc.c	/^  Bool finished;$/;"	m	struct:__anon46	file:
+finished	MtCoder.h	/^  Bool finished;$/;"	m	struct:__anon30
+finished	Xz.h	/^  int finished[MIXCODER_NUM_FILTERS_MAX - 1];$/;"	m	struct:__anon16
+finishedDecoderIndex	XzDec.c	/^  int finishedDecoderIndex;$/;"	m	struct:__anon40	file:
+finishedEvent	MtCoder.h	/^    CAutoResetEvent finishedEvent;$/;"	m	struct:_CMtCoder
+fixedHashSize	LzFind.h	/^  UInt32 fixedHashSize;$/;"	m	struct:_CMatchFinder
+fixedHashSize	LzFindMt.h	/^  UInt32 fixedHashSize;$/;"	m	struct:_CMatchFinderMt
+flags	Xz.h	/^  Byte flags;$/;"	m	struct:__anon9
+flags	Xz.h	/^  CXzStreamFlags flags;$/;"	m	struct:__anon12
+flushPos	Bcj2.h	/^  unsigned flushPos;$/;"	m	struct:__anon53
+forceWriteSizesInHeader	XzEnc.h	/^  int forceWriteSizesInHeader;$/;"	m	struct:__anon69
+freeBlockHead	MtCoder.h	/^  unsigned freeBlockHead;$/;"	m	struct:_CMtCoder
+freeBlockList	MtCoder.h	/^  unsigned freeBlockList[MTCODER__BLOCKS_MAX];$/;"	m	struct:_CMtCoder
+freeSemaphore	LzFindMt.h	/^  CSemaphore freeSemaphore;$/;"	m	struct:_CMtSync
+g	Sha256.c	72;"	d	file:
+g_AesCbc_Decode	Aes.c	/^AES_CODE_FUNC g_AesCbc_Decode;$/;"	v
+g_AesCbc_Encode	Aes.c	/^AES_CODE_FUNC g_AesCbc_Encode;$/;"	v
+g_AesCtr_Code	Aes.c	/^AES_CODE_FUNC g_AesCtr_Code;$/;"	v
+g_AlignedAlloc	Alloc.c	/^const ISzAlloc g_AlignedAlloc = { SzAlignedAlloc, SzAlignedFree };$/;"	v
+g_Alloc	Alloc.c	/^const ISzAlloc g_Alloc = { SzAlloc, SzFree };$/;"	v
+g_Alloc	Util/7z/7zMain.c	/^static const ISzAlloc g_Alloc = { SzAlloc, SzFree };$/;"	v	file:
+g_BigAlloc	Alloc.c	/^const ISzAlloc g_BigAlloc = { SzBigAlloc, SzBigFree };$/;"	v
+g_Crc64Table	XzCrc64.c	/^UInt64 g_Crc64Table[256 * CRC64_NUM_TABLES];$/;"	v
+g_Crc64Update	XzCrc64.c	/^static CRC64_FUNC g_Crc64Update;$/;"	v	file:
+g_CrcTable	7zCrc.c	/^UInt32 g_CrcTable[256 * CRC_NUM_TABLES];$/;"	v
+g_CrcUpdate	7zCrc.c	/^CRC_FUNC g_CrcUpdate;$/;"	v
+g_CrcUpdateT4	7zCrc.c	/^CRC_FUNC g_CrcUpdateT4;$/;"	v
+g_CrcUpdateT8	7zCrc.c	/^CRC_FUNC g_CrcUpdateT8;$/;"	v
+g_Dlls	DllSecur.c	/^static const char * const g_Dlls =$/;"	v	file:
+g_FastPos	LzmaEnc.c	/^  Byte g_FastPos[1 << kNumLogBits];$/;"	m	struct:__anon46	file:
+g_FileCodePage	Util/7z/7zMain.c	/^    static UINT g_FileCodePage = CP_ACP;$/;"	v	file:
+g_LargePageSize	Alloc.c	/^SIZE_T g_LargePageSize = 0;$/;"	v
+g_MidAlloc	Alloc.c	/^const ISzAlloc g_MidAlloc = { SzMidAlloc, SzMidFree };$/;"	v
+g_STAT_OFFSET	LzmaEnc.c	/^static unsigned g_STAT_OFFSET = 0;$/;"	v	file:
+g_allocCount	7zAlloc.c	/^int g_allocCount = 0;$/;"	v
+g_allocCount	Alloc.c	/^int g_allocCount = 0;$/;"	v
+g_allocCountBig	Alloc.c	/^int g_allocCountBig = 0;$/;"	v
+g_allocCountMid	Alloc.c	/^int g_allocCountMid = 0;$/;"	v
+g_allocCountTemp	7zAlloc.c	/^int g_allocCountTemp = 0;$/;"	v
+gb	Aes.c	54;"	d	file:
+gb0	Aes.c	49;"	d	file:
+gb1	Aes.c	50;"	d	file:
+gb2	Aes.c	51;"	d	file:
+gb3	Aes.c	52;"	d	file:
+h	Sha256.c	73;"	d	file:
+handle	7zFile.h	/^  HANDLE handle;$/;"	m	struct:__anon32
+hash	LzFind.h	/^  CLzRef *hash;$/;"	m	struct:_CMatchFinder
+hash	LzFindMt.h	/^  UInt32 *hash;$/;"	m	struct:_CMatchFinderMt
+hashBuf	LzFindMt.h	/^  UInt32 *hashBuf;$/;"	m	struct:_CMatchFinderMt
+hashBufPos	LzFindMt.h	/^  UInt32 hashBufPos;$/;"	m	struct:_CMatchFinderMt
+hashBufPosLimit	LzFindMt.h	/^  UInt32 hashBufPosLimit;$/;"	m	struct:_CMatchFinderMt
+hashMask	LzFind.h	/^  UInt32 hashMask;$/;"	m	struct:_CMatchFinder
+hashNumAvail	LzFindMt.h	/^  UInt32 hashNumAvail;$/;"	m	struct:_CMatchFinderMt
+hashSizeSum	LzFind.h	/^  UInt32 hashSizeSum;$/;"	m	struct:_CMatchFinder
+hashSync	LzFindMt.h	/^  CMtSync hashSync;$/;"	m	struct:_CMatchFinderMt
+headerParsedOk	Xz.h	/^  Bool headerParsedOk;$/;"	m	struct:__anon18
+headerSize	XzEnc.c	/^  size_t headerSize;$/;"	m	struct:__anon60	file:
+high	LzmaEnc.c	/^  CLzmaProb high[kLenNumHighSymbols];$/;"	m	struct:__anon42	file:
+historySize	LzFind.h	/^  UInt32 historySize;$/;"	m	struct:_CMatchFinder
+historySize	LzFindMt.h	/^  UInt32 historySize;$/;"	m	struct:_CMatchFinderMt
+id	Xz.h	/^  UInt64 id;$/;"	m	struct:__anon8
+id	XzEnc.h	/^  UInt32 id;$/;"	m	struct:__anon68
+ids	Xz.h	/^  UInt64 ids[MIXCODER_NUM_FILTERS_MAX];$/;"	m	struct:__anon16
+ignoreErrors	Xz.h	/^  Bool ignoreErrors;$/;"	m	struct:__anon19
+inBlockMax	Lzma2DecMt.h	/^  size_t inBlockMax;$/;"	m	struct:__anon64
+inBuf	Lzma2DecMt.c	/^  Byte *inBuf;$/;"	m	struct:__anon66	file:
+inBuf	MtCoder.h	/^  Byte *inBuf;$/;"	m	struct:__anon28
+inBuf	MtDec.h	/^  void *inBuf;$/;"	m	struct:__anon88
+inBuf	XzDec.c	/^  Byte *inBuf;$/;"	m	struct:__anon40	file:
+inBufSize	Lzma2DecMt.c	/^  size_t inBufSize;$/;"	m	struct:__anon66	file:
+inBufSize	MtDec.h	/^  size_t inBufSize;        \/* size of input block *\/$/;"	m	struct:_CMtDec
+inBufSize	XzDec.c	/^  size_t inBufSize;$/;"	m	struct:__anon40	file:
+inBufSize_MT	Lzma2DecMt.h	/^  size_t inBufSize_MT;$/;"	m	struct:__anon64
+inBufSize_MT	Xz.h	/^  size_t inBufSize_MT;$/;"	m	struct:__anon19
+inBufSize_ST	Lzma2DecMt.h	/^  size_t inBufSize_ST;$/;"	m	struct:__anon64
+inBufSize_ST	Xz.h	/^  size_t inBufSize_ST;$/;"	m	struct:__anon19
+inCodeSize	Lzma2DecMt.c	/^  size_t inCodeSize;$/;"	m	struct:__anon65	file:
+inCodeSize	XzDec.c	/^  size_t inCodeSize;$/;"	m	struct:__anon39	file:
+inData	MtCoder.h	/^  const Byte *inData;$/;"	m	struct:_CMtCoder
+inDataSize	MtCoder.h	/^  size_t inDataSize;$/;"	m	struct:_CMtCoder
+inDataSize	MtDec.h	/^  UInt64 inDataSize;       \/\/ total size of input data in all blocks$/;"	m	struct:__anon88
+inDataSize_Start	MtDec.h	/^  size_t inDataSize_Start; \/\/ size of input data in start block$/;"	m	struct:__anon88
+inLim	Lzma2DecMt.c	/^  size_t inLim;$/;"	m	struct:__anon66	file:
+inOffset	XzEnc.c	/^  UInt64 inOffset;$/;"	m	struct:__anon61	file:
+inPos	Lzma2DecMt.c	/^  size_t inPos;$/;"	m	struct:__anon66	file:
+inPreHeaderSize	XzDec.c	/^  size_t inPreHeaderSize;$/;"	m	struct:__anon39	file:
+inPreSize	Lzma2DecMt.c	/^  size_t inPreSize;$/;"	m	struct:__anon65	file:
+inPreSize	XzDec.c	/^  size_t inPreSize;$/;"	m	struct:__anon39	file:
+inProcessed	Lzma2DecMt.c	/^  UInt64 inProcessed;$/;"	m	struct:__anon66	file:
+inProcessed	MtDec.h	/^  UInt64 inProcessed;$/;"	m	struct:_CMtDec
+inProcessed	XzDec.c	/^  UInt64 inProcessed;$/;"	m	struct:__anon40	file:
+inSize	MtCoder.h	/^  UInt64 inSize;$/;"	m	struct:__anon27
+inStream	7zDec.c	/^  const ILookInStream *inStream;$/;"	m	struct:__anon77	file:
+inStream	Lzma2DecMt.c	/^  ISeqInStream *inStream;$/;"	m	struct:__anon66	file:
+inStream	MtCoder.h	/^  ISeqInStream *inStream;$/;"	m	struct:_CMtCoder
+inStream	MtDec.h	/^  ISeqInStream *inStream;$/;"	m	struct:_CMtDec
+inStream	XzDec.c	/^  ISeqInStream *inStream;$/;"	m	struct:__anon40	file:
+inStream	XzEnc.c	/^  ISeqInStream *inStream;$/;"	m	struct:__anon58	file:
+index	MtCoder.h	/^  unsigned index;$/;"	m	struct:__anon28
+index	MtDec.h	/^  unsigned index;$/;"	m	struct:__anon88
+indexPos	Xz.h	/^  UInt64 indexPos;$/;"	m	struct:__anon18
+indexPreSize	Xz.h	/^  unsigned indexPreSize;$/;"	m	struct:__anon18
+indexSize	Xz.h	/^  UInt64 indexSize;$/;"	m	struct:__anon18
+interruptIndex	MtDec.h	/^  UInt64 interruptIndex;$/;"	m	struct:_CMtDec
+ip	Bcj2.h	/^  UInt32 ip;$/;"	m	struct:__anon51
+ip	Bcj2.h	/^  UInt32 ip;$/;"	m	struct:__anon53
+ip	XzDec.c	/^  UInt32 ip;$/;"	m	struct:__anon37	file:
+ip	XzEnc.h	/^  UInt32 ip;$/;"	m	struct:__anon68
+ipDefined	XzEnc.h	/^  int ipDefined;$/;"	m	struct:__anon68
+isAllocError	MtDec.h	/^  Bool isAllocError;$/;"	m	struct:_CMtDec
+isBlockHeaderState_Parse	XzDec.c	/^  Bool isBlockHeaderState_Parse;$/;"	m	struct:__anon40	file:
+isBlockHeaderState_Write	XzDec.c	/^  Bool isBlockHeaderState_Write;$/;"	m	struct:__anon40	file:
+isExtraMode	Lzma2Dec.h	/^  Byte isExtraMode;$/;"	m	struct:__anon75
+isMatch	LzmaEnc.c	/^  CLzmaProb isMatch[kNumStates][LZMA_NUM_PB_STATES_MAX];$/;"	m	struct:__anon45	file:
+isMatch	LzmaEnc.c	/^  CLzmaProb isMatch[kNumStates][LZMA_NUM_PB_STATES_MAX];$/;"	m	struct:__anon46	file:
+isRep	LzmaEnc.c	/^  CLzmaProb isRep[kNumStates];$/;"	m	struct:__anon45	file:
+isRep	LzmaEnc.c	/^  CLzmaProb isRep[kNumStates];$/;"	m	struct:__anon46	file:
+isRep0Long	LzmaEnc.c	/^  CLzmaProb isRep0Long[kNumStates][LZMA_NUM_PB_STATES_MAX];$/;"	m	struct:__anon45	file:
+isRep0Long	LzmaEnc.c	/^  CLzmaProb isRep0Long[kNumStates][LZMA_NUM_PB_STATES_MAX];$/;"	m	struct:__anon46	file:
+isRepG0	LzmaEnc.c	/^  CLzmaProb isRepG0[kNumStates];$/;"	m	struct:__anon45	file:
+isRepG0	LzmaEnc.c	/^  CLzmaProb isRepG0[kNumStates];$/;"	m	struct:__anon46	file:
+isRepG1	LzmaEnc.c	/^  CLzmaProb isRepG1[kNumStates];$/;"	m	struct:__anon45	file:
+isRepG1	LzmaEnc.c	/^  CLzmaProb isRepG1[kNumStates];$/;"	m	struct:__anon46	file:
+isRepG2	LzmaEnc.c	/^  CLzmaProb isRepG2[kNumStates];$/;"	m	struct:__anon45	file:
+isRepG2	LzmaEnc.c	/^  CLzmaProb isRepG2[kNumStates];$/;"	m	struct:__anon46	file:
+k7zIdATime	7zArcIn.c	/^  k7zIdATime,$/;"	e	enum:EIdEnum	file:
+k7zIdAdditionalStreamsInfo	7zArcIn.c	/^  k7zIdAdditionalStreamsInfo,$/;"	e	enum:EIdEnum	file:
+k7zIdAnti	7zArcIn.c	/^  k7zIdAnti,$/;"	e	enum:EIdEnum	file:
+k7zIdArchiveProperties	7zArcIn.c	/^  k7zIdArchiveProperties,$/;"	e	enum:EIdEnum	file:
+k7zIdCRC	7zArcIn.c	/^  k7zIdCRC,$/;"	e	enum:EIdEnum	file:
+k7zIdCTime	7zArcIn.c	/^  k7zIdCTime,$/;"	e	enum:EIdEnum	file:
+k7zIdCodersUnpackSize	7zArcIn.c	/^  k7zIdCodersUnpackSize,$/;"	e	enum:EIdEnum	file:
+k7zIdComment	7zArcIn.c	/^  k7zIdComment,$/;"	e	enum:EIdEnum	file:
+k7zIdDummy	7zArcIn.c	/^  k7zIdDummy$/;"	e	enum:EIdEnum	file:
+k7zIdEmptyFile	7zArcIn.c	/^  k7zIdEmptyFile,$/;"	e	enum:EIdEnum	file:
+k7zIdEmptyStream	7zArcIn.c	/^  k7zIdEmptyStream,$/;"	e	enum:EIdEnum	file:
+k7zIdEncodedHeader	7zArcIn.c	/^  k7zIdEncodedHeader,$/;"	e	enum:EIdEnum	file:
+k7zIdEnd	7zArcIn.c	/^  k7zIdEnd,$/;"	e	enum:EIdEnum	file:
+k7zIdFilesInfo	7zArcIn.c	/^  k7zIdFilesInfo,$/;"	e	enum:EIdEnum	file:
+k7zIdFolder	7zArcIn.c	/^  k7zIdFolder,$/;"	e	enum:EIdEnum	file:
+k7zIdHeader	7zArcIn.c	/^  k7zIdHeader,$/;"	e	enum:EIdEnum	file:
+k7zIdMTime	7zArcIn.c	/^  k7zIdMTime,$/;"	e	enum:EIdEnum	file:
+k7zIdMainStreamsInfo	7zArcIn.c	/^  k7zIdMainStreamsInfo,$/;"	e	enum:EIdEnum	file:
+k7zIdName	7zArcIn.c	/^  k7zIdName,$/;"	e	enum:EIdEnum	file:
+k7zIdNumUnpackStream	7zArcIn.c	/^  k7zIdNumUnpackStream,$/;"	e	enum:EIdEnum	file:
+k7zIdPackInfo	7zArcIn.c	/^  k7zIdPackInfo,$/;"	e	enum:EIdEnum	file:
+k7zIdSize	7zArcIn.c	/^  k7zIdSize,$/;"	e	enum:EIdEnum	file:
+k7zIdStartPos	7zArcIn.c	/^  k7zIdStartPos,$/;"	e	enum:EIdEnum	file:
+k7zIdSubStreamsInfo	7zArcIn.c	/^  k7zIdSubStreamsInfo,$/;"	e	enum:EIdEnum	file:
+k7zIdUnpackInfo	7zArcIn.c	/^  k7zIdUnpackInfo,$/;"	e	enum:EIdEnum	file:
+k7zIdWinAttrib	7zArcIn.c	/^  k7zIdWinAttrib,$/;"	e	enum:EIdEnum	file:
+k7zMajorVersion	7zArcIn.c	24;"	d	file:
+k7zSignature	7zArcIn.c	/^const Byte k7zSignature[k7zSignatureSize] = {'7', 'z', 0xBC, 0xAF, 0x27, 0x1C};$/;"	v
+k7zSignatureSize	7z.h	12;"	d
+k7zStartHeaderSize	7z.h	11;"	d
+kAlignMask	LzmaEnc.c	197;"	d	file:
+kAlignTableSize	LzmaDec.c	112;"	d	file:
+kAlignTableSize	LzmaEnc.c	196;"	d	file:
+kBadRepCode	LzmaDec.c	619;"	d	file:
+kBigHashDicLimit	LzmaEnc.c	2378;"	d	file:
+kBitModelTotal	Bcj2.c	13;"	d	file:
+kBitModelTotal	Bcj2Enc.c	24;"	d	file:
+kBitModelTotal	LzmaDec.c	15;"	d	file:
+kBitModelTotal	LzmaEnc.c	33;"	d	file:
+kBitPrice	LzmaEnc.c	39;"	d	file:
+kBound0	LzmaDec.c	618;"	d	file:
+kBtBufferSize	LzFindMt.c	465;"	d	file:
+kBufferSize	Util/SfxSetup/SfxSetup.c	123;"	d	file:
+kBufferSize	Util/SfxSetup/SfxSetup.c	125;"	d	file:
+kCantAllocateMessage	Util/Lzma/LzmaUtil.c	/^static const char * const kCantAllocateMessage = "Can not allocate memory";$/;"	v	file:
+kCantReadMessage	Util/Lzma/LzmaUtil.c	/^static const char * const kCantReadMessage = "Can not read input file";$/;"	v	file:
+kCantWriteMessage	Util/Lzma/LzmaUtil.c	/^static const char * const kCantWriteMessage = "Can not write output file";$/;"	v	file:
+kChunkSizeMax	7zFile.c	26;"	d	file:
+kCrc64Poly	XzCrc64.c	9;"	d	file:
+kCrcPoly	7zCrc.c	9;"	d	file:
+kCrcPoly	LzFind.c	137;"	d	file:
+kDataErrorMessage	Util/Lzma/LzmaUtil.c	/^static const char * const kDataErrorMessage = "Data error";$/;"	v	file:
+kDicLogSizeMax	LzmaEnc.c	192;"	d	file:
+kDicLogSizeMaxCompress	LzmaEnc.c	101;"	d	file:
+kDicLogSizeMaxCompress	LzmaEnc.c	119;"	d	file:
+kDicLogSizeMin	LzmaEnc.c	191;"	d	file:
+kDistTableSizeMax	LzmaEnc.c	193;"	d	file:
+kEmptyHashValue	LzFind.c	11;"	d	file:
+kEmptyHashValue	LzFindMt.c	233;"	d	file:
+kEndPosModelIndex	LzmaDec.c	105;"	d	file:
+kEndPosModelIndex	LzmaEnc.c	200;"	d	file:
+kExts	Util/SfxSetup/SfxSetup.c	/^static const char * const kExts[] =$/;"	v	file:
+kFix3HashSize	LzHash.h	11;"	d
+kFix4HashSize	LzHash.h	12;"	d
+kFix5HashSize	LzHash.h	13;"	d
+kHash2Size	LzHash.h	7;"	d
+kHash3Size	LzHash.h	8;"	d
+kHash4Size	LzHash.h	9;"	d
+kHashBufferSize	LzFindMt.c	464;"	d	file:
+kInfinityPrice	LzmaEnc.c	515;"	d	file:
+kInitBinEsc	Ppmd7.c	/^static const UInt16 kInitBinEsc[] = { 0x3CDD, 0x1F3F, 0x59BF, 0x48F3, 0x64A1, 0x5ABC, 0x6632, 0x6051};$/;"	v	file:
+kInputBufSize	Util/7z/7zMain.c	29;"	d	file:
+kInputBufSize	Util/SfxSetup/SfxSetup.c	27;"	d	file:
+kLenNumHighBits	LzmaDec.c	90;"	d	file:
+kLenNumHighBits	LzmaEnc.c	219;"	d	file:
+kLenNumHighSymbols	LzmaDec.c	91;"	d	file:
+kLenNumHighSymbols	LzmaEnc.c	220;"	d	file:
+kLenNumLowBits	LzmaDec.c	88;"	d	file:
+kLenNumLowBits	LzmaEnc.c	217;"	d	file:
+kLenNumLowSymbols	LzmaDec.c	89;"	d	file:
+kLenNumLowSymbols	LzmaEnc.c	218;"	d	file:
+kLenNumSymbolsTotal	LzmaEnc.c	221;"	d	file:
+kLiteralNextStates	LzmaEnc.c	/^static const Byte kLiteralNextStates[kNumStates] = {0, 0, 0, 0, 1, 2, 3, 4,  5,  6,   4, 5};$/;"	v	file:
+kLzmaMaxHistorySize	LzmaEnc.c	26;"	d	file:
+kMatchMinLen	LzmaDec.c	114;"	d	file:
+kMatchNextStates	LzmaEnc.c	/^static const Byte kMatchNextStates[kNumStates]   = {7, 7, 7, 7, 7, 7, 7, 10, 10, 10, 10, 10};$/;"	v	file:
+kMatchSpecLenStart	LzmaDec.c	115;"	d	file:
+kMaxHistorySize	LzFind.c	15;"	d	file:
+kMaxValForNormalize	LzFind.c	12;"	d	file:
+kMtBtBlockSize	LzFindMt.h	16;"	d
+kMtBtNumBlocks	LzFindMt.h	17;"	d
+kMtBtNumBlocksMask	LzFindMt.h	18;"	d
+kMtCacheLineDummy	LzFindMt.h	42;"	d
+kMtHashBlockSize	LzFindMt.h	12;"	d
+kMtHashNumBlocks	LzFindMt.h	13;"	d
+kMtHashNumBlocksMask	LzFindMt.h	14;"	d
+kMtMaxValForNormalize	LzFindMt.c	136;"	d	file:
+kNames	Util/SfxSetup/SfxSetup.c	/^static const char * const kNames[] =$/;"	v	file:
+kNormalizeMask	LzFind.c	14;"	d	file:
+kNormalizeStepMin	LzFind.c	13;"	d	file:
+kNumAlignBits	LzmaDec.c	111;"	d	file:
+kNumAlignBits	LzmaEnc.c	195;"	d	file:
+kNumBitModelTotalBits	LzmaDec.c	14;"	d	file:
+kNumBitModelTotalBits	LzmaEnc.c	32;"	d	file:
+kNumBitPriceShiftBits	LzmaEnc.c	38;"	d	file:
+kNumFullDistances	LzmaDec.c	106;"	d	file:
+kNumFullDistances	LzmaEnc.c	201;"	d	file:
+kNumLenProbs	LzmaDec.c	95;"	d	file:
+kNumLenToPosStates	LzmaDec.c	109;"	d	file:
+kNumLenToPosStates	LzmaEnc.c	189;"	d	file:
+kNumLitStates	LzmaDec.c	102;"	d	file:
+kNumLogBits	LzmaEnc.c	116;"	d	file:
+kNumModelBits	Bcj2.c	12;"	d	file:
+kNumModelBits	Bcj2Enc.c	23;"	d	file:
+kNumMoveBits	Bcj2.c	14;"	d	file:
+kNumMoveBits	Bcj2Enc.c	25;"	d	file:
+kNumMoveBits	LzmaDec.c	16;"	d	file:
+kNumMoveBits	LzmaEnc.c	34;"	d	file:
+kNumMoveReducingBits	LzmaEnc.c	37;"	d	file:
+kNumOpts	LzmaEnc.c	186;"	d	file:
+kNumPosBitsMax	LzmaDec.c	85;"	d	file:
+kNumPosSlotBits	LzmaDec.c	108;"	d	file:
+kNumPosSlotBits	LzmaEnc.c	190;"	d	file:
+kNumPosStatesMax	LzmaDec.c	86;"	d	file:
+kNumStates	LzmaDec.c	100;"	d	file:
+kNumStates	LzmaEnc.c	226;"	d	file:
+kNumStates2	LzmaDec.c	101;"	d	file:
+kNumTopBits	LzmaDec.c	11;"	d	file:
+kNumTopBits	LzmaEnc.c	29;"	d	file:
+kPackReserve	LzmaEnc.c	187;"	d	file:
+kProbInitValue	LzmaEnc.c	35;"	d	file:
+kRange0	LzmaDec.c	617;"	d	file:
+kRepNextStates	LzmaEnc.c	/^static const Byte kRepNextStates[kNumStates]     = {8, 8, 8, 8, 8, 8, 8, 11, 11, 11, 11, 11};$/;"	v	file:
+kShortRepNextStates	LzmaEnc.c	/^static const Byte kShortRepNextStates[kNumStates]= {9, 9, 9, 9, 9, 9, 9, 11, 11, 11, 11, 11};$/;"	v	file:
+kSignatureSearchLimit	Util/SfxSetup/SfxSetup.c	128;"	d	file:
+kStartMaxLen	LzFind.c	17;"	d	file:
+kStartOffset	LzmaDec.c	123;"	d	file:
+kStartPosModelIndex	LzmaDec.c	104;"	d	file:
+kStartPosModelIndex	LzmaEnc.c	199;"	d	file:
+kState_LitAfterMatch	LzmaEnc.c	501;"	d	file:
+kState_LitAfterRep	LzmaEnc.c	502;"	d	file:
+kState_MatchAfterLit	LzmaEnc.c	503;"	d	file:
+kState_RepAfterLit	LzmaEnc.c	504;"	d	file:
+kState_Start	LzmaEnc.c	500;"	d	file:
+kTopValue	Bcj2.c	11;"	d	file:
+kTopValue	Bcj2Enc.c	22;"	d	file:
+kTopValue	LzmaDec.c	12;"	d	file:
+kTopValue	LzmaEnc.c	30;"	d	file:
+kTopValue	Ppmd7Dec.c	9;"	d	file:
+kTopValue	Ppmd7Enc.c	9;"	d	file:
+kVendors	CpuArch.c	/^static const UInt32 kVendors[][3] =$/;"	v	file:
+k_ARM	7zDec.c	31;"	d	file:
+k_ARMT	7zDec.c	32;"	d	file:
+k_BCJ	7zDec.c	27;"	d	file:
+k_BCJ2	7zDec.c	28;"	d	file:
+k_Copy	7zDec.c	23;"	d	file:
+k_Delta	7zDec.c	24;"	d	file:
+k_EXE_ExtIndex	Util/SfxSetup/SfxSetup.c	25;"	d	file:
+k_IA64	7zDec.c	30;"	d	file:
+k_LZMA	7zDec.c	26;"	d	file:
+k_LZMA2	7zDec.c	25;"	d	file:
+k_NumCodersStreams_in_Folder_MAX	7zArcIn.c	430;"	d	file:
+k_PPC	7zDec.c	29;"	d	file:
+k_PPMD	7zDec.c	38;"	d	file:
+k_SPARC	7zDec.c	33;"	d	file:
+k_Scan_NumCodersStreams_in_Folder_MAX	7zArcIn.c	631;"	d	file:
+k_Scan_NumCoders_MAX	7zArcIn.c	630;"	d	file:
+keepSizeAfter	LzFind.h	/^  UInt32 keepSizeAfter;$/;"	m	struct:_CMatchFinder
+keepSizeBefore	LzFind.h	/^  UInt32 keepSizeBefore;$/;"	m	struct:_CMatchFinder
+lc	LzmaDec.h	/^  Byte lc;$/;"	m	struct:_CLzmaProps
+lc	LzmaEnc.c	/^  unsigned lc, lp, pb;$/;"	m	struct:__anon46	file:
+lc	LzmaEnc.h	/^  int lc;          \/* 0 <= lc <= 8, default = 3 *\/$/;"	m	struct:_CLzmaEncProps
+lclp	LzmaEnc.c	/^  unsigned lclp;$/;"	m	struct:__anon46	file:
+len	LzmaEnc.c	/^  UInt32 len;$/;"	m	struct:__anon41	file:
+lenEnc	LzmaEnc.c	/^  CLenPriceEnc lenEnc;$/;"	m	struct:__anon46	file:
+lenLimit	LzFind.h	/^  UInt32 lenLimit;$/;"	m	struct:_CMatchFinder
+lenProbs	LzmaEnc.c	/^  CLenEnc lenProbs;$/;"	m	struct:__anon45	file:
+lenProbs	LzmaEnc.c	/^  CLenEnc lenProbs;$/;"	m	struct:__anon46	file:
+level	LzmaEnc.h	/^  int level;       \/* 0 <= level <= 9 *\/$/;"	m	struct:_CLzmaEncProps
+limit	Lzma2Enc.c	/^  UInt64 limit;$/;"	m	struct:__anon72	file:
+limit	XzEnc.c	/^  UInt64 limit;$/;"	m	struct:__anon55	file:
+lims	Bcj2.h	/^  const Byte *lims[BCJ2_NUM_STREAMS];$/;"	m	struct:__anon51
+lims	Bcj2.h	/^  const Byte *lims[BCJ2_NUM_STREAMS];$/;"	m	struct:__anon53
+litProbs	LzmaEnc.c	/^  CLzmaProb *litProbs;$/;"	m	struct:__anon45	file:
+litProbs	LzmaEnc.c	/^  CLzmaProb *litProbs;$/;"	m	struct:__anon46	file:
+longestMatchLen	LzmaEnc.c	/^  unsigned longestMatchLen;$/;"	m	struct:__anon46	file:
+low	Bcj2.h	/^  UInt64 low;$/;"	m	struct:__anon53
+low	LzmaEnc.c	/^  CLzmaProb low[LZMA_NUM_PB_STATES_MAX << (kLenNumLowBits + 1)];$/;"	m	struct:__anon42	file:
+low	LzmaEnc.c	/^  UInt64 low;$/;"	m	struct:__anon44	file:
+lp	LzmaDec.h	/^  Byte lp;$/;"	m	struct:_CLzmaProps
+lp	LzmaEnc.c	/^  unsigned lc, lp, pb;$/;"	m	struct:__anon46	file:
+lp	LzmaEnc.h	/^  int lp;          \/* 0 <= lp <= 4, default = 0 *\/$/;"	m	struct:_CLzmaEncProps
+lpMask	LzmaEnc.c	/^  unsigned lpMask, pbMask;$/;"	m	struct:__anon46	file:
+lzPos	LzFindMt.h	/^  UInt32 lzPos;$/;"	m	struct:_CMatchFinderMt
+lzma2	XzEnc.c	/^  CLzma2EncHandle lzma2;$/;"	m	struct:__anon59	file:
+lzma2Props	XzEnc.h	/^  CLzma2EncProps lzma2Props;$/;"	m	struct:__anon69
+lzmaProps	Lzma2Enc.h	/^  CLzmaEncProps lzmaProps;$/;"	m	struct:__anon7
+lzmaf_Items	XzEnc.c	/^  CLzma2WithFilters lzmaf_Items[MTCODER__THREADS_MAX];$/;"	m	struct:__anon62	file:
+main	Util/7z/7zMain.c	/^int MY_CDECL main(int numargs, char *args[])$/;"	f
+main	Util/Lzma/LzmaUtil.c	/^int MY_CDECL main(int numArgs, const char *args[])$/;"	f
+main	Util/SfxSetup/SfxSetup.c	/^int MY_CDECL main()$/;"	f
+main2	Util/Lzma/LzmaUtil.c	/^static int main2(int numArgs, const char *args[], char *rs)$/;"	f	file:
+mainDecoderWasCalled	XzDec.c	/^  Bool mainDecoderWasCalled;$/;"	m	struct:__anon40	file:
+mainErrorCode	XzDec.c	/^  SRes mainErrorCode;$/;"	m	struct:__anon40	file:
+matchFinder	LzmaEnc.c	/^  IMatchFinder matchFinder;$/;"	m	struct:__anon46	file:
+matchFinderBase	LzmaEnc.c	/^  CMatchFinder matchFinderBase;$/;"	m	struct:__anon46	file:
+matchFinderMt	LzmaEnc.c	/^  CMatchFinderMt matchFinderMt;$/;"	m	struct:__anon46	file:
+matchFinderObj	LzmaEnc.c	/^  void *matchFinderObj;$/;"	m	struct:__anon46	file:
+matchMaxLen	LzFind.h	/^  UInt32 matchMaxLen;$/;"	m	struct:_CMatchFinder
+matchMaxLen	LzFindMt.h	/^  UInt32 matchMaxLen;$/;"	m	struct:_CMatchFinderMt
+matchPriceCount	LzmaEnc.c	/^  unsigned matchPriceCount;$/;"	m	struct:__anon46	file:
+matches	LzmaEnc.c	/^  UInt32 matches[LZMA_MATCH_LEN_MAX * 2 + 2 + 1];$/;"	m	struct:__anon46	file:
+maxFunc	CpuArch.h	/^  UInt32 maxFunc;$/;"	m	struct:__anon22
+mc	LzmaEnc.h	/^  UInt32 mc;       \/* 1 <= mc <= (1 << 30), default = 32 *\/$/;"	m	struct:_CLzmaEncProps
+memUseMax	Xz.h	/^  size_t memUseMax;$/;"	m	struct:__anon19
+methodId	XzDec.c	/^  UInt32 methodId;$/;"	m	struct:__anon37	file:
+mode	Xz.h	/^  unsigned mode;$/;"	m	struct:__anon10
+mtCallback	MtCoder.h	/^  IMtCoderCallback2 *mtCallback;$/;"	m	struct:_CMtCoder
+mtCallback	MtDec.h	/^  IMtDecCallback *mtCallback;$/;"	m	struct:_CMtDec
+mtCallbackObject	MtCoder.h	/^  void *mtCallbackObject;$/;"	m	struct:_CMtCoder
+mtCallbackObject	MtDec.h	/^  void *mtCallbackObject;$/;"	m	struct:_CMtDec
+mtCoder	Lzma2Enc.c	/^  CMtCoder mtCoder;$/;"	m	struct:__anon74	file:
+mtCoder	MtCoder.h	/^  struct _CMtCoder *mtCoder;$/;"	m	struct:__anon28	typeref:struct:__anon28::_CMtCoder
+mtCoder	XzEnc.c	/^  CMtCoder mtCoder;$/;"	m	struct:__anon62	file:
+mtCoder_WasConstructed	Lzma2Enc.c	/^  Bool mtCoder_WasConstructed;$/;"	m	struct:__anon74	file:
+mtCoder_WasConstructed	XzEnc.c	/^  Bool mtCoder_WasConstructed;$/;"	m	struct:__anon62	file:
+mtDec	MtDec.h	/^  struct _CMtDec *mtDec;$/;"	m	struct:__anon88	typeref:struct:__anon88::_CMtDec
+mtMode	LzmaEnc.c	/^  Bool mtMode;$/;"	m	struct:__anon46	file:
+mtPad	Lzma2DecMt.c	/^  Byte mtPad[1 << 7];$/;"	m	struct:__anon65	file:
+mtPad	XzDec.c	/^  Byte mtPad[1 << 7];$/;"	m	struct:__anon39	file:
+mtProgress	MtCoder.h	/^  CMtProgress *mtProgress;$/;"	m	struct:__anon27
+mtProgress	MtCoder.h	/^  CMtProgress mtProgress;$/;"	m	struct:_CMtCoder
+mtProgress	MtDec.h	/^  CMtProgress mtProgress;$/;"	m	struct:_CMtDec
+mtc	Lzma2DecMt.c	/^  CMtDec mtc;$/;"	m	struct:__anon66	file:
+mtc	XzDec.c	/^  CMtDec mtc;$/;"	m	struct:__anon40	file:
+mtc_WasConstructed	Lzma2DecMt.c	/^  Bool mtc_WasConstructed;$/;"	m	struct:__anon66	file:
+mtc_WasConstructed	XzDec.c	/^  Bool mtc_WasConstructed;$/;"	m	struct:__anon40	file:
+multiThread	LzmaEnc.c	/^  Bool multiThread;$/;"	m	struct:__anon46	file:
+needContinue	MtDec.h	/^  Bool needContinue;$/;"	m	struct:_CMtDec
+needInit	Lzma2DecMt.c	/^  Byte needInit;$/;"	m	struct:__anon65	file:
+needInit	LzmaEnc.c	/^  Bool needInit;$/;"	m	struct:__anon46	file:
+needInitLevel	Lzma2Dec.h	/^  Byte needInitLevel;$/;"	m	struct:__anon75
+needInitProp	Lzma2Enc.c	/^  Byte needInitProp;$/;"	m	struct:__anon73	file:
+needInitState	Lzma2Enc.c	/^  Byte needInitState;$/;"	m	struct:__anon73	file:
+needInterrupt	MtDec.h	/^  Bool needInterrupt;$/;"	m	struct:_CMtDec
+needStart	LzFindMt.h	/^  Bool needStart;$/;"	m	struct:_CMtSync
+next	MtDec.c	/^  void *next;$/;"	m	struct:__anon21	file:
+nowPos64	LzmaEnc.c	/^  UInt64 nowPos64;$/;"	m	struct:__anon46	file:
+num	Xz.h	/^  size_t num;$/;"	m	struct:__anon13
+numAlignBits	Alloc.h	/^  unsigned numAlignBits; \/* ((1 << numAlignBits) >= sizeof(void *)) *\/$/;"	m	struct:__anon63
+numAllocated	Xz.h	/^  size_t numAllocated;$/;"	m	struct:__anon13
+numAvail	LzmaEnc.c	/^  UInt32 numAvail;$/;"	m	struct:__anon46	file:
+numBlockThreads_Max	Lzma2Enc.h	/^  int numBlockThreads_Max;$/;"	m	struct:__anon7
+numBlockThreads_Max	XzEnc.h	/^  int numBlockThreads_Max;$/;"	m	struct:__anon69
+numBlockThreads_Reduced	Lzma2Enc.h	/^  int numBlockThreads_Reduced;$/;"	m	struct:__anon7
+numBlockThreads_Reduced	XzEnc.h	/^  int numBlockThreads_Reduced;$/;"	m	struct:__anon69
+numBlocks	Xz.h	/^  UInt64 numBlocks; \/\/ number of finished blocks in current stream$/;"	m	struct:__anon18
+numBlocks	Xz.h	/^  size_t numBlocks;$/;"	m	struct:__anon12
+numBlocks	XzDec.c	/^  UInt64 numBlocks;$/;"	m	struct:__anon39	file:
+numBlocks	XzDec.c	/^  UInt64 numBlocks;$/;"	m	struct:__anon40	file:
+numBlocks	XzEnc.c	/^  size_t numBlocks;$/;"	m	struct:__anon54	file:
+numBlocksMax	MtCoder.h	/^  unsigned numBlocksMax;$/;"	m	struct:_CMtCoder
+numCoders	Xz.h	/^  unsigned numCoders;$/;"	m	struct:__anon16
+numFastBytes	LzmaEnc.c	/^  unsigned numFastBytes;$/;"	m	struct:__anon46	file:
+numFilledThreads	MtDec.h	/^  unsigned numFilledThreads;$/;"	m	struct:_CMtDec
+numFinishedStreams	Xz.h	/^  UInt64 numFinishedStreams;$/;"	m	struct:__anon18
+numFinishedThreads	MtCoder.h	/^    LONG numFinishedThreads;$/;"	m	struct:_CMtCoder
+numHashBytes	LzFind.h	/^  UInt32 numHashBytes;$/;"	m	struct:_CMatchFinder
+numHashBytes	LzFindMt.h	/^  UInt32 numHashBytes;$/;"	m	struct:_CMatchFinderMt
+numHashBytes	LzmaEnc.h	/^  int numHashBytes; \/* 2, 3 or 4, default = 4 *\/$/;"	m	struct:_CLzmaEncProps
+numPairs	LzmaEnc.c	/^  unsigned numPairs;$/;"	m	struct:__anon46	file:
+numProbs	LzmaDec.h	/^  UInt32 numProbs;$/;"	m	struct:__anon92
+numProcessedBlocks	LzFindMt.h	/^  UInt32 numProcessedBlocks;$/;"	m	struct:_CMtSync
+numRefs	LzFind.h	/^  size_t numRefs;$/;"	m	struct:_CMatchFinder
+numStartedStreams	Xz.h	/^  UInt64 numStartedStreams;$/;"	m	struct:__anon18
+numStartedThreads	MtCoder.h	/^  unsigned numStartedThreads;$/;"	m	struct:_CMtCoder
+numStartedThreads	MtDec.h	/^  unsigned numStartedThreads;$/;"	m	struct:_CMtDec
+numStartedThreadsLimit	MtCoder.h	/^  unsigned numStartedThreadsLimit;$/;"	m	struct:_CMtCoder
+numStartedThreads_Limit	MtDec.h	/^  unsigned numStartedThreads_Limit;$/;"	m	struct:_CMtDec
+numStreams	XzDec.c	/^  UInt64 numStreams;$/;"	m	struct:__anon39	file:
+numStreams	XzDec.c	/^  UInt64 numStreams;$/;"	m	struct:__anon40	file:
+numThreads	Lzma2DecMt.h	/^  unsigned numThreads;$/;"	m	struct:__anon64
+numThreads	LzmaEnc.h	/^  int numThreads;  \/* 1 or 2, default = 2 *\/$/;"	m	struct:_CLzmaEncProps
+numThreads	Xz.h	/^  unsigned numThreads;$/;"	m	struct:__anon19
+numThreadsMax	MtCoder.h	/^  unsigned numThreadsMax;$/;"	m	struct:_CMtCoder
+numThreadsMax	MtDec.h	/^  unsigned numThreadsMax;$/;"	m	struct:_CMtDec
+numThreadsMax_2	MtDec.h	/^  unsigned numThreadsMax_2;$/;"	m	struct:_CMtDec
+numTotalBlocks	Xz.h	/^  UInt64 numTotalBlocks;$/;"	m	struct:__anon18
+numTotalBlocks	XzDec.c	/^  UInt64 numTotalBlocks;$/;"	m	struct:__anon39	file:
+numTotalBlocks	XzDec.c	/^  UInt64 numTotalBlocks;$/;"	m	struct:__anon40	file:
+numTotalThreads	Lzma2Enc.h	/^  int numTotalThreads;$/;"	m	struct:__anon7
+numTotalThreads	XzEnc.h	/^  int numTotalThreads;$/;"	m	struct:__anon69
+offset	Alloc.h	/^  size_t offset;         \/* (offset == (k * sizeof(void *)) && offset < (1 << numAlignBits) *\/$/;"	m	struct:__anon63
+opt	LzmaEnc.c	/^  COptimal opt[kNumOpts];$/;"	m	struct:__anon46	file:
+optCur	LzmaEnc.c	/^  unsigned optCur;$/;"	m	struct:__anon46	file:
+optEnd	LzmaEnc.c	/^  unsigned optEnd;$/;"	m	struct:__anon46	file:
+outBlockMax	Lzma2DecMt.h	/^  size_t outBlockMax;$/;"	m	struct:__anon64
+outBuf	Lzma2DecMt.c	/^  Byte *outBuf;$/;"	m	struct:__anon65	file:
+outBuf	Lzma2Enc.c	/^  Byte *outBuf;$/;"	m	struct:__anon74	file:
+outBuf	Xz.h	/^  Byte *outBuf;$/;"	m	struct:__anon16
+outBuf	Xz.h	/^  Byte *outBuf;$/;"	m	struct:__anon18
+outBuf	XzDec.c	/^  Byte *outBuf;$/;"	m	struct:__anon39	file:
+outBuf	XzDec.c	/^  Byte *outBuf;$/;"	m	struct:__anon40	file:
+outBuf	XzEnc.c	/^  Byte *outBuf;$/;"	m	struct:__anon56	file:
+outBufLimit	XzEnc.c	/^  size_t outBufLimit;$/;"	m	struct:__anon56	file:
+outBufMode	XzDec.c	/^  Bool outBufMode;$/;"	m	struct:__anon38	file:
+outBufSize	Lzma2DecMt.c	/^  size_t outBufSize;$/;"	m	struct:__anon65	file:
+outBufSize	Lzma2Enc.c	/^  size_t outBufSize;   \/* size of allocated outBufs[i] *\/$/;"	m	struct:__anon74	file:
+outBufSize	Xz.h	/^  size_t outBufSize;$/;"	m	struct:__anon16
+outBufSize	Xz.h	/^  size_t outBufSize;$/;"	m	struct:__anon18
+outBufSize	XzDec.c	/^  size_t outBufSize;$/;"	m	struct:__anon39	file:
+outBufSize	XzDec.c	/^  size_t outBufSize;$/;"	m	struct:__anon40	file:
+outBufSize	XzEnc.c	/^  size_t outBufSize;       \/* size of allocated outBufs[i] *\/$/;"	m	struct:__anon62	file:
+outBuf_Rem	Lzma2Enc.c	/^  size_t outBuf_Rem;   \/* remainder in outBuf *\/$/;"	m	struct:__anon74	file:
+outBufs	Lzma2Enc.c	/^  Byte *outBufs[MTCODER__BLOCKS_MAX];$/;"	m	struct:__anon74	file:
+outBufs	XzEnc.c	/^  Byte *outBufs[MTCODER__BLOCKS_MAX];$/;"	m	struct:__anon62	file:
+outBufsDataSizes	Lzma2Enc.c	/^  size_t outBufsDataSizes[MTCODER__BLOCKS_MAX];$/;"	m	struct:__anon74	file:
+outCodeSize	Lzma2DecMt.c	/^  size_t outCodeSize;$/;"	m	struct:__anon65	file:
+outCodeSize	XzDec.c	/^  size_t outCodeSize;$/;"	m	struct:__anon39	file:
+outDataWritten	Xz.h	/^  size_t outDataWritten; \/\/ the size of data in (outBuf) that were fully unpacked$/;"	m	struct:__anon18
+outOffset	XzEnc.c	/^  UInt64 outOffset;$/;"	m	struct:__anon61	file:
+outPos	MtDec.h	/^  UInt64 outPos; \/\/ check it (size_t)$/;"	m	struct:__anon90
+outPreSize	Lzma2DecMt.c	/^  size_t outPreSize;$/;"	m	struct:__anon65	file:
+outPreSize	XzDec.c	/^  size_t outPreSize;$/;"	m	struct:__anon39	file:
+outProcessed	Lzma2DecMt.c	/^  UInt64 outProcessed;$/;"	m	struct:__anon66	file:
+outProcessed	XzDec.c	/^  UInt64 outProcessed;$/;"	m	struct:__anon40	file:
+outProcessed_Parse	Lzma2DecMt.c	/^  UInt64 outProcessed_Parse;$/;"	m	struct:__anon66	file:
+outProcessed_Parse	XzDec.c	/^  UInt64 outProcessed_Parse;$/;"	m	struct:__anon40	file:
+outSize	Lzma2DecMt.c	/^  UInt64 outSize;$/;"	m	struct:__anon66	file:
+outSize	MtCoder.h	/^  UInt64 outSize;$/;"	m	struct:__anon27
+outSize	XzDec.c	/^  UInt64 outSize;$/;"	m	struct:__anon40	file:
+outSize_Defined	Lzma2DecMt.c	/^  Bool outSize_Defined;$/;"	m	struct:__anon66	file:
+outSize_Defined	XzDec.c	/^  Bool outSize_Defined;$/;"	m	struct:__anon40	file:
+outStep_ST	Lzma2DecMt.h	/^  size_t outStep_ST;$/;"	m	struct:__anon64
+outStep_ST	Xz.h	/^  size_t outStep_ST;$/;"	m	struct:__anon19
+outStream	Lzma2DecMt.c	/^  ISeqOutStream *outStream;$/;"	m	struct:__anon66	file:
+outStream	Lzma2Enc.c	/^  ISeqOutStream *outStream;$/;"	m	struct:__anon74	file:
+outStream	LzmaEnc.c	/^  ISeqOutStream *outStream;$/;"	m	struct:__anon44	file:
+outStream	XzDec.c	/^  ISeqOutStream *outStream;$/;"	m	struct:__anon40	file:
+outStream	XzEnc.c	/^  ISeqOutStream *outStream;$/;"	m	struct:__anon62	file:
+outWritten	Xz.h	/^  size_t outWritten; \/\/ is equal to lzmaDecoder.dicPos (in outBuf mode)$/;"	m	struct:__anon16
+overflow	LzmaEnc.c	/^  Bool overflow;$/;"	m	struct:__anon47	file:
+overflow	MtDec.h	/^  Bool overflow;$/;"	m	struct:_CMtDec
+p	Xz.h	/^  void *p;$/;"	m	struct:_IStateCoder
+p	XzEnc.c	/^  ISeqInStream p;$/;"	m	struct:__anon57	file:
+packSize	Lzma2Dec.h	/^  UInt32 packSize;$/;"	m	struct:__anon75
+packSize	Xz.h	/^  UInt64 packSize;$/;"	m	struct:__anon18
+packSize	Xz.h	/^  UInt64 packSize;$/;"	m	struct:__anon9
+pad	LzmaEnc.c	/^  Byte pad[128];$/;"	m	struct:__anon46	file:
+pad	MtDec.c	/^  void *pad[3];$/;"	m	struct:__anon21	file:
+pad2	LzmaEnc.c	/^  Byte pad2[128];$/;"	m	struct:__anon46	file:
+padSize	Xz.h	/^  UInt64 padSize;$/;"	m	struct:__anon18
+parseMode	Xz.h	/^  Bool parseMode;$/;"	m	struct:__anon18
+parseState	XzDec.c	/^  EMtDecParseState parseState;$/;"	m	struct:__anon39	file:
+parseStatus	Lzma2DecMt.c	/^  ELzma2ParseStatus parseStatus;$/;"	m	struct:__anon65	file:
+parsing_Truncated	XzDec.c	/^  Bool parsing_Truncated;$/;"	m	struct:__anon39	file:
+parsing_Truncated	XzDec.c	/^  Bool parsing_Truncated;$/;"	m	struct:__anon40	file:
+pb	LzmaDec.h	/^  Byte pb;$/;"	m	struct:_CLzmaProps
+pb	LzmaEnc.c	/^  unsigned lc, lp, pb;$/;"	m	struct:__anon46	file:
+pb	LzmaEnc.h	/^  int pb;          \/* 0 <= pb <= 4, default = 2 *\/$/;"	m	struct:_CLzmaEncProps
+pbMask	LzmaEnc.c	/^  unsigned lpMask, pbMask;$/;"	m	struct:__anon46	file:
+pointerToCurPos	LzFindMt.h	/^  const Byte *pointerToCurPos;$/;"	m	struct:_CMatchFinderMt
+pos	7zBuf.h	/^  size_t pos;$/;"	m	struct:__anon71
+pos	7zTypes.h	/^  size_t pos;$/;"	m	struct:__anon2
+pos	LzFind.h	/^  UInt32 pos;$/;"	m	struct:_CMatchFinder
+pos	LzFindMt.h	/^  UInt32 pos;$/;"	m	struct:_CMatchFinderMt
+pos	Xz.h	/^  UInt32 pos;$/;"	m	struct:__anon18
+pos	Xz.h	/^  size_t pos[MIXCODER_NUM_FILTERS_MAX - 1];$/;"	m	struct:__anon16
+posAlignEncoder	LzmaEnc.c	/^  CLzmaProb posAlignEncoder[1 << kNumAlignBits];$/;"	m	struct:__anon45	file:
+posAlignEncoder	LzmaEnc.c	/^  CLzmaProb posAlignEncoder[1 << kNumAlignBits];$/;"	m	struct:__anon46	file:
+posEncoders	LzmaEnc.c	/^  CLzmaProb posEncoders[kNumFullDistances];$/;"	m	struct:__anon45	file:
+posEncoders	LzmaEnc.c	/^  CLzmaProb posEncoders[kNumFullDistances];$/;"	m	struct:__anon46	file:
+posLimit	LzFind.h	/^  UInt32 posLimit;$/;"	m	struct:_CMatchFinder
+posSlotEncoder	LzmaEnc.c	/^  CLzmaProb posSlotEncoder[kNumLenToPosStates][1 << kNumPosSlotBits];$/;"	m	struct:__anon45	file:
+posSlotEncoder	LzmaEnc.c	/^  CLzmaProb posSlotEncoder[kNumLenToPosStates][1 << kNumPosSlotBits];$/;"	m	struct:__anon46	file:
+posSlotPrices	LzmaEnc.c	/^  UInt32 posSlotPrices[kNumLenToPosStates][kDistTableSizeMax];$/;"	m	struct:__anon46	file:
+prevByte	Bcj2.h	/^  Byte prevByte;$/;"	m	struct:__anon53
+price	LzmaEnc.c	/^  UInt32 price;$/;"	m	struct:__anon41	file:
+prices	LzmaEnc.c	/^  UInt32 prices[LZMA_NUM_PB_STATES_MAX][kLenNumSymbolsTotal];$/;"	m	struct:__anon43	file:
+probs	Bcj2.h	/^  UInt16 probs[2 + 256];$/;"	m	struct:__anon51
+probs	Bcj2.h	/^  UInt16 probs[2 + 256];$/;"	m	struct:__anon53
+probs	LzmaDec.h	/^  CLzmaProb *probs;$/;"	m	struct:__anon92
+probs_1664	LzmaDec.h	/^  CLzmaProb *probs_1664;$/;"	m	struct:__anon92
+processed	7zDec.c	/^  UInt64 processed;$/;"	m	struct:__anon77	file:
+processed	Lzma2Enc.c	/^  UInt64 processed;$/;"	m	struct:__anon72	file:
+processed	LzmaEnc.c	/^  UInt64 processed;$/;"	m	struct:__anon44	file:
+processed	XzEnc.c	/^  UInt64 processed;$/;"	m	struct:__anon55	file:
+processed	XzEnc.c	/^  UInt64 processed;$/;"	m	struct:__anon56	file:
+processedPos	LzmaDec.h	/^  UInt32 processedPos;$/;"	m	struct:__anon92
+progress	Lzma2DecMt.c	/^  ICompressProgress *progress;$/;"	m	struct:__anon66	file:
+progress	MtCoder.h	/^  ICompressProgress *progress;$/;"	m	struct:_CMtCoder
+progress	MtDec.h	/^  ICompressProgress *progress;$/;"	m	struct:_CMtDec
+progress	MtDec.h	/^  ICompressProgress *progress;$/;"	m	struct:__anon87
+progress	XzDec.c	/^  ICompressProgress *progress;$/;"	m	struct:__anon40	file:
+progress	XzEnc.c	/^  ICompressProgress *progress;$/;"	m	struct:__anon61	file:
+prop	Lzma2DecMt.c	/^  Byte prop;$/;"	m	struct:__anon66	file:
+prop	LzmaDec.h	/^  CLzmaProps prop;$/;"	m	struct:__anon92
+propEncoded	Lzma2Enc.c	/^  Byte propEncoded;$/;"	m	struct:__anon74	file:
+props	Lzma2DecMt.c	/^  CLzma2DecMtProps props;$/;"	m	struct:__anon66	file:
+props	Lzma2Enc.c	/^  CLzma2EncProps props;$/;"	m	struct:__anon74	file:
+props	Xz.h	/^  Byte props[XZ_FILTER_PROPS_SIZE_MAX];$/;"	m	struct:__anon8
+props	XzDec.c	/^  CXzDecMtProps props;$/;"	m	struct:__anon40	file:
+propsAreSet	Lzma2Enc.c	/^  Byte propsAreSet;$/;"	m	struct:__anon73	file:
+propsByte	Lzma2Enc.c	/^  Byte propsByte;$/;"	m	struct:__anon73	file:
+propsSize	Xz.h	/^  UInt32 propsSize;$/;"	m	struct:__anon8
+range	Bcj2.h	/^  UInt32 range;$/;"	m	struct:__anon51
+range	Bcj2.h	/^  UInt32 range;$/;"	m	struct:__anon53
+range	LzmaDec.h	/^  UInt32 range;$/;"	m	struct:__anon92
+range	LzmaEnc.c	/^  UInt32 range;$/;"	m	struct:__anon44	file:
+rc	LzmaEnc.c	/^  CRangeEnc rc;$/;"	m	struct:__anon46	file:
+readEvent	MtCoder.h	/^  CAutoResetEvent readEvent;$/;"	m	struct:_CMtCoder
+readProcessed	MtCoder.h	/^  UInt64 readProcessed;$/;"	m	struct:_CMtCoder
+readProcessed	MtDec.h	/^  UInt64 readProcessed;$/;"	m	struct:_CMtDec
+readProcessed	XzDec.c	/^  UInt64 readProcessed;$/;"	m	struct:__anon40	file:
+readRes	Lzma2DecMt.c	/^  SRes readRes;$/;"	m	struct:__anon66	file:
+readRes	MtCoder.h	/^  SRes readRes;$/;"	m	struct:_CMtCoder
+readRes	MtDec.h	/^  SRes readRes;$/;"	m	struct:_CMtDec
+readRes	XzDec.c	/^  SRes readRes;$/;"	m	struct:__anon40	file:
+readWasFinished	Lzma2DecMt.c	/^  Bool readWasFinished;$/;"	m	struct:__anon66	file:
+readWasFinished	MtDec.h	/^  Bool readWasFinished;$/;"	m	struct:_CMtDec
+readWasFinished	XzDec.c	/^  Bool readWasFinished;$/;"	m	struct:__anon40	file:
+realStream	7zTypes.h	/^  const ILookInStream *realStream;$/;"	m	struct:__anon3
+realStream	7zTypes.h	/^  const ILookInStream *realStream;$/;"	m	struct:__anon4
+realStream	7zTypes.h	/^  const ISeekInStream *realStream;$/;"	m	struct:__anon2
+realStream	Lzma2Enc.c	/^  ISeqInStream *realStream;$/;"	m	struct:__anon72	file:
+realStream	XzEnc.c	/^  ISeqInStream *realStream;$/;"	m	struct:__anon55	file:
+realStream	XzEnc.c	/^  ISeqInStream *realStream;$/;"	m	struct:__anon57	file:
+realStream	XzEnc.c	/^  ISeqOutStream *realStream;$/;"	m	struct:__anon56	file:
+realStreamFinished	XzEnc.c	/^  int realStreamFinished;$/;"	m	struct:__anon55	file:
+reduceSize	LzmaEnc.h	/^  UInt64 reduceSize; \/* estimated size of data that will be compressed. default = (UInt64)(Int64)-1.$/;"	m	struct:_CLzmaEncProps
+reduceSize	XzEnc.h	/^  UInt64 reduceSize;$/;"	m	struct:__anon69
+relatLimit	Bcj2.h	/^  UInt32 relatLimit;  \/* (relatLimit <= ((UInt32)1 << 31)), 0 means desable_conversion *\/$/;"	m	struct:__anon53
+rem	LzmaEnc.c	/^  SizeT rem;$/;"	m	struct:__anon47	file:
+remainLen	LzmaDec.h	/^  UInt32 remainLen;$/;"	m	struct:__anon92
+repLenEnc	LzmaEnc.c	/^  CLenPriceEnc repLenEnc;$/;"	m	struct:__anon46	file:
+repLenProbs	LzmaEnc.c	/^  CLenEnc repLenProbs;$/;"	m	struct:__anon45	file:
+repLenProbs	LzmaEnc.c	/^  CLenEnc repLenProbs;$/;"	m	struct:__anon46	file:
+reps	LzmaDec.h	/^  UInt32 reps[4];$/;"	m	struct:__anon92
+reps	LzmaEnc.c	/^  UInt32 reps[LZMA_NUM_REPS];$/;"	m	struct:__anon41	file:
+reps	LzmaEnc.c	/^  UInt32 reps[LZMA_NUM_REPS];$/;"	m	struct:__anon45	file:
+reps	LzmaEnc.c	/^  UInt32 reps[LZMA_NUM_REPS];$/;"	m	struct:__anon46	file:
+res	7zDec.c	/^  SRes res;$/;"	m	struct:__anon77	file:
+res	LzmaEnc.c	/^  SRes res;$/;"	m	struct:__anon44	file:
+res	MtCoder.h	/^  SRes res;$/;"	m	struct:__anon30
+res	MtDec.h	/^  SRes res;$/;"	m	struct:__anon87
+res	Xz.h	/^  SRes res;$/;"	m	struct:__anon16
+result	LzFind.h	/^  SRes result;$/;"	m	struct:_CMatchFinder
+result	LzmaEnc.c	/^  SRes result;$/;"	m	struct:__anon46	file:
+results	Xz.h	/^  SRes results[MIXCODER_NUM_FILTERS_MAX];$/;"	m	struct:__anon16
+rotlFixed	RotateDefs.h	18;"	d
+rotlFixed	RotateDefs.h	25;"	d
+rotrFixed	RotateDefs.h	19;"	d
+rotrFixed	RotateDefs.h	26;"	d
+s0	Sha256.c	175;"	d	file:
+s0	Sha256.c	36;"	d	file:
+s1	Sha256.c	176;"	d	file:
+s1	Sha256.c	37;"	d	file:
+saveState	LzmaEnc.c	/^  CSaveState saveState;$/;"	m	struct:__anon46	file:
+sb	XzEnc.c	/^  CSbEncInStream sb;$/;"	m	struct:__anon59	file:
+sdCRCs	7zArcIn.c	/^  CSzData sdCRCs;$/;"	m	struct:__anon67	file:
+sdNumSubStreams	7zArcIn.c	/^  CSzData sdNumSubStreams;$/;"	m	struct:__anon67	file:
+sdSizes	7zArcIn.c	/^  CSzData sdSizes;$/;"	m	struct:__anon67	file:
+sha	Xz.h	/^  CSha256 sha;$/;"	m	struct:__anon10
+sha	Xz.h	/^  CSha256 sha;$/;"	m	struct:__anon18
+shaDigest	Xz.h	/^  Byte shaDigest[SHA256_DIGEST_SIZE];$/;"	m	struct:__anon18
+size	7zBuf.h	/^  size_t size;$/;"	m	struct:__anon70
+size	7zBuf.h	/^  size_t size;$/;"	m	struct:__anon71
+size	7zTypes.h	/^  size_t size; \/* it's data size *\/$/;"	m	struct:__anon2
+size	Xz.h	/^  size_t size[MIXCODER_NUM_FILTERS_MAX - 1];$/;"	m	struct:__anon16
+size	XzEnc.c	/^  size_t size;$/;"	m	struct:__anon54	file:
+skipMode	XzDec.c	/^  Bool skipMode;$/;"	m	struct:__anon39	file:
+son	LzFind.h	/^  CLzRef *son;$/;"	m	struct:_CMatchFinder
+son	LzFindMt.h	/^  CLzRef *son;$/;"	m	struct:_CMatchFinderMt
+src	Bcj2.h	/^  const Byte *src;$/;"	m	struct:__anon53
+src	MtDec.h	/^  const Byte *src;$/;"	m	struct:__anon90
+srcFinished	MtDec.h	/^  int srcFinished;$/;"	m	struct:__anon90
+srcLim	Bcj2.h	/^  const Byte *srcLim;$/;"	m	struct:__anon53
+srcPos	Lzma2Enc.c	/^  UInt64 srcPos;$/;"	m	struct:__anon73	file:
+srcSize	MtDec.h	/^  size_t srcSize;$/;"	m	struct:__anon90
+srcWasFinished	XzEnc.c	/^  int srcWasFinished;$/;"	m	struct:__anon57	file:
+startCall	MtDec.h	/^  int startCall;$/;"	m	struct:__anon90
+startEvent	MtCoder.h	/^  CAutoResetEvent startEvent;$/;"	m	struct:__anon28
+startOffset	Xz.h	/^  UInt64 startOffset;$/;"	m	struct:__anon12
+startPosAfterHeader	7z.h	/^  UInt64 startPosAfterHeader;$/;"	m	struct:__anon86
+state	Bcj2.h	/^  unsigned state; \/* BCJ2_STREAM_MAIN has more priority than BCJ2_STATE_ORIG *\/$/;"	m	struct:__anon51
+state	Bcj2.h	/^  unsigned state;$/;"	m	struct:__anon53
+state	Lzma2Dec.h	/^  unsigned state;$/;"	m	struct:__anon75
+state	Lzma2DecMt.c	/^  EMtDecParseState state;$/;"	m	struct:__anon65	file:
+state	LzmaDec.h	/^  UInt32 state;$/;"	m	struct:__anon92
+state	LzmaEnc.c	/^  CState state;$/;"	m	struct:__anon41	file:
+state	LzmaEnc.c	/^  unsigned state;$/;"	m	struct:__anon45	file:
+state	LzmaEnc.c	/^  unsigned state;$/;"	m	struct:__anon46	file:
+state	MtDec.h	/^  EMtDecParseState state;$/;"	m	struct:__anon90
+state	Sha256.h	/^  UInt32 state[8];$/;"	m	struct:__anon95
+state	Xz.h	/^  EXzState state;$/;"	m	struct:__anon18
+status	Xz.h	/^  ECoderStatus status;$/;"	m	struct:__anon16
+status	XzDec.c	/^  ECoderStatus status;$/;"	m	struct:__anon39	file:
+status	XzDec.c	/^  ECoderStatus status;$/;"	m	struct:__anon40	file:
+stop	MtCoder.h	/^  int stop;$/;"	m	struct:__anon28
+stopReading	MtCoder.h	/^  Bool stopReading;$/;"	m	struct:_CMtCoder
+stopWriting	LzFindMt.h	/^  Bool stopWriting;$/;"	m	struct:_CMtSync
+stream	LzFind.h	/^  ISeqInStream *stream;$/;"	m	struct:_CMatchFinder
+streamEndWasReached	LzFind.h	/^  Byte streamEndWasReached;$/;"	m	struct:_CMatchFinder
+streamFlags	Xz.h	/^  CXzStreamFlags streamFlags;$/;"	m	struct:__anon18
+streamFlags	XzDec.c	/^  CXzStreamFlags streamFlags;$/;"	m	struct:__anon39	file:
+streamFlags	XzDec.c	/^  CXzStreamFlags streamFlags;$/;"	m	struct:__anon40	file:
+streamPos	LzFind.h	/^  UInt32 streamPos;$/;"	m	struct:_CMatchFinder
+streams	Xz.h	/^  CXzStream *streams;$/;"	m	struct:__anon13
+tableSize	LzmaEnc.c	/^  unsigned tableSize;$/;"	m	struct:__anon43	file:
+temp	Bcj2.h	/^  Byte temp[4 * 2];$/;"	m	struct:__anon53
+temp	Bcj2.h	/^  Byte temp[4];$/;"	m	struct:__anon51
+tempBuf	LzmaDec.h	/^  Byte tempBuf[LZMA_REQUIRED_INPUT_MAX];$/;"	m	struct:__anon92
+tempBufLzma	Lzma2Enc.c	/^  Byte *tempBufLzma;$/;"	m	struct:__anon74	file:
+tempBufSize	LzmaDec.h	/^  unsigned tempBufSize;$/;"	m	struct:__anon92
+tempPos	Bcj2.h	/^  unsigned tempPos;$/;"	m	struct:__anon53
+tempTarget	Bcj2.h	/^  UInt32 tempTarget;$/;"	m	struct:__anon53
+thread	LzFindMt.h	/^  CThread thread;$/;"	m	struct:_CMtSync
+thread	MtCoder.h	/^  CThread thread;$/;"	m	struct:__anon28
+thread	MtDec.h	/^  CThread thread;$/;"	m	struct:__anon88
+threadingErrorSRes	MtDec.h	/^  SRes threadingErrorSRes;$/;"	m	struct:_CMtDec
+threads	MtCoder.h	/^  CMtCoderThread threads[MTCODER__THREADS_MAX];$/;"	m	struct:_CMtCoder
+threads	MtDec.h	/^  CMtDecThread threads[MTDEC__THREADS_MAX];$/;"	m	struct:_CMtDec
+totalInSize	MtDec.h	/^  UInt64 totalInSize;$/;"	m	struct:__anon87
+totalOutSize	MtDec.h	/^  UInt64 totalOutSize;$/;"	m	struct:__anon87
+totalSize	Xz.h	/^  UInt64 totalSize;$/;"	m	struct:__anon11
+totalSize	XzEnc.c	/^  UInt64 totalSize;$/;"	m	struct:__anon60	file:
+unpackBlockMaxSize	XzDec.c	/^  size_t unpackBlockMaxSize;$/;"	m	struct:__anon40	file:
+unpackSize	Lzma2Dec.h	/^  UInt32 unpackSize;$/;"	m	struct:__anon75
+unpackSize	Xz.h	/^  UInt64 unpackSize;$/;"	m	struct:__anon11
+unpackSize	Xz.h	/^  UInt64 unpackSize;$/;"	m	struct:__anon18
+unpackSize	Xz.h	/^  UInt64 unpackSize;$/;"	m	struct:__anon9
+unpackSize	XzEnc.c	/^  UInt64 unpackSize;$/;"	m	struct:__anon60	file:
+vendor	CpuArch.h	/^  UInt32 vendor[3];$/;"	m	struct:__anon22
+ver	CpuArch.h	/^  UInt32 ver;$/;"	m	struct:__anon22
+vt	7zDec.c	/^  IByteIn vt;$/;"	m	struct:__anon77	file:
+vt	7zFile.h	/^  ISeekInStream vt;$/;"	m	struct:__anon34
+vt	7zFile.h	/^  ISeqInStream vt;$/;"	m	struct:__anon33
+vt	7zFile.h	/^  ISeqOutStream vt;$/;"	m	struct:__anon35
+vt	7zTypes.h	/^  ILookInStream vt;$/;"	m	struct:__anon2
+vt	7zTypes.h	/^  ISeqInStream vt;$/;"	m	struct:__anon3
+vt	7zTypes.h	/^  ISeqInStream vt;$/;"	m	struct:__anon4
+vt	Alloc.h	/^  ISzAlloc vt;$/;"	m	struct:__anon63
+vt	Lzma2Enc.c	/^  ISeqInStream vt;$/;"	m	struct:__anon72	file:
+vt	LzmaEnc.c	/^  ISeqOutStream vt;$/;"	m	struct:__anon47	file:
+vt	MtCoder.h	/^  ICompressProgress vt;$/;"	m	struct:__anon27
+vt	Ppmd7.h	/^  IPpmd7_RangeDec vt;$/;"	m	struct:__anon25
+vt	XzEnc.c	/^  ICompressProgress vt;$/;"	m	struct:__anon61	file:
+vt	XzEnc.c	/^  ISeqInStream vt;$/;"	m	struct:__anon55	file:
+vt	XzEnc.c	/^  ISeqInStream vt;$/;"	m	struct:__anon58	file:
+vt	XzEnc.c	/^  ISeqOutStream vt;$/;"	m	struct:__anon56	file:
+wasCreated	LzFindMt.h	/^  Bool wasCreated;$/;"	m	struct:_CMtSync
+wasFinished	Xz.h	/^  Bool wasFinished;$/;"	m	struct:__anon16
+wasInterrupted	MtDec.h	/^  Bool wasInterrupted;$/;"	m	struct:_CMtDec
+wasStarted	LzFindMt.h	/^  CAutoResetEvent wasStarted;$/;"	m	struct:_CMtSync
+wasStopped	LzFindMt.h	/^  CAutoResetEvent wasStopped;$/;"	m	struct:_CMtSync
+writeEndMark	LzmaEnc.c	/^  Bool writeEndMark;$/;"	m	struct:__anon46	file:
+writeEndMark	LzmaEnc.h	/^  unsigned writeEndMark;  \/* 0 - do not write EOPM, 1 - write EOPM, default = 0 *\/$/;"	m	struct:_CLzmaEncProps
+writeEvents	MtCoder.h	/^    CAutoResetEvent writeEvents[MTCODER__BLOCKS_MAX];$/;"	m	struct:_CMtCoder
+writeIndex	MtCoder.h	/^    unsigned writeIndex;$/;"	m	struct:_CMtCoder
+writeRes	MtCoder.h	/^    SRes writeRes;$/;"	m	struct:_CMtCoder
+writeRes	XzDec.c	/^  SRes writeRes;$/;"	m	struct:__anon40	file:
+x86State	XzDec.c	/^  UInt32 x86State;$/;"	m	struct:__anon37	file:
+x86_Convert	Bra86.c	/^SizeT x86_Convert(Byte *data, SizeT size, UInt32 ip, UInt32 *state, int encoding)$/;"	f
+x86_Convert_Init	Bra.h	54;"	d
+x86cpuid_CheckAndRead	CpuArch.c	/^Bool x86cpuid_CheckAndRead(Cx86cpuid *p)$/;"	f
+x86cpuid_GetFamily	CpuArch.h	324;"	d
+x86cpuid_GetFirm	CpuArch.c	/^int x86cpuid_GetFirm(const Cx86cpuid *p)$/;"	f
+x86cpuid_GetModel	CpuArch.h	325;"	d
+x86cpuid_GetStepping	CpuArch.h	326;"	d
+xtime	Aes.c	45;"	d	file:
+xzIndex	XzEnc.c	/^  CXzEncIndex xzIndex;$/;"	m	struct:__anon62	file:
+xzProps	XzEnc.c	/^  CXzProps xzProps;$/;"	m	struct:__anon62	file:

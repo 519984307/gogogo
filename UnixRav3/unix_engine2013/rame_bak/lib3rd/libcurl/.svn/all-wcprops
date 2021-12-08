@@ -1,0 +1,1325 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/rego/!svn/ver/1985/trunk/lib3rd/libcurl
+END
+inet_pton.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/inet_pton.c
+END
+curl_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_config.h
+END
+escape.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/escape.c
+END
+easy.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/easy.c
+END
+inet_pton.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/inet_pton.h
+END
+escape.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/escape.h
+END
+curl_fnmatch.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_fnmatch.c
+END
+nonblock.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/nonblock.c
+END
+security.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/security.c
+END
+if2ip.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/if2ip.c
+END
+curl_fnmatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_fnmatch.h
+END
+curl_ldap.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_ldap.h
+END
+nonblock.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/nonblock.h
+END
+hostcheck.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/hostcheck.c
+END
+curl_addrinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_addrinfo.c
+END
+multihandle.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/multihandle.h
+END
+tftp.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/tftp.c
+END
+if2ip.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/if2ip.h
+END
+asyn.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/asyn.h
+END
+curl_addrinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_addrinfo.h
+END
+hostcheck.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/hostcheck.h
+END
+pop3.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/pop3.c
+END
+tftp.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/tftp.h
+END
+strerror.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/strerror.c
+END
+dict.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/dict.c
+END
+pop3.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/pop3.h
+END
+strerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/strerror.h
+END
+curl_ntlm_msgs.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_ntlm_msgs.c
+END
+dict.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/dict.h
+END
+wildcard.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/wildcard.c
+END
+ftp.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/ftp.c
+END
+http_chunks.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http_chunks.c
+END
+multi.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/multi.c
+END
+curl_ntlm_msgs.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_ntlm_msgs.h
+END
+ftp.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/ftp.h
+END
+wildcard.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/wildcard.h
+END
+http_chunks.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http_chunks.h
+END
+strequal.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/strequal.c
+END
+curl_memory.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_memory.h
+END
+share.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/share.c
+END
+curl_multibyte.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_multibyte.c
+END
+libcurl.plist
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/libcurl.plist
+END
+sigpipe.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/sigpipe.h
+END
+strequal.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/strequal.h
+END
+share.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/share.h
+END
+curl_multibyte.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_multibyte.h
+END
+cookie.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/cookie.c
+END
+nwlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/nwlib.c
+END
+cookie.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/cookie.h
+END
+curl_md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_md5.h
+END
+easyif.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/easyif.h
+END
+strtok.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/strtok.c
+END
+x509asn1.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/x509asn1.c
+END
+connect.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/connect.c
+END
+getinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/getinfo.c
+END
+fileinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/fileinfo.c
+END
+strtok.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/strtok.h
+END
+ssh.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/ssh.c
+END
+x509asn1.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/x509asn1.h
+END
+connect.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/connect.h
+END
+speedcheck.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/speedcheck.c
+END
+inet_ntop.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/inet_ntop.c
+END
+getinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/getinfo.h
+END
+fileinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/fileinfo.h
+END
+http2.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http2.c
+END
+ssh.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/ssh.h
+END
+openldap.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/openldap.c
+END
+speedcheck.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/speedcheck.h
+END
+curl_sec.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_sec.h
+END
+inet_ntop.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/inet_ntop.h
+END
+http2.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http2.h
+END
+parsedate.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/parsedate.c
+END
+curl_gssapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_gssapi.c
+END
+parsedate.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/parsedate.h
+END
+select.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/select.c
+END
+socks_sspi.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/socks_sspi.c
+END
+non-ascii.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/non-ascii.c
+END
+curl_gssapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_gssapi.h
+END
+http_proxy.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http_proxy.c
+END
+rawstr.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/rawstr.c
+END
+select.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/select.h
+END
+md4.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/md4.c
+END
+non-ascii.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/non-ascii.h
+END
+memdebug.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/memdebug.c
+END
+http_proxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http_proxy.h
+END
+rawstr.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/rawstr.h
+END
+splay.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/splay.c
+END
+memdebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/memdebug.h
+END
+splay.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/splay.h
+END
+curl_setup_once.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_setup_once.h
+END
+timeval.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/timeval.c
+END
+curlx.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curlx.h
+END
+libcurl.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/libcurl.vcxproj
+END
+timeval.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/timeval.h
+END
+hostip.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/hostip.c
+END
+curl_rtmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_rtmp.c
+END
+curl_ntlm_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_ntlm_core.c
+END
+hostasyn.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/hostasyn.c
+END
+hostip.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/hostip.h
+END
+curl_rtmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_rtmp.h
+END
+curl_ntlm_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_ntlm_core.h
+END
+http_negotiate.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http_negotiate.c
+END
+mprintf.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/mprintf.c
+END
+content_encoding.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/content_encoding.c
+END
+smb.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/smb.c
+END
+conncache.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/conncache.c
+END
+socks.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/socks.c
+END
+http_negotiate.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http_negotiate.h
+END
+base64.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/base64.c
+END
+content_encoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/content_encoding.h
+END
+smb.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/smb.h
+END
+conncache.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/conncache.h
+END
+imap.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/imap.c
+END
+socks.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/socks.h
+END
+rtsp.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/rtsp.c
+END
+getenv.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/getenv.c
+END
+hostip4.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/hostip4.c
+END
+telnet.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/telnet.c
+END
+imap.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/imap.h
+END
+curl_printf.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_printf.h
+END
+rtsp.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/rtsp.h
+END
+sockaddr.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/sockaddr.h
+END
+telnet.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/telnet.h
+END
+mkobjs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/mkobjs
+END
+setup-vms.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/setup-vms.h
+END
+hmac.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/hmac.c
+END
+netrc.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/netrc.c
+END
+multiif.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/multiif.h
+END
+http.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http.c
+END
+amigaos.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/amigaos.c
+END
+netrc.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/netrc.h
+END
+hash.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/hash.c
+END
+http.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http.h
+END
+gopher.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/gopher.c
+END
+amigaos.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/amigaos.h
+END
+md5.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/md5.c
+END
+curl_ntlm_wb.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_ntlm_wb.c
+END
+llist.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/llist.c
+END
+hash.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/hash.h
+END
+gopher.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/gopher.h
+END
+curl_setup.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_setup.h
+END
+curl_ntlm_wb.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_ntlm_wb.h
+END
+llist.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/llist.h
+END
+formdata.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/formdata.c
+END
+curl_sasl_gssapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_sasl_gssapi.c
+END
+formdata.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/formdata.h
+END
+krb5.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/krb5.c
+END
+libcurl.sln
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/libcurl.sln
+END
+hostsyn.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/hostsyn.c
+END
+setup-os400.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/setup-os400.h
+END
+http_digest.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http_digest.c
+END
+curl_config.h.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_config.h.cmake
+END
+curl_threads.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_threads.c
+END
+pingpong.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/pingpong.c
+END
+strdup.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/strdup.c
+END
+curl_memrchr.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_memrchr.c
+END
+http_digest.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http_digest.h
+END
+curl_threads.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_threads.h
+END
+curl_sasl_sspi.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_sasl_sspi.c
+END
+version.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/version.c
+END
+nwos.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/nwos.c
+END
+pingpong.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/pingpong.h
+END
+strdup.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/strdup.h
+END
+curl_memrchr.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_memrchr.h
+END
+curl_sasl.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_sasl.c
+END
+curl_sasl.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_sasl.h
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/makefile
+END
+dotdot.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/dotdot.c
+END
+libcurl.vers.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/libcurl.vers.in
+END
+warnless.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/warnless.c
+END
+curl_ntlm.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_ntlm.c
+END
+sendf.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/sendf.c
+END
+curl_des.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_des.c
+END
+urldata.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/urldata.h
+END
+dotdot.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/dotdot.h
+END
+asyn-ares.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/asyn-ares.c
+END
+curl_hmac.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_hmac.h
+END
+warnless.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/warnless.h
+END
+curl_ntlm.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_ntlm.h
+END
+progress.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/progress.c
+END
+sendf.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/sendf.h
+END
+curl_des.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_des.h
+END
+progress.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/progress.h
+END
+config-win32.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/config-win32.h
+END
+http_negotiate_sspi.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/http_negotiate_sspi.c
+END
+libcurl.rc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/libcurl.rc
+END
+ldap.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/ldap.c
+END
+transfer.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/transfer.c
+END
+transfer.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/transfer.h
+END
+strtoofft.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/strtoofft.c
+END
+slist.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/slist.c
+END
+strtoofft.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/strtoofft.h
+END
+ftplistparser.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/ftplistparser.c
+END
+url.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/url.c
+END
+curl_gethostname.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_gethostname.c
+END
+arpa_telnet.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/arpa_telnet.h
+END
+curl_sspi.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_sspi.c
+END
+slist.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/slist.h
+END
+pipeline.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/pipeline.c
+END
+libcurl.dll.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/libcurl.dll.c
+END
+ftplistparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/ftplistparser.h
+END
+url.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/url.h
+END
+libcurl.def
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/libcurl.def
+END
+curl_gethostname.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_gethostname.h
+END
+curl_sspi.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_sspi.h
+END
+pipeline.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/pipeline.h
+END
+libcurl.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/libcurl.vcxproj.filters
+END
+curl_base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_base64.h
+END
+curl_md4.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_md4.h
+END
+file.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/file.c
+END
+asyn-thread.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/asyn-thread.c
+END
+curl_endian.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_endian.c
+END
+smtp.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/smtp.c
+END
+file.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/file.h
+END
+curl_endian.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl_endian.h
+END
+smtp.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/smtp.h
+END
+socks_gssapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/socks_gssapi.c
+END
+idn_win32.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/idn_win32.c
+END
+hostip6.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/hostip6.c
+END
+config_posix.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/config_posix.h
+END

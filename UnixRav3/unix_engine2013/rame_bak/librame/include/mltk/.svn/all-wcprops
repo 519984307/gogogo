@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1880/trunk/librame/include/mltk
+END
+rxsvm.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/253/trunk/librame/include/mltk/rxsvm.h
+END
+dtree.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1880/trunk/librame/include/mltk/dtree.h
+END
+iminwise.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/253/trunk/librame/include/mltk/iminwise.h
+END
+svm.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1880/trunk/librame/include/mltk/svm.h
+END
+mltk.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/253/trunk/librame/include/mltk/mltk.h
+END

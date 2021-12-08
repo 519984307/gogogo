@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rego/!svn/ver/1409/trunk/librame/modules/publib/algorithms/aes
+END
+aes_modes.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/aes/aes_modes.c
+END
+aestab.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/aes/aestab.c
+END
+aescpp.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/aes/aescpp.h
+END
+aesopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/aes/aesopt.h
+END
+aeskey.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/aes/aeskey.c
+END
+brg_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/aes/brg_types.h
+END
+aes_via_ace.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/aes/aes_via_ace.h
+END
+aestab.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/aes/aestab.h
+END
+aescrypt.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/aes/aescrypt.c
+END
+aes.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/aes/aes.h
+END
+brg_endian.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/rego/!svn/ver/1409/trunk/librame/modules/publib/algorithms/aes/brg_endian.h
+END

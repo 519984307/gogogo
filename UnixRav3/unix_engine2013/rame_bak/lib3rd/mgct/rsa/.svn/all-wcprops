@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/rego/!svn/ver/1960/trunk/lib3rd/mgct/rsa
+END
+nn.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/nn.h
+END
+prime.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/prime.h
+END
+r_random.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/r_random.c
+END
+r_stdlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/r_stdlib.c
+END
+r_keygen.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/r_keygen.c
+END
+global.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1960/trunk/lib3rd/mgct/rsa/global.h
+END
+rsa.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/rsa.c
+END
+rsaeuro.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/rsaeuro.h
+END
+r_random.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/r_random.h
+END
+md5c.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/md5c.c
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/md5.h
+END
+rsa.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/rsa.h
+END
+nn.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/nn.c
+END
+prime.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/rsa/prime.c
+END

@@ -1,0 +1,48 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file alias="close_btn">resource/sysclose_btn.png</file>
+        <file alias="sysmin_btn">resource/sysmin_btn.png</file>
+        <file alias="kill_gray">resource/kill_gray_15.png</file>
+        <file alias="setup_gray">resource/setup_gray_15.png</file>
+        <file alias="checkbox">resource/checkbox.png</file>
+        <file alias="plus_drop_btn">resource/plus_drop_btn.png</file>
+        <file alias="plus_btn">resource/plus_btn.png</file>
+        <file alias="delete_btn">resource/delete_btn.png</file>
+        <file alias="whitelist_info">resource/whitelist_info.png</file>
+        <file alias="options">resource/option.png</file>
+        <file alias="search">resource/search.png</file>
+        <file alias="refresh_btn">resource/refresh_btn.png</file>
+        <file alias="restore_to_source_btn">resource/restore_to_source_btn.png</file>
+        <file alias="restore_to_btn">resource/restore_to_btn.png</file>
+        <file alias="delete_selected_btn">resource/delete_selected_btn.png</file>
+        <file alias="simsun.ttf">resource/fonts/simsun.ttf</file>
+        <file alias="logo">resource/logo.png</file>
+        <file alias="netdefend_gray">resource/netdefend_gray_icon.png</file>
+        <file alias="logvw">resource/logvw.ico</file>
+    </qresource>
+    <qresource prefix="/Images">
+        <file alias="switchOff">Images/switchOff.png</file>
+        <file alias="switchOffHover">Images/switchOffHover.png</file>
+        <file alias="switchOffPressed">Images/switchOffPressed.png</file>
+        <file alias="switchOn">Images/switchOn.png</file>
+        <file alias="switchOnHover">Images/switchOnHover.png</file>
+        <file alias="switchOnPressed">Images/switchOnPressed.png</file>
+        <file alias="info_icon">Images/info_icon.png</file>
+        <file alias="license_active_normal">Images/license_active_normal.png</file>
+        <file alias="license_active_hovered">Images/license_active_hovered.png</file>
+        <file alias="license_active_pressed">Images/license_active_pressed.png</file>
+        <file alias="license_active_disabled">Images/license_active_disabled.png</file>
+        <file alias="combo_drop_arrow">Images/combo_drop_arrow.png</file>
+        <file alias="combo_drop_on">Images/combo_drop_on.png</file>
+        <file alias="apply_btn_normal">Images/apply_btn_normal.png</file>
+        <file alias="apply_btn_hovered">Images/apply_btn_hover.png</file>
+        <file alias="apply_btn_pressed">Images/apply_btn_down.png</file>
+        <file alias="apply_btn_disabled">Images/apply_btn_disable.png</file>
+        <file alias="sysmax_btn_normal">Images/sysmax_btn_normal.png</file>
+        <file alias="sysmax_btn_hover">Images/sysmax_btn_hover.png</file>
+        <file alias="sysmax_btn_pressed">Images/sysmax_btn_pressed.png</file>
+        <file alias="sysregain_btn_normal">Images/sysregain_btn_normal.png</file>
+        <file alias="sysregain_btn_hover">Images/sysregain_btn_hover.png</file>
+        <file alias="sysregain_btn_predded">Images/sysregain_btn_pressed.png</file>
+    </qresource>
+</RCC>

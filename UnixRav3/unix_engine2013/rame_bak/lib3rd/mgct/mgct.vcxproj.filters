@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mguid">
+      <UniqueIdentifier>{192f23de-39f2-4b7c-8744-2ee414b32c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rsa">
+      <UniqueIdentifier>{c7761d61-0f25-4a8c-8939-eda2e9ec2d06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\detectproduct.h">
+      <Filter>mguid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\GetDiskInfo.h">
+      <Filter>mguid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\GetNetAdapterInfo.h">
+      <Filter>mguid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\GetNetAdapterInfo2.h">
+      <Filter>mguid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\ravbase64.h">
+      <Filter>mguid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\userguid.h">
+      <Filter>mguid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\userguid2.h">
+      <Filter>mguid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\usersguid.h">
+      <Filter>mguid</Filter>
+    </ClInclude>
+    <ClInclude Include="guid\WmiGetInfo.h">
+      <Filter>mguid</Filter>
+    </ClInclude>
+    <ClInclude Include="rsa\global.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="rsa\md5.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="rsa\nn.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="rsa\prime.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="rsa\r_random.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="rsa\rsa.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="rsa\rsaeuro.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="mgct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rsaalg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="guid\GetDiskInfo.cpp">
+      <Filter>mguid</Filter>
+    </ClCompile>
+    <ClCompile Include="guid\GetNetAdapterInfo.cpp">
+      <Filter>mguid</Filter>
+    </ClCompile>
+    <ClCompile Include="guid\GetNetAdapterInfo2.cpp">
+      <Filter>mguid</Filter>
+    </ClCompile>
+    <ClCompile Include="guid\ravbase64.cpp">
+      <Filter>mguid</Filter>
+    </ClCompile>
+    <ClCompile Include="guid\WmiGetInfo.cpp">
+      <Filter>mguid</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa\md5c.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa\nn.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa\prime.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa\r_keygen.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa\r_random.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa\r_stdlib.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa\rsa.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="mgct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rsaalg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mgct.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

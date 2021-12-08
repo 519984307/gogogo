@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/rego/!svn/ver/1864/trunk/librame/modules/publib/algorithms/crc32
+END
+crc64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/rego/!svn/ver/1409/trunk/librame/modules/publib/algorithms/crc32/crc64.cpp
+END
+crc32.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/rego/!svn/ver/1864/trunk/librame/modules/publib/algorithms/crc32/crc32.cpp
+END

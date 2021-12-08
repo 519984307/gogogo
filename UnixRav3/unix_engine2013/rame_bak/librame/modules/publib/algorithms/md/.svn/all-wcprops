@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/md
+END
+md.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/md/md.cpp
+END
+md4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/md/md4.cpp
+END
+md5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/md/md5.cpp
+END

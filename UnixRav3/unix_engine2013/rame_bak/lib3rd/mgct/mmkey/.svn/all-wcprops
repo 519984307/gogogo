@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/1960/trunk/lib3rd/mgct/mmkey
+END
+dmioem.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1925/trunk/lib3rd/mgct/mmkey/dmioem.h
+END
+dmiopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1925/trunk/lib3rd/mgct/mmkey/dmiopt.h
+END
+dmidecode.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1947/trunk/lib3rd/mgct/mmkey/dmidecode.h
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1960/trunk/lib3rd/mgct/mmkey/util.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1925/trunk/lib3rd/mgct/mmkey/types.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1925/trunk/lib3rd/mgct/mmkey/config.h
+END
+dmioem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1951/trunk/lib3rd/mgct/mmkey/dmioem.cpp
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1925/trunk/lib3rd/mgct/mmkey/version.h
+END
+dmiopt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1951/trunk/lib3rd/mgct/mmkey/dmiopt.cpp
+END
+dmidecode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1951/trunk/lib3rd/mgct/mmkey/dmidecode.cpp
+END
+util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1960/trunk/lib3rd/mgct/mmkey/util.cpp
+END

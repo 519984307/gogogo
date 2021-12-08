@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/rego/!svn/ver/152/trunk/liblmx
+END
+lmx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/rego/!svn/ver/14/trunk/liblmx/lmx.cpp
+END
+lmx.imp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/14/trunk/liblmx/lmx.imp.cpp
+END
+lmx.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/rego/!svn/ver/152/trunk/liblmx/lmx.h
+END
+lmxif.idl
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/rego/!svn/ver/14/trunk/liblmx/lmxif.idl
+END
+lmxif.acf
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/rego/!svn/ver/14/trunk/liblmx/lmxif.acf
+END

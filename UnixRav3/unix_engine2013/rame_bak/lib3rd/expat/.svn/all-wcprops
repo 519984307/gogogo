@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/rego/!svn/ver/1071/trunk/lib3rd/expat
+END
+expat_static.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rego/!svn/ver/383/trunk/lib3rd/expat/expat_static.vcxproj
+END
+mkobjs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/mkobjs
+END
+amigaconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/amigaconfig.h
+END
+libexpatw.def
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/libexpatw.def
+END
+nametab.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/nametab.h
+END
+expatw.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/expatw.dsp
+END
+xmltok.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/xmltok.c
+END
+xmltok.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/xmltok.h
+END
+latin1tab.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/latin1tab.h
+END
+asciitab.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/asciitab.h
+END
+watcomconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/watcomconfig.h
+END
+expat.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/expat.dsp
+END
+expat.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/expat.h
+END
+expat_external.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/expat_external.h
+END
+macconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/macconfig.h
+END
+expat_static.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/expat_static.dsp
+END
+ascii.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rego/!svn/ver/292/trunk/lib3rd/expat/ascii.h
+END
+xmltok_impl.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/xmltok_impl.c
+END
+xmltok_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/xmltok_impl.h
+END
+expat_static.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/292/trunk/lib3rd/expat/expat_static.cbp
+END
+expat_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/292/trunk/lib3rd/expat/expat_config.h
+END
+xmltok_ns.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/xmltok_ns.c
+END
+c.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/c.txt
+END
+internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/internal.h
+END
+utf8tab.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/utf8tab.h
+END
+xmlrole.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/xmlrole.c
+END
+expatw_static.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/expatw_static.dsp
+END
+expat_static.layout
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/292/trunk/lib3rd/expat/expat_static.layout
+END
+libexpat.def
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/libexpat.def
+END
+xmlrole.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/xmlrole.h
+END
+winconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/winconfig.h
+END
+xmlparse.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/xmlparse.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/550/trunk/lib3rd/expat/makefile
+END
+iasciitab.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/14/trunk/lib3rd/expat/iasciitab.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/pst
+END
+folder.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/pst/folder.h
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/pst/message.h
+END
+pst.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/pst/pst.h
+END

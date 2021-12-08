@@ -1,0 +1,4 @@
+interface IEndPoint
+{
+    [async] invoke();
+}

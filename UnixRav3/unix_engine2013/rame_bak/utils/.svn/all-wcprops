@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/rego/!svn/ver/2022/trunk/utils
+END
+dllutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/rego/!svn/ver/2022/trunk/utils/dllutil.h
+END
+printlog.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/1793/trunk/utils/printlog.h
+END
+xvwritter.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/1466/trunk/utils/xvwritter.h
+END
+libstr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/1809/trunk/utils/libstr.hpp
+END
+utility_ex.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/297/trunk/utils/utility_ex.h
+END
+fastmutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/rego/!svn/ver/14/trunk/utils/fastmutex.h
+END
+xvreader.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/1311/trunk/utils/xvreader.h
+END
+utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/rego/!svn/ver/1863/trunk/utils/utility.h
+END
+xvalue.imp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1809/trunk/utils/xvalue.imp.cpp
+END
+arguments.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/rego/!svn/ver/14/trunk/utils/arguments.h
+END
+murmur.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/rego/!svn/ver/21/trunk/utils/murmur.h
+END
+xvjson.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/1524/trunk/utils/xvjson.hpp
+END
+txvalue.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/1809/trunk/utils/txvalue.hpp
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rego/!svn/ver/1617/trunk/librame/include/2012/vmi/include/rsvm
+END
+compiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/rego/!svn/ver/301/trunk/librame/include/2012/vmi/include/rsvm/compiler.h
+END
+pefmt.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rego/!svn/ver/1617/trunk/librame/include/2012/vmi/include/rsvm/pefmt.h
+END
+vmi.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rego/!svn/ver/301/trunk/librame/include/2012/vmi/include/rsvm/vmi.h
+END
+result.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rego/!svn/ver/301/trunk/librame/include/2012/vmi/include/rsvm/result.h
+END
+peinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rego/!svn/ver/301/trunk/librame/include/2012/vmi/include/rsvm/peinfo.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/rego/!svn/ver/301/trunk/librame/include/2012/vmi/include/rsvm/types.h
+END

@@ -1,0 +1,13 @@
+#/bin/sh
+mkdir ~/rame.pub
+mkdir ~/rame.bin
+
+make clean
+make x86
+
+cd ~/rame.bin
+tar -zcvf ~/rame.pub/rame.x86.sym.tar.gz .
+strip ./*
+tar -zcvf ~/rame.pub/rame.x86.tar.gz .
+#rm ./* -rf
+cd $OLD_PWD

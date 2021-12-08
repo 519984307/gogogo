@@ -1,0 +1,90 @@
+/**
+ *
+ **/
+#include <string>
+#include <fstream>
+#include <unistd.h>
+#include <string.h>
+
+
+#include "commonapi.h"
+
+using namespace std;
+
+const char *MAGIC = "RING";
+const char *NAME = "autoupdate.bin";
+
+class UpdateInfo {
+public:
+    UpdateInfo() {
+        mFileInfo = NULL;
+    }
+    ~UpdateInfo() {
+
+    }
+
+private:
+    typedef struct {
+        char magic[4];
+        int  count;
+        int  offset;
+    }HEADER;
+
+    typedef struct  {
+        unsigned int zipsize;
+        unsigned int filesize;
+        char         filename[256];
+        char         hash[32];
+    }EXTRACT_FILE_INFO;
+
+private:
+    int Contruct() {
+        char path[256];
+        getcwd(path, sizeof(path));
+
+        string self = Utils::Path::JoinPath(path, NAME, NULL);
+        ifstream ifs(self, ifstream::binary);
+        if (!ifs) {
+            return -1;
+        }
+
+        ifs.read((char*)&mHeader, sizeof(HEADER));
+        if (memcpy(mHeader.magic, MAGIC, 4)) {
+            return -1;
+        }
+
+        ifs.seekg(mHeader.offset);
+        for (int i=0; i<mHeader.count; ++i) {
+            EXTRACT_FILE_INFO extracted;
+            ifs.read((char*)&extracted, sizeof(EXTRACT_FILE_INFO));
+            mExtracFiles.push_back(extracted);
+        }
+
+        ifs.seekg(0, ios_base::beg);
+
+        return 0;
+    }
+
+    int ExtracFile(const EXTRACT_FILE_INFO& info) {
+
+    }
+
+
+
+
+private:
+    HEADER              mHeader;
+    EXTRACT_FILE_INFO   *mFileInfo;
+
+    vector<EXTRACT_FILE_INFO> mExtracFiles;
+};
+
+
+
+int main() {
+
+
+
+
+    return 0;
+}

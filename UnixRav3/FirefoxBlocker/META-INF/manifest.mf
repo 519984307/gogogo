@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+
+Name: background.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 32Ual7mJOIbUW5NpAX+OtQ==
+SHA1-Digest: a8yl/godDFNYR+Ue16NMFi8kH3g=
+
+Name: data.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yjhWwF6Rmt9G0NzYDQNDsw==
+SHA1-Digest: xIQe8z1VDBnvGochz5VADk0+Bpo=
+
+Name: deny.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5Aqvb/U0Z4rYlJ/gFtE37w==
+SHA1-Digest: dH/Yg5aoPdDpAaeQPkK4Ano0bMI=
+
+Name: deny.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: n9d90v18UHDjrrY1HdpP0Q==
+SHA1-Digest: 6hsd78knJ55WX1bdPdGqoOK6ItU=
+
+Name: manifest.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AgZ8eOg7LK/qvAoqwkFj5A==
+SHA1-Digest: pZELoqx+jvGQNgjy9yLwbWh6m7Q=
+
+Name: pen.svg
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BuM2dxEFkPETbFBOdM7Ovg==
+SHA1-Digest: J9hqWc0PvHuPosDSuwC2XXm6S1M=
+
+Name: README.md
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: beEP7qMlVcP6tLmV11LXBw==
+SHA1-Digest: +ODPNYX0f3Y1rxTfe6FYauPBTGU=
+

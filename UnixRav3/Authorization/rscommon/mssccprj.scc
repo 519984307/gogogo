@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[common.dsp]
+SCC_Aux_Path = "\\193.168.10.234\2004\"
+SCC_Project_Name = "$/Product2005/Common/RSCOMMON", TCUDAAAA

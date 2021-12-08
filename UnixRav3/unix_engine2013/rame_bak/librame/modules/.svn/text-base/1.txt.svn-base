@@ -1,0 +1,15 @@
+rxcore		杀毒功能核心模块
+rxffr		文件格式识别
+rxfsm		特征串匹配引擎，包括固定特征串、全文特征串等
+rxmail		邮件解析
+rxmltk		machine-learning toolkit 机器学习算法工具箱
+rxmss		恶意软件签名库系统，整个病毒库支持组件
+rxoffice 	office全系列格式支持
+rxruntim	基本运行时
+rxsig64		64位哈希值提取
+rxwinpe		WindowsPE格式解析（32/64）
+rxedu0		扩展查杀毒模块00
+
+
+todo：
+将rxcore中的几个简单的DU放到rxfsm中去

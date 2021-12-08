@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid
+END
+detectproduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/detectproduct.h
+END
+userguid2.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/userguid2.h
+END
+usersguid.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/usersguid.h
+END
+ravbase64.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/ravbase64.h
+END
+GetNetAdapterInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/GetNetAdapterInfo.cpp
+END
+GetNetAdapterInfo2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/GetNetAdapterInfo2.cpp
+END
+GetDiskInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/GetDiskInfo.cpp
+END
+GetNetAdapterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/GetNetAdapterInfo.h
+END
+WmiGetInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/WmiGetInfo.cpp
+END
+GetNetAdapterInfo2.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/GetNetAdapterInfo2.h
+END
+GetDiskInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/GetDiskInfo.h
+END
+userguid.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/userguid.h
+END
+WmiGetInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/WmiGetInfo.h
+END
+ravbase64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/guid/ravbase64.cpp
+END

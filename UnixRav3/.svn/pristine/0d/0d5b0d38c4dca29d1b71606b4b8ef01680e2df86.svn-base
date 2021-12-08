@@ -1,0 +1,19 @@
+#ifndef CMAKE_CONFIG_H
+#define CMAKE_CONFIG_H
+
+#define MAIN_CONSOLE_ENTRY          "@RAV_CONSOLE_MAIN_APP@"
+#define MAIN_SCREEN_ENTRY           "@RAV_QT_MAIN_APP@"
+#define MAIN_SETTING_ENTRY          "@RAV_QT_SETTING_APP@"
+#define MAIN_LOGVIEW_ENTRY          "@RAV_QT_LOGVIEW_APP@"
+#define CONTEXT_DAEMON_ENTRY        "@RAV_CONTEXT_PROXY@"
+#define SETUP_ENTRY                 "@RAV_SETUP_APP@"
+#define UNINSTALL_ENTRY             "@RAV_UNINSTALL_APP@"
+
+#define WATCHDOG_PROGUARD_PROCESS   "@RAV_WATCH_DOG@"
+#define DAEMON_GJCZ_ENTRY           "@RAV_DAEMON_GJCZ@"
+#define UPDATE_PROCESS_ENTRY        "@RAV_UPDATE@"
+#define NOTIFYY_ENTRY               "@RAV_NOTIFIY_APP@"
+#define DAEMON_GLTX_ENTRY           "@RAV_DAEMON_GLTX@"
+#define DAEMON_ZDFY_ENTRY           "@RAV_DAEMON_ZDFY@"
+
+#endif

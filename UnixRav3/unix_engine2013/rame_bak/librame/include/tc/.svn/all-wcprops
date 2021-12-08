@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/555/trunk/librame/include/tc
+END
+opcode.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/253/trunk/librame/include/tc/opcode.h
+END
+tcpe.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/253/trunk/librame/include/tc/tcpe.h
+END
+tcbas.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/555/trunk/librame/include/tc/tcbas.h
+END
+opdef.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/253/trunk/librame/include/tc/opdef.h
+END
+optable.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/253/trunk/librame/include/tc/optable.h
+END

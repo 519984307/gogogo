@@ -1,0 +1,70 @@
+8
+
+dir
+2077
+http://193.168.10.222/svn/rego/trunk/lib3rd
+http://193.168.10.222/svn/rego
+
+
+
+2017-03-14T07:51:02.031250Z
+1990
+zhangshusen
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+007796cf-66c7-f64a-b734-82358b19e84a
+
+expat
+dir
+
+jdiff
+dir
+
+deflate
+dir
+
+lzma2
+dir
+
+md5
+dir
+
+pstsdk
+dir
+
+json
+dir
+
+mgct
+dir
+
+hamdb
+dir
+
+libcurl
+dir
+
+makefile
+file
+
+
+
+
+2017-04-14T10:11:43.000000Z
+c20efe8be1fccf40804db6d4b1df3b02
+2017-03-10T09:56:40.812500Z
+1913
+leizhen
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/sha
+END
+sha.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/sha/sha.h
+END
+sha1.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/sha/sha1.h
+END
+sha2.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/sha/sha2.h
+END
+sha1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/sha/sha1.cpp
+END
+sha2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/sha/sha2.cpp
+END

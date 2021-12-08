@@ -1,0 +1,7 @@
+
+OBJS = rsaalg.o md5.o stdafx.o rsa/md5c.o rsa/nn.o  \
+	   rsa/prime.o rsa/r_keygen.o rsa/r_random.o \
+	   rsa/r_stdlib.o rsa/rsa.o mmkey/dmidecode.o \
+	   mmkey/dmioem.o mmkey/dmiopt.o mmkey/util.o
+
+LIB = ../libmgct$(ASUFFIX)

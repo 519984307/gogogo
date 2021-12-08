@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/rssync
+END
+rssyncobjects.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/rssync/rssyncobjects.h
+END
+rssync32.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/rssync/rssync32.cpp
+END
+rssync32.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/rssync/rssync32.h
+END
+rssyncnotimp.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/rssync/rssyncnotimp.h
+END

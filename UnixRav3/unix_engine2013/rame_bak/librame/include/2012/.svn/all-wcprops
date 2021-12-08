@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1880/trunk/librame/include/2012
+END
+ivm.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/14/trunk/librame/include/2012/ivm.h
+END
+ipearchive.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rego/!svn/ver/1400/trunk/librame/include/2012/ipearchive.h
+END
+hdex64.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1868/trunk/librame/include/2012/hdex64.h
+END
+pedef.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1880/trunk/librame/include/2012/pedef.h
+END
+hde32.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1400/trunk/librame/include/2012/hde32.h
+END

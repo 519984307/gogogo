@@ -1,0 +1,23 @@
+include ../mkpublic
+
+MODULES = rxruntim recom rxmss rxffr rxsig64 rxcore extfile revm rxwinpe rxmltk rxfsm.9 rxxdu0 scanelf scanmac scanpe scansct scriptci uroutine scanexec methodex scanex unexe.unix rxoffice rxmail rxvision rxxman rxauth
+
+UNCOMPLETED = rxlua 
+
+DROPPED = scanmp 
+
+x86 x64 b32 b64 l32 l64:
+	@for subdir in $(MODULES);\
+	do \
+		echo "making $@ in $$subdir";\
+		(cd modules/$$subdir && make $@) || exit 1;\
+	done
+
+clean:
+	@for subdir in $(MODULES);\
+	do \
+		echo "making $@ in $$subdir";\
+		(cd modules/$$subdir && make $@) ;\
+	done
+
+	

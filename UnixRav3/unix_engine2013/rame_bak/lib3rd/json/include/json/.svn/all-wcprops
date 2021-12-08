@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1392/trunk/lib3rd/json/include/json
+END
+json.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/292/trunk/lib3rd/json/include/json/json.h
+END
+value.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rego/!svn/ver/1392/trunk/lib3rd/json/include/json/value.h
+END
+writer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rego/!svn/ver/292/trunk/lib3rd/json/include/json/writer.h
+END
+features.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/rego/!svn/ver/292/trunk/lib3rd/json/include/json/features.h
+END
+reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rego/!svn/ver/292/trunk/lib3rd/json/include/json/reader.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rego/!svn/ver/292/trunk/lib3rd/json/include/json/config.h
+END
+autolink.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/rego/!svn/ver/292/trunk/lib3rd/json/include/json/autolink.h
+END
+forwards.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/rego/!svn/ver/292/trunk/lib3rd/json/include/json/forwards.h
+END

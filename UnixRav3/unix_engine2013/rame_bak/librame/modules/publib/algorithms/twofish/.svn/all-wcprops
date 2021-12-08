@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/twofish
+END
+tables.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/twofish/tables.h
+END
+twofish.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/twofish/twofish.cpp
+END

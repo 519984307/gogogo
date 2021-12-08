@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/rego/!svn/ver/1867/trunk/lib3rd/deflate
+END
+inffast.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/inffast.h
+END
+inffixed.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/inffixed.h
+END
+deflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/deflate.c
+END
+mkobjs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rego/!svn/ver/14/trunk/lib3rd/deflate/mkobjs
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/zlib.h
+END
+zutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/zutil.c
+END
+zlib.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1867/trunk/lib3rd/deflate/zlib.vcxproj
+END
+deflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/deflate.h
+END
+zutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/zutil.h
+END
+crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/crc32.c
+END
+inftrees.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/inftrees.c
+END
+crc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/crc32.h
+END
+trees.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/trees.c
+END
+inflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1651/trunk/lib3rd/deflate/inflate.c
+END
+uncompr.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/uncompr.c
+END
+inftrees.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/inftrees.h
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/zconf.h
+END
+inflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1652/trunk/lib3rd/deflate/inflate.h
+END
+trees.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/trees.h
+END
+inffast.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1651/trunk/lib3rd/deflate/inffast.c
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/compress.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1308/trunk/lib3rd/deflate/makefile
+END
+adler32.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/292/trunk/lib3rd/deflate/adler32.c
+END
+infback.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1651/trunk/lib3rd/deflate/infback.c
+END

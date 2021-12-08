@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/rego/!svn/ver/1990/trunk/lib3rd/mgct
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/stdafx.h
+END
+mgct.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/mgct.h
+END
+mgct.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1990/trunk/lib3rd/mgct/mgct.vcxproj
+END
+mkobjs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/1955/trunk/lib3rd/mgct/mkobjs
+END
+mgct.def
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/mgct.def
+END
+rsaalg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1957/trunk/lib3rd/mgct/rsaalg.cpp
+END
+mgct.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/mgct.vcxproj.filters
+END
+rsaalg.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1945/trunk/lib3rd/mgct/rsaalg.h
+END
+mgct.vcxproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/mgct.vcxproj.user
+END
+mgct.v11.suo
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/mgct.v11.suo
+END
+md5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rego/!svn/ver/1955/trunk/lib3rd/mgct/md5.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/ReadMe.txt
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/1955/trunk/lib3rd/mgct/md5.h
+END
+mgct.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1923/trunk/lib3rd/mgct/mgct.cpp
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1946/trunk/lib3rd/mgct/makefile
+END

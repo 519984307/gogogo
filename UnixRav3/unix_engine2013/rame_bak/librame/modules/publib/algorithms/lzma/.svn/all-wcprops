@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lzma
+END
+lzma.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lzma/lzma.cpp
+END
+lzma_cb.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lzma/lzma_cb.cpp
+END
+lzma.in_cb.out_read.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lzma/lzma.in_cb.out_read.cpp
+END

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libham" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="hamdb" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-DHAM_LITTLE_ENDIAN" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-DHAM_DISABLE_ENCRYPTION" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="hamdb" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32/Debug x64" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DWIN64" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-DHAM_LITTLE_ENDIAN" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-DHAM_DISABLE_ENCRYPTION" />
+					<Add option="-DHAM_DISABLE_COMPRESSION" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="hamdb" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-DHAM_LITTLE_ENDIAN" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-DHAM_DISABLE_ENCRYPTION" />
+					<Add option="-DHAM_DISABLE_COMPRESSION" />
+					<Add option="-W" />
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release x64">
+				<Option output="hamdb" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32/Release x64" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DWIN64" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-DHAM_LITTLE_ENDIAN" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-DHAM_DISABLE_ENCRYPTION" />
+					<Add option="-DHAM_DISABLE_COMPRESSION" />
+					<Add option="-W" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+				</ResourceCompiler>
+			</Target>
+		</Build>
+		<Unit filename="include/ham/hamsterdb.h" />
+		<Unit filename="include/ham/hamsterdb.hpp" />
+		<Unit filename="include/ham/hamsterdb_int.h" />
+		<Unit filename="include/ham/hamsterdb_srv.h" />
+		<Unit filename="include/ham/hamsterdb_stats.h" />
+		<Unit filename="include/ham/types.h" />
+		<Unit filename="src/backend.h" />
+		<Unit filename="src/blob.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/blob.h" />
+		<Unit filename="src/btree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/btree.h" />
+		<Unit filename="src/btree_check.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/btree_cursor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/btree_cursor.h" />
+		<Unit filename="src/btree_enum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/btree_erase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/btree_find.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/btree_insert.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cache.h" />
+		<Unit filename="src/config.h" />
+		<Unit filename="src/cursor.h" />
+		<Unit filename="src/db.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/db.h" />
+		<Unit filename="src/device.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/device.h" />
+		<Unit filename="src/endianswap.h" />
+		<Unit filename="src/env.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/env.h" />
+		<Unit filename="src/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/error.h" />
+		<Unit filename="src/extkeys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/extkeys.h" />
+		<Unit filename="src/freelist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/freelist.h" />
+		<Unit filename="src/freelist_statistics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/freelist_statistics.h" />
+		<Unit filename="src/freelist_v2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/freelist_v2.h" />
+		<Unit filename="src/hamsterdb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/internal_fwd_decl.h" />
+		<Unit filename="src/keys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/keys.h" />
+		<Unit filename="src/log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/log.h" />
+		<Unit filename="src/mem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mem.h" />
+		<Unit filename="src/os.h" />
+		<Unit filename="src/os_win32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/packstart.h" />
+		<Unit filename="src/packstop.h" />
+		<Unit filename="src/page.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/page.h" />
+		<Unit filename="src/serial.h" />
+		<Unit filename="src/statistics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/statistics.h" />
+		<Unit filename="src/txn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/txn.h" />
+		<Unit filename="src/util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/util.h" />
+		<Unit filename="src/version.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

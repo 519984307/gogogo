@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/rego/!svn/ver/1457/trunk/lib3rd/json
+END
+libjson.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/292/trunk/lib3rd/json/libjson.cbp
+END
+mkobjs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/14/trunk/lib3rd/json/mkobjs
+END
+libjson.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1457/trunk/lib3rd/json/libjson.vcxproj
+END
+libjson.layout
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/292/trunk/lib3rd/json/libjson.layout
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1308/trunk/lib3rd/json/makefile
+END

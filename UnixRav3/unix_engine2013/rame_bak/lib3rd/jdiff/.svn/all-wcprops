@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/rego/!svn/ver/1071/trunk/lib3rd/jdiff
+END
+JFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JFile.h
+END
+JDebug.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JDebug.cpp
+END
+JDefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JDefs.h
+END
+JExport.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JExport.h
+END
+JFileIStreamAhead.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JFileIStreamAhead.cpp
+END
+mkobjs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/mkobjs
+END
+jdiff.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/292/trunk/lib3rd/jdiff/jdiff.cbp
+END
+JDebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JDebug.h
+END
+JFileIStreamAhead.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JFileIStreamAhead.h
+END
+JOutAsc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JOutAsc.cpp
+END
+JPatch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JPatch.cpp
+END
+JOutBin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JOutBin.cpp
+END
+JFileAhead.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JFileAhead.cpp
+END
+jdiff.layout
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/292/trunk/lib3rd/jdiff/jdiff.layout
+END
+JOutAsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JOutAsc.h
+END
+JMatchTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JMatchTable.cpp
+END
+JHashPos.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JHashPos.cpp
+END
+JOutBin.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JOutBin.h
+END
+JFileAhead.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JFileAhead.h
+END
+JDiff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/27/trunk/lib3rd/jdiff/JDiff.cpp
+END
+JMatchTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JMatchTable.h
+END
+JHashPos.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JHashPos.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/292/trunk/lib3rd/jdiff/main.cpp
+END
+JOut.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JOut.h
+END
+JDiff.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/14/trunk/lib3rd/jdiff/JDiff.h
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/148/trunk/lib3rd/jdiff/ReadMe.txt
+END
+jdiff.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/383/trunk/lib3rd/jdiff/jdiff.vcxproj
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/550/trunk/lib3rd/jdiff/makefile
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/rego/!svn/ver/1984/trunk/include
+END
+rsntddk.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/291/trunk/include/rsntddk.h
+END
+feature.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/1983/trunk/include/feature.h
+END
+blob.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/rego/!svn/ver/469/trunk/include/blob.h
+END
+xstrop.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/rego/!svn/ver/14/trunk/include/xstrop.h
+END
+refable.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/1389/trunk/include/refable.h
+END
+bq.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/rego/!svn/ver/1816/trunk/include/bq.hpp
+END
+librapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/rego/!svn/ver/14/trunk/include/librapi.h
+END
+_stdint.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/1456/trunk/include/_stdint.h
+END
+platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/1984/trunk/include/platform.h
+END
+xvalue.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/1840/trunk/include/xvalue.h
+END
+drs.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/rego/!svn/ver/1800/trunk/include/drs.h
+END
+iunknown.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/1456/trunk/include/iunknown.h
+END

@@ -1,0 +1,18 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+     uuid("5CA5AE67-8148-42a6-A105-0450DD72B826"),
+     version(1.0)
+]
+
+interface IEndPoint  
+{
+     long invoke(					handle_t		binding,
+		[in,string]					const char *	funName, 
+		[in]						long			inBytes,
+		[in,size_is(inBytes)]		const byte *	inParam,
+		[out]						long*			outBytes,
+		[out,size_is(,*outBytes)]	byte**			outParam 
+		);
+} 

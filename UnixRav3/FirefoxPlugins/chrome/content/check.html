@@ -1,0 +1,71 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="ie6 oldie" lang=zh><![endif]-->
+<!--[if IE 7]><html class="ie7 oldie" lang=zh><![endif]-->
+<!--[if IE 8]><html class="ie8 oldie" lang=zh><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="zh"> <!--<![endif]-->
+<head>
+    <script>
+        function set_cookie(url, key, value) {
+            Components.utils.import("resource://gre/modules/ctypes.jsm");
+            var ios = Components.classes["@mozilla.org/network/io-service;1"]
+                            .getService(Components.interfaces.nsIIOService);    
+            var uri = ios.newURI(url, null, null);    
+            var cs = Components.classes["@mozilla.org/cookieService;1"]
+                            .getService(Components.interfaces.nsICookieService);    
+            cs.setCookieString(uri, null, key + "=" + value, null);
+        }
+                
+        function ContinueVisit() {
+            console.log("continue the request");
+            var uri = window.location.search;
+            console.log(uri);
+            var re = new RegExp("url=([^&?]*)", "ig");
+            if ( uri.match(re) ) {
+                var str_url = uri.match(re)[0].substr(4);
+                console.log(str_url);
+
+                set_cookie(str_url, "rising", 1);
+                location.replace(str_url);
+            }
+        }
+                
+        function StopVisit() {
+            var uri = window.location.search;
+            var re = new RegExp("url=([^&?]*)", "ig");
+            if ( uri.match(re) ) {
+                var str_url = uri.match(re)[0].substr(4);
+                set_cookie(str_url, "rising", 0);
+                window.opener=null;
+                window.open('','_self');
+                window.close();
+            }
+        }
+    </script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>
+    瑞星ESM涉密专用版
+            提醒您
+    </title>
+<link rel="stylesheet" href="chrome://rising_block/content/resource/css/style.css?v=1492574250" />
+<link rel="bookmark" type="image/x-icon" href="chrome://rising_block/content/resource/images/360.ico"/>
+<link rel="shortcut icon" type="image/x-icon" href="chrome://rising_block/content/resource/images/360.ico"/>
+<link rel="icon" type="image/x-icon" href="chrome://rising_block/content/resource/images/360.ico"/>
+</head>
+<body>
+<div class="wrap wrap-on">
+<div class="mod-warn">
+    <div class="hd">
+        <h1><i></i><b>瑞星ESM涉密专用版</b>提醒您</h1>
+                <h3>有风险的网站</h3>
+    </div>
+    <div class="bd">
+        <p class="p3"></p>
+        <p class="p4">
+            <a id='g' style="cursor:pointer" onclick="return ContinueVisit(); return false;">忽略警告，继续访问</a>
+            <a id='g' style="cursor:pointer" onclick="return StopVisit(); return false;">放弃访问</a>              
+        </p>
+    </div>
+</div>
+</div>
+</body>
+</html>

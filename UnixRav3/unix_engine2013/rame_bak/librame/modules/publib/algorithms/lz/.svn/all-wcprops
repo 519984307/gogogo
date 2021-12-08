@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lz
+END
+lz_expressor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lz/lz_expressor.cpp
+END
+lz_yoda.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lz/lz_yoda.cpp
+END
+lz_pelock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lz/lz_pelock.cpp
+END
+lz_pklite32.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lz/lz_pklite32.cpp
+END
+lzss.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lz/lzss.cpp
+END

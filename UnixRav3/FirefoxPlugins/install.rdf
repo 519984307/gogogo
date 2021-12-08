@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>bootstrap-rising@rising.com.cn</em:id>
+    <em:type>2</em:type>
+    <em:bootstrap>true</em:bootstrap>
+    <em:unpack>true</em:unpack>
+    <em:version>0.1.0</em:version>
+    <em:name>Rising blocker</em:name>
+    <em:description>
+        Rising blocker filter the http requests
+    </em:description>
+    <em:creator>Firefox</em:creator>
+    <em:updateURL>http://192.168.1.20/Update.rdf</em:updateURL>             
+    <em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgHW1rJw0IXa/rYj225QU8Qxtvxq96oNE3zXJzsPWIaKibFmayAmCiOjm1iuBlP6vvQM2Fb6OwR09mneW+CdzYXLig9F8PgTLK6YM0Bp8vaXHhTcquaA93C1D6Zb9koUm+pWwsRlyMkL+ZCCbM1VnGwFIUZ1vdd1Ykjeg2XjX8DwIDAQAB</em:updateKey>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>7.0</em:minVersion>
+        <em:maxVersion>8.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+  </Description>
+</RDF>

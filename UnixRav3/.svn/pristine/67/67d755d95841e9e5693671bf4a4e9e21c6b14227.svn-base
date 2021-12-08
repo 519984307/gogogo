@@ -1,0 +1,360 @@
+﻿#ifndef __RSIDS_H__
+#define __RSIDS_H__
+
+// 模块 ID 按照以下范围划分
+//
+// 0x00000000 - 0x00000FFF 公共模块
+// 0x00001000 - 0x00003FFF 引擎模块
+// 0x00004000 - 0x00007FFF 应用模块
+// 0x00008000 - 0x0000BFFF 防火墙产品模块
+// 其余保留
+
+enum
+{
+	// 引擎及病毒库的模块 ID
+	RSMID_ENGINEBASE = 0x00001000,
+	RSMID_ENGINEMAIN,				// 引擎主流程
+	RSMID_EXEENGINE,				// 可执行引擎模块
+	RSMID_DECENGINE,				// 解压缩引擎模块
+	RSMID_MAILENGINE,				// 解邮件引擎模块
+	RSMID_UPKENGINE,				// 解 PE 包引擎模块
+	RSMID_SCTENGINE,				// 脚本引擎模块
+	RSMID_OLEENGINE,				// 解 OLE 文档引擎模块
+	RSMID_MACROENGINE,				// 宏脚本引擎
+	RSMID_UNEXEENGINE = 0x00001010,	// 未知可执行引擎
+	RSMID_UNSCTENGINE,				// 未知脚本引擎模块
+	RSMID_UNMAILENGINE,				// 未知邮件引擎模块
+	RSMID_UNMACROENGINE,			// 未知宏引擎模块
+	RSMID_ENGINEEX,					// 扩展引擎模块
+	RSMID_PTENGINE,					// 后处理模块
+	RSMID_DVENGINE,					// 白名单模块
+	RSMID_NVENGINE,					// 良民库模块
+	RSMID_LIBLOADER,				// 病毒库加载模块
+	RSMID_VIRUSLIB,					// 病毒库扩展模块
+	RSMID_PTENGINEEX,				// 扩展后处理模块
+	RSMID_MVENGINE = 0x00001020,	// 内存引擎模块
+	RSMID_BDENGINE,					// 漏洞扫描引擎模块
+
+	RSMID_SPAMENGINE = 0x00003FFF,	// 垃圾邮件引擎
+
+	// 应用模块 ID
+	RSMID_SCANNER = 0x00004000,		// 内存引擎模块
+	RSMID_STORE,					// 内存引擎模块
+
+	// 以下模块并非标准模块，但需要使用配置，故也有模块 ID
+	RSMID_RAVSETUP = 0x00005000,	// 安装升级卸载程序
+	RSMID_RAVMAIN,					// 瑞星主程序
+	RSMID_RAVMON,					// 瑞星监控程序
+	RSMID_RAVSTORE,					// 病毒隔离系统
+	RSMID_SMS,						// 瑞星短信通
+	RSMID_MAKEDISK,					// 制作硬盘安装备份	
+	RSMID_MAKEBOOT,					// 制作启动软盘
+	RSMID_MAKEPATCH,				// 制作增量升级软盘
+	RSMID_RSAGENT,					// 瑞星助手
+	RSMID_HDBACKUP,					// 硬盘数据备份
+	RSMID_SCANBD,					// 系统漏洞扫描
+	RSMID_REGGUIDE,					// 用户注册向导
+	RSMID_REGCLEAN,					// 注册表清除工具
+	RSMID_LOTUSNOTES,				// Notes 监控
+	RSMID_RSPLUGIN,					// Office/IE 助手
+	RSMID_SMARTUP,					// 升级程序
+	RSMID_RAVTIMER,					// 定时程序
+	RSMID_VIRREPORT,				// 病毒上报系统
+	RSMID_SETTINGS,					// 配置程序
+
+	// 网络版应用程序模块ID
+	RSMID_RAVSERVICE = 0x00006000,
+	RSMID_RAVCONTROL,
+
+	// 邮件服务器应用程序模块ID
+	RSMID_EXCHANGE = 0x00007000,
+	RSMID_DOMINO = 0x00007100,
+
+	// 防火墙产品模块ID
+	RSMID_RFWCFG = 0x00008000,
+	RSMID_RFWMAIN = 0x00008001,
+	RSMID_RFWSRV = 0x00008002,
+	RSMID_RFWALL = 0x00008008,
+};
+
+// 对象 ID 按照以下范围划分
+//
+// 0x00000000 - 0x000000FF 公共接口
+// 0x00000100 - 0x00003FFF 引擎接口
+// 0x00004000 - 0x00007FFF 应用接口
+// 0x00008000 - 0x0000BFFF 防火墙产品接口
+// 其余保留
+
+enum
+{
+	RSID_RSMemory = 0x00000001,
+	RSID_RSAppMgr = 0x00000002,
+	RSID_RSEnv    = 0x00000003,
+
+	RSID_RSCfgMgr = 0xFFFFFFFF,
+	RSID_RSObjMgr = 0xFFFFFFFE,
+
+	// Engine side object, 0x00000100 - 0x00003FFF
+	RSID_ENGINEBASE = 0x00000100,
+
+	// 公用对象的 ID
+	RSID_ENG_MAIN,
+	RSID_ENG_MEMENGINE,
+	RSID_ENG_BOOTENGINE,
+
+	// 文件对象
+	RSID_ENG_HANDLEFILE = RSID_ENG_MAIN + 0x10,
+	RSID_ENG_MAPFILE,
+	RSID_ENG_STREAMFILE,
+	RSID_ENG_MEMFILE,
+	RSID_ENG_FRAGFILE,
+
+	RSID_ENG_SYSTEMINFO = RSID_ENG_MAIN + 0x20,
+
+	// 文件系统对象
+	RSID_ENG_FILESYSTEM = RSID_ENG_MAIN + 0x30,
+
+	// 计时器对象
+	RSID_ENG_TIMER = RSID_ENG_MAIN + 0x40, 
+
+	// 日志记录对象
+	RSID_ENG_LOG,
+
+	// 调试跟踪对象
+	RSID_ENG_DEBUGGER,
+
+	RSID_ENG_STRING = RSID_ENG_MAIN + 0x50,
+
+	RSID_ENG_CALLBACK = RSID_ENG_MAIN + 0x56,
+
+	// 库加载对象
+	RSID_ENG_LIBLOADER = RSID_ENGINEBASE + 0x101,
+
+	// 库工具对象
+	RSID_ENG_LIBUTILS = RSID_ENGINEBASE + 0x111,
+
+	// 库配置对象
+	RSID_ENG_LOADCONF = RSID_ENGINEBASE + 0x121,
+
+	// 动态库加载对象
+	RSID_ENG_DLLLOADER = RSID_ENGINEBASE + 0x102,
+
+	// DOS 虚拟机对象
+	RSID_ENG_DOSVM = RSID_ENGINEBASE + 0x105,
+
+	// PE 虚拟机对象
+	RSID_ENG_WINVM,
+
+	// BOOT 虚拟机对象
+	RSID_ENG_BOOTVM,
+
+	// Norm 虚拟机对象
+	RSID_ENG_NORMVM,
+
+	// 通用脱壳对象
+	RSID_ENG_UNPACKER,
+	
+	//增量包工具对象
+	RSID_ENG_LIBTOOL,
+
+	//病毒库私有管理对象
+	RSID_ENG_LIBOBJMGR,		
+	//病毒信息表
+	RSID_ENG_RSVIRUSINFOTABLE,
+	
+	// 档案对象的 ID
+	RSID_ENG_ARCHIVE = RSID_ENGINEBASE + 0x200,
+	RSID_ENG_COMARCHIVE,
+	RSID_ENG_MZARCHIVE,
+	RSID_ENG_PEARCHIVE,
+	RSID_ENG_NORMARCHIVE,
+
+	RSID_ENG_VBSARCHIVE,
+	RSID_ENG_JSARCHIVE,
+	RSID_ENG_HTMARCHIVE,
+	RSID_ENG_BATARCHIVE,
+	RSID_ENG_HTAARCHIVE,
+	RSID_ENG_ENCJSARCHIVE,
+	RSID_ENG_ENCVBSARCHIVE,
+	RSID_ENG_MACARCHIVE,
+	RSID_ENG_MAILBODYARCHIVE,
+	RSID_ENG_BOOTARCHIVE,
+
+	RSID_ENG_UNKARCHIVE = RSID_ENG_ARCHIVE + 0x50,
+	RSID_ENG_MOCKARCHIVE,
+
+	// 复合对象的 ID
+	RSID_ENG_COMPRESS = RSID_ENGINEBASE + 0x300,
+	RSID_ENG_ZIP,
+	RSID_ENG_CAB,
+	RSID_ENG_ARJ,
+	RSID_ENG_RAR,
+	RSID_ENG_ARC,
+	RSID_ENG_ZOO,
+	RSID_ENG_LZH,
+	RSID_ENG_TAR,
+	RSID_ENG_GZIP,
+	RSID_ENG_UUE,
+	RSID_ENG_ACE,
+	RSID_ENG_BZ2,
+	RSID_ENG_CHM,
+
+	// 自解压复合对象的 ID
+	RSID_ENG_SFX = RSID_ENGINEBASE + 0x350,
+	RSID_ENG_ZIPEXE,
+	RSID_ENG_CABEXE,
+	RSID_ENG_ARJEXE,
+	RSID_ENG_RAREXE,
+	RSID_ENG_ARCEXE,
+	RSID_ENG_ZOOEXE,
+	RSID_ENG_LZHEXE,
+	RSID_ENG_ZIPNE,
+	RSID_ENG_ZIPPE,
+	RSID_ENG_ACEEXE,
+
+	// PE 打包对象的 ID
+	RSID_ENG_PACKER = RSID_ENGINEBASE + 0x400,
+	RSID_ENG_UPX,
+	RSID_ENG_ASPACK,
+	RSID_ENG_PECOMPACT,
+	RSID_ENG_TELOCK,
+	RSID_ENG_ASPROTECT,
+	RSID_ENG_WWPACK32,
+	RSID_ENG_PEPACK,
+	RSID_ENG_PCSHRINK,
+	RSID_ENG_PE_DIMINISHER,
+	RSID_ENG_PETITE,
+	RSID_ENG_NEOLITE,
+	RSID_ENG_PACKER_END = RSID_ENGINEBASE + 0x410,
+
+	// 其他复合对象的 ID
+	RSID_ENG_COMPOUND = RSID_ENGINEBASE + 0x500,
+	RSID_ENG_OLE = RSID_ENG_COMPOUND + 0x10,
+	RSID_ENG_MAIL = RSID_ENG_COMPOUND + 0x20,
+	RSID_ENG_BASE64FILE = RSID_ENG_MAIL+0x1,
+	RSID_ENG_UNICODEFILE = RSID_ENG_MAIL+0x2,
+	RSID_ENG_MBFM3 = RSID_ENG_COMPOUND + 0x30,
+	RSID_ENG_MBFM3BOX = RSID_ENG_COMPOUND + 0x31,
+	RSID_ENG_MBNS4 = RSID_ENG_COMPOUND + 0x40,
+	RSID_ENG_MBOE4 = RSID_ENG_COMPOUND + 0x50,
+	RSID_ENG_MBOE5 = RSID_ENG_COMPOUND + 0x60,
+
+	// 档案引擎对象的 ID
+	RSID_ENG_DRIVER = RSID_ENGINEBASE + 0x600,
+	RSID_ENG_COMDRIVER,
+	RSID_ENG_MZDRIVER,
+	RSID_ENG_PEDRIVER,
+	RSID_ENG_NORMDRIVER,
+
+	RSID_ENG_VBSDRIVER,
+	RSID_ENG_JSDRIVER,
+	RSID_ENG_HTMDRIVER,
+	RSID_ENG_BATDRIVER,
+	RSID_ENG_HTADRIVER,
+	RSID_ENG_ENCJSDRIVER,
+	RSID_ENG_ENCVBSDRIVER,
+	RSID_ENG_MACDRIVER,
+	RSID_ENG_UMLDRIVER,
+	RSID_ENG_BOOTDRIVER,
+	RSID_ENG_BTDRVCORE,
+
+	// ScanEx 查杀毒引擎
+	RSID_ENG_SKEXDRIVER = RSID_ENG_DRIVER + 0x20,
+	// 前置杀毒引擎
+	RSID_ENG_PREKDRIVER,
+	// 后置杀毒引擎
+	RSID_ENG_POSTKDRIVER,
+
+	// PostTrt
+	RSID_ENG_PTDRIVER = RSID_ENG_DRIVER + 0x3A,
+	// WhiteList
+	RSID_ENG_WLDRIVER,
+	// NoVirus
+	RSID_ENG_NVDRIVER,
+	// Unkown Dos
+	RSID_ENG_UDOSDRIVER,
+	// Unkown PE
+	RSID_ENG_UPEDRIVER,
+	// Unkown Macro
+	RSID_ENG_UMCDRIVER = RSID_ENG_DRIVER + 0x40,
+	// Unkown Boot
+	RSID_ENG_UBOOTDRIVER = RSID_ENG_DRIVER + 0x43,
+	// Unkown Script
+	RSID_ENG_USCDRIVER = RSID_ENG_DRIVER + 0x4F,
+	// PostTrtX
+	RSID_ENG_PTEXDRIVER = RSID_ENG_DRIVER + 0x50,
+
+
+	//漏洞扫描引擎需要的ID
+	RSID_ENG_BDENGINE = 0x1000,
+	RSID_ENG_LEAKINFO,
+	RSID_ENG_SETTINGINFO,
+
+	// 垃圾邮件对象 ID
+	RSID_ENG_SPAM  = 0x00003FFF,
+
+	// Engine cilent side
+	RSID_RSScanner = 0x00004001,
+	RSID_RSStore   = 0x00004002,
+};
+
+// 接口 ID
+enum
+{
+	INTERFACE_IRSCONFIG = 0xFFFF0001,
+	INTERFACE_IRSCFGMGR,
+};
+
+enum
+{
+	RSIID_IRSMemory = 1,
+	RSIID_IRSAppMgr = 1,
+	RSIID_IRSEnv    = 1,
+
+	RSIID_IRSConfig = INTERFACE_IRSCONFIG,
+	RSIID_IRSCfgMgr = INTERFACE_IRSCFGMGR,
+	RSIID_IRSObjMgr = 1,
+
+	// Engine cilent side interfaces
+	RSIID_IRSScanner = 1,
+	RSIID_IRSStore   = 1,
+};
+
+// config node/item id definitions
+enum
+{
+	RSCFGID_APPMGR          = 0x00000001,	// node
+	RSCFGID_SUITE_INDICATOR = 0x00000001,	// item, DWORD
+	RSCFGID_OBJMOD_MAP      = 0x00000001,	// item, string
+	RSCFGID_MODULES         = 0x00000002,	// node
+	RSCFGID_MODPATH_BASE    = 0x00000003,	// item, string
+};
+
+/* //***************************************************+//
+[] - node, # - item
+
+root\-+-- [] RSAPPMGR
+      |    |
+      |    +-- # Suite Indicator
+      |    |
+      |    +-- [] Suite 1
+      |    |    |
+      |    |    +-- # ObjModMap
+      |    |    |
+      |    |    +-- [] Modules
+      |    |    |    |
+      |    |    |    +-- # ModId 1 <-> Dll relative Path
+      |    |    |    |
+      |    |    |    +-- # ModId n <-> Dll relative Path
+      |    |    |
+      |    |    +-- # ModPathBase
+      |    |
+      |    +-- [] Suite n
+      |
+      +-- [] RAVMAIN
+      |
+      +-- ...
+
+// ******************************************************/
+
+#endif // __RSIDS_H__

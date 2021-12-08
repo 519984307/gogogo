@@ -1,0 +1,56 @@
+
+ENGPUBLIBOBJS=\
+	$(ENGPUBLIBOBJDIR)/unix.guid.o \
+	$(ENGPUBLIBOBJDIR)/re_string.o \
+	$(ENGPUBLIBOBJDIR)/rsstring.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/aplib.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/brieflz.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/e8e9.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/e8e9_1.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/exe32pack.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/fcee.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/jcalg1.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/unknown_1.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/unknown_2.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/aes/aes_modes.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/aes/aescrypt.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/aes/aeskey.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/aes/aestab.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/blowfish/blowfish.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/bz2.104/blocksort.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/bz2.104/bzlib.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/bz2.104/compress.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/bz2.104/crctable.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/bz2.104/decompress.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/bz2.104/huffman.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/bz2.104/randtable.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/crc32/crc32.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/lz/lz_expressor.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/lz/lz_pelock.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/lz/lz_pklite32.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/lz/lz_yoda.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/lz/lzss.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/lzma/lzma.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/lzma/lzma.in_cb.out_read.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/lzma/lzma_cb.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/md/md4.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/md/md5.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/md/md.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/rc/rc4.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/sha/sha1.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/sha/sha2.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/twofish/twofish.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/adler32.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/compress.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/crc32.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/deflate.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/gzio.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/infback.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/inffast.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/inflate.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/inftrees.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/trees.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/uncompr.o \
+	$(ENGPUBLIBOBJDIR)/algorithms/zlib123/zutil.o \
+	$(ENGPUBLIBOBJDIR)/sfx/sfxlibfile.o
+

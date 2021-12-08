@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/rego/!svn/ver/2073/trunk/librame/include
+END
+win32.error.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/301/trunk/librame/include/win32.error.h
+END
+rapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/455/trunk/librame/include/rapi.h
+END
+mducc.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/1400/trunk/librame/include/mducc.h
+END
+irxinternal.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/253/trunk/librame/include/irxinternal.h
+END
+inamedb.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1844/trunk/librame/include/inamedb.h
+END
+rxcore.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1720/trunk/librame/include/rxcore.h
+END
+propvariant.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/301/trunk/librame/include/propvariant.h
+END
+ICloudQuery.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1400/trunk/librame/include/ICloudQuery.h
+END
+icomparch.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1400/trunk/librame/include/icomparch.h
+END
+iextmail.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/301/trunk/librame/include/iextmail.h
+END
+icloud.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/253/trunk/librame/include/icloud.h
+END
+recfmt.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1880/trunk/librame/include/recfmt.h
+END
+pubinc.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/2019/trunk/librame/include/pubinc.h
+END
+ifileio.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1611/trunk/librame/include/ifileio.h
+END
+rxiface.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1810/trunk/librame/include/rxiface.h
+END
+rxicci.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/20/trunk/librame/include/rxicci.h
+END
+mpe.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/1400/trunk/librame/include/mpe.h
+END
+ispots.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/43/trunk/librame/include/ispots.h
+END
+rxclstab.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1909/trunk/librame/include/rxclstab.h
+END
+irsodb.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/14/trunk/librame/include/irsodb.h
+END
+rsutils_if.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/455/trunk/librame/include/rsutils_if.h
+END
+xsf.fmt.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1880/trunk/librame/include/xsf.fmt.h
+END
+filefmt.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/2073/trunk/librame/include/filefmt.h
+END
+mss.fmt.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1880/trunk/librame/include/mss.fmt.h
+END
+luabridge.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/14/trunk/librame/include/luabridge.h
+END
+windef.native.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/301/trunk/librame/include/windef.native.h
+END
+imsslib.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1935/trunk/librame/include/imsslib.h
+END
+rxclsid.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1974/trunk/librame/include/rxclsid.h
+END
+imdunit.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1967/trunk/librame/include/imdunit.h
+END
+irxfront.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1932/trunk/librame/include/irxfront.h
+END
+windef.win32.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/14/trunk/librame/include/windef.win32.h
+END
+windef.posix.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/21/trunk/librame/include/windef.posix.h
+END
+hashlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/14/trunk/librame/include/hashlist.h
+END
+ilibup.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1592/trunk/librame/include/ilibup.h
+END
+rstype.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/301/trunk/librame/include/rstype.h
+END
+irxtsn.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1814/trunk/librame/include/irxtsn.h
+END
+gendef.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/455/trunk/librame/include/gendef.h
+END
+rxruntim.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1580/trunk/librame/include/rxruntim.h
+END
+ssigen.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/1730/trunk/librame/include/ssigen.h
+END

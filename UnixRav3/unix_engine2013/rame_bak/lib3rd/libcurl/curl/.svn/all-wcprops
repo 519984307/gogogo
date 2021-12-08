@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rego/!svn/ver/1985/trunk/lib3rd/libcurl/curl
+END
+stdcheaders.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl/stdcheaders.h
+END
+typecheck-gcc.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl/typecheck-gcc.h
+END
+multi.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl/multi.h
+END
+mprintf.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl/mprintf.h
+END
+curlrules.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl/curlrules.h
+END
+easy.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl/easy.h
+END
+curlver.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl/curlver.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl/Makefile.am
+END
+curlbuild.h.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl/curlbuild.h.cmake
+END
+curl.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1985/trunk/lib3rd/libcurl/curl/curl.h
+END
+curlbuild.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl/curlbuild.h
+END
+curlbuild.h.dist
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/curl/curlbuild.h.dist
+END
+curlbuild_posix.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rego/!svn/ver/1886/trunk/lib3rd/libcurl/curl/curlbuild_posix.h
+END

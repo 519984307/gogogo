@@ -1,0 +1,18 @@
+include ../../../mkpublic
+include mkobjs
+
+all: $(SO)
+
+$(SO): $(OBJS)
+	$(LDSO) -o $@ $(OBJS) $(LINKSUFFIX)
+
+.cpp.o :
+	$(CXC) $(CFLAGS) -I. 
+
+.c.o :
+	$(CC) $(CFLAGS) -I. 
+
+clean:
+	rm -f $(SO)
+	rm -f $(OBJS)
+

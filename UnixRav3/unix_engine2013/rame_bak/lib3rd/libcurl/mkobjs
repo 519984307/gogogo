@@ -1,0 +1,8 @@
+
+OBJS = $(patsubst %.c,%.o,$(wildcard *.c vtls/*.c))
+
+SO = $(BINDIR)/libcurl$(SOSUFFIX)
+
+CFLAGS += -I../../include -I../../include/curl
+
+CFLAGS += -DCURL_DISABLE_COOKIES -DCURL_DISABLE_CRYPTO_AUTH -DHTTP_ONLY -DBUILDING_LIBCURL -DHAVE_CONFIG_H

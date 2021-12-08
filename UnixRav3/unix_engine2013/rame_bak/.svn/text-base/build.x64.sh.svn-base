@@ -1,0 +1,12 @@
+#/bin/sh
+mkdir ~/rame.pub
+mkdir ~/rame.bin
+
+make x64
+
+cd ~/rame.bin
+tar -zcvf ~/rame.pub/rame.x64.sym.tar.gz .
+strip ./*
+tar -zcvf ~/rame.pub/rame.x64.tar.gz .
+rm ./* -rf
+cd $OLD_PWD

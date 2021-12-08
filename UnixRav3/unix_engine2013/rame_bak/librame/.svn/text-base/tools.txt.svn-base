@@ -1,0 +1,15 @@
+ffrinfo		使用显示rxffr支持的所有文件格式，以及每种文件格式的ID,属性
+libup		病毒库升级测试程序
+mk.mklib	记录管理器使用的记录表制作DLL
+mk.setver	用于更新已经制作完成的病毒库的版本的工具
+mk.tabhdr	为二进制数据文件增加表头的工具，使之成为可以进入到病毒库文件中的记录表
+mss.compare	用于比较两个病毒库的工具
+mss.merge	用于合并病毒库的工具(老版本+RP列表），可用于测试增量合并
+odbsvr		ObjectDB的服务器程序，在本地已RPC方式发布ObjectDB，实现系统范围内的OjbectDB读写同步
+sig64		记录64位HASH的工具，无参数启动时为管道常驻模式
+t2b.exdu	记录管理使用的，负责EXDU类型的记录的编译
+t2b.malspots	生库系统使用的，负责malspots（恶意字符串和恶意函数）记录的编译
+t2b.svm		记录管理使用的，负责SVM.*类型的记录的编译
+unpack		简单的脱壳工具，使用同级目录下名字为unpack.exe.rmd的病毒库
+xdexf		将DEX的函数字符串输出成JSON
+xpef		将PE的函数、字符串、导入、导出、OPCODE直方图等输出成JSON

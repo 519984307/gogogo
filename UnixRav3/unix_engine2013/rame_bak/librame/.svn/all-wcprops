@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/rego/!svn/ver/2076/trunk/librame
+END
+rsmde.workspace
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/339/trunk/librame/rsmde.workspace
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/1941/trunk/librame/makefile
+END
+module.list.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/rego/!svn/ver/43/trunk/librame/module.list.txt
+END
+tools.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/rego/!svn/ver/23/trunk/librame/tools.txt
+END

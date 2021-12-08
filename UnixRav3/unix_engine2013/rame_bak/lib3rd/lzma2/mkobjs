@@ -1,0 +1,5 @@
+
+OBJS = 	7zAlloc.o  7zFile.o  7zStream.o  Alloc.o  CpuArch.o  LzFind.o \
+		Lzma2Dec.o  Lzma2Enc.o  LzmaDec.o  LzmaEnc.o
+CFLAGS += -D_7ZIP_ST
+LIB = ../liblzma2$(ASUFFIX)

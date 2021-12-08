@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/strtrans
+END
+str_trans_xor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/strtrans/str_trans_xor.cpp
+END
+str_trans_xor.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/strtrans/str_trans_xor.h
+END

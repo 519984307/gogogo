@@ -1,0 +1,4 @@
+
+OBJS = 	JDebug.o JDiff.o JHashPos.o JMatchTable.o JOutBin.o
+
+LIB = ../libjdiff$(ASUFFIX)

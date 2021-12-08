@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="508,308">
+	<Font id="IDF_14" name="微软雅黑" size="14"/>
+	<VerticalLayout bkimage="ep/mainskin/Menu/about_bk.png" inset="4,4,4,4">
+		<HorizontalLayout height="36">
+			<Control/>
+			<Button name="close" width="36" normalimage="file='ep/mainskin/sysclose_btn.png' src='0,0,36,36'" hotimage="file='ep/mainskin/sysclose_btn.png' src='36,0,72,36'" pushedimage="file='ep/mainskin/sysclose_btn.png' src='72,0,108,36'"/>
+		</HorizontalLayout>
+		<VerticalLayout height="62" padding="299,100,0,0">
+			<Label name="product_version" height="12" align="left" textcolor="0XFFBBA6C9" font="IDF_14"/>
+			<Label name="viruslib_version" height="12" padding="0,13,0,13" align="left" textcolor="0XFFBBA6C9" font="IDF_14"/>
+			<Label name="update_time" height="12" align="left" textcolor="0XFFBBA6C9" font="IDF_14"/>
+		</VerticalLayout>
+		<HorizontalLayout padding="0,54,27,0">
+			<Button name="license" width="50" height="11" padding="250,21,0,0" normalimage="file='ep/mainskin/menu/License_btn.png' src='0,0,50,11'" hotimage="file='ep/mainskin/menu/License_btn.png' src='0,11,50,22'" pushedimage="file='ep/mainskin/menu/License_btn.png' src='0,22,50,33'"/>
+			<Control/>
+			<Button name="close" width="88" height="38" normalimage="file='ep/mainskin/menu/ok.png' src='0,0,88,38'" hotimage="file='ep/mainskin/menu/ok.png' src='88,0,176,38'" pushedimage="file='ep/mainskin/menu/ok.png' src='176,0,264,38'"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

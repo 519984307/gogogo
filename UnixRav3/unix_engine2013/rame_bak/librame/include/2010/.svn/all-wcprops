@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/1704/trunk/librame/include/2010
+END
+ivm.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1400/trunk/librame/include/2010/ivm.h
+END
+defclsid.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/14/trunk/librame/include/2010/defclsid.h
+END
+iengine.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1400/trunk/librame/include/2010/iengine.h
+END
+ipearchive.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/14/trunk/librame/include/2010/ipearchive.h
+END
+interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/14/trunk/librame/include/2010/interface.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/301/trunk/librame/include/2010/types.h
+END
+virusinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/301/trunk/librame/include/2010/virusinfo.h
+END
+iffr.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1704/trunk/librame/include/2010/iffr.h
+END

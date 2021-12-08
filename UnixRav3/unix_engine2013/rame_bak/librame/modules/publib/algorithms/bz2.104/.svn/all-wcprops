@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/bz2.104
+END
+crctable.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/bz2.104/crctable.c
+END
+bzlib_private.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/bz2.104/bzlib_private.h
+END
+blocksort.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/bz2.104/blocksort.c
+END
+bzlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/bz2.104/bzlib.c
+END
+decompress.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/bz2.104/decompress.c
+END
+huffman.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/bz2.104/huffman.c
+END
+bzlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/bz2.104/bzlib.h
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/bz2.104/compress.c
+END
+randtable.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/bz2.104/randtable.c
+END

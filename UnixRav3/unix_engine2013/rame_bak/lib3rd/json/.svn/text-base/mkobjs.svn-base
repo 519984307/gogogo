@@ -1,0 +1,7 @@
+SRCDIR = src
+
+OBJS = $(SRCDIR)/json_reader.o $(SRCDIR)/json_value.o $(SRCDIR)/json_writer.o 
+
+LIB = ../libjson$(ASUFFIX)
+
+CFLAGS += -Iinclude

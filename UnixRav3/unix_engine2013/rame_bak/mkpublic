@@ -1,0 +1,170 @@
+.SUFFIXES:
+.SUFFIXES: .a .o .c .cpp .cxx .cc
+
+#OUTPUT_DIR		= $(shell mkdir ~/svn/rame.bin)
+LIBRAME_HOME 	= $(shell /bin/pwd)
+TOPINC 			= $(LIBRAME_HOME)/../include
+BINDIR 			= $(shell echo /root/Unix_engine2013/rame.bin)
+SOSUFFIX		= .so
+ASUFFIX			= .a
+
+#==================================================
+#
+#	deafult is POSIX
+#
+
+DEFOS = TARGET_POSIX
+
+
+#==================================================
+#
+#	test OS
+#
+
+PLATFORM 		= $(shell uname -s)
+#ifeq ($(PLATFORM), Linux)
+	DEFOS = TARGET_POSIX
+	ENV_CF = -DNDEBUG -D__STL_PTHREADS -D__THROW_BAD_ALLOC="return 0" -fPIC -DPIC
+	EXTRALIB = $(VAL_STDLIB)
+	LINKBOOSTLIB =
+	LDSOOPT=-Wl,-Bsymbolic,-R,. -L$(BINDIR)
+	LINK_COMM = -pthread -ldl -lrt 
+#endif
+
+
+#==================================================
+#
+#	test MIPS OS
+#
+
+MACHINE		= $(shell uname -m)
+ifneq (,$(findstring mips,$(MACHINE)))
+	32BIT_FLAGS	= -mips1
+	64BIT_FLAGS	= -mips3
+else
+	32BIT_FLAGS	= -m32
+	64BIT_FLAGS	= -m64
+endif
+
+
+GCC_FLAGS =
+
+#==================================================
+#
+#	gcc version
+#
+
+GCC_VERSION_INFO = $(shell gcc --version | grep "^gcc" | grep " 3.[0-9].[0-9]")
+ifneq (,$(GCC_VERSION_INFO))
+	GCC_FLAGS = -DLOW_GCC
+#$(warning gcc version: $(GCC_VERSION_INFO))
+endif
+
+#==================================================
+#
+#	ldd version
+#
+
+LDD_VERSION_INFO = $(shell ldd --version | grep "^ldd" | grep " 2.5")
+ifneq (,$(LDD_VERSION_INFO))
+	GCC_FLAGS = -DLOW_GCC
+#$(warning glic 2.5 --- $(LDD_VERSION_INFO))
+endif
+
+
+#==================================================
+#
+#	compiler basic
+#
+
+DEBUGFLAG		= #-g
+CPP0X 			= #-std=c++0x 
+GCC 			= $(ARM_PREFIX)gcc $(DEBUGFLAG) $($(TARGET_DEFINE))
+GCXC 			= $(ARM_PREFIX)g++ $(DEBUGFLAG) $(CPP0X) $($(TARGET_DEFINE))
+
+#==================================================
+#
+#	compile command
+#
+
+CC 				= $(GCC) -D$(DEFOS) -c $< -o $@ 
+CXC				= $(GCXC) -D$(DEFOS) -c $< -o $@
+ 
+#==================================================
+#
+#	compile flags & include
+#
+
+CFLAGS 			= $(ENV_CF) -DNOUSE_UNEXE -O3
+INCLUDE			= .
+
+#==================================================
+#
+#	basic libs
+#
+
+LINK_RXRUNTIM 	= -lrxruntim
+LINK_RXMSS 		= -lrxmss
+LINK_RXFFR 		= -lrxffr
+LINK_RECOM 		= -lrxcoml
+LINK_RXSIG64 	= -lrxsig64
+
+#==================================================
+#
+#	link
+#
+
+LINK_RAME		= $(LINK_RXRUNTIM) $(LINK_RXMSS) $(LINK_RXFFR) $(LINK_RECOM) $(LINK_RXSIG64) 
+LINK_RAME_NO_FFR= $(LINK_RXRUNTIM) $(LINK_RXMSS) $(LINK_RECOM) $(LINK_RXSIG64)
+
+LINKSUFFIX		= $(LINK_RAME) $(LINK_COMM)
+LDSO 			= $(GCXC) -shared -fPIC $(LDSOOPT)
+AR 				= $(ARM_PREFIX)ar rc
+LDSO2			= $(GCXC) -shared -fPIC $(LDSOOPT) $(LINK_COMM)
+
+#==================================================
+#
+#	Targets define
+#
+
+DEFINE_X86	  = -DTARGET_LBE -DTARGET_32BIT -DTARGET_ARCH_X86 $(32BIT_FLAGS) $(GCC_FLAGS)
+DEFINE_X64	  = -DTARGET_LBE -DTARGET_64BIT $(64BIT_FLAGS) $(GCC_FLAGS)
+DEFINE_B32	  = -DTARGET_BBE -DTARGET_32BIT $(GCC_FLAGS)
+DEFINE_B64	  = -DTARGET_BBE -DTARGET_64BIT $(GCC_FLAGS)
+DEFINE_L86	  = -DTARGET_LBE -DTARGET_32BIT -DTARGET_ARCH_X86 $(GCC_FLAGS)
+DEFINE_L64	  = -DTARGET_LBE -DTARGET_64BIT $(GCC_FLAGS)
+
+#==================================================
+#
+#	arm Prefix
+#
+
+x86 x64 b32 b64:	ARM_PREFIX =
+l32 l64:			ARM_PREFIX = arm-linux-
+#l32 l64:			ARM_PREFIX = arm-linux-gnueabihf-
+
+#==================================================
+#
+#	Build Targets
+#
+
+all: 			x64
+
+#==================================================
+#
+#	Build Targets
+#
+
+x86:			TARGET_DEFINE = DEFINE_X86
+x64:			TARGET_DEFINE = DEFINE_X64
+b32:			TARGET_DEFINE = DEFINE_B32
+b64:			TARGET_DEFINE = DEFINE_B64
+l32:			TARGET_DEFINE = DEFINE_L86
+l64:			TARGET_DEFINE = DEFINE_L64
+#==================================================
+#
+#	Make out dir
+#
+
+MAKEDIR		 = mkdir -p $(BINDIR)
+

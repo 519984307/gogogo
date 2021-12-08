@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/ltp
+END
+propbag.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/ltp/propbag.h
+END
+heap.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/ltp/heap.h
+END
+nameid.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/ltp/nameid.h
+END
+object.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/ltp/object.h
+END
+table.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/ltp/table.h
+END

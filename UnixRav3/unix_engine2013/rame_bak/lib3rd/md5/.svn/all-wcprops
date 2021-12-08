@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/rego/!svn/ver/550/trunk/lib3rd/md5
+END
+md5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rego/!svn/ver/14/trunk/lib3rd/md5/md5.cpp
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/rego/!svn/ver/14/trunk/lib3rd/md5/md5.h
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/550/trunk/lib3rd/md5/makefile
+END

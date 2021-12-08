@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/sfx
+END
+sfxguid.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/sfx/sfxguid.h
+END
+crange.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/sfx/crange.h
+END
+sfxlibfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/sfx/sfxlibfile.cpp
+END
+sfxtype.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/sfx/sfxtype.h
+END
+sfxlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/sfx/sfxlib.h
+END
+sfxlibfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/sfx/sfxlibfile.h
+END

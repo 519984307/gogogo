@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lzo
+END
+lzoconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lzo/lzoconf.h
+END
+minilzo.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lzo/minilzo.c
+END
+minilzo.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lzo/minilzo.h
+END
+lzodefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/lzo/lzodefs.h
+END

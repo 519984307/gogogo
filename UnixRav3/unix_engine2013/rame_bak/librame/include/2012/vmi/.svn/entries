@@ -1,0 +1,34 @@
+8
+
+dir
+2077
+http://193.168.10.222/svn/rego/trunk/librame/include/2012/vmi
+http://193.168.10.222/svn/rego
+
+
+
+2016-05-05T08:27:40.859375Z
+1617
+leizhen
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+007796cf-66c7-f64a-b734-82358b19e84a
+
+include
+dir
+
+src
+dir
+

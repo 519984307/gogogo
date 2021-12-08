@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls
+END
+cyassl.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/cyassl.c
+END
+polarssl_threadlock.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/polarssl_threadlock.c
+END
+polarssl.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/polarssl.c
+END
+schannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/schannel.h
+END
+axtls.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/axtls.h
+END
+cyassl.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/cyassl.h
+END
+nss.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/nss.c
+END
+polarssl_threadlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/polarssl_threadlock.h
+END
+polarssl.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/polarssl.h
+END
+darwinssl.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/darwinssl.c
+END
+gtls.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/gtls.c
+END
+darwinssl.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/darwinssl.h
+END
+gtls.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/gtls.h
+END
+nssg.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/nssg.h
+END
+gskit.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/gskit.c
+END
+openssl.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/openssl.c
+END
+gskit.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/gskit.h
+END
+openssl.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/openssl.h
+END
+vtls.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/vtls.c
+END
+axtls.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/axtls.c
+END
+schannel.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/schannel.c
+END
+vtls.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rego/!svn/ver/1812/trunk/lib3rd/libcurl/vtls/vtls.h
+END

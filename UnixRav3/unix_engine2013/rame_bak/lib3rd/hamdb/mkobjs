@@ -1,0 +1,20 @@
+OBJS = \
+	src/blob.o src/btree.o src/btree_check.o \
+	src/btree_cursor.o src/btree_enum.o src/btree_erase.o \
+	src/btree_find.o src/btree_insert.o src/cache.o \
+	src/db.o src/device.o src/env.o \
+	src/error.o src/extkeys.o src/freelist.o \
+	src/freelist_statistics.o src/freelist_v2.o src/hamsterdb.o \
+	src/keys.o src/log.o src/mem.o \
+	src/page.o \
+	src/statistics.o src/txn.o \
+	src/util.o 
+
+#OBJS += src/os_win32.o
+OBJS += src/os_posix.o
+
+CFLAGS += -D_LIB -DHAM_DISABLE_ENCRYPTION -DHAM_DISABLE_COMPRESSION
+
+CFLAGS += -Isrc -Iinclude
+
+LIB = ../libham$(ASUFFIX)

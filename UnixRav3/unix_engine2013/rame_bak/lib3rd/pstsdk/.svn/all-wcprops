@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/rego/!svn/ver/115/trunk/lib3rd/pstsdk
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/stdafx.h
+END
+disk.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/disk.h
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/util.h
+END
+ltp.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/ltp.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/targetver.h
+END
+ndb.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/ndb.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/stdafx.cpp
+END
+pstsdk.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/pstsdk.vcproj
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rego/!svn/ver/115/trunk/lib3rd/pstsdk/ReadMe.txt
+END
+pst.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/pst.h
+END
+pstsdk.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rego/!svn/ver/14/trunk/lib3rd/pstsdk/pstsdk.h
+END

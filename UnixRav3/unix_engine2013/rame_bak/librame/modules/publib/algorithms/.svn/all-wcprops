@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rego/!svn/ver/1864/trunk/librame/modules/publib/algorithms
+END
+algorithms.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/algorithms.h
+END
+unknown_1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/unknown_1.cpp
+END
+unknown_2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/unknown_2.cpp
+END
+jcalg1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rego/!svn/ver/832/trunk/librame/modules/publib/algorithms/jcalg1.cpp
+END
+fcee.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rego/!svn/ver/1824/trunk/librame/modules/publib/algorithms/fcee.cpp
+END
+exe32pack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/rego/!svn/ver/1830/trunk/librame/modules/publib/algorithms/exe32pack.cpp
+END
+aplib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/aplib.cpp
+END
+sunday.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rego/!svn/ver/1409/trunk/librame/modules/publib/algorithms/sunday.h
+END
+RtlInflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rego/!svn/ver/1409/trunk/librame/modules/publib/algorithms/RtlInflate.h
+END
+e8e9.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/e8e9.cpp
+END
+e8e9_1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/e8e9_1.cpp
+END
+brieflz.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/rego/!svn/ver/304/trunk/librame/modules/publib/algorithms/brieflz.cpp
+END
